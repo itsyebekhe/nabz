@@ -3,14 +3,14 @@
   "title": "پوند انگلیس",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-10-06 23:11:19",
-  "total_records": 1172,
+  "updated_at": "2026-10-07 01:05:03",
+  "total_records": 1173,
   "latest": {
-    "timestamp": 1791315679,
-    "date": "2026-10-06",
-    "price": 354500,
-    "price_toman": 354500,
-    "price_irr": 3545000
+    "timestamp": 1791322503,
+    "date": "2026-10-07",
+    "price": 354300,
+    "price_toman": 354300,
+    "price_irr": 3543000
   },
   "history": [
     {
@@ -8216,6 +8216,13 @@
       "price": 354500,
       "price_toman": 354500,
       "price_irr": 3545000
+    },
+    {
+      "timestamp": 1791322503,
+      "date": "2026-10-07",
+      "price": 354300,
+      "price_toman": 354300,
+      "price_irr": 3543000
     }
   ]
 }
