@@ -342,12 +342,14 @@ def generate_chart(history_records, title, output_file, line_color="#2563eb", fi
 
 def generate_share_pages(market_data):
     os.makedirs("share", exist_ok=True)
-    repo_slug = os.environ.get("GITHUB_REPOSITORY", "username/repo")
+    repo_slug = os.environ.get("GITHUB_REPOSITORY", "itsyebekhe/nabz")
 
     for key, cfg in ALL_ASSETS.items():
         price = market_data.get(key)
         unit = cfg.get("unit", "تومان")
         price_str = f"{to_persian_digits(f'{price:,.2f}' if isinstance(price, float) else f'{int(price):,}')} {unit}" if price else "نرخ لحظه‌ای"
+
+        # Direct link to GitHub raw chart image
         chart_image_url = f"https://raw.githubusercontent.com/{repo_slug}/main/charts/{key}.png"
 
         html_content = f"""<!DOCTYPE html>
@@ -355,30 +357,46 @@ def generate_share_pages(market_data):
 <head>
     <meta charset="UTF-8">
     <title>{cfg['title']} ({price_str}) | نبض بازار</title>
-    <meta name="description" content="قیمت لحظه‌ای {cfg['title']}: {price_str}">
+    <meta name="description" content="قیمت زنده {cfg['title']} در بازار آزاد: {price_str} | مشاهده نمودار و وب‌سرویس">
 
-    <!-- Open Graph for Telegram -->
+    <!-- Open Graph (Telegram & WhatsApp) -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{cfg['title']}: {price_str}">
-    <meta property="og:description" content="قیمت زنده {cfg['title']}: {price_str} | مشاهده نمودار ۶ ماهه و وب‌سرویس">
-    <meta property="og:image" content="{chart_image_url}">
     <meta property="og:site_name" content="نبض بازار">
+    <meta property="og:title" content="{cfg['title']}: {price_str}">
+    <meta property="og:description" content="قیمت لحظه‌ای {cfg['title']}: {price_str} | نمودار روند ۶ ماهه، بررسی حباب و تاریخچه کامل در نبض بازار">
+    <meta property="og:image" content="{chart_image_url}">
+    <meta property="og:image:secure_url" content="{chart_image_url}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1650">
+    <meta property="og:image:height" content="750">
 
-    <!-- Twitter -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{cfg['title']}: {price_str}">
+    <meta name="twitter:description" content="قیمت زنده {cfg['title']}: {price_str} | مشاهده نمودار تحلیلی ۶ ماهه">
     <meta name="twitter:image" content="{chart_image_url}">
 
-    <meta http-equiv="refresh" content="0; url=../#{key}">
+    <!-- NO meta refresh here! That prevented Telegram crawler from reading this page -->
 </head>
-<body style="background:#0b0f19;color:#fff;font-family:sans-serif;padding:20px;text-align:center;">
+<body style="background:#0b0f19;color:#fff;font-family:sans-serif;padding:30px 15px;text-align:center;">
     <article>
-        <h1>{cfg['title']} ({price_str})</h1>
-        <img src="{chart_image_url}" alt="{cfg['title']}" style="max-width:100%;border-radius:12px;margin:15px 0;">
-        <p>قیمت لحظه‌ای {cfg['title']} در بازار آزاد: <strong>{price_str}</strong></p>
-        <p><a href="../#{key}" style="color:#3b82f6;text-decoration:none;font-weight:bold;">📊 ورود به داشبورد تعاملی نبض بازار</a></p>
+        <h1 style="font-size:22px;margin-bottom:8px;">{cfg['title']} ({price_str})</h1>
+        <p style="color:#94a3b8;font-size:13px;margin-bottom:20px;">در حال انتقال به داشبورد تحلیلی نبض بازار...</p>
+        <div style="max-width:850px;margin:0 auto 25px auto;">
+            <img src="{chart_image_url}" alt="{cfg['title']}" style="width:100%;height:auto;border-radius:12px;border:1px solid #1e293b;">
+        </div>
+        <p>
+            <a href="../#{key}" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:14px;">
+                📊 مشاهده نمودار تعاملی در داشبورد نبض بازار
+            </a>
+        </p>
     </article>
-    <script>window.location.replace('../#' + '{key}');</script>
+    <script>
+        // Real users get redirected immediately to the interactive dashboard
+        setTimeout(function() {
+            window.location.replace('../#' + '{key}');
+        }, 100);
+    </script>
 </body>
 </html>
 """
