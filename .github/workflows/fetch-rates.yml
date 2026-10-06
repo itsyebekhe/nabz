@@ -2,8 +2,8 @@ name: Fetch Market Rates & Update API
 
 on:
   schedule:
-   - cron: '7,37 * * * *'
-  workflow_dispatch:      # Manual trigger
+    - cron: '7,37 * * * *'   # Runs every 30 minutes (offset by 7 mins to avoid queue congestion)
+  workflow_dispatch:         # Allows manual trigger from GitHub UI
 
 permissions:
   contents: write
@@ -23,6 +23,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"       # Speeds up runs by caching installed libraries
 
       - name: Install dependencies
         run: |
@@ -36,11 +37,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add market.json api/history.json usd_chart.png README.md
+          
+          # Stage all data JSONs, charts, and README
+          git add market.json README.md api/*.json *.png
           
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(auto): update rates, API history and chart [skip ci]"
+            git commit -m "chore(auto): update rates, API history and charts [skip ci]"
             git push
           fi
