@@ -79,9 +79,7 @@ def extract_js_array(html_text: str, var_name: str):
 
 
 def update_history_api(aed_irr_history, aed_usd_history, live_usd_toman, api_dir="api"):
-    """
-    Maintains a persistent api/history.json file in Tehran timezone.
-    """
+    """Maintains a persistent api/history.json file in Tehran timezone."""
     os.makedirs(api_dir, exist_ok=True)
     api_file = os.path.join(api_dir, "history.json")
 
@@ -205,17 +203,39 @@ def generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=
     print(f"Chart saved to {output_file}")
 
 
+def format_toman_val(val):
+    """Formats an integer or numeric string into Persian-formatted Toman string."""
+    if not val or val == "نامشخص":
+        return "نامشخص"
+    try:
+        val_int = int(str(val).replace(",", "").strip())
+        return to_persian_digits(f"{val_int:,}") + " تومان"
+    except Exception:
+        return to_persian_digits(str(val))
+
+
 def update_readme(market_data):
-    """Generates a Persian README.md with explicit Tehran time."""
-    usd_persian = to_persian_digits(market_data.get("usd", "نامشخص"))
-    oil_persian = to_persian_digits(market_data.get("oil", "نامشخص"))
+    """Generates a Persian README.md with currencies, gold, coins, and oil."""
     updated_persian = to_persian_digits(market_data.get("updated", "--:--"))
+
+    usd = format_toman_val(market_data.get("usd"))
+    eur = format_toman_val(market_data.get("eur"))
+    gold_18k = format_toman_val(market_data.get("gold_18k"))
+    gold_mesghal = format_toman_val(market_data.get("gold_mesghal"))
+    coin_emami = format_toman_val(market_data.get("coin_emami"))
+    coin_bahar = format_toman_val(market_data.get("coin_bahar"))
+    coin_half = format_toman_val(market_data.get("coin_half"))
+    coin_quarter = format_toman_val(market_data.get("coin_quarter"))
+    coin_gram = format_toman_val(market_data.get("coin_gram"))
+
+    gold_ounce = to_persian_digits(market_data.get("gold_ounce", "نامشخص")) + " دلار"
+    oil = to_persian_digits(market_data.get("oil", "نامشخص")) + " دلار"
 
     readme_content = f"""<div dir="rtl" align="center">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 
-<h1 style="font-family: 'Vazirmatn', sans-serif;">📈 آخرین قیمت دلار و نفت</h1>
+<h1 style="font-family: 'Vazirmatn', sans-serif;">📈 قیمت لحظه‌ای ارز، طلا، سکه و نفت</h1>
 
 <p style="font-family: 'Vazirmatn', sans-serif; font-size: 14px; color: #555;">
 ⏱ بروزرسانی خودکار هر ۳۰ دقیقه | آخرین بروزرسانی: <b>{updated_persian} (به وقت تهران)</b>
@@ -223,21 +243,76 @@ def update_readme(market_data):
 
 ---
 
-<table style="font-family: 'Vazirmatn', sans-serif; font-size: 16px; border-collapse: collapse;">
+<table style="font-family: 'Vazirmatn', sans-serif; font-size: 15px; border-collapse: collapse; min-width: 480px;">
   <thead>
     <tr style="background-color: #f3f4f6;">
-      <th style="padding: 12px 24px;">شاخص</th>
-      <th style="padding: 12px 24px;">قیمت لحظه‌ای</th>
+      <th style="padding: 10px 20px; text-align: right;">شاخص بازار</th>
+      <th style="padding: 10px 20px; text-align: left;">قیمت زنده</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="padding: 12px 24px;">💵 <b>دلار آمریکا (آزاد)</b></td>
-      <td style="padding: 12px 24px; color: #16a34a; font-weight: bold;">{usd_persian} تومان</td>
+    <!-- ارزها -->
+    <tr style="background-color: #fafafa;">
+      <td colspan="2" style="padding: 6px 20px; font-weight: bold; color: #475569;">💵 ارزهای شاخص</td>
     </tr>
     <tr>
-      <td style="padding: 12px 24px;">🛢️ <b>نفت خام اوپک / برنت</b></td>
-      <td style="padding: 12px 24px; color: #2563eb; font-weight: bold;">{oil_persian} دلار</td>
+      <td style="padding: 10px 20px;">دلار آمریکا (آزاد)</td>
+      <td style="padding: 10px 20px; color: #16a34a; font-weight: bold; text-align: left;">{usd}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">یورو اروپا</td>
+      <td style="padding: 10px 20px; color: #16a34a; font-weight: bold; text-align: left;">{eur}</td>
+    </tr>
+
+    <!-- طلا -->
+    <tr style="background-color: #fafafa;">
+      <td colspan="2" style="padding: 6px 20px; font-weight: bold; color: #475569;">🥇 طلا و مظنه</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">طلای ۱۸ عیار (هر گرم)</td>
+      <td style="padding: 10px 20px; color: #d97706; font-weight: bold; text-align: left;">{gold_18k}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">مثقال طلا (آبشده)</td>
+      <td style="padding: 10px 20px; color: #d97706; font-weight: bold; text-align: left;">{gold_mesghal}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">انس جهانی طلا</td>
+      <td style="padding: 10px 20px; color: #b45309; font-weight: bold; text-align: left;">{gold_ounce}</td>
+    </tr>
+
+    <!-- سکه -->
+    <tr style="background-color: #fafafa;">
+      <td colspan="2" style="padding: 6px 20px; font-weight: bold; color: #475569;">🪙 انواع سکه بهار آزادی</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">سکه تمام امامی (طرح جدید)</td>
+      <td style="padding: 10px 20px; color: #b45309; font-weight: bold; text-align: left;">{coin_emami}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">سکه بهار آزادی (طرح قدیم)</td>
+      <td style="padding: 10px 20px; color: #b45309; font-weight: bold; text-align: left;">{coin_bahar}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">نیم سکه</td>
+      <td style="padding: 10px 20px; color: #b45309; font-weight: bold; text-align: left;">{coin_half}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">ربع سکه</td>
+      <td style="padding: 10px 20px; color: #b45309; font-weight: bold; text-align: left;">{coin_quarter}</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">سکه گرمی</td>
+      <td style="padding: 10px 20px; color: #b45309; font-weight: bold; text-align: left;">{coin_gram}</td>
+    </tr>
+
+    <!-- انرژی -->
+    <tr style="background-color: #fafafa;">
+      <td colspan="2" style="padding: 6px 20px; font-weight: bold; color: #475569;">🛢️ کامودیتی و انرژی</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 20px;">نفت خام برنت / اوپک</td>
+      <td style="padding: 10px 20px; color: #2563eb; font-weight: bold; text-align: left;">{oil}</td>
     </tr>
   </tbody>
 </table>
@@ -253,7 +328,7 @@ def update_readme(market_data):
 <h3 style="font-family: 'Vazirmatn', sans-serif; margin-top: 25px;">🌐 وب‌سرویس و API تاریخچه</h3>
 
 <p style="font-family: 'Vazirmatn', sans-serif; font-size: 14px; color: #444;" dir="ltr">
-JSON Endpoint: <code>api/history.json</code>
+JSON Endpoints: <code>market.json</code> & <code>api/history.json</code>
 </p>
 
 </div>
@@ -263,14 +338,137 @@ JSON Endpoint: <code>api/history.json</code>
     print("README.md updated.")
 
 
+def fetch_gold_and_coins():
+    """Scrapes gold and coin prices from AlanChand's gold-price page."""
+    data = {}
+    try:
+        resp = session.get("https://alanchand.com/en/gold-price", timeout=15)
+        if resp.status_code != 200:
+            return data
+
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        # 1. First attempt: Parse structured JSON-LD (ItemList)
+        for s in soup.find_all("script", type="application/ld+json"):
+            try:
+                content = json.loads(s.string or "")
+                if content.get("@type") == "ItemList":
+                    for elem in content.get("itemListElement", []):
+                        item = elem.get("item", {})
+                        name = item.get("name", "")
+                        offers = item.get("offers", {})
+                        price_raw = offers.get("price")
+                        currency = offers.get("priceCurrency")
+
+                        if not price_raw:
+                            continue
+
+                        # Convert IRR to Toman (÷ 10)
+                        val_toman = int(round(float(price_raw) / 10.0)) if currency == "IRR" else price_raw
+
+                        if "Mesghal" in name:
+                            data["gold_mesghal"] = val_toman
+                        elif "18K Gold" in name:
+                            data["gold_18k"] = val_toman
+                        elif "Full Coin" in name or "Imami" in name:
+                            data["coin_emami"] = val_toman
+                        elif "Bahar Azadi" in name:
+                            data["coin_bahar"] = val_toman
+                        elif "Half Coin" in name:
+                            data["coin_half"] = val_toman
+                        elif "Quarter Coin" in name:
+                            data["coin_quarter"] = val_toman
+                        elif "gram sekke" in name.lower():
+                            data["coin_gram"] = val_toman
+                        elif "Gold Ounce" in name:
+                            data["gold_ounce"] = price_raw
+            except Exception:
+                continue
+
+        # 2. Fallback: Parse table rows if any item wasn't extracted via JSON-LD
+        if not data.get("gold_18k") or not data.get("coin_emami"):
+            for tr in soup.select("table.goldTbl tr"):
+                tds = tr.find_all("td")
+                if len(tds) >= 2:
+                    name_td = tds[0].get_text(strip=True).lower()
+                    price_td = tds[1].get_text(strip=True).replace(",", "")
+                    match = re.search(r"(\d+(?:\.\d+)?)", price_td)
+                    if not match:
+                        continue
+                    num_val = float(match.group(1))
+
+                    if "18k gold" in name_td and "gold_18k" not in data:
+                        data["gold_18k"] = int(round(num_val / 10.0))
+                    elif "mesghal" in name_td and "gold_mesghal" not in data:
+                        data["gold_mesghal"] = int(round(num_val / 10.0))
+                    elif "full coin" in name_td and "coin_emami" not in data:
+                        data["coin_emami"] = int(round(num_val / 10.0))
+                    elif "bahar" in name_td and "coin_bahar" not in data:
+                        data["coin_bahar"] = int(round(num_val / 10.0))
+                    elif "half coin" in name_td and "coin_half" not in data:
+                        data["coin_half"] = int(round(num_val / 10.0))
+                    elif "quarter coin" in name_td and "coin_quarter" not in data:
+                        data["coin_quarter"] = int(round(num_val / 10.0))
+                    elif "gram sekke" in name_td and "coin_gram" not in data:
+                        data["coin_gram"] = int(round(num_val / 10.0))
+                    elif "gold ounce" in name_td and "gold_ounce" not in data:
+                        data["gold_ounce"] = match.group(1)
+    except Exception as e:
+        print(f"Error fetching gold and coin data: {e}")
+
+    return data
+
+
+def fetch_eur_price():
+    """Fetches Euro price in Toman from AlanChand's EUR page."""
+    try:
+        resp = session.get("https://alanchand.com/en/currencies-price/eur", timeout=15)
+        if resp.status_code != 200:
+            return None
+
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        # 1. Product Schema offers
+        for s in soup.find_all("script", type="application/ld+json"):
+            try:
+                c = json.loads(s.string or "")
+                if c.get("@type") == "Product" and c.get("sku") == "EUR":
+                    price_irr = float(c.get("offers", {}).get("price", 0))
+                    if price_irr > 0:
+                        return int(round(price_irr / 10.0))
+            except Exception:
+                continue
+
+        # 2. Input element
+        input_tmn = soup.find("input", attrs={"data-curr": "tmn"})
+        if input_tmn:
+            raw_p = input_tmn.get("data-price") or input_tmn.get("value")
+            if raw_p:
+                return int(round(float(str(raw_p).replace(",", "").strip()) / 10.0))
+    except Exception as e:
+        print(f"Error fetching EUR price: {e}")
+    return None
+
+
 def main():
     market_data = {
         "usd": "نامشخص",
+        "eur": "نامشخص",
+        "gold_18k": "نامشخص",
+        "gold_mesghal": "نامشخص",
+        "gold_ounce": "نامشخص",
+        "coin_emami": "نامشخص",
+        "coin_bahar": "نامشخص",
+        "coin_half": "نامشخص",
+        "coin_quarter": "نامشخص",
+        "coin_gram": "نامشخص",
         "oil": "نامشخص",
         "updated": "--:--"
     }
 
     print("Fetching page data from AlanChand...")
+
+    # 1. USD Calculation via AED Peg
     resp_aed = session.get("https://alanchand.com/en/currencies-price/aed", timeout=15)
     resp_usd = session.get("https://alanchand.com/en/exchange-rates/aed-usd", timeout=15)
 
@@ -283,7 +481,6 @@ def main():
     if resp_usd.status_code == 200:
         aed_usd_history = extract_js_array(resp_usd.text, "fullPriceData")
 
-    # 1. Compute Live Rate
     live_usd_toman = None
     try:
         soup_usd = BeautifulSoup(resp_usd.text, "lxml")
@@ -298,11 +495,21 @@ def main():
         if aed_price_raw:
             aed_toman = float(str(aed_price_raw).replace(",", "").strip()) / 10.0
             live_usd_toman = int(round(aed_toman / usd_rate))
-            market_data["usd"] = f"{live_usd_toman:,}"
+            market_data["usd"] = live_usd_toman
     except Exception as e:
         print(f"Error computing live USD rate: {e}")
 
-    # 2. Live Oil Price
+    # 2. Fetch EUR Price
+    live_eur_toman = fetch_eur_price()
+    if live_eur_toman:
+        market_data["eur"] = live_eur_toman
+
+    # 3. Fetch Gold & Coins
+    gold_coin_data = fetch_gold_and_coins()
+    for k, v in gold_coin_data.items():
+        market_data[k] = v
+
+    # 4. Live Oil Price
     try:
         resp_oil = session.get("https://oilprice.com/oil-price-charts/46", timeout=15)
         if resp_oil.status_code == 200:
@@ -313,21 +520,23 @@ def main():
     except Exception as e:
         print(f"Error fetching Oil price: {e}")
 
-    # Explicit Tehran Time
+    # 5. Tehran Timezone
     now_tehran = get_tehran_now()
     market_data["updated"] = now_tehran.strftime("%H:%M")
+    market_data["updated_date"] = now_tehran.strftime("%Y-%m-%d")
 
-    # 3. Save market.json
+    # 6. Save market.json
     with open("market.json", "w", encoding="utf-8") as f:
         json.dump(market_data, f, ensure_ascii=False, indent=2)
+    print("market.json saved.")
 
-    # 4. Update History API
+    # 7. Update History API
     history_records = update_history_api(aed_irr_history, aed_usd_history, live_usd_toman)
 
-    # 5. Generate Chart
+    # 8. Generate USD Chart
     generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=180)
 
-    # 6. Update README.md
+    # 9. Update README.md
     update_readme(market_data)
 
 
