@@ -1,5 +1,15 @@
 {
-  "usd": "270,685",
-  "oil": "88.10",
-  "updated": "12:31"
+  "usd": 270090,
+  "eur": 303600,
+  "gold_18k": 26674820,
+  "gold_mesghal": 115550000,
+  "gold_ounce": "4152.4",
+  "coin_emami": 274500000,
+  "coin_bahar": 262000000,
+  "coin_half": 144000000,
+  "coin_quarter": 79000000,
+  "coin_gram": 38000000,
+  "oil": "87.48",
+  "updated": "13:40",
+  "updated_date": "2026-10-06"
 }
