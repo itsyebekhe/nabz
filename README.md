@@ -1,15 +1,16 @@
 <div dir="rtl" align="center">
 
-# 📊 نبض بازار | قیمت لحظه‌ای ارز، مسکوکات، طلا و نفت
+# 📊 نبض بازار | قیمت لحظه‌ای و تاریخچه ارز، طلا و سکه
 
 [![Auto Update](https://img.shields.io/badge/Auto--Update-Every_30_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
-[![API Status](https://img.shields.io/badge/API-Live_&_Historical-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
+[![API Status](https://img.shields.io/badge/API-Live_&_Free-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
 [![Timezone](https://img.shields.io/badge/Timezone-Tehran_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
+[![Telegram](https://img.shields.io/badge/Telegram-@yebekhe-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yebekhe)
 
 <br/>
 
 > [!NOTE]
-> 📅 **تاریخ:** ۱۴ مهر ۱۴۰۵ (2026-10-06) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۲۱:۵۷** (به وقت تهران)
+> 📅 **تاریخ:** ۱۴ مهر ۱۴۰۵ (2026-10-06) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۲۲:۴۵** (به وقت تهران)
 
 <br/>
 
@@ -29,49 +30,54 @@
 </thead>
 <tbody>
 
-<!-- بخش ارزها -->
+<!-- بخش ارزهای شاخص -->
 <tr>
 <th colspan="3" align="right" bgcolor="#f1f5f9">💵 ارزهای شاخص</th>
 </tr>
 <tr>
 <td align="center">🇺🇸</td>
 <td><b>دلار آمریکا</b></td>
-<td align="left"><b>۲۶۹،۶۹۴ تومان</b></td>
+<td align="left"><b>۲۶۹،۶۸۶ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇪🇺</td>
 <td><b>یورو اروپا</b></td>
-<td align="left"><b>۳۰۳،۸۰۰ تومان</b></td>
+<td align="left"><b>۳۰۳،۷۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🇦🇪</td>
+<td><b>درهم امارات</b></td>
+<td align="left"><b>۷۳،۴۲۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🇹🇷</td>
+<td><b>لیر ترکیه</b></td>
+<td align="left"><b>۵،۵۷۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇬🇧</td>
 <td><b>پوند انگلیس</b></td>
-<td align="left"><b>۳۵۴،۶۰۰ تومان</b></td>
+<td align="left"><b>۳۵۴،۵۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🇨🇦</td>
+<td><b>دلار کانادا</b></td>
+<td align="left"><b>۱۸۹،۸۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🇦🇺</td>
+<td><b>دلار استرالیا</b></td>
+<td align="left"><b>۱۸۸،۴۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🇨🇳</td>
+<td><b>یوان چین</b></td>
+<td align="left"><b>۴۰،۳۲۰ تومان</b></td>
 </tr>
 
-<!-- بخش طلا -->
+<!-- بخش مسکوکات و طلا -->
 <tr>
-<th colspan="3" align="right" bgcolor="#f1f5f9">🥇 طلا و مظنه</th>
-</tr>
-<tr>
-<td align="center">✨</td>
-<td><b>طلای ۱۸ عیار (هر گرم)</b></td>
-<td align="left"><b>۲۶،۶۷۴،۸۲۰ تومان</b></td>
-</tr>
-<tr>
-<td align="center">⚖️</td>
-<td><b>مثقال طلا (آبشده)</b></td>
-<td align="left"><b>۱۱۵،۵۵۰،۰۰۰ تومان</b></td>
-</tr>
-<tr>
-<td align="center">🌐</td>
-<td><b>انس جهانی طلا</b></td>
-<td align="left"><b>نامشخص</b></td>
-</tr>
-
-<!-- بخش سکه -->
-<tr>
-<th colspan="3" align="right" bgcolor="#f1f5f9">🪙 مسکوکات بهار آزادی</th>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🪙 مسکوکات بهار آزادی و طلا</th>
 </tr>
 <tr>
 <td align="center">🟡</td>
@@ -98,15 +104,30 @@
 <td><b>سکه گرمی</b></td>
 <td align="left"><b>۳۸،۰۰۰،۰۰۰ تومان</b></td>
 </tr>
+<tr>
+<td align="center">✨</td>
+<td><b>طلای ۱۸ عیار (هر گرم)</b></td>
+<td align="left"><b>۲۶،۷۱۶،۳۸۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">⚖️</td>
+<td><b>مثقال طلا (آبشده)</b></td>
+<td align="left"><b>۱۱۵،۷۳۰،۰۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td><b>انس جهانی طلا</b></td>
+<td align="left"><b>۴،۱۷۸.۴۱ دلار</b></td>
+</tr>
 
-<!-- بخش انرژی -->
+<!-- کامودیتی -->
 <tr>
 <th colspan="3" align="right" bgcolor="#f1f5f9">🛢️ کامودیتی و انرژی</th>
 </tr>
 <tr>
 <td align="center">⛽</td>
 <td><b>نفت خام برنت / اوپک</b></td>
-<td align="left"><b>۸۹.۲۵ دلار</b></td>
+<td align="left"><b>۸۹.۶۰ دلار</b></td>
 </tr>
 
 </tbody>
@@ -114,47 +135,42 @@
 
 ---
 
-### 📈 نمودارهای روند بازار
+### 📈 نمودار روند ۶ ماهه شاخص‌ها
 
 #### دلار آمریکا
 <div align="center">
-  <img src="usd_chart.png?raw=true" alt="نمودار روند قیمت دلار" width="100%" style="border-radius: 12px;" />
+  <img src="charts/usd.png?raw=true" alt="نمودار دلار آمریکا" width="100%" style="border-radius: 12px;" />
 </div>
 
 #### سکه تمام امامی
 <div align="center">
-  <img src="coin_emami_chart.png?raw=true" alt="نمودار روند قیمت سکه امامی" width="100%" style="border-radius: 12px;" />
+  <img src="charts/coin_emami.png?raw=true" alt="نمودار سکه امامی" width="100%" style="border-radius: 12px;" />
 </div>
 
 #### طلای ۱۸ عیار
 <div align="center">
-  <img src="gold_18k_chart.png?raw=true" alt="نمودار روند قیمت طلای ۱۸ عیار" width="100%" style="border-radius: 12px;" />
+  <img src="charts/gold_18k.png?raw=true" alt="نمودار طلای ۱۸ عیار" width="100%" style="border-radius: 12px;" />
 </div>
 
 ---
 
 ### 🚀 وب‌سرویس و دسترسی API
 
-داده‌های تاریخی به همراه قیمت روز برای هر دارایی در قالب فایل‌های تمیز JSON نگهداری می‌شوند:
-
-* **قیمت‌های زنده تمامی نمادها:**
+* **قیمت‌های زنده تمامی ۳۷ ارز و مسکوکات:**
   ```text
-  https://raw.githubusercontent.com/itsyebekhe/usd/main/market.json
+  https://raw.githubusercontent.com/itsyebekhe/nabz/main/market.json
   ```
 
 * **آرشیو تاریخی هر دارایی:**
-  | دارایی | آدرس فایل JSON |
-  | :--- | :--- |
-  | **دلار آمریکا** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_usd.json` |
-  | **یورو اروپا** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_eur.json` |
-  | **پوند انگلیس** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_gbp.json` |
-  | **سکه امامی** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_coin_emami.json` |
-  | **سکه بهار آزادی** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_coin_bahar.json` |
-  | **نیم سکه** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_coin_half.json` |
-  | **ربع سکه** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_coin_quarter.json` |
-  | **سکه گرمی** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_coin_gram.json` |
-  | **طلای ۱۸ عیار** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_gold_18k.json` |
-  | **مثقال طلا** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_gold_mesghal.json` |
-  | **انس جهانی طلا** | `https://raw.githubusercontent.com/itsyebekhe/usd/main/api/history_gold_ounce.json` |
+  ```text
+  https://raw.githubusercontent.com/itsyebekhe/nabz/main/api/history_<symbol>.json
+  ```
+  *(نمونه: `history_usd.json`, `history_eur.json`, `history_coin_emami.json`, `history_usd_xau.json`)*
+
+---
+
+<div align="center">
+<sub>ساخته‌شده با ❤️ توسط <a href="https://t.me/yebekhe">@yebekhe</a> | داده‌ها به صورت خودکار هر ۳۰ دقیقه بروزرسانی می‌شوند</sub>
+</div>
 
 </div>
