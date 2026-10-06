@@ -1,9 +1,9 @@
 {
-  "symbol": "XAU_USD",
+  "symbol": "XAU",
   "title": "انس جهانی طلا",
   "unit": "دلار",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-10-06 21:57:50",
+  "updated_at": "2026-10-06 22:12:15",
   "total_records": 1165,
   "latest": {
     "timestamp": 1791311111,

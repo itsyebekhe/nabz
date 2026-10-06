@@ -1,12 +1,12 @@
 {
   "symbol": "COIN_QUARTER",
-  "title": "ربع سکه بهار آزادی",
+  "title": "ربع سکه",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-10-06 21:57:50",
+  "updated_at": "2026-10-06 22:12:18",
   "total_records": 1165,
   "latest": {
-    "timestamp": 1791311270,
+    "timestamp": 1791312138,
     "date": "2026-10-06",
     "price": 79000000,
     "price_toman": 79000000,
@@ -10490,7 +10490,7 @@
       "bubble_percent": 20.06
     },
     {
-      "timestamp": 1791311270,
+      "timestamp": 1791312138,
       "date": "2026-10-06",
       "price": 79000000,
       "price_toman": 79000000,

@@ -1,16 +1,16 @@
 {
-  "symbol": "GOLD_MESGHAL",
+  "symbol": "MESGHAL",
   "title": "مثقال طلا (آبشده)",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-10-06 21:57:48",
+  "updated_at": "2026-10-06 22:12:15",
   "total_records": 1169,
   "latest": {
-    "timestamp": 1791311268,
+    "timestamp": 1791312135,
     "date": "2026-10-06",
-    "price": 115550000,
-    "price_toman": 115550000,
-    "price_irr": 1155500000
+    "price": 115730000,
+    "price_toman": 115730000,
+    "price_irr": 1157300000
   },
   "history": [
     {
@@ -10526,11 +10526,11 @@
       "bubble_percent": -0.31
     },
     {
-      "timestamp": 1791311268,
+      "timestamp": 1791312135,
       "date": "2026-10-06",
-      "price": 115550000,
-      "price_toman": 115550000,
-      "price_irr": 1155500000
+      "price": 115730000,
+      "price_toman": 115730000,
+      "price_irr": 1157300000
     }
   ]
 }

@@ -1,0 +1,8221 @@
+{
+  "symbol": "KWD",
+  "title": "دینار کویت",
+  "unit": "تومان",
+  "timezone": "Asia/Tehran",
+  "updated_at": "2026-10-06 22:12:18",
+  "total_records": 1172,
+  "latest": {
+    "timestamp": 1791312138,
+    "date": "2026-10-06",
+    "price": 872560,
+    "price_toman": 872560,
+    "price_irr": 8725600
+  },
+  "history": [
+    {
+      "timestamp": 1688070600,
+      "date": "2023-06-30",
+      "price": 163150,
+      "price_toman": 163150,
+      "price_irr": 1631500
+    },
+    {
+      "timestamp": 1688157000,
+      "date": "2023-07-01",
+      "price": 163400,
+      "price_toman": 163400,
+      "price_irr": 1634000
+    },
+    {
+      "timestamp": 1688243400,
+      "date": "2023-07-02",
+      "price": 164250,
+      "price_toman": 164250,
+      "price_irr": 1642500
+    },
+    {
+      "timestamp": 1688329800,
+      "date": "2023-07-03",
+      "price": 164900,
+      "price_toman": 164900,
+      "price_irr": 1649000
+    },
+    {
+      "timestamp": 1688416200,
+      "date": "2023-07-04",
+      "price": 164850,
+      "price_toman": 164850,
+      "price_irr": 1648500
+    },
+    {
+      "timestamp": 1688502600,
+      "date": "2023-07-05",
+      "price": 165300,
+      "price_toman": 165300,
+      "price_irr": 1653000
+    },
+    {
+      "timestamp": 1688589000,
+      "date": "2023-07-06",
+      "price": 166300,
+      "price_toman": 166300,
+      "price_irr": 1663000
+    },
+    {
+      "timestamp": 1688675400,
+      "date": "2023-07-07",
+      "price": 165500,
+      "price_toman": 165500,
+      "price_irr": 1655000
+    },
+    {
+      "timestamp": 1688761800,
+      "date": "2023-07-08",
+      "price": 164050,
+      "price_toman": 164050,
+      "price_irr": 1640500
+    },
+    {
+      "timestamp": 1688848200,
+      "date": "2023-07-09",
+      "price": 164250,
+      "price_toman": 164250,
+      "price_irr": 1642500
+    },
+    {
+      "timestamp": 1688934600,
+      "date": "2023-07-10",
+      "price": 163550,
+      "price_toman": 163550,
+      "price_irr": 1635500
+    },
+    {
+      "timestamp": 1689021000,
+      "date": "2023-07-11",
+      "price": 161700,
+      "price_toman": 161700,
+      "price_irr": 1617000
+    },
+    {
+      "timestamp": 1689107400,
+      "date": "2023-07-12",
+      "price": 162100,
+      "price_toman": 162100,
+      "price_irr": 1621000
+    },
+    {
+      "timestamp": 1689193800,
+      "date": "2023-07-13",
+      "price": 162500,
+      "price_toman": 162500,
+      "price_irr": 1625000
+    },
+    {
+      "timestamp": 1689280200,
+      "date": "2023-07-14",
+      "price": 162450,
+      "price_toman": 162450,
+      "price_irr": 1624500
+    },
+    {
+      "timestamp": 1689366600,
+      "date": "2023-07-15",
+      "price": 161150,
+      "price_toman": 161150,
+      "price_irr": 1611500
+    },
+    {
+      "timestamp": 1689453000,
+      "date": "2023-07-16",
+      "price": 160950,
+      "price_toman": 160950,
+      "price_irr": 1609500
+    },
+    {
+      "timestamp": 1689539400,
+      "date": "2023-07-17",
+      "price": 162350,
+      "price_toman": 162350,
+      "price_irr": 1623500
+    },
+    {
+      "timestamp": 1689625800,
+      "date": "2023-07-18",
+      "price": 160950,
+      "price_toman": 160950,
+      "price_irr": 1609500
+    },
+    {
+      "timestamp": 1689712200,
+      "date": "2023-07-19",
+      "price": 160000,
+      "price_toman": 160000,
+      "price_irr": 1600000
+    },
+    {
+      "timestamp": 1689798600,
+      "date": "2023-07-20",
+      "price": 160150,
+      "price_toman": 160150,
+      "price_irr": 1601500
+    },
+    {
+      "timestamp": 1689885000,
+      "date": "2023-07-21",
+      "price": 159900,
+      "price_toman": 159900,
+      "price_irr": 1599000
+    },
+    {
+      "timestamp": 1689971400,
+      "date": "2023-07-22",
+      "price": 159900,
+      "price_toman": 159900,
+      "price_irr": 1599000
+    },
+    {
+      "timestamp": 1690057800,
+      "date": "2023-07-23",
+      "price": 158900,
+      "price_toman": 158900,
+      "price_irr": 1589000
+    },
+    {
+      "timestamp": 1690144200,
+      "date": "2023-07-24",
+      "price": 159650,
+      "price_toman": 159650,
+      "price_irr": 1596500
+    },
+    {
+      "timestamp": 1690230600,
+      "date": "2023-07-25",
+      "price": 160950,
+      "price_toman": 160950,
+      "price_irr": 1609500
+    },
+    {
+      "timestamp": 1690317000,
+      "date": "2023-07-26",
+      "price": 161100,
+      "price_toman": 161100,
+      "price_irr": 1611000
+    },
+    {
+      "timestamp": 1690403400,
+      "date": "2023-07-27",
+      "price": 161050,
+      "price_toman": 161050,
+      "price_irr": 1610500
+    },
+    {
+      "timestamp": 1690489800,
+      "date": "2023-07-28",
+      "price": 161050,
+      "price_toman": 161050,
+      "price_irr": 1610500
+    },
+    {
+      "timestamp": 1690576200,
+      "date": "2023-07-29",
+      "price": 161550,
+      "price_toman": 161550,
+      "price_irr": 1615500
+    },
+    {
+      "timestamp": 1690662600,
+      "date": "2023-07-30",
+      "price": 160900,
+      "price_toman": 160900,
+      "price_irr": 1609000
+    },
+    {
+      "timestamp": 1690749000,
+      "date": "2023-07-31",
+      "price": 162150,
+      "price_toman": 162150,
+      "price_irr": 1621500
+    },
+    {
+      "timestamp": 1690835400,
+      "date": "2023-08-01",
+      "price": 165000,
+      "price_toman": 165000,
+      "price_irr": 1650000
+    },
+    {
+      "timestamp": 1690921800,
+      "date": "2023-08-02",
+      "price": 164350,
+      "price_toman": 164350,
+      "price_irr": 1643500
+    },
+    {
+      "timestamp": 1691008200,
+      "date": "2023-08-03",
+      "price": 164850,
+      "price_toman": 164850,
+      "price_irr": 1648500
+    },
+    {
+      "timestamp": 1691094600,
+      "date": "2023-08-04",
+      "price": 164200,
+      "price_toman": 164200,
+      "price_irr": 1642000
+    },
+    {
+      "timestamp": 1691181000,
+      "date": "2023-08-05",
+      "price": 162600,
+      "price_toman": 162600,
+      "price_irr": 1626000
+    },
+    {
+      "timestamp": 1691267400,
+      "date": "2023-08-06",
+      "price": 163250,
+      "price_toman": 163250,
+      "price_irr": 1632500
+    },
+    {
+      "timestamp": 1691353800,
+      "date": "2023-08-07",
+      "price": 162750,
+      "price_toman": 162750,
+      "price_irr": 1627500
+    },
+    {
+      "timestamp": 1691440200,
+      "date": "2023-08-08",
+      "price": 162150,
+      "price_toman": 162150,
+      "price_irr": 1621500
+    },
+    {
+      "timestamp": 1691526600,
+      "date": "2023-08-09",
+      "price": 163000,
+      "price_toman": 163000,
+      "price_irr": 1630000
+    },
+    {
+      "timestamp": 1691613000,
+      "date": "2023-08-10",
+      "price": 161400,
+      "price_toman": 161400,
+      "price_irr": 1614000
+    },
+    {
+      "timestamp": 1691699400,
+      "date": "2023-08-11",
+      "price": 160100,
+      "price_toman": 160100,
+      "price_irr": 1601000
+    },
+    {
+      "timestamp": 1691785800,
+      "date": "2023-08-12",
+      "price": 160400,
+      "price_toman": 160400,
+      "price_irr": 1604000
+    },
+    {
+      "timestamp": 1691872200,
+      "date": "2023-08-13",
+      "price": 161900,
+      "price_toman": 161900,
+      "price_irr": 1619000
+    },
+    {
+      "timestamp": 1691958600,
+      "date": "2023-08-14",
+      "price": 162150,
+      "price_toman": 162150,
+      "price_irr": 1621500
+    },
+    {
+      "timestamp": 1692045000,
+      "date": "2023-08-15",
+      "price": 162200,
+      "price_toman": 162200,
+      "price_irr": 1622000
+    },
+    {
+      "timestamp": 1692131400,
+      "date": "2023-08-16",
+      "price": 160800,
+      "price_toman": 160800,
+      "price_irr": 1608000
+    },
+    {
+      "timestamp": 1692217800,
+      "date": "2023-08-17",
+      "price": 161100,
+      "price_toman": 161100,
+      "price_irr": 1611000
+    },
+    {
+      "timestamp": 1692304200,
+      "date": "2023-08-18",
+      "price": 161200,
+      "price_toman": 161200,
+      "price_irr": 1612000
+    },
+    {
+      "timestamp": 1692390600,
+      "date": "2023-08-19",
+      "price": 160550,
+      "price_toman": 160550,
+      "price_irr": 1605500
+    },
+    {
+      "timestamp": 1692477000,
+      "date": "2023-08-20",
+      "price": 160050,
+      "price_toman": 160050,
+      "price_irr": 1600500
+    },
+    {
+      "timestamp": 1692563400,
+      "date": "2023-08-21",
+      "price": 159950,
+      "price_toman": 159950,
+      "price_irr": 1599500
+    },
+    {
+      "timestamp": 1692649800,
+      "date": "2023-08-22",
+      "price": 161550,
+      "price_toman": 161550,
+      "price_irr": 1615500
+    },
+    {
+      "timestamp": 1692736200,
+      "date": "2023-08-23",
+      "price": 160900,
+      "price_toman": 160900,
+      "price_irr": 1609000
+    },
+    {
+      "timestamp": 1692822600,
+      "date": "2023-08-24",
+      "price": 160900,
+      "price_toman": 160900,
+      "price_irr": 1609000
+    },
+    {
+      "timestamp": 1692909000,
+      "date": "2023-08-25",
+      "price": 161050,
+      "price_toman": 161050,
+      "price_irr": 1610500
+    },
+    {
+      "timestamp": 1692995400,
+      "date": "2023-08-26",
+      "price": 160250,
+      "price_toman": 160250,
+      "price_irr": 1602500
+    },
+    {
+      "timestamp": 1693081800,
+      "date": "2023-08-27",
+      "price": 160900,
+      "price_toman": 160900,
+      "price_irr": 1609000
+    },
+    {
+      "timestamp": 1693168200,
+      "date": "2023-08-28",
+      "price": 160800,
+      "price_toman": 160800,
+      "price_irr": 1608000
+    },
+    {
+      "timestamp": 1693254600,
+      "date": "2023-08-29",
+      "price": 161200,
+      "price_toman": 161200,
+      "price_irr": 1612000
+    },
+    {
+      "timestamp": 1693341000,
+      "date": "2023-08-30",
+      "price": 161350,
+      "price_toman": 161350,
+      "price_irr": 1613500
+    },
+    {
+      "timestamp": 1693427400,
+      "date": "2023-08-31",
+      "price": 160900,
+      "price_toman": 160900,
+      "price_irr": 1609000
+    },
+    {
+      "timestamp": 1693513800,
+      "date": "2023-09-01",
+      "price": 160950,
+      "price_toman": 160950,
+      "price_irr": 1609500
+    },
+    {
+      "timestamp": 1693600200,
+      "date": "2023-09-02",
+      "price": 162450,
+      "price_toman": 162450,
+      "price_irr": 1624500
+    },
+    {
+      "timestamp": 1693686600,
+      "date": "2023-09-03",
+      "price": 162900,
+      "price_toman": 162900,
+      "price_irr": 1629000
+    },
+    {
+      "timestamp": 1693773000,
+      "date": "2023-09-04",
+      "price": 162650,
+      "price_toman": 162650,
+      "price_irr": 1626500
+    },
+    {
+      "timestamp": 1693859400,
+      "date": "2023-09-05",
+      "price": 162700,
+      "price_toman": 162700,
+      "price_irr": 1627000
+    },
+    {
+      "timestamp": 1693945800,
+      "date": "2023-09-06",
+      "price": 162400,
+      "price_toman": 162400,
+      "price_irr": 1624000
+    },
+    {
+      "timestamp": 1694032200,
+      "date": "2023-09-07",
+      "price": 162750,
+      "price_toman": 162750,
+      "price_irr": 1627500
+    },
+    {
+      "timestamp": 1694118600,
+      "date": "2023-09-08",
+      "price": 163050,
+      "price_toman": 163050,
+      "price_irr": 1630500
+    },
+    {
+      "timestamp": 1694205000,
+      "date": "2023-09-09",
+      "price": 163250,
+      "price_toman": 163250,
+      "price_irr": 1632500
+    },
+    {
+      "timestamp": 1694291400,
+      "date": "2023-09-10",
+      "price": 163050,
+      "price_toman": 163050,
+      "price_irr": 1630500
+    },
+    {
+      "timestamp": 1694377800,
+      "date": "2023-09-11",
+      "price": 163050,
+      "price_toman": 163050,
+      "price_irr": 1630500
+    },
+    {
+      "timestamp": 1694464200,
+      "date": "2023-09-12",
+      "price": 163050,
+      "price_toman": 163050,
+      "price_irr": 1630500
+    },
+    {
+      "timestamp": 1694550600,
+      "date": "2023-09-13",
+      "price": 163600,
+      "price_toman": 163600,
+      "price_irr": 1636000
+    },
+    {
+      "timestamp": 1694637000,
+      "date": "2023-09-14",
+      "price": 162800,
+      "price_toman": 162800,
+      "price_irr": 1628000
+    },
+    {
+      "timestamp": 1694723400,
+      "date": "2023-09-15",
+      "price": 163100,
+      "price_toman": 163100,
+      "price_irr": 1631000
+    },
+    {
+      "timestamp": 1694809800,
+      "date": "2023-09-16",
+      "price": 162750,
+      "price_toman": 162750,
+      "price_irr": 1627500
+    },
+    {
+      "timestamp": 1694896200,
+      "date": "2023-09-17",
+      "price": 162450,
+      "price_toman": 162450,
+      "price_irr": 1624500
+    },
+    {
+      "timestamp": 1694982600,
+      "date": "2023-09-18",
+      "price": 162200,
+      "price_toman": 162200,
+      "price_irr": 1622000
+    },
+    {
+      "timestamp": 1695069000,
+      "date": "2023-09-19",
+      "price": 162150,
+      "price_toman": 162150,
+      "price_irr": 1621500
+    },
+    {
+      "timestamp": 1695155400,
+      "date": "2023-09-20",
+      "price": 160800,
+      "price_toman": 160800,
+      "price_irr": 1608000
+    },
+    {
+      "timestamp": 1695241800,
+      "date": "2023-09-21",
+      "price": 160750,
+      "price_toman": 160750,
+      "price_irr": 1607500
+    },
+    {
+      "timestamp": 1695328200,
+      "date": "2023-09-22",
+      "price": 160750,
+      "price_toman": 160750,
+      "price_irr": 1607500
+    },
+    {
+      "timestamp": 1695414600,
+      "date": "2023-09-23",
+      "price": 160700,
+      "price_toman": 160700,
+      "price_irr": 1607000
+    },
+    {
+      "timestamp": 1695501000,
+      "date": "2023-09-24",
+      "price": 160700,
+      "price_toman": 160700,
+      "price_irr": 1607000
+    },
+    {
+      "timestamp": 1695587400,
+      "date": "2023-09-25",
+      "price": 160650,
+      "price_toman": 160650,
+      "price_irr": 1606500
+    },
+    {
+      "timestamp": 1695673800,
+      "date": "2023-09-26",
+      "price": 160550,
+      "price_toman": 160550,
+      "price_irr": 1605500
+    },
+    {
+      "timestamp": 1695760200,
+      "date": "2023-09-27",
+      "price": 160500,
+      "price_toman": 160500,
+      "price_irr": 1605000
+    },
+    {
+      "timestamp": 1695846600,
+      "date": "2023-09-28",
+      "price": 160600,
+      "price_toman": 160600,
+      "price_irr": 1606000
+    },
+    {
+      "timestamp": 1695933000,
+      "date": "2023-09-29",
+      "price": 160600,
+      "price_toman": 160600,
+      "price_irr": 1606000
+    },
+    {
+      "timestamp": 1696019400,
+      "date": "2023-09-30",
+      "price": 160600,
+      "price_toman": 160600,
+      "price_irr": 1606000
+    },
+    {
+      "timestamp": 1696105800,
+      "date": "2023-10-01",
+      "price": 161750,
+      "price_toman": 161750,
+      "price_irr": 1617500
+    },
+    {
+      "timestamp": 1696192200,
+      "date": "2023-10-02",
+      "price": 162000,
+      "price_toman": 162000,
+      "price_irr": 1620000
+    },
+    {
+      "timestamp": 1696278600,
+      "date": "2023-10-03",
+      "price": 161900,
+      "price_toman": 161900,
+      "price_irr": 1619000
+    },
+    {
+      "timestamp": 1696365000,
+      "date": "2023-10-04",
+      "price": 161950,
+      "price_toman": 161950,
+      "price_irr": 1619500
+    },
+    {
+      "timestamp": 1696451400,
+      "date": "2023-10-05",
+      "price": 163150,
+      "price_toman": 163150,
+      "price_irr": 1631500
+    },
+    {
+      "timestamp": 1696537800,
+      "date": "2023-10-06",
+      "price": 162750,
+      "price_toman": 162750,
+      "price_irr": 1627500
+    },
+    {
+      "timestamp": 1696624200,
+      "date": "2023-10-07",
+      "price": 165350,
+      "price_toman": 165350,
+      "price_irr": 1653500
+    },
+    {
+      "timestamp": 1696710600,
+      "date": "2023-10-08",
+      "price": 171000,
+      "price_toman": 171000,
+      "price_irr": 1710000
+    },
+    {
+      "timestamp": 1696797000,
+      "date": "2023-10-09",
+      "price": 172950,
+      "price_toman": 172950,
+      "price_irr": 1729500
+    },
+    {
+      "timestamp": 1696883400,
+      "date": "2023-10-10",
+      "price": 170600,
+      "price_toman": 170600,
+      "price_irr": 1706000
+    },
+    {
+      "timestamp": 1696969800,
+      "date": "2023-10-11",
+      "price": 170600,
+      "price_toman": 170600,
+      "price_irr": 1706000
+    },
+    {
+      "timestamp": 1697056200,
+      "date": "2023-10-12",
+      "price": 170600,
+      "price_toman": 170600,
+      "price_irr": 1706000
+    },
+    {
+      "timestamp": 1697142600,
+      "date": "2023-10-13",
+      "price": 170600,
+      "price_toman": 170600,
+      "price_irr": 1706000
+    },
+    {
+      "timestamp": 1697229000,
+      "date": "2023-10-14",
+      "price": 170600,
+      "price_toman": 170600,
+      "price_irr": 1706000
+    },
+    {
+      "timestamp": 1697315400,
+      "date": "2023-10-15",
+      "price": 170600,
+      "price_toman": 170600,
+      "price_irr": 1706000
+    },
+    {
+      "timestamp": 1697401800,
+      "date": "2023-10-16",
+      "price": 164250,
+      "price_toman": 164250,
+      "price_irr": 1642500
+    },
+    {
+      "timestamp": 1697488200,
+      "date": "2023-10-17",
+      "price": 166300,
+      "price_toman": 166300,
+      "price_irr": 1663000
+    },
+    {
+      "timestamp": 1697574600,
+      "date": "2023-10-18",
+      "price": 167300,
+      "price_toman": 167300,
+      "price_irr": 1673000
+    },
+    {
+      "timestamp": 1697661000,
+      "date": "2023-10-19",
+      "price": 167050,
+      "price_toman": 167050,
+      "price_irr": 1670500
+    },
+    {
+      "timestamp": 1697747400,
+      "date": "2023-10-20",
+      "price": 166400,
+      "price_toman": 166400,
+      "price_irr": 1664000
+    },
+    {
+      "timestamp": 1697833800,
+      "date": "2023-10-21",
+      "price": 163800,
+      "price_toman": 163800,
+      "price_irr": 1638000
+    },
+    {
+      "timestamp": 1697920200,
+      "date": "2023-10-22",
+      "price": 165100,
+      "price_toman": 165100,
+      "price_irr": 1651000
+    },
+    {
+      "timestamp": 1698006600,
+      "date": "2023-10-23",
+      "price": 165550,
+      "price_toman": 165550,
+      "price_irr": 1655500
+    },
+    {
+      "timestamp": 1698093000,
+      "date": "2023-10-24",
+      "price": 165800,
+      "price_toman": 165800,
+      "price_irr": 1658000
+    },
+    {
+      "timestamp": 1698179400,
+      "date": "2023-10-25",
+      "price": 166850,
+      "price_toman": 166850,
+      "price_irr": 1668500
+    },
+    {
+      "timestamp": 1698265800,
+      "date": "2023-10-26",
+      "price": 168600,
+      "price_toman": 168600,
+      "price_irr": 1686000
+    },
+    {
+      "timestamp": 1698352200,
+      "date": "2023-10-27",
+      "price": 168650,
+      "price_toman": 168650,
+      "price_irr": 1686500
+    },
+    {
+      "timestamp": 1698438600,
+      "date": "2023-10-28",
+      "price": 170100,
+      "price_toman": 170100,
+      "price_irr": 1701000
+    },
+    {
+      "timestamp": 1698525000,
+      "date": "2023-10-29",
+      "price": 167550,
+      "price_toman": 167550,
+      "price_irr": 1675500
+    },
+    {
+      "timestamp": 1698611400,
+      "date": "2023-10-30",
+      "price": 168250,
+      "price_toman": 168250,
+      "price_irr": 1682500
+    },
+    {
+      "timestamp": 1698697800,
+      "date": "2023-10-31",
+      "price": 168350,
+      "price_toman": 168350,
+      "price_irr": 1683500
+    },
+    {
+      "timestamp": 1698784200,
+      "date": "2023-11-01",
+      "price": 168900,
+      "price_toman": 168900,
+      "price_irr": 1689000
+    },
+    {
+      "timestamp": 1698870600,
+      "date": "2023-11-02",
+      "price": 170250,
+      "price_toman": 170250,
+      "price_irr": 1702500
+    },
+    {
+      "timestamp": 1698957000,
+      "date": "2023-11-03",
+      "price": 169950,
+      "price_toman": 169950,
+      "price_irr": 1699500
+    },
+    {
+      "timestamp": 1699043400,
+      "date": "2023-11-04",
+      "price": 167200,
+      "price_toman": 167200,
+      "price_irr": 1672000
+    },
+    {
+      "timestamp": 1699129800,
+      "date": "2023-11-05",
+      "price": 167850,
+      "price_toman": 167850,
+      "price_irr": 1678500
+    },
+    {
+      "timestamp": 1699216200,
+      "date": "2023-11-06",
+      "price": 167800,
+      "price_toman": 167800,
+      "price_irr": 1678000
+    },
+    {
+      "timestamp": 1699302600,
+      "date": "2023-11-07",
+      "price": 167150,
+      "price_toman": 167150,
+      "price_irr": 1671500
+    },
+    {
+      "timestamp": 1699389000,
+      "date": "2023-11-08",
+      "price": 167100,
+      "price_toman": 167100,
+      "price_irr": 1671000
+    },
+    {
+      "timestamp": 1699475400,
+      "date": "2023-11-09",
+      "price": 167900,
+      "price_toman": 167900,
+      "price_irr": 1679000
+    },
+    {
+      "timestamp": 1699561800,
+      "date": "2023-11-10",
+      "price": 167950,
+      "price_toman": 167950,
+      "price_irr": 1679500
+    },
+    {
+      "timestamp": 1699648200,
+      "date": "2023-11-11",
+      "price": 167950,
+      "price_toman": 167950,
+      "price_irr": 1679500
+    },
+    {
+      "timestamp": 1699734600,
+      "date": "2023-11-12",
+      "price": 167950,
+      "price_toman": 167950,
+      "price_irr": 1679500
+    },
+    {
+      "timestamp": 1699821000,
+      "date": "2023-11-13",
+      "price": 167950,
+      "price_toman": 167950,
+      "price_irr": 1679500
+    },
+    {
+      "timestamp": 1699907400,
+      "date": "2023-11-14",
+      "price": 167950,
+      "price_toman": 167950,
+      "price_irr": 1679500
+    },
+    {
+      "timestamp": 1699993800,
+      "date": "2023-11-15",
+      "price": 166500,
+      "price_toman": 166500,
+      "price_irr": 1665000
+    },
+    {
+      "timestamp": 1700080200,
+      "date": "2023-11-16",
+      "price": 166500,
+      "price_toman": 166500,
+      "price_irr": 1665000
+    },
+    {
+      "timestamp": 1700166600,
+      "date": "2023-11-17",
+      "price": 166300,
+      "price_toman": 166300,
+      "price_irr": 1663000
+    },
+    {
+      "timestamp": 1700253000,
+      "date": "2023-11-18",
+      "price": 165900,
+      "price_toman": 165900,
+      "price_irr": 1659000
+    },
+    {
+      "timestamp": 1700339400,
+      "date": "2023-11-19",
+      "price": 164150,
+      "price_toman": 164150,
+      "price_irr": 1641500
+    },
+    {
+      "timestamp": 1700425800,
+      "date": "2023-11-20",
+      "price": 164950,
+      "price_toman": 164950,
+      "price_irr": 1649500
+    },
+    {
+      "timestamp": 1700512200,
+      "date": "2023-11-21",
+      "price": 164550,
+      "price_toman": 164550,
+      "price_irr": 1645500
+    },
+    {
+      "timestamp": 1700598600,
+      "date": "2023-11-22",
+      "price": 164400,
+      "price_toman": 164400,
+      "price_irr": 1644000
+    },
+    {
+      "timestamp": 1700685000,
+      "date": "2023-11-23",
+      "price": 164950,
+      "price_toman": 164950,
+      "price_irr": 1649500
+    },
+    {
+      "timestamp": 1700771400,
+      "date": "2023-11-24",
+      "price": 164950,
+      "price_toman": 164950,
+      "price_irr": 1649500
+    },
+    {
+      "timestamp": 1700857800,
+      "date": "2023-11-25",
+      "price": 165650,
+      "price_toman": 165650,
+      "price_irr": 1656500
+    },
+    {
+      "timestamp": 1700944200,
+      "date": "2023-11-26",
+      "price": 165400,
+      "price_toman": 165400,
+      "price_irr": 1654000
+    },
+    {
+      "timestamp": 1701030600,
+      "date": "2023-11-27",
+      "price": 165200,
+      "price_toman": 165200,
+      "price_irr": 1652000
+    },
+    {
+      "timestamp": 1701117000,
+      "date": "2023-11-28",
+      "price": 164000,
+      "price_toman": 164000,
+      "price_irr": 1640000
+    },
+    {
+      "timestamp": 1701203400,
+      "date": "2023-11-29",
+      "price": 164500,
+      "price_toman": 164500,
+      "price_irr": 1645000
+    },
+    {
+      "timestamp": 1701289800,
+      "date": "2023-11-30",
+      "price": 164800,
+      "price_toman": 164800,
+      "price_irr": 1648000
+    },
+    {
+      "timestamp": 1701376200,
+      "date": "2023-12-01",
+      "price": 164650,
+      "price_toman": 164650,
+      "price_irr": 1646500
+    },
+    {
+      "timestamp": 1701462600,
+      "date": "2023-12-02",
+      "price": 164600,
+      "price_toman": 164600,
+      "price_irr": 1646000
+    },
+    {
+      "timestamp": 1701549000,
+      "date": "2023-12-03",
+      "price": 164700,
+      "price_toman": 164700,
+      "price_irr": 1647000
+    },
+    {
+      "timestamp": 1701635400,
+      "date": "2023-12-04",
+      "price": 164800,
+      "price_toman": 164800,
+      "price_irr": 1648000
+    },
+    {
+      "timestamp": 1701721800,
+      "date": "2023-12-05",
+      "price": 164300,
+      "price_toman": 164300,
+      "price_irr": 1643000
+    },
+    {
+      "timestamp": 1701808200,
+      "date": "2023-12-06",
+      "price": 164200,
+      "price_toman": 164200,
+      "price_irr": 1642000
+    },
+    {
+      "timestamp": 1701894600,
+      "date": "2023-12-07",
+      "price": 164650,
+      "price_toman": 164650,
+      "price_irr": 1646500
+    },
+    {
+      "timestamp": 1701981000,
+      "date": "2023-12-08",
+      "price": 164850,
+      "price_toman": 164850,
+      "price_irr": 1648500
+    },
+    {
+      "timestamp": 1702067400,
+      "date": "2023-12-09",
+      "price": 165300,
+      "price_toman": 165300,
+      "price_irr": 1653000
+    },
+    {
+      "timestamp": 1702153800,
+      "date": "2023-12-10",
+      "price": 164450,
+      "price_toman": 164450,
+      "price_irr": 1644500
+    },
+    {
+      "timestamp": 1702240200,
+      "date": "2023-12-11",
+      "price": 165050,
+      "price_toman": 165050,
+      "price_irr": 1650500
+    },
+    {
+      "timestamp": 1702326600,
+      "date": "2023-12-12",
+      "price": 164850,
+      "price_toman": 164850,
+      "price_irr": 1648500
+    },
+    {
+      "timestamp": 1702413000,
+      "date": "2023-12-13",
+      "price": 164550,
+      "price_toman": 164550,
+      "price_irr": 1645500
+    },
+    {
+      "timestamp": 1702499400,
+      "date": "2023-12-14",
+      "price": 165150,
+      "price_toman": 165150,
+      "price_irr": 1651500
+    },
+    {
+      "timestamp": 1702585800,
+      "date": "2023-12-15",
+      "price": 165000,
+      "price_toman": 165000,
+      "price_irr": 1650000
+    },
+    {
+      "timestamp": 1702672200,
+      "date": "2023-12-16",
+      "price": 167100,
+      "price_toman": 167100,
+      "price_irr": 1671000
+    },
+    {
+      "timestamp": 1702758600,
+      "date": "2023-12-17",
+      "price": 167250,
+      "price_toman": 167250,
+      "price_irr": 1672500
+    },
+    {
+      "timestamp": 1702845000,
+      "date": "2023-12-18",
+      "price": 165300,
+      "price_toman": 165300,
+      "price_irr": 1653000
+    },
+    {
+      "timestamp": 1702931400,
+      "date": "2023-12-19",
+      "price": 164600,
+      "price_toman": 164600,
+      "price_irr": 1646000
+    },
+    {
+      "timestamp": 1703017800,
+      "date": "2023-12-20",
+      "price": 162750,
+      "price_toman": 162750,
+      "price_irr": 1627500
+    },
+    {
+      "timestamp": 1703104200,
+      "date": "2023-12-21",
+      "price": 163600,
+      "price_toman": 163600,
+      "price_irr": 1636000
+    },
+    {
+      "timestamp": 1703190600,
+      "date": "2023-12-22",
+      "price": 163700,
+      "price_toman": 163700,
+      "price_irr": 1637000
+    },
+    {
+      "timestamp": 1703277000,
+      "date": "2023-12-23",
+      "price": 164250,
+      "price_toman": 164250,
+      "price_irr": 1642500
+    },
+    {
+      "timestamp": 1703363400,
+      "date": "2023-12-24",
+      "price": 163500,
+      "price_toman": 163500,
+      "price_irr": 1635000
+    },
+    {
+      "timestamp": 1703449800,
+      "date": "2023-12-25",
+      "price": 164000,
+      "price_toman": 164000,
+      "price_irr": 1640000
+    },
+    {
+      "timestamp": 1703536200,
+      "date": "2023-12-26",
+      "price": 163800,
+      "price_toman": 163800,
+      "price_irr": 1638000
+    },
+    {
+      "timestamp": 1703622600,
+      "date": "2023-12-27",
+      "price": 164150,
+      "price_toman": 164150,
+      "price_irr": 1641500
+    },
+    {
+      "timestamp": 1703709000,
+      "date": "2023-12-28",
+      "price": 164250,
+      "price_toman": 164250,
+      "price_irr": 1642500
+    },
+    {
+      "timestamp": 1703795400,
+      "date": "2023-12-29",
+      "price": 164850,
+      "price_toman": 164850,
+      "price_irr": 1648500
+    },
+    {
+      "timestamp": 1703881800,
+      "date": "2023-12-30",
+      "price": 165750,
+      "price_toman": 165750,
+      "price_irr": 1657500
+    },
+    {
+      "timestamp": 1703968200,
+      "date": "2023-12-31",
+      "price": 165550,
+      "price_toman": 165550,
+      "price_irr": 1655500
+    },
+    {
+      "timestamp": 1704054600,
+      "date": "2024-01-01",
+      "price": 165500,
+      "price_toman": 165500,
+      "price_irr": 1655000
+    },
+    {
+      "timestamp": 1704141000,
+      "date": "2024-01-02",
+      "price": 165600,
+      "price_toman": 165600,
+      "price_irr": 1656000
+    },
+    {
+      "timestamp": 1704227400,
+      "date": "2024-01-03",
+      "price": 166100,
+      "price_toman": 166100,
+      "price_irr": 1661000
+    },
+    {
+      "timestamp": 1704313800,
+      "date": "2024-01-04",
+      "price": 167750,
+      "price_toman": 167750,
+      "price_irr": 1677500
+    },
+    {
+      "timestamp": 1704400200,
+      "date": "2024-01-05",
+      "price": 167450,
+      "price_toman": 167450,
+      "price_irr": 1674500
+    },
+    {
+      "timestamp": 1704486600,
+      "date": "2024-01-06",
+      "price": 166850,
+      "price_toman": 166850,
+      "price_irr": 1668500
+    },
+    {
+      "timestamp": 1704573000,
+      "date": "2024-01-07",
+      "price": 166800,
+      "price_toman": 166800,
+      "price_irr": 1668000
+    },
+    {
+      "timestamp": 1704659400,
+      "date": "2024-01-08",
+      "price": 166900,
+      "price_toman": 166900,
+      "price_irr": 1669000
+    },
+    {
+      "timestamp": 1704745800,
+      "date": "2024-01-09",
+      "price": 168450,
+      "price_toman": 168450,
+      "price_irr": 1684500
+    },
+    {
+      "timestamp": 1704832200,
+      "date": "2024-01-10",
+      "price": 169950,
+      "price_toman": 169950,
+      "price_irr": 1699500
+    },
+    {
+      "timestamp": 1704918600,
+      "date": "2024-01-11",
+      "price": 168500,
+      "price_toman": 168500,
+      "price_irr": 1685000
+    },
+    {
+      "timestamp": 1705005000,
+      "date": "2024-01-12",
+      "price": 170050,
+      "price_toman": 170050,
+      "price_irr": 1700500
+    },
+    {
+      "timestamp": 1705091400,
+      "date": "2024-01-13",
+      "price": 171600,
+      "price_toman": 171600,
+      "price_irr": 1716000
+    },
+    {
+      "timestamp": 1705177800,
+      "date": "2024-01-14",
+      "price": 170700,
+      "price_toman": 170700,
+      "price_irr": 1707000
+    },
+    {
+      "timestamp": 1705264200,
+      "date": "2024-01-15",
+      "price": 171950,
+      "price_toman": 171950,
+      "price_irr": 1719500
+    },
+    {
+      "timestamp": 1705350600,
+      "date": "2024-01-16",
+      "price": 173200,
+      "price_toman": 173200,
+      "price_irr": 1732000
+    },
+    {
+      "timestamp": 1705437000,
+      "date": "2024-01-17",
+      "price": 175400,
+      "price_toman": 175400,
+      "price_irr": 1754000
+    },
+    {
+      "timestamp": 1705523400,
+      "date": "2024-01-18",
+      "price": 176750,
+      "price_toman": 176750,
+      "price_irr": 1767500
+    },
+    {
+      "timestamp": 1705609800,
+      "date": "2024-01-19",
+      "price": 175900,
+      "price_toman": 175900,
+      "price_irr": 1759000
+    },
+    {
+      "timestamp": 1705696200,
+      "date": "2024-01-20",
+      "price": 177400,
+      "price_toman": 177400,
+      "price_irr": 1774000
+    },
+    {
+      "timestamp": 1705782600,
+      "date": "2024-01-21",
+      "price": 176150,
+      "price_toman": 176150,
+      "price_irr": 1761500
+    },
+    {
+      "timestamp": 1705869000,
+      "date": "2024-01-22",
+      "price": 176600,
+      "price_toman": 176600,
+      "price_irr": 1766000
+    },
+    {
+      "timestamp": 1705955400,
+      "date": "2024-01-23",
+      "price": 179300,
+      "price_toman": 179300,
+      "price_irr": 1793000
+    },
+    {
+      "timestamp": 1706041800,
+      "date": "2024-01-24",
+      "price": 181300,
+      "price_toman": 181300,
+      "price_irr": 1813000
+    },
+    {
+      "timestamp": 1706128200,
+      "date": "2024-01-25",
+      "price": 180150,
+      "price_toman": 180150,
+      "price_irr": 1801500
+    },
+    {
+      "timestamp": 1706214600,
+      "date": "2024-01-26",
+      "price": 180900,
+      "price_toman": 180900,
+      "price_irr": 1809000
+    },
+    {
+      "timestamp": 1706301000,
+      "date": "2024-01-27",
+      "price": 182950,
+      "price_toman": 182950,
+      "price_irr": 1829500
+    },
+    {
+      "timestamp": 1706387400,
+      "date": "2024-01-28",
+      "price": 183650,
+      "price_toman": 183650,
+      "price_irr": 1836500
+    },
+    {
+      "timestamp": 1706473800,
+      "date": "2024-01-29",
+      "price": 190300,
+      "price_toman": 190300,
+      "price_irr": 1903000
+    },
+    {
+      "timestamp": 1706560200,
+      "date": "2024-01-30",
+      "price": 191350,
+      "price_toman": 191350,
+      "price_irr": 1913500
+    },
+    {
+      "timestamp": 1706646600,
+      "date": "2024-01-31",
+      "price": 191250,
+      "price_toman": 191250,
+      "price_irr": 1912500
+    },
+    {
+      "timestamp": 1706733000,
+      "date": "2024-02-01",
+      "price": 191050,
+      "price_toman": 191050,
+      "price_irr": 1910500
+    },
+    {
+      "timestamp": 1706819400,
+      "date": "2024-02-02",
+      "price": 189850,
+      "price_toman": 189850,
+      "price_irr": 1898500
+    },
+    {
+      "timestamp": 1706905800,
+      "date": "2024-02-03",
+      "price": 184350,
+      "price_toman": 184350,
+      "price_irr": 1843500
+    },
+    {
+      "timestamp": 1706992200,
+      "date": "2024-02-04",
+      "price": 180050,
+      "price_toman": 180050,
+      "price_irr": 1800500
+    },
+    {
+      "timestamp": 1707078600,
+      "date": "2024-02-05",
+      "price": 180600,
+      "price_toman": 180600,
+      "price_irr": 1806000
+    },
+    {
+      "timestamp": 1707165000,
+      "date": "2024-02-06",
+      "price": 180100,
+      "price_toman": 180100,
+      "price_irr": 1801000
+    },
+    {
+      "timestamp": 1707251400,
+      "date": "2024-02-07",
+      "price": 182150,
+      "price_toman": 182150,
+      "price_irr": 1821500
+    },
+    {
+      "timestamp": 1707337800,
+      "date": "2024-02-08",
+      "price": 181500,
+      "price_toman": 181500,
+      "price_irr": 1815000
+    },
+    {
+      "timestamp": 1707424200,
+      "date": "2024-02-09",
+      "price": 180150,
+      "price_toman": 180150,
+      "price_irr": 1801500
+    },
+    {
+      "timestamp": 1707510600,
+      "date": "2024-02-10",
+      "price": 179150,
+      "price_toman": 179150,
+      "price_irr": 1791500
+    },
+    {
+      "timestamp": 1707597000,
+      "date": "2024-02-11",
+      "price": 179750,
+      "price_toman": 179750,
+      "price_irr": 1797500
+    },
+    {
+      "timestamp": 1707683400,
+      "date": "2024-02-12",
+      "price": 179750,
+      "price_toman": 179750,
+      "price_irr": 1797500
+    },
+    {
+      "timestamp": 1707769800,
+      "date": "2024-02-13",
+      "price": 181000,
+      "price_toman": 181000,
+      "price_irr": 1810000
+    },
+    {
+      "timestamp": 1707856200,
+      "date": "2024-02-14",
+      "price": 181050,
+      "price_toman": 181050,
+      "price_irr": 1810500
+    },
+    {
+      "timestamp": 1707942600,
+      "date": "2024-02-15",
+      "price": 182450,
+      "price_toman": 182450,
+      "price_irr": 1824500
+    },
+    {
+      "timestamp": 1708029000,
+      "date": "2024-02-16",
+      "price": 182450,
+      "price_toman": 182450,
+      "price_irr": 1824500
+    },
+    {
+      "timestamp": 1708115400,
+      "date": "2024-02-17",
+      "price": 184250,
+      "price_toman": 184250,
+      "price_irr": 1842500
+    },
+    {
+      "timestamp": 1708201800,
+      "date": "2024-02-18",
+      "price": 185800,
+      "price_toman": 185800,
+      "price_irr": 1858000
+    },
+    {
+      "timestamp": 1708288200,
+      "date": "2024-02-19",
+      "price": 185750,
+      "price_toman": 185750,
+      "price_irr": 1857500
+    },
+    {
+      "timestamp": 1708374600,
+      "date": "2024-02-20",
+      "price": 184250,
+      "price_toman": 184250,
+      "price_irr": 1842500
+    },
+    {
+      "timestamp": 1708461000,
+      "date": "2024-02-21",
+      "price": 185900,
+      "price_toman": 185900,
+      "price_irr": 1859000
+    },
+    {
+      "timestamp": 1708547400,
+      "date": "2024-02-22",
+      "price": 186500,
+      "price_toman": 186500,
+      "price_irr": 1865000
+    },
+    {
+      "timestamp": 1708633800,
+      "date": "2024-02-23",
+      "price": 186500,
+      "price_toman": 186500,
+      "price_irr": 1865000
+    },
+    {
+      "timestamp": 1708720200,
+      "date": "2024-02-24",
+      "price": 186650,
+      "price_toman": 186650,
+      "price_irr": 1866500
+    },
+    {
+      "timestamp": 1708806600,
+      "date": "2024-02-25",
+      "price": 187450,
+      "price_toman": 187450,
+      "price_irr": 1874500
+    },
+    {
+      "timestamp": 1708893000,
+      "date": "2024-02-26",
+      "price": 189300,
+      "price_toman": 189300,
+      "price_irr": 1893000
+    },
+    {
+      "timestamp": 1708979400,
+      "date": "2024-02-27",
+      "price": 191150,
+      "price_toman": 191150,
+      "price_irr": 1911500
+    },
+    {
+      "timestamp": 1709065800,
+      "date": "2024-02-28",
+      "price": 189750,
+      "price_toman": 189750,
+      "price_irr": 1897500
+    },
+    {
+      "timestamp": 1709152200,
+      "date": "2024-02-29",
+      "price": 190800,
+      "price_toman": 190800,
+      "price_irr": 1908000
+    },
+    {
+      "timestamp": 1709238600,
+      "date": "2024-03-01",
+      "price": 193150,
+      "price_toman": 193150,
+      "price_irr": 1931500
+    },
+    {
+      "timestamp": 1709325000,
+      "date": "2024-03-02",
+      "price": 193350,
+      "price_toman": 193350,
+      "price_irr": 1933500
+    },
+    {
+      "timestamp": 1709411400,
+      "date": "2024-03-03",
+      "price": 194250,
+      "price_toman": 194250,
+      "price_irr": 1942500
+    },
+    {
+      "timestamp": 1709497800,
+      "date": "2024-03-04",
+      "price": 196550,
+      "price_toman": 196550,
+      "price_irr": 1965500
+    },
+    {
+      "timestamp": 1709584200,
+      "date": "2024-03-05",
+      "price": 198150,
+      "price_toman": 198150,
+      "price_irr": 1981500
+    },
+    {
+      "timestamp": 1709670600,
+      "date": "2024-03-06",
+      "price": 196800,
+      "price_toman": 196800,
+      "price_irr": 1968000
+    },
+    {
+      "timestamp": 1709757000,
+      "date": "2024-03-07",
+      "price": 198150,
+      "price_toman": 198150,
+      "price_irr": 1981500
+    },
+    {
+      "timestamp": 1709843400,
+      "date": "2024-03-08",
+      "price": 198250,
+      "price_toman": 198250,
+      "price_irr": 1982500
+    },
+    {
+      "timestamp": 1709929800,
+      "date": "2024-03-09",
+      "price": 196250,
+      "price_toman": 196250,
+      "price_irr": 1962500
+    },
+    {
+      "timestamp": 1710016200,
+      "date": "2024-03-10",
+      "price": 193500,
+      "price_toman": 193500,
+      "price_irr": 1935000
+    },
+    {
+      "timestamp": 1710102600,
+      "date": "2024-03-11",
+      "price": 195050,
+      "price_toman": 195050,
+      "price_irr": 1950500
+    },
+    {
+      "timestamp": 1710189000,
+      "date": "2024-03-12",
+      "price": 194400,
+      "price_toman": 194400,
+      "price_irr": 1944000
+    },
+    {
+      "timestamp": 1710275400,
+      "date": "2024-03-13",
+      "price": 194050,
+      "price_toman": 194050,
+      "price_irr": 1940500
+    },
+    {
+      "timestamp": 1710361800,
+      "date": "2024-03-14",
+      "price": 193350,
+      "price_toman": 193350,
+      "price_irr": 1933500
+    },
+    {
+      "timestamp": 1710448200,
+      "date": "2024-03-15",
+      "price": 193500,
+      "price_toman": 193500,
+      "price_irr": 1935000
+    },
+    {
+      "timestamp": 1710534600,
+      "date": "2024-03-16",
+      "price": 195350,
+      "price_toman": 195350,
+      "price_irr": 1953500
+    },
+    {
+      "timestamp": 1710621000,
+      "date": "2024-03-17",
+      "price": 195450,
+      "price_toman": 195450,
+      "price_irr": 1954500
+    },
+    {
+      "timestamp": 1710707400,
+      "date": "2024-03-18",
+      "price": 195400,
+      "price_toman": 195400,
+      "price_irr": 1954000
+    },
+    {
+      "timestamp": 1710793800,
+      "date": "2024-03-19",
+      "price": 195300,
+      "price_toman": 195300,
+      "price_irr": 1953000
+    },
+    {
+      "timestamp": 1710880200,
+      "date": "2024-03-20",
+      "price": 195300,
+      "price_toman": 195300,
+      "price_irr": 1953000
+    },
+    {
+      "timestamp": 1710966600,
+      "date": "2024-03-21",
+      "price": 195350,
+      "price_toman": 195350,
+      "price_irr": 1953500
+    },
+    {
+      "timestamp": 1711053000,
+      "date": "2024-03-22",
+      "price": 198250,
+      "price_toman": 198250,
+      "price_irr": 1982500
+    },
+    {
+      "timestamp": 1711139400,
+      "date": "2024-03-23",
+      "price": 198300,
+      "price_toman": 198300,
+      "price_irr": 1983000
+    },
+    {
+      "timestamp": 1711225800,
+      "date": "2024-03-24",
+      "price": 200950,
+      "price_toman": 200950,
+      "price_irr": 2009500
+    },
+    {
+      "timestamp": 1711312200,
+      "date": "2024-03-25",
+      "price": 198900,
+      "price_toman": 198900,
+      "price_irr": 1989000
+    },
+    {
+      "timestamp": 1711398600,
+      "date": "2024-03-26",
+      "price": 197650,
+      "price_toman": 197650,
+      "price_irr": 1976500
+    },
+    {
+      "timestamp": 1711485000,
+      "date": "2024-03-27",
+      "price": 199350,
+      "price_toman": 199350,
+      "price_irr": 1993500
+    },
+    {
+      "timestamp": 1711571400,
+      "date": "2024-03-28",
+      "price": 200450,
+      "price_toman": 200450,
+      "price_irr": 2004500
+    },
+    {
+      "timestamp": 1711657800,
+      "date": "2024-03-29",
+      "price": 200500,
+      "price_toman": 200500,
+      "price_irr": 2005000
+    },
+    {
+      "timestamp": 1711744200,
+      "date": "2024-03-30",
+      "price": 200500,
+      "price_toman": 200500,
+      "price_irr": 2005000
+    },
+    {
+      "timestamp": 1711830600,
+      "date": "2024-03-31",
+      "price": 200550,
+      "price_toman": 200550,
+      "price_irr": 2005500
+    },
+    {
+      "timestamp": 1711917000,
+      "date": "2024-04-01",
+      "price": 200400,
+      "price_toman": 200400,
+      "price_irr": 2004000
+    },
+    {
+      "timestamp": 1712003400,
+      "date": "2024-04-02",
+      "price": 200400,
+      "price_toman": 200400,
+      "price_irr": 2004000
+    },
+    {
+      "timestamp": 1712089800,
+      "date": "2024-04-03",
+      "price": 206850,
+      "price_toman": 206850,
+      "price_irr": 2068500
+    },
+    {
+      "timestamp": 1712176200,
+      "date": "2024-04-04",
+      "price": 209400,
+      "price_toman": 209400,
+      "price_irr": 2094000
+    },
+    {
+      "timestamp": 1712262600,
+      "date": "2024-04-05",
+      "price": 209100,
+      "price_toman": 209100,
+      "price_irr": 2091000
+    },
+    {
+      "timestamp": 1712349000,
+      "date": "2024-04-06",
+      "price": 213150,
+      "price_toman": 213150,
+      "price_irr": 2131500
+    },
+    {
+      "timestamp": 1712435400,
+      "date": "2024-04-07",
+      "price": 208550,
+      "price_toman": 208550,
+      "price_irr": 2085500
+    },
+    {
+      "timestamp": 1712521800,
+      "date": "2024-04-08",
+      "price": 206500,
+      "price_toman": 206500,
+      "price_irr": 2065000
+    },
+    {
+      "timestamp": 1712608200,
+      "date": "2024-04-09",
+      "price": 208400,
+      "price_toman": 208400,
+      "price_irr": 2084000
+    },
+    {
+      "timestamp": 1712694600,
+      "date": "2024-04-10",
+      "price": 210950,
+      "price_toman": 210950,
+      "price_irr": 2109500
+    },
+    {
+      "timestamp": 1712781000,
+      "date": "2024-04-11",
+      "price": 209500,
+      "price_toman": 209500,
+      "price_irr": 2095000
+    },
+    {
+      "timestamp": 1712867400,
+      "date": "2024-04-12",
+      "price": 209350,
+      "price_toman": 209350,
+      "price_irr": 2093500
+    },
+    {
+      "timestamp": 1712953800,
+      "date": "2024-04-13",
+      "price": 215700,
+      "price_toman": 215700,
+      "price_irr": 2157000
+    },
+    {
+      "timestamp": 1713040200,
+      "date": "2024-04-14",
+      "price": 219650,
+      "price_toman": 219650,
+      "price_irr": 2196500
+    },
+    {
+      "timestamp": 1713126600,
+      "date": "2024-04-15",
+      "price": 216950,
+      "price_toman": 216950,
+      "price_irr": 2169500
+    },
+    {
+      "timestamp": 1713213000,
+      "date": "2024-04-16",
+      "price": 213500,
+      "price_toman": 213500,
+      "price_irr": 2135000
+    },
+    {
+      "timestamp": 1713299400,
+      "date": "2024-04-17",
+      "price": 215700,
+      "price_toman": 215700,
+      "price_irr": 2157000
+    },
+    {
+      "timestamp": 1713385800,
+      "date": "2024-04-18",
+      "price": 217000,
+      "price_toman": 217000,
+      "price_irr": 2170000
+    },
+    {
+      "timestamp": 1713472200,
+      "date": "2024-04-19",
+      "price": 215350,
+      "price_toman": 215350,
+      "price_irr": 2153500
+    },
+    {
+      "timestamp": 1713558600,
+      "date": "2024-04-20",
+      "price": 211500,
+      "price_toman": 211500,
+      "price_irr": 2115000
+    },
+    {
+      "timestamp": 1713645000,
+      "date": "2024-04-21",
+      "price": 210800,
+      "price_toman": 210800,
+      "price_irr": 2108000
+    },
+    {
+      "timestamp": 1713731400,
+      "date": "2024-04-22",
+      "price": 211550,
+      "price_toman": 211550,
+      "price_irr": 2115500
+    },
+    {
+      "timestamp": 1713817800,
+      "date": "2024-04-23",
+      "price": 210500,
+      "price_toman": 210500,
+      "price_irr": 2105000
+    },
+    {
+      "timestamp": 1713904200,
+      "date": "2024-04-24",
+      "price": 208250,
+      "price_toman": 208250,
+      "price_irr": 2082500
+    },
+    {
+      "timestamp": 1713990600,
+      "date": "2024-04-25",
+      "price": 206100,
+      "price_toman": 206100,
+      "price_irr": 2061000
+    },
+    {
+      "timestamp": 1714077000,
+      "date": "2024-04-26",
+      "price": 205350,
+      "price_toman": 205350,
+      "price_irr": 2053500
+    },
+    {
+      "timestamp": 1714163400,
+      "date": "2024-04-27",
+      "price": 200350,
+      "price_toman": 200350,
+      "price_irr": 2003500
+    },
+    {
+      "timestamp": 1714249800,
+      "date": "2024-04-28",
+      "price": 197100,
+      "price_toman": 197100,
+      "price_irr": 1971000
+    },
+    {
+      "timestamp": 1714336200,
+      "date": "2024-04-29",
+      "price": 199300,
+      "price_toman": 199300,
+      "price_irr": 1993000
+    },
+    {
+      "timestamp": 1714422600,
+      "date": "2024-04-30",
+      "price": 201850,
+      "price_toman": 201850,
+      "price_irr": 2018500
+    },
+    {
+      "timestamp": 1714509000,
+      "date": "2024-05-01",
+      "price": 199350,
+      "price_toman": 199350,
+      "price_irr": 1993500
+    },
+    {
+      "timestamp": 1714595400,
+      "date": "2024-05-02",
+      "price": 198550,
+      "price_toman": 198550,
+      "price_irr": 1985500
+    },
+    {
+      "timestamp": 1714681800,
+      "date": "2024-05-03",
+      "price": 197600,
+      "price_toman": 197600,
+      "price_irr": 1976000
+    },
+    {
+      "timestamp": 1714768200,
+      "date": "2024-05-04",
+      "price": 197750,
+      "price_toman": 197750,
+      "price_irr": 1977500
+    },
+    {
+      "timestamp": 1714854600,
+      "date": "2024-05-05",
+      "price": 195700,
+      "price_toman": 195700,
+      "price_irr": 1957000
+    },
+    {
+      "timestamp": 1714941000,
+      "date": "2024-05-06",
+      "price": 199100,
+      "price_toman": 199100,
+      "price_irr": 1991000
+    },
+    {
+      "timestamp": 1715027400,
+      "date": "2024-05-07",
+      "price": 200050,
+      "price_toman": 200050,
+      "price_irr": 2000500
+    },
+    {
+      "timestamp": 1715113800,
+      "date": "2024-05-08",
+      "price": 199500,
+      "price_toman": 199500,
+      "price_irr": 1995000
+    },
+    {
+      "timestamp": 1715200200,
+      "date": "2024-05-09",
+      "price": 199700,
+      "price_toman": 199700,
+      "price_irr": 1997000
+    },
+    {
+      "timestamp": 1715286600,
+      "date": "2024-05-10",
+      "price": 199350,
+      "price_toman": 199350,
+      "price_irr": 1993500
+    },
+    {
+      "timestamp": 1715373000,
+      "date": "2024-05-11",
+      "price": 198050,
+      "price_toman": 198050,
+      "price_irr": 1980500
+    },
+    {
+      "timestamp": 1715459400,
+      "date": "2024-05-12",
+      "price": 196350,
+      "price_toman": 196350,
+      "price_irr": 1963500
+    },
+    {
+      "timestamp": 1715545800,
+      "date": "2024-05-13",
+      "price": 194250,
+      "price_toman": 194250,
+      "price_irr": 1942500
+    },
+    {
+      "timestamp": 1715632200,
+      "date": "2024-05-14",
+      "price": 193200,
+      "price_toman": 193200,
+      "price_irr": 1932000
+    },
+    {
+      "timestamp": 1715718600,
+      "date": "2024-05-15",
+      "price": 191350,
+      "price_toman": 191350,
+      "price_irr": 1913500
+    },
+    {
+      "timestamp": 1715805000,
+      "date": "2024-05-16",
+      "price": 190000,
+      "price_toman": 190000,
+      "price_irr": 1900000
+    },
+    {
+      "timestamp": 1715891400,
+      "date": "2024-05-17",
+      "price": 189900,
+      "price_toman": 189900,
+      "price_irr": 1899000
+    },
+    {
+      "timestamp": 1715977800,
+      "date": "2024-05-18",
+      "price": 185050,
+      "price_toman": 185050,
+      "price_irr": 1850500
+    },
+    {
+      "timestamp": 1716064200,
+      "date": "2024-05-19",
+      "price": 195300,
+      "price_toman": 195300,
+      "price_irr": 1953000
+    },
+    {
+      "timestamp": 1716150600,
+      "date": "2024-05-20",
+      "price": 187050,
+      "price_toman": 187050,
+      "price_irr": 1870500
+    },
+    {
+      "timestamp": 1716237000,
+      "date": "2024-05-21",
+      "price": 188050,
+      "price_toman": 188050,
+      "price_irr": 1880500
+    },
+    {
+      "timestamp": 1716323400,
+      "date": "2024-05-22",
+      "price": 186650,
+      "price_toman": 186650,
+      "price_irr": 1866500
+    },
+    {
+      "timestamp": 1716409800,
+      "date": "2024-05-23",
+      "price": 189550,
+      "price_toman": 189550,
+      "price_irr": 1895500
+    },
+    {
+      "timestamp": 1716496200,
+      "date": "2024-05-24",
+      "price": 188450,
+      "price_toman": 188450,
+      "price_irr": 1884500
+    },
+    {
+      "timestamp": 1716582600,
+      "date": "2024-05-25",
+      "price": 186800,
+      "price_toman": 186800,
+      "price_irr": 1868000
+    },
+    {
+      "timestamp": 1716669000,
+      "date": "2024-05-26",
+      "price": 187550,
+      "price_toman": 187550,
+      "price_irr": 1875500
+    },
+    {
+      "timestamp": 1716755400,
+      "date": "2024-05-27",
+      "price": 190300,
+      "price_toman": 190300,
+      "price_irr": 1903000
+    },
+    {
+      "timestamp": 1716841800,
+      "date": "2024-05-28",
+      "price": 191050,
+      "price_toman": 191050,
+      "price_irr": 1910500
+    },
+    {
+      "timestamp": 1716928200,
+      "date": "2024-05-29",
+      "price": 189500,
+      "price_toman": 189500,
+      "price_irr": 1895000
+    },
+    {
+      "timestamp": 1717014600,
+      "date": "2024-05-30",
+      "price": 192600,
+      "price_toman": 192600,
+      "price_irr": 1926000
+    },
+    {
+      "timestamp": 1717101000,
+      "date": "2024-05-31",
+      "price": 192100,
+      "price_toman": 192100,
+      "price_irr": 1921000
+    },
+    {
+      "timestamp": 1717187400,
+      "date": "2024-06-01",
+      "price": 191450,
+      "price_toman": 191450,
+      "price_irr": 1914500
+    },
+    {
+      "timestamp": 1717273800,
+      "date": "2024-06-02",
+      "price": 194300,
+      "price_toman": 194300,
+      "price_irr": 1943000
+    },
+    {
+      "timestamp": 1717360200,
+      "date": "2024-06-03",
+      "price": 192100,
+      "price_toman": 192100,
+      "price_irr": 1921000
+    },
+    {
+      "timestamp": 1717446600,
+      "date": "2024-06-04",
+      "price": 191300,
+      "price_toman": 191300,
+      "price_irr": 1913000
+    },
+    {
+      "timestamp": 1717533000,
+      "date": "2024-06-05",
+      "price": 191900,
+      "price_toman": 191900,
+      "price_irr": 1919000
+    },
+    {
+      "timestamp": 1717619400,
+      "date": "2024-06-06",
+      "price": 191450,
+      "price_toman": 191450,
+      "price_irr": 1914500
+    },
+    {
+      "timestamp": 1717705800,
+      "date": "2024-06-07",
+      "price": 191350,
+      "price_toman": 191350,
+      "price_irr": 1913500
+    },
+    {
+      "timestamp": 1717792200,
+      "date": "2024-06-08",
+      "price": 193150,
+      "price_toman": 193150,
+      "price_irr": 1931500
+    },
+    {
+      "timestamp": 1717878600,
+      "date": "2024-06-09",
+      "price": 192200,
+      "price_toman": 192200,
+      "price_irr": 1922000
+    },
+    {
+      "timestamp": 1717965000,
+      "date": "2024-06-10",
+      "price": 192050,
+      "price_toman": 192050,
+      "price_irr": 1920500
+    },
+    {
+      "timestamp": 1718051400,
+      "date": "2024-06-11",
+      "price": 192350,
+      "price_toman": 192350,
+      "price_irr": 1923500
+    },
+    {
+      "timestamp": 1718137800,
+      "date": "2024-06-12",
+      "price": 192000,
+      "price_toman": 192000,
+      "price_irr": 1920000
+    },
+    {
+      "timestamp": 1718224200,
+      "date": "2024-06-13",
+      "price": 192700,
+      "price_toman": 192700,
+      "price_irr": 1927000
+    },
+    {
+      "timestamp": 1718310600,
+      "date": "2024-06-14",
+      "price": 192350,
+      "price_toman": 192350,
+      "price_irr": 1923500
+    },
+    {
+      "timestamp": 1718397000,
+      "date": "2024-06-15",
+      "price": 191700,
+      "price_toman": 191700,
+      "price_irr": 1917000
+    },
+    {
+      "timestamp": 1718483400,
+      "date": "2024-06-16",
+      "price": 192050,
+      "price_toman": 192050,
+      "price_irr": 1920500
+    },
+    {
+      "timestamp": 1718569800,
+      "date": "2024-06-17",
+      "price": 193300,
+      "price_toman": 193300,
+      "price_irr": 1933000
+    },
+    {
+      "timestamp": 1718656200,
+      "date": "2024-06-18",
+      "price": 193650,
+      "price_toman": 193650,
+      "price_irr": 1936500
+    },
+    {
+      "timestamp": 1718742600,
+      "date": "2024-06-19",
+      "price": 193200,
+      "price_toman": 193200,
+      "price_irr": 1932000
+    },
+    {
+      "timestamp": 1718829000,
+      "date": "2024-06-20",
+      "price": 193700,
+      "price_toman": 193700,
+      "price_irr": 1937000
+    },
+    {
+      "timestamp": 1718915400,
+      "date": "2024-06-21",
+      "price": 193600,
+      "price_toman": 193600,
+      "price_irr": 1936000
+    },
+    {
+      "timestamp": 1719001800,
+      "date": "2024-06-22",
+      "price": 193450,
+      "price_toman": 193450,
+      "price_irr": 1934500
+    },
+    {
+      "timestamp": 1719088200,
+      "date": "2024-06-23",
+      "price": 195750,
+      "price_toman": 195750,
+      "price_irr": 1957500
+    },
+    {
+      "timestamp": 1719174600,
+      "date": "2024-06-24",
+      "price": 199200,
+      "price_toman": 199200,
+      "price_irr": 1992000
+    },
+    {
+      "timestamp": 1719261000,
+      "date": "2024-06-25",
+      "price": 198650,
+      "price_toman": 198650,
+      "price_irr": 1986500
+    },
+    {
+      "timestamp": 1719347400,
+      "date": "2024-06-26",
+      "price": 197950,
+      "price_toman": 197950,
+      "price_irr": 1979500
+    },
+    {
+      "timestamp": 1719433800,
+      "date": "2024-06-27",
+      "price": 199400,
+      "price_toman": 199400,
+      "price_irr": 1994000
+    },
+    {
+      "timestamp": 1719520200,
+      "date": "2024-06-28",
+      "price": 199550,
+      "price_toman": 199550,
+      "price_irr": 1995500
+    },
+    {
+      "timestamp": 1719606600,
+      "date": "2024-06-29",
+      "price": 201500,
+      "price_toman": 201500,
+      "price_irr": 2015000
+    },
+    {
+      "timestamp": 1719693000,
+      "date": "2024-06-30",
+      "price": 202200,
+      "price_toman": 202200,
+      "price_irr": 2022000
+    },
+    {
+      "timestamp": 1719779400,
+      "date": "2024-07-01",
+      "price": 201750,
+      "price_toman": 201750,
+      "price_irr": 2017500
+    },
+    {
+      "timestamp": 1719865800,
+      "date": "2024-07-02",
+      "price": 199800,
+      "price_toman": 199800,
+      "price_irr": 1998000
+    },
+    {
+      "timestamp": 1719952200,
+      "date": "2024-07-03",
+      "price": 198450,
+      "price_toman": 198450,
+      "price_irr": 1984500
+    },
+    {
+      "timestamp": 1720038600,
+      "date": "2024-07-04",
+      "price": 200750,
+      "price_toman": 200750,
+      "price_irr": 2007500
+    },
+    {
+      "timestamp": 1720125000,
+      "date": "2024-07-05",
+      "price": 200850,
+      "price_toman": 200850,
+      "price_irr": 2008500
+    },
+    {
+      "timestamp": 1720211400,
+      "date": "2024-07-06",
+      "price": 196750,
+      "price_toman": 196750,
+      "price_irr": 1967500
+    },
+    {
+      "timestamp": 1720297800,
+      "date": "2024-07-07",
+      "price": 196250,
+      "price_toman": 196250,
+      "price_irr": 1962500
+    },
+    {
+      "timestamp": 1720384200,
+      "date": "2024-07-08",
+      "price": 195100,
+      "price_toman": 195100,
+      "price_irr": 1951000
+    },
+    {
+      "timestamp": 1720470600,
+      "date": "2024-07-09",
+      "price": 192950,
+      "price_toman": 192950,
+      "price_irr": 1929500
+    },
+    {
+      "timestamp": 1720557000,
+      "date": "2024-07-10",
+      "price": 191100,
+      "price_toman": 191100,
+      "price_irr": 1911000
+    },
+    {
+      "timestamp": 1720643400,
+      "date": "2024-07-11",
+      "price": 190500,
+      "price_toman": 190500,
+      "price_irr": 1905000
+    },
+    {
+      "timestamp": 1720729800,
+      "date": "2024-07-12",
+      "price": 189900,
+      "price_toman": 189900,
+      "price_irr": 1899000
+    },
+    {
+      "timestamp": 1720816200,
+      "date": "2024-07-13",
+      "price": 190050,
+      "price_toman": 190050,
+      "price_irr": 1900500
+    },
+    {
+      "timestamp": 1720902600,
+      "date": "2024-07-14",
+      "price": 189900,
+      "price_toman": 189900,
+      "price_irr": 1899000
+    },
+    {
+      "timestamp": 1720989000,
+      "date": "2024-07-15",
+      "price": 190750,
+      "price_toman": 190750,
+      "price_irr": 1907500
+    },
+    {
+      "timestamp": 1721075400,
+      "date": "2024-07-16",
+      "price": 190700,
+      "price_toman": 190700,
+      "price_irr": 1907000
+    },
+    {
+      "timestamp": 1721161800,
+      "date": "2024-07-17",
+      "price": 188050,
+      "price_toman": 188050,
+      "price_irr": 1880500
+    },
+    {
+      "timestamp": 1721248200,
+      "date": "2024-07-18",
+      "price": 187250,
+      "price_toman": 187250,
+      "price_irr": 1872500
+    },
+    {
+      "timestamp": 1721334600,
+      "date": "2024-07-19",
+      "price": 187200,
+      "price_toman": 187200,
+      "price_irr": 1872000
+    },
+    {
+      "timestamp": 1721421000,
+      "date": "2024-07-20",
+      "price": 189200,
+      "price_toman": 189200,
+      "price_irr": 1892000
+    },
+    {
+      "timestamp": 1721507400,
+      "date": "2024-07-21",
+      "price": 188250,
+      "price_toman": 188250,
+      "price_irr": 1882500
+    },
+    {
+      "timestamp": 1721593800,
+      "date": "2024-07-22",
+      "price": 188550,
+      "price_toman": 188550,
+      "price_irr": 1885500
+    },
+    {
+      "timestamp": 1721680200,
+      "date": "2024-07-23",
+      "price": 190550,
+      "price_toman": 190550,
+      "price_irr": 1905500
+    },
+    {
+      "timestamp": 1721766600,
+      "date": "2024-07-24",
+      "price": 190950,
+      "price_toman": 190950,
+      "price_irr": 1909500
+    },
+    {
+      "timestamp": 1721853000,
+      "date": "2024-07-25",
+      "price": 192350,
+      "price_toman": 192350,
+      "price_irr": 1923500
+    },
+    {
+      "timestamp": 1721939400,
+      "date": "2024-07-26",
+      "price": 191950,
+      "price_toman": 191950,
+      "price_irr": 1919500
+    },
+    {
+      "timestamp": 1722025800,
+      "date": "2024-07-27",
+      "price": 191800,
+      "price_toman": 191800,
+      "price_irr": 1918000
+    },
+    {
+      "timestamp": 1722112200,
+      "date": "2024-07-28",
+      "price": 193050,
+      "price_toman": 193050,
+      "price_irr": 1930500
+    },
+    {
+      "timestamp": 1722198600,
+      "date": "2024-07-29",
+      "price": 193650,
+      "price_toman": 193650,
+      "price_irr": 1936500
+    },
+    {
+      "timestamp": 1722285000,
+      "date": "2024-07-30",
+      "price": 195100,
+      "price_toman": 195100,
+      "price_irr": 1951000
+    },
+    {
+      "timestamp": 1722371400,
+      "date": "2024-07-31",
+      "price": 197200,
+      "price_toman": 197200,
+      "price_irr": 1972000
+    },
+    {
+      "timestamp": 1722457800,
+      "date": "2024-08-01",
+      "price": 199800,
+      "price_toman": 199800,
+      "price_irr": 1998000
+    },
+    {
+      "timestamp": 1722544200,
+      "date": "2024-08-02",
+      "price": 201950,
+      "price_toman": 201950,
+      "price_irr": 2019500
+    },
+    {
+      "timestamp": 1722630600,
+      "date": "2024-08-03",
+      "price": 202600,
+      "price_toman": 202600,
+      "price_irr": 2026000
+    },
+    {
+      "timestamp": 1722717000,
+      "date": "2024-08-04",
+      "price": 200300,
+      "price_toman": 200300,
+      "price_irr": 2003000
+    },
+    {
+      "timestamp": 1722803400,
+      "date": "2024-08-05",
+      "price": 198150,
+      "price_toman": 198150,
+      "price_irr": 1981500
+    },
+    {
+      "timestamp": 1722889800,
+      "date": "2024-08-06",
+      "price": 197650,
+      "price_toman": 197650,
+      "price_irr": 1976500
+    },
+    {
+      "timestamp": 1722976200,
+      "date": "2024-08-07",
+      "price": 201850,
+      "price_toman": 201850,
+      "price_irr": 2018500
+    },
+    {
+      "timestamp": 1723062600,
+      "date": "2024-08-08",
+      "price": 199850,
+      "price_toman": 199850,
+      "price_irr": 1998500
+    },
+    {
+      "timestamp": 1723149000,
+      "date": "2024-08-09",
+      "price": 198000,
+      "price_toman": 198000,
+      "price_irr": 1980000
+    },
+    {
+      "timestamp": 1723235400,
+      "date": "2024-08-10",
+      "price": 196050,
+      "price_toman": 196050,
+      "price_irr": 1960500
+    },
+    {
+      "timestamp": 1723321800,
+      "date": "2024-08-11",
+      "price": 194550,
+      "price_toman": 194550,
+      "price_irr": 1945500
+    },
+    {
+      "timestamp": 1723408200,
+      "date": "2024-08-12",
+      "price": 195950,
+      "price_toman": 195950,
+      "price_irr": 1959500
+    },
+    {
+      "timestamp": 1723494600,
+      "date": "2024-08-13",
+      "price": 194900,
+      "price_toman": 194900,
+      "price_irr": 1949000
+    },
+    {
+      "timestamp": 1723581000,
+      "date": "2024-08-14",
+      "price": 192650,
+      "price_toman": 192650,
+      "price_irr": 1926500
+    },
+    {
+      "timestamp": 1723667400,
+      "date": "2024-08-15",
+      "price": 192100,
+      "price_toman": 192100,
+      "price_irr": 1921000
+    },
+    {
+      "timestamp": 1723753800,
+      "date": "2024-08-16",
+      "price": 191200,
+      "price_toman": 191200,
+      "price_irr": 1912000
+    },
+    {
+      "timestamp": 1723840200,
+      "date": "2024-08-17",
+      "price": 188750,
+      "price_toman": 188750,
+      "price_irr": 1887500
+    },
+    {
+      "timestamp": 1723926600,
+      "date": "2024-08-18",
+      "price": 189750,
+      "price_toman": 189750,
+      "price_irr": 1897500
+    },
+    {
+      "timestamp": 1724013000,
+      "date": "2024-08-19",
+      "price": 193350,
+      "price_toman": 193350,
+      "price_irr": 1933500
+    },
+    {
+      "timestamp": 1724099400,
+      "date": "2024-08-20",
+      "price": 192800,
+      "price_toman": 192800,
+      "price_irr": 1928000
+    },
+    {
+      "timestamp": 1724185800,
+      "date": "2024-08-21",
+      "price": 192700,
+      "price_toman": 192700,
+      "price_irr": 1927000
+    },
+    {
+      "timestamp": 1724272200,
+      "date": "2024-08-22",
+      "price": 194100,
+      "price_toman": 194100,
+      "price_irr": 1941000
+    },
+    {
+      "timestamp": 1724358600,
+      "date": "2024-08-23",
+      "price": 193550,
+      "price_toman": 193550,
+      "price_irr": 1935500
+    },
+    {
+      "timestamp": 1724445000,
+      "date": "2024-08-24",
+      "price": 194700,
+      "price_toman": 194700,
+      "price_irr": 1947000
+    },
+    {
+      "timestamp": 1724531400,
+      "date": "2024-08-25",
+      "price": 195400,
+      "price_toman": 195400,
+      "price_irr": 1954000
+    },
+    {
+      "timestamp": 1724617800,
+      "date": "2024-08-26",
+      "price": 194850,
+      "price_toman": 194850,
+      "price_irr": 1948500
+    },
+    {
+      "timestamp": 1724704200,
+      "date": "2024-08-27",
+      "price": 193000,
+      "price_toman": 193000,
+      "price_irr": 1930000
+    },
+    {
+      "timestamp": 1724790600,
+      "date": "2024-08-28",
+      "price": 194450,
+      "price_toman": 194450,
+      "price_irr": 1944500
+    },
+    {
+      "timestamp": 1724877000,
+      "date": "2024-08-29",
+      "price": 194900,
+      "price_toman": 194900,
+      "price_irr": 1949000
+    },
+    {
+      "timestamp": 1724963400,
+      "date": "2024-08-30",
+      "price": 194400,
+      "price_toman": 194400,
+      "price_irr": 1944000
+    },
+    {
+      "timestamp": 1725049800,
+      "date": "2024-08-31",
+      "price": 194100,
+      "price_toman": 194100,
+      "price_irr": 1941000
+    },
+    {
+      "timestamp": 1725136200,
+      "date": "2024-09-01",
+      "price": 196550,
+      "price_toman": 196550,
+      "price_irr": 1965500
+    },
+    {
+      "timestamp": 1725222600,
+      "date": "2024-09-02",
+      "price": 195100,
+      "price_toman": 195100,
+      "price_irr": 1951000
+    },
+    {
+      "timestamp": 1725309000,
+      "date": "2024-09-03",
+      "price": 195400,
+      "price_toman": 195400,
+      "price_irr": 1954000
+    },
+    {
+      "timestamp": 1725395400,
+      "date": "2024-09-04",
+      "price": 194750,
+      "price_toman": 194750,
+      "price_irr": 1947500
+    },
+    {
+      "timestamp": 1725481800,
+      "date": "2024-09-05",
+      "price": 194350,
+      "price_toman": 194350,
+      "price_irr": 1943500
+    },
+    {
+      "timestamp": 1725568200,
+      "date": "2024-09-06",
+      "price": 194850,
+      "price_toman": 194850,
+      "price_irr": 1948500
+    },
+    {
+      "timestamp": 1725654600,
+      "date": "2024-09-07",
+      "price": 193750,
+      "price_toman": 193750,
+      "price_irr": 1937500
+    },
+    {
+      "timestamp": 1725741000,
+      "date": "2024-09-08",
+      "price": 194900,
+      "price_toman": 194900,
+      "price_irr": 1949000
+    },
+    {
+      "timestamp": 1725827400,
+      "date": "2024-09-09",
+      "price": 194850,
+      "price_toman": 194850,
+      "price_irr": 1948500
+    },
+    {
+      "timestamp": 1725913800,
+      "date": "2024-09-10",
+      "price": 195300,
+      "price_toman": 195300,
+      "price_irr": 1953000
+    },
+    {
+      "timestamp": 1726000200,
+      "date": "2024-09-11",
+      "price": 195450,
+      "price_toman": 195450,
+      "price_irr": 1954500
+    },
+    {
+      "timestamp": 1726086600,
+      "date": "2024-09-12",
+      "price": 194350,
+      "price_toman": 194350,
+      "price_irr": 1943500
+    },
+    {
+      "timestamp": 1726173000,
+      "date": "2024-09-13",
+      "price": 194650,
+      "price_toman": 194650,
+      "price_irr": 1946500
+    },
+    {
+      "timestamp": 1726259400,
+      "date": "2024-09-14",
+      "price": 194500,
+      "price_toman": 194500,
+      "price_irr": 1945000
+    },
+    {
+      "timestamp": 1726345800,
+      "date": "2024-09-15",
+      "price": 193650,
+      "price_toman": 193650,
+      "price_irr": 1936500
+    },
+    {
+      "timestamp": 1726432200,
+      "date": "2024-09-16",
+      "price": 193800,
+      "price_toman": 193800,
+      "price_irr": 1938000
+    },
+    {
+      "timestamp": 1726518600,
+      "date": "2024-09-17",
+      "price": 195400,
+      "price_toman": 195400,
+      "price_irr": 1954000
+    },
+    {
+      "timestamp": 1726605000,
+      "date": "2024-09-18",
+      "price": 193600,
+      "price_toman": 193600,
+      "price_irr": 1936000
+    },
+    {
+      "timestamp": 1726691400,
+      "date": "2024-09-19",
+      "price": 194400,
+      "price_toman": 194400,
+      "price_irr": 1944000
+    },
+    {
+      "timestamp": 1726777800,
+      "date": "2024-09-20",
+      "price": 194500,
+      "price_toman": 194500,
+      "price_irr": 1945000
+    },
+    {
+      "timestamp": 1726864200,
+      "date": "2024-09-21",
+      "price": 194150,
+      "price_toman": 194150,
+      "price_irr": 1941500
+    },
+    {
+      "timestamp": 1726950600,
+      "date": "2024-09-22",
+      "price": 194750,
+      "price_toman": 194750,
+      "price_irr": 1947500
+    },
+    {
+      "timestamp": 1727037000,
+      "date": "2024-09-23",
+      "price": 196350,
+      "price_toman": 196350,
+      "price_irr": 1963500
+    },
+    {
+      "timestamp": 1727123400,
+      "date": "2024-09-24",
+      "price": 197550,
+      "price_toman": 197550,
+      "price_irr": 1975500
+    },
+    {
+      "timestamp": 1727209800,
+      "date": "2024-09-25",
+      "price": 196050,
+      "price_toman": 196050,
+      "price_irr": 1960500
+    },
+    {
+      "timestamp": 1727296200,
+      "date": "2024-09-26",
+      "price": 196650,
+      "price_toman": 196650,
+      "price_irr": 1966500
+    },
+    {
+      "timestamp": 1727382600,
+      "date": "2024-09-27",
+      "price": 197350,
+      "price_toman": 197350,
+      "price_irr": 1973500
+    },
+    {
+      "timestamp": 1727469000,
+      "date": "2024-09-28",
+      "price": 199800,
+      "price_toman": 199800,
+      "price_irr": 1998000
+    },
+    {
+      "timestamp": 1727555400,
+      "date": "2024-09-29",
+      "price": 197950,
+      "price_toman": 197950,
+      "price_irr": 1979500
+    },
+    {
+      "timestamp": 1727641800,
+      "date": "2024-09-30",
+      "price": 198550,
+      "price_toman": 198550,
+      "price_irr": 1985500
+    },
+    {
+      "timestamp": 1727728200,
+      "date": "2024-10-01",
+      "price": 202400,
+      "price_toman": 202400,
+      "price_irr": 2024000
+    },
+    {
+      "timestamp": 1727814600,
+      "date": "2024-10-02",
+      "price": 202050,
+      "price_toman": 202050,
+      "price_irr": 2020500
+    },
+    {
+      "timestamp": 1727901000,
+      "date": "2024-10-03",
+      "price": 204050,
+      "price_toman": 204050,
+      "price_irr": 2040500
+    },
+    {
+      "timestamp": 1727987400,
+      "date": "2024-10-04",
+      "price": 201500,
+      "price_toman": 201500,
+      "price_irr": 2015000
+    },
+    {
+      "timestamp": 1728073800,
+      "date": "2024-10-05",
+      "price": 203200,
+      "price_toman": 203200,
+      "price_irr": 2032000
+    },
+    {
+      "timestamp": 1728160200,
+      "date": "2024-10-06",
+      "price": 206150,
+      "price_toman": 206150,
+      "price_irr": 2061500
+    },
+    {
+      "timestamp": 1728246600,
+      "date": "2024-10-07",
+      "price": 204700,
+      "price_toman": 204700,
+      "price_irr": 2047000
+    },
+    {
+      "timestamp": 1728333000,
+      "date": "2024-10-08",
+      "price": 205100,
+      "price_toman": 205100,
+      "price_irr": 2051000
+    },
+    {
+      "timestamp": 1728419400,
+      "date": "2024-10-09",
+      "price": 205550,
+      "price_toman": 205550,
+      "price_irr": 2055500
+    },
+    {
+      "timestamp": 1728505800,
+      "date": "2024-10-10",
+      "price": 207250,
+      "price_toman": 207250,
+      "price_irr": 2072500
+    },
+    {
+      "timestamp": 1728592200,
+      "date": "2024-10-11",
+      "price": 204850,
+      "price_toman": 204850,
+      "price_irr": 2048500
+    },
+    {
+      "timestamp": 1728678600,
+      "date": "2024-10-12",
+      "price": 203250,
+      "price_toman": 203250,
+      "price_irr": 2032500
+    },
+    {
+      "timestamp": 1728765000,
+      "date": "2024-10-13",
+      "price": 205300,
+      "price_toman": 205300,
+      "price_irr": 2053000
+    },
+    {
+      "timestamp": 1728851400,
+      "date": "2024-10-14",
+      "price": 205800,
+      "price_toman": 205800,
+      "price_irr": 2058000
+    },
+    {
+      "timestamp": 1728937800,
+      "date": "2024-10-15",
+      "price": 205450,
+      "price_toman": 205450,
+      "price_irr": 2054500
+    },
+    {
+      "timestamp": 1729024200,
+      "date": "2024-10-16",
+      "price": 206500,
+      "price_toman": 206500,
+      "price_irr": 2065000
+    },
+    {
+      "timestamp": 1729110600,
+      "date": "2024-10-17",
+      "price": 207400,
+      "price_toman": 207400,
+      "price_irr": 2074000
+    },
+    {
+      "timestamp": 1729197000,
+      "date": "2024-10-18",
+      "price": 207100,
+      "price_toman": 207100,
+      "price_irr": 2071000
+    },
+    {
+      "timestamp": 1729283400,
+      "date": "2024-10-19",
+      "price": 209100,
+      "price_toman": 209100,
+      "price_irr": 2091000
+    },
+    {
+      "timestamp": 1729369800,
+      "date": "2024-10-20",
+      "price": 210750,
+      "price_toman": 210750,
+      "price_irr": 2107500
+    },
+    {
+      "timestamp": 1729456200,
+      "date": "2024-10-21",
+      "price": 212950,
+      "price_toman": 212950,
+      "price_irr": 2129500
+    },
+    {
+      "timestamp": 1729542600,
+      "date": "2024-10-22",
+      "price": 218600,
+      "price_toman": 218600,
+      "price_irr": 2186000
+    },
+    {
+      "timestamp": 1729629000,
+      "date": "2024-10-23",
+      "price": 223750,
+      "price_toman": 223750,
+      "price_irr": 2237500
+    },
+    {
+      "timestamp": 1729715400,
+      "date": "2024-10-24",
+      "price": 223950,
+      "price_toman": 223950,
+      "price_irr": 2239500
+    },
+    {
+      "timestamp": 1729801800,
+      "date": "2024-10-25",
+      "price": 226200,
+      "price_toman": 226200,
+      "price_irr": 2262000
+    },
+    {
+      "timestamp": 1729888200,
+      "date": "2024-10-26",
+      "price": 215300,
+      "price_toman": 215300,
+      "price_irr": 2153000
+    },
+    {
+      "timestamp": 1729974600,
+      "date": "2024-10-27",
+      "price": 217550,
+      "price_toman": 217550,
+      "price_irr": 2175500
+    },
+    {
+      "timestamp": 1730061000,
+      "date": "2024-10-28",
+      "price": 220800,
+      "price_toman": 220800,
+      "price_irr": 2208000
+    },
+    {
+      "timestamp": 1730147400,
+      "date": "2024-10-29",
+      "price": 224300,
+      "price_toman": 224300,
+      "price_irr": 2243000
+    },
+    {
+      "timestamp": 1730233800,
+      "date": "2024-10-30",
+      "price": 225100,
+      "price_toman": 225100,
+      "price_irr": 2251000
+    },
+    {
+      "timestamp": 1730320200,
+      "date": "2024-10-31",
+      "price": 223800,
+      "price_toman": 223800,
+      "price_irr": 2238000
+    },
+    {
+      "timestamp": 1730406600,
+      "date": "2024-11-01",
+      "price": 224000,
+      "price_toman": 224000,
+      "price_irr": 2240000
+    },
+    {
+      "timestamp": 1730493000,
+      "date": "2024-11-02",
+      "price": 227100,
+      "price_toman": 227100,
+      "price_irr": 2271000
+    },
+    {
+      "timestamp": 1730579400,
+      "date": "2024-11-03",
+      "price": 227550,
+      "price_toman": 227550,
+      "price_irr": 2275500
+    },
+    {
+      "timestamp": 1730665800,
+      "date": "2024-11-04",
+      "price": 226350,
+      "price_toman": 226350,
+      "price_irr": 2263500
+    },
+    {
+      "timestamp": 1730752200,
+      "date": "2024-11-05",
+      "price": 225750,
+      "price_toman": 225750,
+      "price_irr": 2257500
+    },
+    {
+      "timestamp": 1730838600,
+      "date": "2024-11-06",
+      "price": 228050,
+      "price_toman": 228050,
+      "price_irr": 2280500
+    },
+    {
+      "timestamp": 1730925000,
+      "date": "2024-11-07",
+      "price": 226900,
+      "price_toman": 226900,
+      "price_irr": 2269000
+    },
+    {
+      "timestamp": 1731011400,
+      "date": "2024-11-08",
+      "price": 227750,
+      "price_toman": 227750,
+      "price_irr": 2277500
+    },
+    {
+      "timestamp": 1731097800,
+      "date": "2024-11-09",
+      "price": 226350,
+      "price_toman": 226350,
+      "price_irr": 2263500
+    },
+    {
+      "timestamp": 1731184200,
+      "date": "2024-11-10",
+      "price": 223700,
+      "price_toman": 223700,
+      "price_irr": 2237000
+    },
+    {
+      "timestamp": 1731270600,
+      "date": "2024-11-11",
+      "price": 218950,
+      "price_toman": 218950,
+      "price_irr": 2189500
+    },
+    {
+      "timestamp": 1731357000,
+      "date": "2024-11-12",
+      "price": 222300,
+      "price_toman": 222300,
+      "price_irr": 2223000
+    },
+    {
+      "timestamp": 1731443400,
+      "date": "2024-11-13",
+      "price": 222100,
+      "price_toman": 222100,
+      "price_irr": 2221000
+    },
+    {
+      "timestamp": 1731529800,
+      "date": "2024-11-14",
+      "price": 223350,
+      "price_toman": 223350,
+      "price_irr": 2233500
+    },
+    {
+      "timestamp": 1731616200,
+      "date": "2024-11-15",
+      "price": 222800,
+      "price_toman": 222800,
+      "price_irr": 2228000
+    },
+    {
+      "timestamp": 1731702600,
+      "date": "2024-11-16",
+      "price": 223400,
+      "price_toman": 223400,
+      "price_irr": 2234000
+    },
+    {
+      "timestamp": 1731789000,
+      "date": "2024-11-17",
+      "price": 222900,
+      "price_toman": 222900,
+      "price_irr": 2229000
+    },
+    {
+      "timestamp": 1731875400,
+      "date": "2024-11-18",
+      "price": 222700,
+      "price_toman": 222700,
+      "price_irr": 2227000
+    },
+    {
+      "timestamp": 1731961800,
+      "date": "2024-11-19",
+      "price": 225750,
+      "price_toman": 225750,
+      "price_irr": 2257500
+    },
+    {
+      "timestamp": 1732048200,
+      "date": "2024-11-20",
+      "price": 225800,
+      "price_toman": 225800,
+      "price_irr": 2258000
+    },
+    {
+      "timestamp": 1732134600,
+      "date": "2024-11-21",
+      "price": 226950,
+      "price_toman": 226950,
+      "price_irr": 2269500
+    },
+    {
+      "timestamp": 1732221000,
+      "date": "2024-11-22",
+      "price": 228350,
+      "price_toman": 228350,
+      "price_irr": 2283500
+    },
+    {
+      "timestamp": 1732307400,
+      "date": "2024-11-23",
+      "price": 227200,
+      "price_toman": 227200,
+      "price_irr": 2272000
+    },
+    {
+      "timestamp": 1732393800,
+      "date": "2024-11-24",
+      "price": 224650,
+      "price_toman": 224650,
+      "price_irr": 2246500
+    },
+    {
+      "timestamp": 1732480200,
+      "date": "2024-11-25",
+      "price": 226050,
+      "price_toman": 226050,
+      "price_irr": 2260500
+    },
+    {
+      "timestamp": 1732566600,
+      "date": "2024-11-26",
+      "price": 226800,
+      "price_toman": 226800,
+      "price_irr": 2268000
+    },
+    {
+      "timestamp": 1732653000,
+      "date": "2024-11-27",
+      "price": 228300,
+      "price_toman": 228300,
+      "price_irr": 2283000
+    },
+    {
+      "timestamp": 1732739400,
+      "date": "2024-11-28",
+      "price": 228150,
+      "price_toman": 228150,
+      "price_irr": 2281500
+    },
+    {
+      "timestamp": 1732825800,
+      "date": "2024-11-29",
+      "price": 230500,
+      "price_toman": 230500,
+      "price_irr": 2305000
+    },
+    {
+      "timestamp": 1732912200,
+      "date": "2024-11-30",
+      "price": 230350,
+      "price_toman": 230350,
+      "price_irr": 2303500
+    },
+    {
+      "timestamp": 1732998600,
+      "date": "2024-12-01",
+      "price": 229650,
+      "price_toman": 229650,
+      "price_irr": 2296500
+    },
+    {
+      "timestamp": 1733085000,
+      "date": "2024-12-02",
+      "price": 231300,
+      "price_toman": 231300,
+      "price_irr": 2313000
+    },
+    {
+      "timestamp": 1733171400,
+      "date": "2024-12-03",
+      "price": 233200,
+      "price_toman": 233200,
+      "price_irr": 2332000
+    },
+    {
+      "timestamp": 1733257800,
+      "date": "2024-12-04",
+      "price": 234850,
+      "price_toman": 234850,
+      "price_irr": 2348500
+    },
+    {
+      "timestamp": 1733344200,
+      "date": "2024-12-05",
+      "price": 234250,
+      "price_toman": 234250,
+      "price_irr": 2342500
+    },
+    {
+      "timestamp": 1733430600,
+      "date": "2024-12-06",
+      "price": 233400,
+      "price_toman": 233400,
+      "price_irr": 2334000
+    },
+    {
+      "timestamp": 1733517000,
+      "date": "2024-12-07",
+      "price": 234050,
+      "price_toman": 234050,
+      "price_irr": 2340500
+    },
+    {
+      "timestamp": 1733603400,
+      "date": "2024-12-08",
+      "price": 235250,
+      "price_toman": 235250,
+      "price_irr": 2352500
+    },
+    {
+      "timestamp": 1733689800,
+      "date": "2024-12-09",
+      "price": 236900,
+      "price_toman": 236900,
+      "price_irr": 2369000
+    },
+    {
+      "timestamp": 1733776200,
+      "date": "2024-12-10",
+      "price": 238850,
+      "price_toman": 238850,
+      "price_irr": 2388500
+    },
+    {
+      "timestamp": 1733862600,
+      "date": "2024-12-11",
+      "price": 240650,
+      "price_toman": 240650,
+      "price_irr": 2406500
+    },
+    {
+      "timestamp": 1733949000,
+      "date": "2024-12-12",
+      "price": 240300,
+      "price_toman": 240300,
+      "price_irr": 2403000
+    },
+    {
+      "timestamp": 1734035400,
+      "date": "2024-12-13",
+      "price": 241750,
+      "price_toman": 241750,
+      "price_irr": 2417500
+    },
+    {
+      "timestamp": 1734121800,
+      "date": "2024-12-14",
+      "price": 246350,
+      "price_toman": 246350,
+      "price_irr": 2463500
+    },
+    {
+      "timestamp": 1734208200,
+      "date": "2024-12-15",
+      "price": 245750,
+      "price_toman": 245750,
+      "price_irr": 2457500
+    },
+    {
+      "timestamp": 1734294600,
+      "date": "2024-12-16",
+      "price": 249900,
+      "price_toman": 249900,
+      "price_irr": 2499000
+    },
+    {
+      "timestamp": 1734381000,
+      "date": "2024-12-17",
+      "price": 251000,
+      "price_toman": 251000,
+      "price_irr": 2510000
+    },
+    {
+      "timestamp": 1734467400,
+      "date": "2024-12-18",
+      "price": 252100,
+      "price_toman": 252100,
+      "price_irr": 2521000
+    },
+    {
+      "timestamp": 1734553800,
+      "date": "2024-12-19",
+      "price": 250300,
+      "price_toman": 250300,
+      "price_irr": 2503000
+    },
+    {
+      "timestamp": 1734640200,
+      "date": "2024-12-20",
+      "price": 250200,
+      "price_toman": 250200,
+      "price_irr": 2502000
+    },
+    {
+      "timestamp": 1734726600,
+      "date": "2024-12-21",
+      "price": 247900,
+      "price_toman": 247900,
+      "price_irr": 2479000
+    },
+    {
+      "timestamp": 1734813000,
+      "date": "2024-12-22",
+      "price": 248900,
+      "price_toman": 248900,
+      "price_irr": 2489000
+    },
+    {
+      "timestamp": 1734899400,
+      "date": "2024-12-23",
+      "price": 254600,
+      "price_toman": 254600,
+      "price_irr": 2546000
+    },
+    {
+      "timestamp": 1734985800,
+      "date": "2024-12-24",
+      "price": 258500,
+      "price_toman": 258500,
+      "price_irr": 2585000
+    },
+    {
+      "timestamp": 1735072200,
+      "date": "2024-12-25",
+      "price": 257500,
+      "price_toman": 257500,
+      "price_irr": 2575000
+    },
+    {
+      "timestamp": 1735158600,
+      "date": "2024-12-26",
+      "price": 260100,
+      "price_toman": 260100,
+      "price_irr": 2601000
+    },
+    {
+      "timestamp": 1735245000,
+      "date": "2024-12-27",
+      "price": 262500,
+      "price_toman": 262500,
+      "price_irr": 2625000
+    },
+    {
+      "timestamp": 1735331400,
+      "date": "2024-12-28",
+      "price": 266600,
+      "price_toman": 266600,
+      "price_irr": 2666000
+    },
+    {
+      "timestamp": 1735417800,
+      "date": "2024-12-29",
+      "price": 260750,
+      "price_toman": 260750,
+      "price_irr": 2607500
+    },
+    {
+      "timestamp": 1735504200,
+      "date": "2024-12-30",
+      "price": 266550,
+      "price_toman": 266550,
+      "price_irr": 2665500
+    },
+    {
+      "timestamp": 1735590600,
+      "date": "2024-12-31",
+      "price": 265200,
+      "price_toman": 265200,
+      "price_irr": 2652000
+    },
+    {
+      "timestamp": 1735677000,
+      "date": "2025-01-01",
+      "price": 265100,
+      "price_toman": 265100,
+      "price_irr": 2651000
+    },
+    {
+      "timestamp": 1735763400,
+      "date": "2025-01-02",
+      "price": 262100,
+      "price_toman": 262100,
+      "price_irr": 2621000
+    },
+    {
+      "timestamp": 1735849800,
+      "date": "2025-01-03",
+      "price": 260550,
+      "price_toman": 260550,
+      "price_irr": 2605500
+    },
+    {
+      "timestamp": 1735936200,
+      "date": "2025-01-04",
+      "price": 260550,
+      "price_toman": 260550,
+      "price_irr": 2605500
+    },
+    {
+      "timestamp": 1736022600,
+      "date": "2025-01-05",
+      "price": 258800,
+      "price_toman": 258800,
+      "price_irr": 2588000
+    },
+    {
+      "timestamp": 1736109000,
+      "date": "2025-01-06",
+      "price": 260200,
+      "price_toman": 260200,
+      "price_irr": 2602000
+    },
+    {
+      "timestamp": 1736195400,
+      "date": "2025-01-07",
+      "price": 260700,
+      "price_toman": 260700,
+      "price_irr": 2607000
+    },
+    {
+      "timestamp": 1736281800,
+      "date": "2025-01-08",
+      "price": 262100,
+      "price_toman": 262100,
+      "price_irr": 2621000
+    },
+    {
+      "timestamp": 1736368200,
+      "date": "2025-01-09",
+      "price": 265450,
+      "price_toman": 265450,
+      "price_irr": 2654500
+    },
+    {
+      "timestamp": 1736454600,
+      "date": "2025-01-10",
+      "price": 265350,
+      "price_toman": 265350,
+      "price_irr": 2653500
+    },
+    {
+      "timestamp": 1736541000,
+      "date": "2025-01-11",
+      "price": 265350,
+      "price_toman": 265350,
+      "price_irr": 2653500
+    },
+    {
+      "timestamp": 1736627400,
+      "date": "2025-01-12",
+      "price": 265350,
+      "price_toman": 265350,
+      "price_irr": 2653500
+    },
+    {
+      "timestamp": 1736713800,
+      "date": "2025-01-13",
+      "price": 265350,
+      "price_toman": 265350,
+      "price_irr": 2653500
+    },
+    {
+      "timestamp": 1736800200,
+      "date": "2025-01-14",
+      "price": 265350,
+      "price_toman": 265350,
+      "price_irr": 2653500
+    },
+    {
+      "timestamp": 1736886600,
+      "date": "2025-01-15",
+      "price": 265350,
+      "price_toman": 265350,
+      "price_irr": 2653500
+    },
+    {
+      "timestamp": 1736973000,
+      "date": "2025-01-16",
+      "price": 261200,
+      "price_toman": 261200,
+      "price_irr": 2612000
+    },
+    {
+      "timestamp": 1737059400,
+      "date": "2025-01-17",
+      "price": 259350,
+      "price_toman": 259350,
+      "price_irr": 2593500
+    },
+    {
+      "timestamp": 1737145800,
+      "date": "2025-01-18",
+      "price": 262750,
+      "price_toman": 262750,
+      "price_irr": 2627500
+    },
+    {
+      "timestamp": 1737232200,
+      "date": "2025-01-19",
+      "price": 262750,
+      "price_toman": 262750,
+      "price_irr": 2627500
+    },
+    {
+      "timestamp": 1737318600,
+      "date": "2025-01-20",
+      "price": 263950,
+      "price_toman": 263950,
+      "price_irr": 2639500
+    },
+    {
+      "timestamp": 1737405000,
+      "date": "2025-01-21",
+      "price": 268800,
+      "price_toman": 268800,
+      "price_irr": 2688000
+    },
+    {
+      "timestamp": 1737491400,
+      "date": "2025-01-22",
+      "price": 269000,
+      "price_toman": 269000,
+      "price_irr": 2690000
+    },
+    {
+      "timestamp": 1737577800,
+      "date": "2025-01-23",
+      "price": 272850,
+      "price_toman": 272850,
+      "price_irr": 2728500
+    },
+    {
+      "timestamp": 1737664200,
+      "date": "2025-01-24",
+      "price": 270800,
+      "price_toman": 270800,
+      "price_irr": 2708000
+    },
+    {
+      "timestamp": 1737750600,
+      "date": "2025-01-25",
+      "price": 272850,
+      "price_toman": 272850,
+      "price_irr": 2728500
+    },
+    {
+      "timestamp": 1737837000,
+      "date": "2025-01-26",
+      "price": 273650,
+      "price_toman": 273650,
+      "price_irr": 2736500
+    },
+    {
+      "timestamp": 1737923400,
+      "date": "2025-01-27",
+      "price": 273900,
+      "price_toman": 273900,
+      "price_irr": 2739000
+    },
+    {
+      "timestamp": 1738009800,
+      "date": "2025-01-28",
+      "price": 274050,
+      "price_toman": 274050,
+      "price_irr": 2740500
+    },
+    {
+      "timestamp": 1738096200,
+      "date": "2025-01-29",
+      "price": 271300,
+      "price_toman": 271300,
+      "price_irr": 2713000
+    },
+    {
+      "timestamp": 1738182600,
+      "date": "2025-01-30",
+      "price": 272300,
+      "price_toman": 272300,
+      "price_irr": 2723000
+    },
+    {
+      "timestamp": 1738269000,
+      "date": "2025-01-31",
+      "price": 271950,
+      "price_toman": 271950,
+      "price_irr": 2719500
+    },
+    {
+      "timestamp": 1738355400,
+      "date": "2025-02-01",
+      "price": 273400,
+      "price_toman": 273400,
+      "price_irr": 2734000
+    },
+    {
+      "timestamp": 1738441800,
+      "date": "2025-02-02",
+      "price": 273750,
+      "price_toman": 273750,
+      "price_irr": 2737500
+    },
+    {
+      "timestamp": 1738528200,
+      "date": "2025-02-03",
+      "price": 272750,
+      "price_toman": 272750,
+      "price_irr": 2727500
+    },
+    {
+      "timestamp": 1738614600,
+      "date": "2025-02-04",
+      "price": 275400,
+      "price_toman": 275400,
+      "price_irr": 2754000
+    },
+    {
+      "timestamp": 1738701000,
+      "date": "2025-02-05",
+      "price": 278050,
+      "price_toman": 278050,
+      "price_irr": 2780500
+    },
+    {
+      "timestamp": 1738787400,
+      "date": "2025-02-06",
+      "price": 279150,
+      "price_toman": 279150,
+      "price_irr": 2791500
+    },
+    {
+      "timestamp": 1738873800,
+      "date": "2025-02-07",
+      "price": 281650,
+      "price_toman": 281650,
+      "price_irr": 2816500
+    },
+    {
+      "timestamp": 1738960200,
+      "date": "2025-02-08",
+      "price": 290600,
+      "price_toman": 290600,
+      "price_irr": 2906000
+    },
+    {
+      "timestamp": 1739046600,
+      "date": "2025-02-09",
+      "price": 300950,
+      "price_toman": 300950,
+      "price_irr": 3009500
+    },
+    {
+      "timestamp": 1739133000,
+      "date": "2025-02-10",
+      "price": 298750,
+      "price_toman": 298750,
+      "price_irr": 2987500
+    },
+    {
+      "timestamp": 1739219400,
+      "date": "2025-02-11",
+      "price": 289450,
+      "price_toman": 289450,
+      "price_irr": 2894500
+    },
+    {
+      "timestamp": 1739305800,
+      "date": "2025-02-12",
+      "price": 288800,
+      "price_toman": 288800,
+      "price_irr": 2888000
+    },
+    {
+      "timestamp": 1739392200,
+      "date": "2025-02-13",
+      "price": 291800,
+      "price_toman": 291800,
+      "price_irr": 2918000
+    },
+    {
+      "timestamp": 1739478600,
+      "date": "2025-02-14",
+      "price": 295000,
+      "price_toman": 295000,
+      "price_irr": 2950000
+    },
+    {
+      "timestamp": 1739565000,
+      "date": "2025-02-15",
+      "price": 296200,
+      "price_toman": 296200,
+      "price_irr": 2962000
+    },
+    {
+      "timestamp": 1739651400,
+      "date": "2025-02-16",
+      "price": 296050,
+      "price_toman": 296050,
+      "price_irr": 2960500
+    },
+    {
+      "timestamp": 1739737800,
+      "date": "2025-02-17",
+      "price": 296450,
+      "price_toman": 296450,
+      "price_irr": 2964500
+    },
+    {
+      "timestamp": 1739824200,
+      "date": "2025-02-18",
+      "price": 299600,
+      "price_toman": 299600,
+      "price_irr": 2996000
+    },
+    {
+      "timestamp": 1739910600,
+      "date": "2025-02-19",
+      "price": 300350,
+      "price_toman": 300350,
+      "price_irr": 3003500
+    },
+    {
+      "timestamp": 1739997000,
+      "date": "2025-02-20",
+      "price": 305500,
+      "price_toman": 305500,
+      "price_irr": 3055000
+    },
+    {
+      "timestamp": 1740083400,
+      "date": "2025-02-21",
+      "price": 303900,
+      "price_toman": 303900,
+      "price_irr": 3039000
+    },
+    {
+      "timestamp": 1740169800,
+      "date": "2025-02-22",
+      "price": 304200,
+      "price_toman": 304200,
+      "price_irr": 3042000
+    },
+    {
+      "timestamp": 1740256200,
+      "date": "2025-02-23",
+      "price": 302850,
+      "price_toman": 302850,
+      "price_irr": 3028500
+    },
+    {
+      "timestamp": 1740342600,
+      "date": "2025-02-24",
+      "price": 301250,
+      "price_toman": 301250,
+      "price_irr": 3012500
+    },
+    {
+      "timestamp": 1740429000,
+      "date": "2025-02-25",
+      "price": 303100,
+      "price_toman": 303100,
+      "price_irr": 3031000
+    },
+    {
+      "timestamp": 1740515400,
+      "date": "2025-02-26",
+      "price": 302900,
+      "price_toman": 302900,
+      "price_irr": 3029000
+    },
+    {
+      "timestamp": 1740601800,
+      "date": "2025-02-27",
+      "price": 301750,
+      "price_toman": 301750,
+      "price_irr": 3017500
+    },
+    {
+      "timestamp": 1740688200,
+      "date": "2025-02-28",
+      "price": 301800,
+      "price_toman": 301800,
+      "price_irr": 3018000
+    },
+    {
+      "timestamp": 1740774600,
+      "date": "2025-03-01",
+      "price": 300650,
+      "price_toman": 300650,
+      "price_irr": 3006500
+    },
+    {
+      "timestamp": 1740861000,
+      "date": "2025-03-02",
+      "price": 300450,
+      "price_toman": 300450,
+      "price_irr": 3004500
+    },
+    {
+      "timestamp": 1740947400,
+      "date": "2025-03-03",
+      "price": 296500,
+      "price_toman": 296500,
+      "price_irr": 2965000
+    },
+    {
+      "timestamp": 1741033800,
+      "date": "2025-03-04",
+      "price": 296150,
+      "price_toman": 296150,
+      "price_irr": 2961500
+    },
+    {
+      "timestamp": 1741120200,
+      "date": "2025-03-05",
+      "price": 288600,
+      "price_toman": 288600,
+      "price_irr": 2886000
+    },
+    {
+      "timestamp": 1741206600,
+      "date": "2025-03-06",
+      "price": 292000,
+      "price_toman": 292000,
+      "price_irr": 2920000
+    },
+    {
+      "timestamp": 1741293000,
+      "date": "2025-03-07",
+      "price": 294550,
+      "price_toman": 294550,
+      "price_irr": 2945500
+    },
+    {
+      "timestamp": 1741379400,
+      "date": "2025-03-08",
+      "price": 299500,
+      "price_toman": 299500,
+      "price_irr": 2995000
+    },
+    {
+      "timestamp": 1741465800,
+      "date": "2025-03-09",
+      "price": 302200,
+      "price_toman": 302200,
+      "price_irr": 3022000
+    },
+    {
+      "timestamp": 1741552200,
+      "date": "2025-03-10",
+      "price": 303200,
+      "price_toman": 303200,
+      "price_irr": 3032000
+    },
+    {
+      "timestamp": 1741638600,
+      "date": "2025-03-11",
+      "price": 304150,
+      "price_toman": 304150,
+      "price_irr": 3041500
+    },
+    {
+      "timestamp": 1741725000,
+      "date": "2025-03-12",
+      "price": 304100,
+      "price_toman": 304100,
+      "price_irr": 3041000
+    },
+    {
+      "timestamp": 1741811400,
+      "date": "2025-03-13",
+      "price": 302950,
+      "price_toman": 302950,
+      "price_irr": 3029500
+    },
+    {
+      "timestamp": 1741897800,
+      "date": "2025-03-14",
+      "price": 301500,
+      "price_toman": 301500,
+      "price_irr": 3015000
+    },
+    {
+      "timestamp": 1741984200,
+      "date": "2025-03-15",
+      "price": 299650,
+      "price_toman": 299650,
+      "price_irr": 2996500
+    },
+    {
+      "timestamp": 1742070600,
+      "date": "2025-03-16",
+      "price": 306400,
+      "price_toman": 306400,
+      "price_irr": 3064000
+    },
+    {
+      "timestamp": 1742157000,
+      "date": "2025-03-17",
+      "price": 311950,
+      "price_toman": 311950,
+      "price_irr": 3119500
+    },
+    {
+      "timestamp": 1742243400,
+      "date": "2025-03-18",
+      "price": 321650,
+      "price_toman": 321650,
+      "price_irr": 3216500
+    },
+    {
+      "timestamp": 1742329800,
+      "date": "2025-03-19",
+      "price": 320850,
+      "price_toman": 320850,
+      "price_irr": 3208500
+    },
+    {
+      "timestamp": 1742416200,
+      "date": "2025-03-20",
+      "price": 320400,
+      "price_toman": 320400,
+      "price_irr": 3204000
+    },
+    {
+      "timestamp": 1742502600,
+      "date": "2025-03-21",
+      "price": 320250,
+      "price_toman": 320250,
+      "price_irr": 3202500
+    },
+    {
+      "timestamp": 1742589000,
+      "date": "2025-03-22",
+      "price": 320250,
+      "price_toman": 320250,
+      "price_irr": 3202500
+    },
+    {
+      "timestamp": 1742675400,
+      "date": "2025-03-23",
+      "price": 320200,
+      "price_toman": 320200,
+      "price_irr": 3202000
+    },
+    {
+      "timestamp": 1742761800,
+      "date": "2025-03-24",
+      "price": 322150,
+      "price_toman": 322150,
+      "price_irr": 3221500
+    },
+    {
+      "timestamp": 1742848200,
+      "date": "2025-03-25",
+      "price": 335500,
+      "price_toman": 335500,
+      "price_irr": 3355000
+    },
+    {
+      "timestamp": 1742934600,
+      "date": "2025-03-26",
+      "price": 334100,
+      "price_toman": 334100,
+      "price_irr": 3341000
+    },
+    {
+      "timestamp": 1743021000,
+      "date": "2025-03-27",
+      "price": 335350,
+      "price_toman": 335350,
+      "price_irr": 3353500
+    },
+    {
+      "timestamp": 1743107400,
+      "date": "2025-03-28",
+      "price": 339400,
+      "price_toman": 339400,
+      "price_irr": 3394000
+    },
+    {
+      "timestamp": 1743193800,
+      "date": "2025-03-29",
+      "price": 341050,
+      "price_toman": 341050,
+      "price_irr": 3410500
+    },
+    {
+      "timestamp": 1743280200,
+      "date": "2025-03-30",
+      "price": 337450,
+      "price_toman": 337450,
+      "price_irr": 3374500
+    },
+    {
+      "timestamp": 1743366600,
+      "date": "2025-03-31",
+      "price": 336450,
+      "price_toman": 336450,
+      "price_irr": 3364500
+    },
+    {
+      "timestamp": 1743453000,
+      "date": "2025-04-01",
+      "price": 336200,
+      "price_toman": 336200,
+      "price_irr": 3362000
+    },
+    {
+      "timestamp": 1743539400,
+      "date": "2025-04-02",
+      "price": 335200,
+      "price_toman": 335200,
+      "price_irr": 3352000
+    },
+    {
+      "timestamp": 1743625800,
+      "date": "2025-04-03",
+      "price": 335800,
+      "price_toman": 335800,
+      "price_irr": 3358000
+    },
+    {
+      "timestamp": 1743712200,
+      "date": "2025-04-04",
+      "price": 336050,
+      "price_toman": 336050,
+      "price_irr": 3360500
+    },
+    {
+      "timestamp": 1743798600,
+      "date": "2025-04-05",
+      "price": 336100,
+      "price_toman": 336100,
+      "price_irr": 3361000
+    },
+    {
+      "timestamp": 1743885000,
+      "date": "2025-04-06",
+      "price": 341250,
+      "price_toman": 341250,
+      "price_irr": 3412500
+    },
+    {
+      "timestamp": 1743971400,
+      "date": "2025-04-07",
+      "price": 345200,
+      "price_toman": 345200,
+      "price_irr": 3452000
+    },
+    {
+      "timestamp": 1744057800,
+      "date": "2025-04-08",
+      "price": 325800,
+      "price_toman": 325800,
+      "price_irr": 3258000
+    },
+    {
+      "timestamp": 1744144200,
+      "date": "2025-04-09",
+      "price": 326200,
+      "price_toman": 326200,
+      "price_irr": 3262000
+    },
+    {
+      "timestamp": 1744230600,
+      "date": "2025-04-10",
+      "price": 328700,
+      "price_toman": 328700,
+      "price_irr": 3287000
+    },
+    {
+      "timestamp": 1744317000,
+      "date": "2025-04-11",
+      "price": 325600,
+      "price_toman": 325600,
+      "price_irr": 3256000
+    },
+    {
+      "timestamp": 1744403400,
+      "date": "2025-04-12",
+      "price": 310200,
+      "price_toman": 310200,
+      "price_irr": 3102000
+    },
+    {
+      "timestamp": 1744489800,
+      "date": "2025-04-13",
+      "price": 278500,
+      "price_toman": 278500,
+      "price_irr": 2785000
+    },
+    {
+      "timestamp": 1744576200,
+      "date": "2025-04-14",
+      "price": 293250,
+      "price_toman": 293250,
+      "price_irr": 2932500
+    },
+    {
+      "timestamp": 1744662600,
+      "date": "2025-04-15",
+      "price": 288450,
+      "price_toman": 288450,
+      "price_irr": 2884500
+    },
+    {
+      "timestamp": 1744749000,
+      "date": "2025-04-16",
+      "price": 288350,
+      "price_toman": 288350,
+      "price_irr": 2883500
+    },
+    {
+      "timestamp": 1744835400,
+      "date": "2025-04-17",
+      "price": 279600,
+      "price_toman": 279600,
+      "price_irr": 2796000
+    },
+    {
+      "timestamp": 1744921800,
+      "date": "2025-04-18",
+      "price": 278400,
+      "price_toman": 278400,
+      "price_irr": 2784000
+    },
+    {
+      "timestamp": 1745008200,
+      "date": "2025-04-19",
+      "price": 271750,
+      "price_toman": 271750,
+      "price_irr": 2717500
+    },
+    {
+      "timestamp": 1745094600,
+      "date": "2025-04-20",
+      "price": 272450,
+      "price_toman": 272450,
+      "price_irr": 2724500
+    },
+    {
+      "timestamp": 1745181000,
+      "date": "2025-04-21",
+      "price": 269000,
+      "price_toman": 269000,
+      "price_irr": 2690000
+    },
+    {
+      "timestamp": 1745267400,
+      "date": "2025-04-22",
+      "price": 267500,
+      "price_toman": 267500,
+      "price_irr": 2675000
+    },
+    {
+      "timestamp": 1745353800,
+      "date": "2025-04-23",
+      "price": 266150,
+      "price_toman": 266150,
+      "price_irr": 2661500
+    },
+    {
+      "timestamp": 1745440200,
+      "date": "2025-04-24",
+      "price": 262550,
+      "price_toman": 262550,
+      "price_irr": 2625500
+    },
+    {
+      "timestamp": 1745526600,
+      "date": "2025-04-25",
+      "price": 261050,
+      "price_toman": 261050,
+      "price_irr": 2610500
+    },
+    {
+      "timestamp": 1745613000,
+      "date": "2025-04-26",
+      "price": 272500,
+      "price_toman": 272500,
+      "price_irr": 2725000
+    },
+    {
+      "timestamp": 1745699400,
+      "date": "2025-04-27",
+      "price": 273500,
+      "price_toman": 273500,
+      "price_irr": 2735000
+    },
+    {
+      "timestamp": 1745785800,
+      "date": "2025-04-28",
+      "price": 265650,
+      "price_toman": 265650,
+      "price_irr": 2656500
+    },
+    {
+      "timestamp": 1745872200,
+      "date": "2025-04-29",
+      "price": 265850,
+      "price_toman": 265850,
+      "price_irr": 2658500
+    },
+    {
+      "timestamp": 1745958600,
+      "date": "2025-04-30",
+      "price": 267150,
+      "price_toman": 267150,
+      "price_irr": 2671500
+    },
+    {
+      "timestamp": 1746045000,
+      "date": "2025-05-01",
+      "price": 278450,
+      "price_toman": 278450,
+      "price_irr": 2784500
+    },
+    {
+      "timestamp": 1746131400,
+      "date": "2025-05-02",
+      "price": 278700,
+      "price_toman": 278700,
+      "price_irr": 2787000
+    },
+    {
+      "timestamp": 1746217800,
+      "date": "2025-05-03",
+      "price": 279650,
+      "price_toman": 279650,
+      "price_irr": 2796500
+    },
+    {
+      "timestamp": 1746304200,
+      "date": "2025-05-04",
+      "price": 282550,
+      "price_toman": 282550,
+      "price_irr": 2825500
+    },
+    {
+      "timestamp": 1746390600,
+      "date": "2025-05-05",
+      "price": 276550,
+      "price_toman": 276550,
+      "price_irr": 2765500
+    },
+    {
+      "timestamp": 1746477000,
+      "date": "2025-05-06",
+      "price": 270450,
+      "price_toman": 270450,
+      "price_irr": 2704500
+    },
+    {
+      "timestamp": 1746563400,
+      "date": "2025-05-07",
+      "price": 269250,
+      "price_toman": 269250,
+      "price_irr": 2692500
+    },
+    {
+      "timestamp": 1746649800,
+      "date": "2025-05-08",
+      "price": 275250,
+      "price_toman": 275250,
+      "price_irr": 2752500
+    },
+    {
+      "timestamp": 1746736200,
+      "date": "2025-05-09",
+      "price": 268900,
+      "price_toman": 268900,
+      "price_irr": 2689000
+    },
+    {
+      "timestamp": 1746822600,
+      "date": "2025-05-10",
+      "price": 273650,
+      "price_toman": 273650,
+      "price_irr": 2736500
+    },
+    {
+      "timestamp": 1746909000,
+      "date": "2025-05-11",
+      "price": 272300,
+      "price_toman": 272300,
+      "price_irr": 2723000
+    },
+    {
+      "timestamp": 1746995400,
+      "date": "2025-05-12",
+      "price": 273450,
+      "price_toman": 273450,
+      "price_irr": 2734500
+    },
+    {
+      "timestamp": 1747081800,
+      "date": "2025-05-13",
+      "price": 273400,
+      "price_toman": 273400,
+      "price_irr": 2734000
+    },
+    {
+      "timestamp": 1747168200,
+      "date": "2025-05-14",
+      "price": 272050,
+      "price_toman": 272050,
+      "price_irr": 2720500
+    },
+    {
+      "timestamp": 1747254600,
+      "date": "2025-05-15",
+      "price": 271300,
+      "price_toman": 271300,
+      "price_irr": 2713000
+    },
+    {
+      "timestamp": 1747341000,
+      "date": "2025-05-16",
+      "price": 271450,
+      "price_toman": 271450,
+      "price_irr": 2714500
+    },
+    {
+      "timestamp": 1747427400,
+      "date": "2025-05-17",
+      "price": 269500,
+      "price_toman": 269500,
+      "price_irr": 2695000
+    },
+    {
+      "timestamp": 1747513800,
+      "date": "2025-05-18",
+      "price": 267450,
+      "price_toman": 267450,
+      "price_irr": 2674500
+    },
+    {
+      "timestamp": 1747600200,
+      "date": "2025-05-19",
+      "price": 267850,
+      "price_toman": 267850,
+      "price_irr": 2678500
+    },
+    {
+      "timestamp": 1747686600,
+      "date": "2025-05-20",
+      "price": 275450,
+      "price_toman": 275450,
+      "price_irr": 2754500
+    },
+    {
+      "timestamp": 1747773000,
+      "date": "2025-05-21",
+      "price": 268750,
+      "price_toman": 268750,
+      "price_irr": 2687500
+    },
+    {
+      "timestamp": 1747859400,
+      "date": "2025-05-22",
+      "price": 269900,
+      "price_toman": 269900,
+      "price_irr": 2699000
+    },
+    {
+      "timestamp": 1747945800,
+      "date": "2025-05-23",
+      "price": 271000,
+      "price_toman": 271000,
+      "price_irr": 2710000
+    },
+    {
+      "timestamp": 1748032200,
+      "date": "2025-05-24",
+      "price": 270150,
+      "price_toman": 270150,
+      "price_irr": 2701500
+    },
+    {
+      "timestamp": 1748118600,
+      "date": "2025-05-25",
+      "price": 268800,
+      "price_toman": 268800,
+      "price_irr": 2688000
+    },
+    {
+      "timestamp": 1748205000,
+      "date": "2025-05-26",
+      "price": 268350,
+      "price_toman": 268350,
+      "price_irr": 2683500
+    },
+    {
+      "timestamp": 1748291400,
+      "date": "2025-05-27",
+      "price": 270200,
+      "price_toman": 270200,
+      "price_irr": 2702000
+    },
+    {
+      "timestamp": 1748377800,
+      "date": "2025-05-28",
+      "price": 275100,
+      "price_toman": 275100,
+      "price_irr": 2751000
+    },
+    {
+      "timestamp": 1748464200,
+      "date": "2025-05-29",
+      "price": 268400,
+      "price_toman": 268400,
+      "price_irr": 2684000
+    },
+    {
+      "timestamp": 1748550600,
+      "date": "2025-05-30",
+      "price": 269720,
+      "price_toman": 269720,
+      "price_irr": 2697200
+    },
+    {
+      "timestamp": 1748637000,
+      "date": "2025-05-31",
+      "price": 269140,
+      "price_toman": 269140,
+      "price_irr": 2691400
+    },
+    {
+      "timestamp": 1748723400,
+      "date": "2025-06-01",
+      "price": 268180,
+      "price_toman": 268180,
+      "price_irr": 2681800
+    },
+    {
+      "timestamp": 1748809800,
+      "date": "2025-06-02",
+      "price": 269340,
+      "price_toman": 269340,
+      "price_irr": 2693400
+    },
+    {
+      "timestamp": 1748896200,
+      "date": "2025-06-03",
+      "price": 269000,
+      "price_toman": 269000,
+      "price_irr": 2690000
+    },
+    {
+      "timestamp": 1748982600,
+      "date": "2025-06-04",
+      "price": 272600,
+      "price_toman": 272600,
+      "price_irr": 2726000
+    },
+    {
+      "timestamp": 1749069000,
+      "date": "2025-06-05",
+      "price": 272600,
+      "price_toman": 272600,
+      "price_irr": 2726000
+    },
+    {
+      "timestamp": 1749155400,
+      "date": "2025-06-06",
+      "price": 272680,
+      "price_toman": 272680,
+      "price_irr": 2726800
+    },
+    {
+      "timestamp": 1749241800,
+      "date": "2025-06-07",
+      "price": 267040,
+      "price_toman": 267040,
+      "price_irr": 2670400
+    },
+    {
+      "timestamp": 1749328200,
+      "date": "2025-06-08",
+      "price": 268680,
+      "price_toman": 268680,
+      "price_irr": 2686800
+    },
+    {
+      "timestamp": 1749414600,
+      "date": "2025-06-09",
+      "price": 269000,
+      "price_toman": 269000,
+      "price_irr": 2690000
+    },
+    {
+      "timestamp": 1749501000,
+      "date": "2025-06-10",
+      "price": 267540,
+      "price_toman": 267540,
+      "price_irr": 2675400
+    },
+    {
+      "timestamp": 1749587400,
+      "date": "2025-06-11",
+      "price": 270920,
+      "price_toman": 270920,
+      "price_irr": 2709200
+    },
+    {
+      "timestamp": 1749673800,
+      "date": "2025-06-12",
+      "price": 274760,
+      "price_toman": 274760,
+      "price_irr": 2747600
+    },
+    {
+      "timestamp": 1749933000,
+      "date": "2025-06-15",
+      "price": 304820,
+      "price_toman": 304820,
+      "price_irr": 3048200
+    },
+    {
+      "timestamp": 1750019400,
+      "date": "2025-06-16",
+      "price": 294960,
+      "price_toman": 294960,
+      "price_irr": 2949600
+    },
+    {
+      "timestamp": 1750105800,
+      "date": "2025-06-17",
+      "price": 294880,
+      "price_toman": 294880,
+      "price_irr": 2948800
+    },
+    {
+      "timestamp": 1750192200,
+      "date": "2025-06-18",
+      "price": 305480,
+      "price_toman": 305480,
+      "price_irr": 3054800
+    },
+    {
+      "timestamp": 1750278600,
+      "date": "2025-06-19",
+      "price": 305480,
+      "price_toman": 305480,
+      "price_irr": 3054800
+    },
+    {
+      "timestamp": 1750365000,
+      "date": "2025-06-20",
+      "price": 305680,
+      "price_toman": 305680,
+      "price_irr": 3056800
+    },
+    {
+      "timestamp": 1750451400,
+      "date": "2025-06-21",
+      "price": 305680,
+      "price_toman": 305680,
+      "price_irr": 3056800
+    },
+    {
+      "timestamp": 1750537800,
+      "date": "2025-06-22",
+      "price": 303060,
+      "price_toman": 303060,
+      "price_irr": 3030600
+    },
+    {
+      "timestamp": 1750624200,
+      "date": "2025-06-23",
+      "price": 299540,
+      "price_toman": 299540,
+      "price_irr": 2995400
+    },
+    {
+      "timestamp": 1750710600,
+      "date": "2025-06-24",
+      "price": 273460,
+      "price_toman": 273460,
+      "price_irr": 2734600
+    },
+    {
+      "timestamp": 1750797000,
+      "date": "2025-06-25",
+      "price": 271360,
+      "price_toman": 271360,
+      "price_irr": 2713600
+    },
+    {
+      "timestamp": 1750883400,
+      "date": "2025-06-26",
+      "price": 273540,
+      "price_toman": 273540,
+      "price_irr": 2735400
+    },
+    {
+      "timestamp": 1750969800,
+      "date": "2025-06-27",
+      "price": 273460,
+      "price_toman": 273460,
+      "price_irr": 2734600
+    },
+    {
+      "timestamp": 1751056200,
+      "date": "2025-06-28",
+      "price": 277020,
+      "price_toman": 277020,
+      "price_irr": 2770200
+    },
+    {
+      "timestamp": 1751142600,
+      "date": "2025-06-29",
+      "price": 289120,
+      "price_toman": 289120,
+      "price_irr": 2891200
+    },
+    {
+      "timestamp": 1751229000,
+      "date": "2025-06-30",
+      "price": 297600,
+      "price_toman": 297600,
+      "price_irr": 2976000
+    },
+    {
+      "timestamp": 1751315400,
+      "date": "2025-07-01",
+      "price": 300680,
+      "price_toman": 300680,
+      "price_irr": 3006800
+    },
+    {
+      "timestamp": 1751488200,
+      "date": "2025-07-03",
+      "price": 296960,
+      "price_toman": 296960,
+      "price_irr": 2969600
+    },
+    {
+      "timestamp": 1751574600,
+      "date": "2025-07-04",
+      "price": 296820,
+      "price_toman": 296820,
+      "price_irr": 2968200
+    },
+    {
+      "timestamp": 1751661000,
+      "date": "2025-07-05",
+      "price": 296820,
+      "price_toman": 296820,
+      "price_irr": 2968200
+    },
+    {
+      "timestamp": 1751747400,
+      "date": "2025-07-06",
+      "price": 297000,
+      "price_toman": 297000,
+      "price_irr": 2970000
+    },
+    {
+      "timestamp": 1751833800,
+      "date": "2025-07-07",
+      "price": 288060,
+      "price_toman": 288060,
+      "price_irr": 2880600
+    },
+    {
+      "timestamp": 1751920200,
+      "date": "2025-07-08",
+      "price": 285020,
+      "price_toman": 285020,
+      "price_irr": 2850200
+    },
+    {
+      "timestamp": 1752006600,
+      "date": "2025-07-09",
+      "price": 287380,
+      "price_toman": 287380,
+      "price_irr": 2873800
+    },
+    {
+      "timestamp": 1752093000,
+      "date": "2025-07-10",
+      "price": 288260,
+      "price_toman": 288260,
+      "price_irr": 2882600
+    },
+    {
+      "timestamp": 1752265800,
+      "date": "2025-07-12",
+      "price": 285320,
+      "price_toman": 285320,
+      "price_irr": 2853200
+    },
+    {
+      "timestamp": 1752352200,
+      "date": "2025-07-13",
+      "price": 291920,
+      "price_toman": 291920,
+      "price_irr": 2919200
+    },
+    {
+      "timestamp": 1752438600,
+      "date": "2025-07-14",
+      "price": 291880,
+      "price_toman": 291880,
+      "price_irr": 2918800
+    },
+    {
+      "timestamp": 1752525000,
+      "date": "2025-07-15",
+      "price": 290240,
+      "price_toman": 290240,
+      "price_irr": 2902400
+    },
+    {
+      "timestamp": 1752611400,
+      "date": "2025-07-16",
+      "price": 290760,
+      "price_toman": 290760,
+      "price_irr": 2907600
+    },
+    {
+      "timestamp": 1752697800,
+      "date": "2025-07-17",
+      "price": 290140,
+      "price_toman": 290140,
+      "price_irr": 2901400
+    },
+    {
+      "timestamp": 1752784200,
+      "date": "2025-07-18",
+      "price": 290180,
+      "price_toman": 290180,
+      "price_irr": 2901800
+    },
+    {
+      "timestamp": 1752870600,
+      "date": "2025-07-19",
+      "price": 286060,
+      "price_toman": 286060,
+      "price_irr": 2860600
+    },
+    {
+      "timestamp": 1752957000,
+      "date": "2025-07-20",
+      "price": 284040,
+      "price_toman": 284040,
+      "price_irr": 2840400
+    },
+    {
+      "timestamp": 1753043400,
+      "date": "2025-07-21",
+      "price": 288100,
+      "price_toman": 288100,
+      "price_irr": 2881000
+    },
+    {
+      "timestamp": 1753129800,
+      "date": "2025-07-22",
+      "price": 289220,
+      "price_toman": 289220,
+      "price_irr": 2892200
+    },
+    {
+      "timestamp": 1753216200,
+      "date": "2025-07-23",
+      "price": 288660,
+      "price_toman": 288660,
+      "price_irr": 2886600
+    },
+    {
+      "timestamp": 1753302600,
+      "date": "2025-07-24",
+      "price": 289920,
+      "price_toman": 289920,
+      "price_irr": 2899200
+    },
+    {
+      "timestamp": 1753389000,
+      "date": "2025-07-25",
+      "price": 289780,
+      "price_toman": 289780,
+      "price_irr": 2897800
+    },
+    {
+      "timestamp": 1753475400,
+      "date": "2025-07-26",
+      "price": 288660,
+      "price_toman": 288660,
+      "price_irr": 2886600
+    },
+    {
+      "timestamp": 1753561800,
+      "date": "2025-07-27",
+      "price": 288920,
+      "price_toman": 288920,
+      "price_irr": 2889200
+    },
+    {
+      "timestamp": 1753648200,
+      "date": "2025-07-28",
+      "price": 292380,
+      "price_toman": 292380,
+      "price_irr": 2923800
+    },
+    {
+      "timestamp": 1753734600,
+      "date": "2025-07-29",
+      "price": 292160,
+      "price_toman": 292160,
+      "price_irr": 2921600
+    },
+    {
+      "timestamp": 1753821000,
+      "date": "2025-07-30",
+      "price": 293360,
+      "price_toman": 293360,
+      "price_irr": 2933600
+    },
+    {
+      "timestamp": 1753907400,
+      "date": "2025-07-31",
+      "price": 296020,
+      "price_toman": 296020,
+      "price_irr": 2960200
+    },
+    {
+      "timestamp": 1753993800,
+      "date": "2025-08-01",
+      "price": 296080,
+      "price_toman": 296080,
+      "price_irr": 2960800
+    },
+    {
+      "timestamp": 1754080200,
+      "date": "2025-08-02",
+      "price": 303200,
+      "price_toman": 303200,
+      "price_irr": 3032000
+    },
+    {
+      "timestamp": 1754166600,
+      "date": "2025-08-03",
+      "price": 302000,
+      "price_toman": 302000,
+      "price_irr": 3020000
+    },
+    {
+      "timestamp": 1754253000,
+      "date": "2025-08-04",
+      "price": 306900,
+      "price_toman": 306900,
+      "price_irr": 3069000
+    },
+    {
+      "timestamp": 1754339400,
+      "date": "2025-08-05",
+      "price": 305020,
+      "price_toman": 305020,
+      "price_irr": 3050200
+    },
+    {
+      "timestamp": 1754425800,
+      "date": "2025-08-06",
+      "price": 304060,
+      "price_toman": 304060,
+      "price_irr": 3040600
+    },
+    {
+      "timestamp": 1754512200,
+      "date": "2025-08-07",
+      "price": 305560,
+      "price_toman": 305560,
+      "price_irr": 3055600
+    },
+    {
+      "timestamp": 1754598600,
+      "date": "2025-08-08",
+      "price": 305460,
+      "price_toman": 305460,
+      "price_irr": 3054600
+    },
+    {
+      "timestamp": 1754685000,
+      "date": "2025-08-09",
+      "price": 299540,
+      "price_toman": 299540,
+      "price_irr": 2995400
+    },
+    {
+      "timestamp": 1754771400,
+      "date": "2025-08-10",
+      "price": 301440,
+      "price_toman": 301440,
+      "price_irr": 3014400
+    },
+    {
+      "timestamp": 1754857800,
+      "date": "2025-08-11",
+      "price": 304700,
+      "price_toman": 304700,
+      "price_irr": 3047000
+    },
+    {
+      "timestamp": 1754944200,
+      "date": "2025-08-12",
+      "price": 302220,
+      "price_toman": 302220,
+      "price_irr": 3022200
+    },
+    {
+      "timestamp": 1755030600,
+      "date": "2025-08-13",
+      "price": 306920,
+      "price_toman": 306920,
+      "price_irr": 3069200
+    },
+    {
+      "timestamp": 1755117000,
+      "date": "2025-08-14",
+      "price": 305440,
+      "price_toman": 305440,
+      "price_irr": 3054400
+    },
+    {
+      "timestamp": 1755203400,
+      "date": "2025-08-15",
+      "price": 305440,
+      "price_toman": 305440,
+      "price_irr": 3054400
+    },
+    {
+      "timestamp": 1755289800,
+      "date": "2025-08-16",
+      "price": 301380,
+      "price_toman": 301380,
+      "price_irr": 3013800
+    },
+    {
+      "timestamp": 1755376200,
+      "date": "2025-08-17",
+      "price": 306020,
+      "price_toman": 306020,
+      "price_irr": 3060200
+    },
+    {
+      "timestamp": 1755462600,
+      "date": "2025-08-18",
+      "price": 307040,
+      "price_toman": 307040,
+      "price_irr": 3070400
+    },
+    {
+      "timestamp": 1755549000,
+      "date": "2025-08-19",
+      "price": 305780,
+      "price_toman": 305780,
+      "price_irr": 3057800
+    },
+    {
+      "timestamp": 1755635400,
+      "date": "2025-08-20",
+      "price": 307620,
+      "price_toman": 307620,
+      "price_irr": 3076200
+    },
+    {
+      "timestamp": 1755721800,
+      "date": "2025-08-21",
+      "price": 311180,
+      "price_toman": 311180,
+      "price_irr": 3111800
+    },
+    {
+      "timestamp": 1755808200,
+      "date": "2025-08-22",
+      "price": 310860,
+      "price_toman": 310860,
+      "price_irr": 3108600
+    },
+    {
+      "timestamp": 1755894600,
+      "date": "2025-08-23",
+      "price": 310260,
+      "price_toman": 310260,
+      "price_irr": 3102600
+    },
+    {
+      "timestamp": 1755981000,
+      "date": "2025-08-24",
+      "price": 312940,
+      "price_toman": 312940,
+      "price_irr": 3129400
+    },
+    {
+      "timestamp": 1756067400,
+      "date": "2025-08-25",
+      "price": 315300,
+      "price_toman": 315300,
+      "price_irr": 3153000
+    },
+    {
+      "timestamp": 1756153800,
+      "date": "2025-08-26",
+      "price": 320840,
+      "price_toman": 320840,
+      "price_irr": 3208400
+    },
+    {
+      "timestamp": 1756240200,
+      "date": "2025-08-27",
+      "price": 331020,
+      "price_toman": 331020,
+      "price_irr": 3310200
+    },
+    {
+      "timestamp": 1756326600,
+      "date": "2025-08-28",
+      "price": 333680,
+      "price_toman": 333680,
+      "price_irr": 3336800
+    },
+    {
+      "timestamp": 1756413000,
+      "date": "2025-08-29",
+      "price": 333660,
+      "price_toman": 333660,
+      "price_irr": 3336600
+    },
+    {
+      "timestamp": 1756499400,
+      "date": "2025-08-30",
+      "price": 337160,
+      "price_toman": 337160,
+      "price_irr": 3371600
+    },
+    {
+      "timestamp": 1756585800,
+      "date": "2025-08-31",
+      "price": 347460,
+      "price_toman": 347460,
+      "price_irr": 3474600
+    },
+    {
+      "timestamp": 1756672200,
+      "date": "2025-09-01",
+      "price": 347060,
+      "price_toman": 347060,
+      "price_irr": 3470600
+    },
+    {
+      "timestamp": 1756758600,
+      "date": "2025-09-02",
+      "price": 339200,
+      "price_toman": 339200,
+      "price_irr": 3392000
+    },
+    {
+      "timestamp": 1756845000,
+      "date": "2025-09-03",
+      "price": 335600,
+      "price_toman": 335600,
+      "price_irr": 3356000
+    },
+    {
+      "timestamp": 1756931400,
+      "date": "2025-09-04",
+      "price": 330920,
+      "price_toman": 330920,
+      "price_irr": 3309200
+    },
+    {
+      "timestamp": 1757017800,
+      "date": "2025-09-05",
+      "price": 331060,
+      "price_toman": 331060,
+      "price_irr": 3310600
+    },
+    {
+      "timestamp": 1757104200,
+      "date": "2025-09-06",
+      "price": 335980,
+      "price_toman": 335980,
+      "price_irr": 3359800
+    },
+    {
+      "timestamp": 1757190600,
+      "date": "2025-09-07",
+      "price": 336080,
+      "price_toman": 336080,
+      "price_irr": 3360800
+    },
+    {
+      "timestamp": 1757277000,
+      "date": "2025-09-08",
+      "price": 329400,
+      "price_toman": 329400,
+      "price_irr": 3294000
+    },
+    {
+      "timestamp": 1757363400,
+      "date": "2025-09-09",
+      "price": 332280,
+      "price_toman": 332280,
+      "price_irr": 3322800
+    },
+    {
+      "timestamp": 1757449800,
+      "date": "2025-09-10",
+      "price": 324400,
+      "price_toman": 324400,
+      "price_irr": 3244000
+    },
+    {
+      "timestamp": 1757536200,
+      "date": "2025-09-11",
+      "price": 324780,
+      "price_toman": 324780,
+      "price_irr": 3247800
+    },
+    {
+      "timestamp": 1757622600,
+      "date": "2025-09-12",
+      "price": 324840,
+      "price_toman": 324840,
+      "price_irr": 3248400
+    },
+    {
+      "timestamp": 1757709000,
+      "date": "2025-09-13",
+      "price": 320300,
+      "price_toman": 320300,
+      "price_irr": 3203000
+    },
+    {
+      "timestamp": 1757795400,
+      "date": "2025-09-14",
+      "price": 320880,
+      "price_toman": 320880,
+      "price_irr": 3208800
+    },
+    {
+      "timestamp": 1757881800,
+      "date": "2025-09-15",
+      "price": 324960,
+      "price_toman": 324960,
+      "price_irr": 3249600
+    },
+    {
+      "timestamp": 1757968200,
+      "date": "2025-09-16",
+      "price": 326500,
+      "price_toman": 326500,
+      "price_irr": 3265000
+    },
+    {
+      "timestamp": 1758054600,
+      "date": "2025-09-17",
+      "price": 325340,
+      "price_toman": 325340,
+      "price_irr": 3253400
+    },
+    {
+      "timestamp": 1758141000,
+      "date": "2025-09-18",
+      "price": 329700,
+      "price_toman": 329700,
+      "price_irr": 3297000
+    },
+    {
+      "timestamp": 1758227400,
+      "date": "2025-09-19",
+      "price": 329320,
+      "price_toman": 329320,
+      "price_irr": 3293200
+    },
+    {
+      "timestamp": 1758313800,
+      "date": "2025-09-20",
+      "price": 336420,
+      "price_toman": 336420,
+      "price_irr": 3364200
+    },
+    {
+      "timestamp": 1758400200,
+      "date": "2025-09-21",
+      "price": 348460,
+      "price_toman": 348460,
+      "price_irr": 3484600
+    },
+    {
+      "timestamp": 1758486600,
+      "date": "2025-09-22",
+      "price": 341100,
+      "price_toman": 341100,
+      "price_irr": 3411000
+    },
+    {
+      "timestamp": 1758573000,
+      "date": "2025-09-23",
+      "price": 343160,
+      "price_toman": 343160,
+      "price_irr": 3431600
+    },
+    {
+      "timestamp": 1758659400,
+      "date": "2025-09-24",
+      "price": 351960,
+      "price_toman": 351960,
+      "price_irr": 3519600
+    },
+    {
+      "timestamp": 1758745800,
+      "date": "2025-09-25",
+      "price": 355400,
+      "price_toman": 355400,
+      "price_irr": 3554000
+    },
+    {
+      "timestamp": 1758832200,
+      "date": "2025-09-26",
+      "price": 354940,
+      "price_toman": 354940,
+      "price_irr": 3549400
+    },
+    {
+      "timestamp": 1758918600,
+      "date": "2025-09-27",
+      "price": 369420,
+      "price_toman": 369420,
+      "price_irr": 3694200
+    },
+    {
+      "timestamp": 1759005000,
+      "date": "2025-09-28",
+      "price": 364700,
+      "price_toman": 364700,
+      "price_irr": 3647000
+    },
+    {
+      "timestamp": 1759091400,
+      "date": "2025-09-29",
+      "price": 366960,
+      "price_toman": 366960,
+      "price_irr": 3669600
+    },
+    {
+      "timestamp": 1759177800,
+      "date": "2025-09-30",
+      "price": 372840,
+      "price_toman": 372840,
+      "price_irr": 3728400
+    },
+    {
+      "timestamp": 1759264200,
+      "date": "2025-10-01",
+      "price": 379200,
+      "price_toman": 379200,
+      "price_irr": 3792000
+    },
+    {
+      "timestamp": 1759350600,
+      "date": "2025-10-02",
+      "price": 383140,
+      "price_toman": 383140,
+      "price_irr": 3831400
+    },
+    {
+      "timestamp": 1759437000,
+      "date": "2025-10-03",
+      "price": 382980,
+      "price_toman": 382980,
+      "price_irr": 3829800
+    },
+    {
+      "timestamp": 1759523400,
+      "date": "2025-10-04",
+      "price": 376840,
+      "price_toman": 376840,
+      "price_irr": 3768400
+    },
+    {
+      "timestamp": 1759609800,
+      "date": "2025-10-05",
+      "price": 371500,
+      "price_toman": 371500,
+      "price_irr": 3715000
+    },
+    {
+      "timestamp": 1759696200,
+      "date": "2025-10-06",
+      "price": 363000,
+      "price_toman": 363000,
+      "price_irr": 3630000
+    },
+    {
+      "timestamp": 1759782600,
+      "date": "2025-10-07",
+      "price": 371980,
+      "price_toman": 371980,
+      "price_irr": 3719800
+    },
+    {
+      "timestamp": 1759869000,
+      "date": "2025-10-08",
+      "price": 377640,
+      "price_toman": 377640,
+      "price_irr": 3776400
+    },
+    {
+      "timestamp": 1759955400,
+      "date": "2025-10-09",
+      "price": 366820,
+      "price_toman": 366820,
+      "price_irr": 3668200
+    },
+    {
+      "timestamp": 1760041800,
+      "date": "2025-10-10",
+      "price": 366420,
+      "price_toman": 366420,
+      "price_irr": 3664200
+    },
+    {
+      "timestamp": 1760128200,
+      "date": "2025-10-11",
+      "price": 366400,
+      "price_toman": 366400,
+      "price_irr": 3664000
+    },
+    {
+      "timestamp": 1760214600,
+      "date": "2025-10-12",
+      "price": 365600,
+      "price_toman": 365600,
+      "price_irr": 3656000
+    },
+    {
+      "timestamp": 1760301000,
+      "date": "2025-10-13",
+      "price": 360580,
+      "price_toman": 360580,
+      "price_irr": 3605800
+    },
+    {
+      "timestamp": 1760387400,
+      "date": "2025-10-14",
+      "price": 354120,
+      "price_toman": 354120,
+      "price_irr": 3541200
+    },
+    {
+      "timestamp": 1760473800,
+      "date": "2025-10-15",
+      "price": 357860,
+      "price_toman": 357860,
+      "price_irr": 3578600
+    },
+    {
+      "timestamp": 1760560200,
+      "date": "2025-10-16",
+      "price": 359640,
+      "price_toman": 359640,
+      "price_irr": 3596400
+    },
+    {
+      "timestamp": 1760646600,
+      "date": "2025-10-17",
+      "price": 359900,
+      "price_toman": 359900,
+      "price_irr": 3599000
+    },
+    {
+      "timestamp": 1760733000,
+      "date": "2025-10-18",
+      "price": 350840,
+      "price_toman": 350840,
+      "price_irr": 3508400
+    },
+    {
+      "timestamp": 1760819400,
+      "date": "2025-10-19",
+      "price": 355580,
+      "price_toman": 355580,
+      "price_irr": 3555800
+    },
+    {
+      "timestamp": 1760905800,
+      "date": "2025-10-20",
+      "price": 347600,
+      "price_toman": 347600,
+      "price_irr": 3476000
+    },
+    {
+      "timestamp": 1760992200,
+      "date": "2025-10-21",
+      "price": 352180,
+      "price_toman": 352180,
+      "price_irr": 3521800
+    },
+    {
+      "timestamp": 1761078600,
+      "date": "2025-10-22",
+      "price": 351960,
+      "price_toman": 351960,
+      "price_irr": 3519600
+    },
+    {
+      "timestamp": 1761165000,
+      "date": "2025-10-23",
+      "price": 354220,
+      "price_toman": 354220,
+      "price_irr": 3542200
+    },
+    {
+      "timestamp": 1761251400,
+      "date": "2025-10-24",
+      "price": 354040,
+      "price_toman": 354040,
+      "price_irr": 3540400
+    },
+    {
+      "timestamp": 1761337800,
+      "date": "2025-10-25",
+      "price": 349180,
+      "price_toman": 349180,
+      "price_irr": 3491800
+    },
+    {
+      "timestamp": 1761424200,
+      "date": "2025-10-26",
+      "price": 352720,
+      "price_toman": 352720,
+      "price_irr": 3527200
+    },
+    {
+      "timestamp": 1761510600,
+      "date": "2025-10-27",
+      "price": 351920,
+      "price_toman": 351920,
+      "price_irr": 3519200
+    },
+    {
+      "timestamp": 1761597000,
+      "date": "2025-10-28",
+      "price": 348760,
+      "price_toman": 348760,
+      "price_irr": 3487600
+    },
+    {
+      "timestamp": 1761683400,
+      "date": "2025-10-29",
+      "price": 349520,
+      "price_toman": 349520,
+      "price_irr": 3495200
+    },
+    {
+      "timestamp": 1761769800,
+      "date": "2025-10-30",
+      "price": 350300,
+      "price_toman": 350300,
+      "price_irr": 3503000
+    },
+    {
+      "timestamp": 1761856200,
+      "date": "2025-10-31",
+      "price": 349920,
+      "price_toman": 349920,
+      "price_irr": 3499200
+    },
+    {
+      "timestamp": 1761942600,
+      "date": "2025-11-01",
+      "price": 354320,
+      "price_toman": 354320,
+      "price_irr": 3543200
+    },
+    {
+      "timestamp": 1762029000,
+      "date": "2025-11-02",
+      "price": 352960,
+      "price_toman": 352960,
+      "price_irr": 3529600
+    },
+    {
+      "timestamp": 1762115400,
+      "date": "2025-11-03",
+      "price": 351560,
+      "price_toman": 351560,
+      "price_irr": 3515600
+    },
+    {
+      "timestamp": 1762201800,
+      "date": "2025-11-04",
+      "price": 352260,
+      "price_toman": 352260,
+      "price_irr": 3522600
+    },
+    {
+      "timestamp": 1762288200,
+      "date": "2025-11-05",
+      "price": 351060,
+      "price_toman": 351060,
+      "price_irr": 3510600
+    },
+    {
+      "timestamp": 1762374600,
+      "date": "2025-11-06",
+      "price": 351540,
+      "price_toman": 351540,
+      "price_irr": 3515400
+    },
+    {
+      "timestamp": 1762461000,
+      "date": "2025-11-07",
+      "price": 351700,
+      "price_toman": 351700,
+      "price_irr": 3517000
+    },
+    {
+      "timestamp": 1762547400,
+      "date": "2025-11-08",
+      "price": 351120,
+      "price_toman": 351120,
+      "price_irr": 3511200
+    },
+    {
+      "timestamp": 1762633800,
+      "date": "2025-11-09",
+      "price": 352240,
+      "price_toman": 352240,
+      "price_irr": 3522400
+    },
+    {
+      "timestamp": 1762720200,
+      "date": "2025-11-10",
+      "price": 350700,
+      "price_toman": 350700,
+      "price_irr": 3507000
+    },
+    {
+      "timestamp": 1762806600,
+      "date": "2025-11-11",
+      "price": 358820,
+      "price_toman": 358820,
+      "price_irr": 3588200
+    },
+    {
+      "timestamp": 1762893000,
+      "date": "2025-11-12",
+      "price": 366260,
+      "price_toman": 366260,
+      "price_irr": 3662600
+    },
+    {
+      "timestamp": 1762979400,
+      "date": "2025-11-13",
+      "price": 365120,
+      "price_toman": 365120,
+      "price_irr": 3651200
+    },
+    {
+      "timestamp": 1763065800,
+      "date": "2025-11-14",
+      "price": 365140,
+      "price_toman": 365140,
+      "price_irr": 3651400
+    },
+    {
+      "timestamp": 1763152200,
+      "date": "2025-11-15",
+      "price": 368120,
+      "price_toman": 368120,
+      "price_irr": 3681200
+    },
+    {
+      "timestamp": 1763238600,
+      "date": "2025-11-16",
+      "price": 366620,
+      "price_toman": 366620,
+      "price_irr": 3666200
+    },
+    {
+      "timestamp": 1763325000,
+      "date": "2025-11-17",
+      "price": 366600,
+      "price_toman": 366600,
+      "price_irr": 3666000
+    },
+    {
+      "timestamp": 1763411400,
+      "date": "2025-11-18",
+      "price": 366960,
+      "price_toman": 366960,
+      "price_irr": 3669600
+    },
+    {
+      "timestamp": 1763497800,
+      "date": "2025-11-19",
+      "price": 369320,
+      "price_toman": 369320,
+      "price_irr": 3693200
+    },
+    {
+      "timestamp": 1763584200,
+      "date": "2025-11-20",
+      "price": 369180,
+      "price_toman": 369180,
+      "price_irr": 3691800
+    },
+    {
+      "timestamp": 1763670600,
+      "date": "2025-11-21",
+      "price": 369080,
+      "price_toman": 369080,
+      "price_irr": 3690800
+    },
+    {
+      "timestamp": 1763757000,
+      "date": "2025-11-22",
+      "price": 366660,
+      "price_toman": 366660,
+      "price_irr": 3666600
+    },
+    {
+      "timestamp": 1763843400,
+      "date": "2025-11-23",
+      "price": 370020,
+      "price_toman": 370020,
+      "price_irr": 3700200
+    },
+    {
+      "timestamp": 1763929800,
+      "date": "2025-11-24",
+      "price": 368480,
+      "price_toman": 368480,
+      "price_irr": 3684800
+    },
+    {
+      "timestamp": 1764016200,
+      "date": "2025-11-25",
+      "price": 369080,
+      "price_toman": 369080,
+      "price_irr": 3690800
+    },
+    {
+      "timestamp": 1764102600,
+      "date": "2025-11-26",
+      "price": 369720,
+      "price_toman": 369720,
+      "price_irr": 3697200
+    },
+    {
+      "timestamp": 1764189000,
+      "date": "2025-11-27",
+      "price": 371120,
+      "price_toman": 371120,
+      "price_irr": 3711200
+    },
+    {
+      "timestamp": 1764275400,
+      "date": "2025-11-28",
+      "price": 371000,
+      "price_toman": 371000,
+      "price_irr": 3710000
+    },
+    {
+      "timestamp": 1764361800,
+      "date": "2025-11-29",
+      "price": 377420,
+      "price_toman": 377420,
+      "price_irr": 3774200
+    },
+    {
+      "timestamp": 1764448200,
+      "date": "2025-11-30",
+      "price": 383640,
+      "price_toman": 383640,
+      "price_irr": 3836400
+    },
+    {
+      "timestamp": 1764534600,
+      "date": "2025-12-01",
+      "price": 387820,
+      "price_toman": 387820,
+      "price_irr": 3878200
+    },
+    {
+      "timestamp": 1764621000,
+      "date": "2025-12-02",
+      "price": 387620,
+      "price_toman": 387620,
+      "price_irr": 3876200
+    },
+    {
+      "timestamp": 1764707400,
+      "date": "2025-12-03",
+      "price": 391900,
+      "price_toman": 391900,
+      "price_irr": 3919000
+    },
+    {
+      "timestamp": 1764793800,
+      "date": "2025-12-04",
+      "price": 390280,
+      "price_toman": 390280,
+      "price_irr": 3902800
+    },
+    {
+      "timestamp": 1764880200,
+      "date": "2025-12-05",
+      "price": 390080,
+      "price_toman": 390080,
+      "price_irr": 3900800
+    },
+    {
+      "timestamp": 1764966600,
+      "date": "2025-12-06",
+      "price": 397780,
+      "price_toman": 397780,
+      "price_irr": 3977800
+    },
+    {
+      "timestamp": 1765053000,
+      "date": "2025-12-07",
+      "price": 404780,
+      "price_toman": 404780,
+      "price_irr": 4047800
+    },
+    {
+      "timestamp": 1765139400,
+      "date": "2025-12-08",
+      "price": 410220,
+      "price_toman": 410220,
+      "price_irr": 4102200
+    },
+    {
+      "timestamp": 1765225800,
+      "date": "2025-12-09",
+      "price": 406880,
+      "price_toman": 406880,
+      "price_irr": 4068800
+    },
+    {
+      "timestamp": 1765312200,
+      "date": "2025-12-10",
+      "price": 405700,
+      "price_toman": 405700,
+      "price_irr": 4057000
+    },
+    {
+      "timestamp": 1765398600,
+      "date": "2025-12-11",
+      "price": 409480,
+      "price_toman": 409480,
+      "price_irr": 4094800
+    },
+    {
+      "timestamp": 1765485000,
+      "date": "2025-12-12",
+      "price": 409540,
+      "price_toman": 409540,
+      "price_irr": 4095400
+    },
+    {
+      "timestamp": 1765571400,
+      "date": "2025-12-13",
+      "price": 419040,
+      "price_toman": 419040,
+      "price_irr": 4190400
+    },
+    {
+      "timestamp": 1765657800,
+      "date": "2025-12-14",
+      "price": 424460,
+      "price_toman": 424460,
+      "price_irr": 4244600
+    },
+    {
+      "timestamp": 1765744200,
+      "date": "2025-12-15",
+      "price": 424760,
+      "price_toman": 424760,
+      "price_irr": 4247600
+    },
+    {
+      "timestamp": 1765830600,
+      "date": "2025-12-16",
+      "price": 424200,
+      "price_toman": 424200,
+      "price_irr": 4242000
+    },
+    {
+      "timestamp": 1765917000,
+      "date": "2025-12-17",
+      "price": 430740,
+      "price_toman": 430740,
+      "price_irr": 4307400
+    },
+    {
+      "timestamp": 1766003400,
+      "date": "2025-12-18",
+      "price": 426800,
+      "price_toman": 426800,
+      "price_irr": 4268000
+    },
+    {
+      "timestamp": 1766089800,
+      "date": "2025-12-19",
+      "price": 425660,
+      "price_toman": 425660,
+      "price_irr": 4256600
+    },
+    {
+      "timestamp": 1766176200,
+      "date": "2025-12-20",
+      "price": 429880,
+      "price_toman": 429880,
+      "price_irr": 4298800
+    },
+    {
+      "timestamp": 1766262600,
+      "date": "2025-12-21",
+      "price": 427500,
+      "price_toman": 427500,
+      "price_irr": 4275000
+    },
+    {
+      "timestamp": 1766349000,
+      "date": "2025-12-22",
+      "price": 429280,
+      "price_toman": 429280,
+      "price_irr": 4292800
+    },
+    {
+      "timestamp": 1766435400,
+      "date": "2025-12-23",
+      "price": 438840,
+      "price_toman": 438840,
+      "price_irr": 4388400
+    },
+    {
+      "timestamp": 1766521800,
+      "date": "2025-12-24",
+      "price": 441460,
+      "price_toman": 441460,
+      "price_irr": 4414600
+    },
+    {
+      "timestamp": 1766608200,
+      "date": "2025-12-25",
+      "price": 437900,
+      "price_toman": 437900,
+      "price_irr": 4379000
+    },
+    {
+      "timestamp": 1766694600,
+      "date": "2025-12-26",
+      "price": 437680,
+      "price_toman": 437680,
+      "price_irr": 4376800
+    },
+    {
+      "timestamp": 1766781000,
+      "date": "2025-12-27",
+      "price": 454240,
+      "price_toman": 454240,
+      "price_irr": 4542400
+    },
+    {
+      "timestamp": 1766867400,
+      "date": "2025-12-28",
+      "price": 467440,
+      "price_toman": 467440,
+      "price_irr": 4674400
+    },
+    {
+      "timestamp": 1766953800,
+      "date": "2025-12-29",
+      "price": 445480,
+      "price_toman": 445480,
+      "price_irr": 4454800
+    },
+    {
+      "timestamp": 1767040200,
+      "date": "2025-12-30",
+      "price": 454140,
+      "price_toman": 454140,
+      "price_irr": 4541400
+    },
+    {
+      "timestamp": 1767126600,
+      "date": "2025-12-31",
+      "price": 439900,
+      "price_toman": 439900,
+      "price_irr": 4399000
+    },
+    {
+      "timestamp": 1767213000,
+      "date": "2026-01-01",
+      "price": 439820,
+      "price_toman": 439820,
+      "price_irr": 4398200
+    },
+    {
+      "timestamp": 1767299400,
+      "date": "2026-01-02",
+      "price": 439460,
+      "price_toman": 439460,
+      "price_irr": 4394600
+    },
+    {
+      "timestamp": 1767385800,
+      "date": "2026-01-03",
+      "price": 445660,
+      "price_toman": 445660,
+      "price_irr": 4456600
+    },
+    {
+      "timestamp": 1767472200,
+      "date": "2026-01-04",
+      "price": 449700,
+      "price_toman": 449700,
+      "price_irr": 4497000
+    },
+    {
+      "timestamp": 1767558600,
+      "date": "2026-01-05",
+      "price": 469220,
+      "price_toman": 469220,
+      "price_irr": 4692200
+    },
+    {
+      "timestamp": 1767645000,
+      "date": "2026-01-06",
+      "price": 478760,
+      "price_toman": 478760,
+      "price_irr": 4787600
+    },
+    {
+      "timestamp": 1767731400,
+      "date": "2026-01-07",
+      "price": 479080,
+      "price_toman": 479080,
+      "price_irr": 4790800
+    },
+    {
+      "timestamp": 1767817800,
+      "date": "2026-01-08",
+      "price": 474000,
+      "price_toman": 474000,
+      "price_irr": 4740000
+    },
+    {
+      "timestamp": 1767904200,
+      "date": "2026-01-09",
+      "price": 473460,
+      "price_toman": 473460,
+      "price_irr": 4734600
+    },
+    {
+      "timestamp": 1767990600,
+      "date": "2026-01-10",
+      "price": 473660,
+      "price_toman": 473660,
+      "price_irr": 4736600
+    },
+    {
+      "timestamp": 1768077000,
+      "date": "2026-01-11",
+      "price": 474840,
+      "price_toman": 474840,
+      "price_irr": 4748400
+    },
+    {
+      "timestamp": 1768163400,
+      "date": "2026-01-12",
+      "price": 473420,
+      "price_toman": 473420,
+      "price_irr": 4734200
+    },
+    {
+      "timestamp": 1768249800,
+      "date": "2026-01-13",
+      "price": 473060,
+      "price_toman": 473060,
+      "price_irr": 4730600
+    },
+    {
+      "timestamp": 1768336200,
+      "date": "2026-01-14",
+      "price": 473660,
+      "price_toman": 473660,
+      "price_irr": 4736600
+    },
+    {
+      "timestamp": 1768422600,
+      "date": "2026-01-15",
+      "price": 473160,
+      "price_toman": 473160,
+      "price_irr": 4731600
+    },
+    {
+      "timestamp": 1768509000,
+      "date": "2026-01-16",
+      "price": 472700,
+      "price_toman": 472700,
+      "price_irr": 4727000
+    },
+    {
+      "timestamp": 1768595400,
+      "date": "2026-01-17",
+      "price": 472880,
+      "price_toman": 472880,
+      "price_irr": 4728800
+    },
+    {
+      "timestamp": 1768681800,
+      "date": "2026-01-18",
+      "price": 473000,
+      "price_toman": 473000,
+      "price_irr": 4730000
+    },
+    {
+      "timestamp": 1768768200,
+      "date": "2026-01-19",
+      "price": 453080,
+      "price_toman": 453080,
+      "price_irr": 4530800
+    },
+    {
+      "timestamp": 1768854600,
+      "date": "2026-01-20",
+      "price": 452020,
+      "price_toman": 452020,
+      "price_irr": 4520200
+    },
+    {
+      "timestamp": 1768941000,
+      "date": "2026-01-21",
+      "price": 459380,
+      "price_toman": 459380,
+      "price_irr": 4593800
+    },
+    {
+      "timestamp": 1769027400,
+      "date": "2026-01-22",
+      "price": 458980,
+      "price_toman": 458980,
+      "price_irr": 4589800
+    },
+    {
+      "timestamp": 1769113800,
+      "date": "2026-01-23",
+      "price": 458900,
+      "price_toman": 458900,
+      "price_irr": 4589000
+    },
+    {
+      "timestamp": 1769200200,
+      "date": "2026-01-24",
+      "price": 464660,
+      "price_toman": 464660,
+      "price_irr": 4646600
+    },
+    {
+      "timestamp": 1769373000,
+      "date": "2026-01-26",
+      "price": 479040,
+      "price_toman": 479040,
+      "price_irr": 4790400
+    },
+    {
+      "timestamp": 1769459400,
+      "date": "2026-01-27",
+      "price": 499200,
+      "price_toman": 499200,
+      "price_irr": 4992000
+    },
+    {
+      "timestamp": 1769545800,
+      "date": "2026-01-28",
+      "price": 526980,
+      "price_toman": 526980,
+      "price_irr": 5269800
+    },
+    {
+      "timestamp": 1769632200,
+      "date": "2026-01-29",
+      "price": 523060,
+      "price_toman": 523060,
+      "price_irr": 5230600
+    },
+    {
+      "timestamp": 1769718600,
+      "date": "2026-01-30",
+      "price": 522600,
+      "price_toman": 522600,
+      "price_irr": 5226000
+    },
+    {
+      "timestamp": 1769805000,
+      "date": "2026-01-31",
+      "price": 531340,
+      "price_toman": 531340,
+      "price_irr": 5313400
+    },
+    {
+      "timestamp": 1769891400,
+      "date": "2026-02-01",
+      "price": 519600,
+      "price_toman": 519600,
+      "price_irr": 5196000
+    },
+    {
+      "timestamp": 1769977800,
+      "date": "2026-02-02",
+      "price": 504260,
+      "price_toman": 504260,
+      "price_irr": 5042600
+    },
+    {
+      "timestamp": 1770064200,
+      "date": "2026-02-03",
+      "price": 515400,
+      "price_toman": 515400,
+      "price_irr": 5154000
+    },
+    {
+      "timestamp": 1770150600,
+      "date": "2026-02-04",
+      "price": 512520,
+      "price_toman": 512520,
+      "price_irr": 5125200
+    },
+    {
+      "timestamp": 1770237000,
+      "date": "2026-02-05",
+      "price": 527660,
+      "price_toman": 527660,
+      "price_irr": 5276600
+    },
+    {
+      "timestamp": 1770323400,
+      "date": "2026-02-06",
+      "price": 528000,
+      "price_toman": 528000,
+      "price_irr": 5280000
+    },
+    {
+      "timestamp": 1770409800,
+      "date": "2026-02-07",
+      "price": 506840,
+      "price_toman": 506840,
+      "price_irr": 5068400
+    },
+    {
+      "timestamp": 1770496200,
+      "date": "2026-02-08",
+      "price": 519200,
+      "price_toman": 519200,
+      "price_irr": 5192000
+    },
+    {
+      "timestamp": 1770582600,
+      "date": "2026-02-09",
+      "price": 528040,
+      "price_toman": 528040,
+      "price_irr": 5280400
+    },
+    {
+      "timestamp": 1770669000,
+      "date": "2026-02-10",
+      "price": 532580,
+      "price_toman": 532580,
+      "price_irr": 5325800
+    },
+    {
+      "timestamp": 1770755400,
+      "date": "2026-02-11",
+      "price": 529480,
+      "price_toman": 529480,
+      "price_irr": 5294800
+    },
+    {
+      "timestamp": 1771014600,
+      "date": "2026-02-14",
+      "price": 517620,
+      "price_toman": 517620,
+      "price_irr": 5176200
+    },
+    {
+      "timestamp": 1771101000,
+      "date": "2026-02-15",
+      "price": 521520,
+      "price_toman": 521520,
+      "price_irr": 5215200
+    },
+    {
+      "timestamp": 1771187400,
+      "date": "2026-02-16",
+      "price": 522020,
+      "price_toman": 522020,
+      "price_irr": 5220200
+    },
+    {
+      "timestamp": 1771273800,
+      "date": "2026-02-17",
+      "price": 525780,
+      "price_toman": 525780,
+      "price_irr": 5257800
+    },
+    {
+      "timestamp": 1771360200,
+      "date": "2026-02-18",
+      "price": 530640,
+      "price_toman": 530640,
+      "price_irr": 5306400
+    },
+    {
+      "timestamp": 1771446600,
+      "date": "2026-02-19",
+      "price": 533100,
+      "price_toman": 533100,
+      "price_irr": 5331000
+    },
+    {
+      "timestamp": 1771533000,
+      "date": "2026-02-20",
+      "price": 533220,
+      "price_toman": 533220,
+      "price_irr": 5332200
+    },
+    {
+      "timestamp": 1771619400,
+      "date": "2026-02-21",
+      "price": 535560,
+      "price_toman": 535560,
+      "price_irr": 5355600
+    },
+    {
+      "timestamp": 1771705800,
+      "date": "2026-02-22",
+      "price": 532620,
+      "price_toman": 532620,
+      "price_irr": 5326200
+    },
+    {
+      "timestamp": 1771792200,
+      "date": "2026-02-23",
+      "price": 531800,
+      "price_toman": 531800,
+      "price_irr": 5318000
+    },
+    {
+      "timestamp": 1771878600,
+      "date": "2026-02-24",
+      "price": 535220,
+      "price_toman": 535220,
+      "price_irr": 5352200
+    },
+    {
+      "timestamp": 1771965000,
+      "date": "2026-02-25",
+      "price": 538940,
+      "price_toman": 538940,
+      "price_irr": 5389400
+    },
+    {
+      "timestamp": 1772051400,
+      "date": "2026-02-26",
+      "price": 542540,
+      "price_toman": 542540,
+      "price_irr": 5425400
+    },
+    {
+      "timestamp": 1772137800,
+      "date": "2026-02-27",
+      "price": 542900,
+      "price_toman": 542900,
+      "price_irr": 5429000
+    },
+    {
+      "timestamp": 1772224200,
+      "date": "2026-02-28",
+      "price": 542720,
+      "price_toman": 542720,
+      "price_irr": 5427200
+    },
+    {
+      "timestamp": 1772310600,
+      "date": "2026-03-01",
+      "price": 542720,
+      "price_toman": 542720,
+      "price_irr": 5427200
+    },
+    {
+      "timestamp": 1772397000,
+      "date": "2026-03-02",
+      "price": 541840,
+      "price_toman": 541840,
+      "price_irr": 5418400
+    },
+    {
+      "timestamp": 1772483400,
+      "date": "2026-03-03",
+      "price": 541500,
+      "price_toman": 541500,
+      "price_irr": 5415000
+    },
+    {
+      "timestamp": 1772569800,
+      "date": "2026-03-04",
+      "price": 541220,
+      "price_toman": 541220,
+      "price_irr": 5412200
+    },
+    {
+      "timestamp": 1772656200,
+      "date": "2026-03-05",
+      "price": 540780,
+      "price_toman": 540780,
+      "price_irr": 5407800
+    },
+    {
+      "timestamp": 1772742600,
+      "date": "2026-03-06",
+      "price": 541100,
+      "price_toman": 541100,
+      "price_irr": 5411000
+    },
+    {
+      "timestamp": 1772829000,
+      "date": "2026-03-07",
+      "price": 540780,
+      "price_toman": 540780,
+      "price_irr": 5407800
+    },
+    {
+      "timestamp": 1772915400,
+      "date": "2026-03-08",
+      "price": 540780,
+      "price_toman": 540780,
+      "price_irr": 5407800
+    },
+    {
+      "timestamp": 1773001800,
+      "date": "2026-03-09",
+      "price": 540780,
+      "price_toman": 540780,
+      "price_irr": 5407800
+    },
+    {
+      "timestamp": 1774470600,
+      "date": "2026-03-26",
+      "price": 510080,
+      "price_toman": 510080,
+      "price_irr": 5100800
+    },
+    {
+      "timestamp": 1774557000,
+      "date": "2026-03-27",
+      "price": 510500,
+      "price_toman": 510500,
+      "price_irr": 5105000
+    },
+    {
+      "timestamp": 1774643400,
+      "date": "2026-03-28",
+      "price": 509240,
+      "price_toman": 509240,
+      "price_irr": 5092400
+    },
+    {
+      "timestamp": 1774729800,
+      "date": "2026-03-29",
+      "price": 512980,
+      "price_toman": 512980,
+      "price_irr": 5129800
+    },
+    {
+      "timestamp": 1774816200,
+      "date": "2026-03-30",
+      "price": 513480,
+      "price_toman": 513480,
+      "price_irr": 5134800
+    },
+    {
+      "timestamp": 1774902600,
+      "date": "2026-03-31",
+      "price": 516080,
+      "price_toman": 516080,
+      "price_irr": 5160800
+    },
+    {
+      "timestamp": 1774989000,
+      "date": "2026-04-01",
+      "price": 514240,
+      "price_toman": 514240,
+      "price_irr": 5142400
+    },
+    {
+      "timestamp": 1775075400,
+      "date": "2026-04-02",
+      "price": 522780,
+      "price_toman": 522780,
+      "price_irr": 5227800
+    },
+    {
+      "timestamp": 1775161800,
+      "date": "2026-04-03",
+      "price": 518940,
+      "price_toman": 518940,
+      "price_irr": 5189400
+    },
+    {
+      "timestamp": 1775248200,
+      "date": "2026-04-04",
+      "price": 511560,
+      "price_toman": 511560,
+      "price_irr": 5115600
+    },
+    {
+      "timestamp": 1775334600,
+      "date": "2026-04-05",
+      "price": 514440,
+      "price_toman": 514440,
+      "price_irr": 5144400
+    },
+    {
+      "timestamp": 1775421000,
+      "date": "2026-04-06",
+      "price": 514360,
+      "price_toman": 514360,
+      "price_irr": 5143600
+    },
+    {
+      "timestamp": 1775507400,
+      "date": "2026-04-07",
+      "price": 516180,
+      "price_toman": 516180,
+      "price_irr": 5161800
+    },
+    {
+      "timestamp": 1775593800,
+      "date": "2026-04-08",
+      "price": 509120,
+      "price_toman": 509120,
+      "price_irr": 5091200
+    },
+    {
+      "timestamp": 1775680200,
+      "date": "2026-04-09",
+      "price": 511060,
+      "price_toman": 511060,
+      "price_irr": 5110600
+    },
+    {
+      "timestamp": 1775766600,
+      "date": "2026-04-10",
+      "price": 503340,
+      "price_toman": 503340,
+      "price_irr": 5033400
+    },
+    {
+      "timestamp": 1775853000,
+      "date": "2026-04-11",
+      "price": 500600,
+      "price_toman": 500600,
+      "price_irr": 5006000
+    },
+    {
+      "timestamp": 1775939400,
+      "date": "2026-04-12",
+      "price": 516780,
+      "price_toman": 516780,
+      "price_irr": 5167800
+    },
+    {
+      "timestamp": 1776025800,
+      "date": "2026-04-13",
+      "price": 520900,
+      "price_toman": 520900,
+      "price_irr": 5209000
+    },
+    {
+      "timestamp": 1776112200,
+      "date": "2026-04-14",
+      "price": 511200,
+      "price_toman": 511200,
+      "price_irr": 5112000
+    },
+    {
+      "timestamp": 1776198600,
+      "date": "2026-04-15",
+      "price": 504160,
+      "price_toman": 504160,
+      "price_irr": 5041600
+    },
+    {
+      "timestamp": 1776285000,
+      "date": "2026-04-16",
+      "price": 500600,
+      "price_toman": 500600,
+      "price_irr": 5006000
+    },
+    {
+      "timestamp": 1776371400,
+      "date": "2026-04-17",
+      "price": 495440,
+      "price_toman": 495440,
+      "price_irr": 4954400
+    },
+    {
+      "timestamp": 1776457800,
+      "date": "2026-04-18",
+      "price": 502820,
+      "price_toman": 502820,
+      "price_irr": 5028200
+    },
+    {
+      "timestamp": 1776544200,
+      "date": "2026-04-19",
+      "price": 499900,
+      "price_toman": 499900,
+      "price_irr": 4999000
+    },
+    {
+      "timestamp": 1776630600,
+      "date": "2026-04-20",
+      "price": 494480,
+      "price_toman": 494480,
+      "price_irr": 4944800
+    },
+    {
+      "timestamp": 1776717000,
+      "date": "2026-04-21",
+      "price": 496220,
+      "price_toman": 496220,
+      "price_irr": 4962200
+    },
+    {
+      "timestamp": 1776803400,
+      "date": "2026-04-22",
+      "price": 500060,
+      "price_toman": 500060,
+      "price_irr": 5000600
+    },
+    {
+      "timestamp": 1776889800,
+      "date": "2026-04-23",
+      "price": 505320,
+      "price_toman": 505320,
+      "price_irr": 5053200
+    },
+    {
+      "timestamp": 1776976200,
+      "date": "2026-04-24",
+      "price": 499240,
+      "price_toman": 499240,
+      "price_irr": 4992400
+    },
+    {
+      "timestamp": 1777062600,
+      "date": "2026-04-25",
+      "price": 504820,
+      "price_toman": 504820,
+      "price_irr": 5048200
+    },
+    {
+      "timestamp": 1777149000,
+      "date": "2026-04-26",
+      "price": 509180,
+      "price_toman": 509180,
+      "price_irr": 5091800
+    },
+    {
+      "timestamp": 1777235400,
+      "date": "2026-04-27",
+      "price": 519780,
+      "price_toman": 519780,
+      "price_irr": 5197800
+    },
+    {
+      "timestamp": 1777321800,
+      "date": "2026-04-28",
+      "price": 542600,
+      "price_toman": 542600,
+      "price_irr": 5426000
+    },
+    {
+      "timestamp": 1777408200,
+      "date": "2026-04-29",
+      "price": 580460,
+      "price_toman": 580460,
+      "price_irr": 5804600
+    },
+    {
+      "timestamp": 1777494600,
+      "date": "2026-04-30",
+      "price": 581300,
+      "price_toman": 581300,
+      "price_irr": 5813000
+    },
+    {
+      "timestamp": 1777581000,
+      "date": "2026-05-01",
+      "price": 577720,
+      "price_toman": 577720,
+      "price_irr": 5777200
+    },
+    {
+      "timestamp": 1777667400,
+      "date": "2026-05-02",
+      "price": 604300,
+      "price_toman": 604300,
+      "price_irr": 6043000
+    },
+    {
+      "timestamp": 1777753800,
+      "date": "2026-05-03",
+      "price": 622840,
+      "price_toman": 622840,
+      "price_irr": 6228400
+    },
+    {
+      "timestamp": 1777840200,
+      "date": "2026-05-04",
+      "price": 588060,
+      "price_toman": 588060,
+      "price_irr": 5880600
+    },
+    {
+      "timestamp": 1777926600,
+      "date": "2026-05-05",
+      "price": 592440,
+      "price_toman": 592440,
+      "price_irr": 5924400
+    },
+    {
+      "timestamp": 1778013000,
+      "date": "2026-05-06",
+      "price": 579960,
+      "price_toman": 579960,
+      "price_irr": 5799600
+    },
+    {
+      "timestamp": 1778099400,
+      "date": "2026-05-07",
+      "price": 586720,
+      "price_toman": 586720,
+      "price_irr": 5867200
+    },
+    {
+      "timestamp": 1778185800,
+      "date": "2026-05-08",
+      "price": 584200,
+      "price_toman": 584200,
+      "price_irr": 5842000
+    },
+    {
+      "timestamp": 1778272200,
+      "date": "2026-05-09",
+      "price": 583820,
+      "price_toman": 583820,
+      "price_irr": 5838200
+    },
+    {
+      "timestamp": 1778358600,
+      "date": "2026-05-10",
+      "price": 582180,
+      "price_toman": 582180,
+      "price_irr": 5821800
+    },
+    {
+      "timestamp": 1778445000,
+      "date": "2026-05-11",
+      "price": 593400,
+      "price_toman": 593400,
+      "price_irr": 5934000
+    },
+    {
+      "timestamp": 1778531400,
+      "date": "2026-05-12",
+      "price": 593580,
+      "price_toman": 593580,
+      "price_irr": 5935800
+    },
+    {
+      "timestamp": 1778617800,
+      "date": "2026-05-13",
+      "price": 587880,
+      "price_toman": 587880,
+      "price_irr": 5878800
+    },
+    {
+      "timestamp": 1778704200,
+      "date": "2026-05-14",
+      "price": 586500,
+      "price_toman": 586500,
+      "price_irr": 5865000
+    },
+    {
+      "timestamp": 1778790600,
+      "date": "2026-05-15",
+      "price": 585580,
+      "price_toman": 585580,
+      "price_irr": 5855800
+    },
+    {
+      "timestamp": 1778877000,
+      "date": "2026-05-16",
+      "price": 589780,
+      "price_toman": 589780,
+      "price_irr": 5897800
+    },
+    {
+      "timestamp": 1778963400,
+      "date": "2026-05-17",
+      "price": 580940,
+      "price_toman": 580940,
+      "price_irr": 5809400
+    },
+    {
+      "timestamp": 1779049800,
+      "date": "2026-05-18",
+      "price": 576360,
+      "price_toman": 576360,
+      "price_irr": 5763600
+    },
+    {
+      "timestamp": 1779136200,
+      "date": "2026-05-19",
+      "price": 574940,
+      "price_toman": 574940,
+      "price_irr": 5749400
+    },
+    {
+      "timestamp": 1779222600,
+      "date": "2026-05-20",
+      "price": 571240,
+      "price_toman": 571240,
+      "price_irr": 5712400
+    },
+    {
+      "timestamp": 1779309000,
+      "date": "2026-05-21",
+      "price": 575580,
+      "price_toman": 575580,
+      "price_irr": 5755800
+    },
+    {
+      "timestamp": 1779395400,
+      "date": "2026-05-22",
+      "price": 565440,
+      "price_toman": 565440,
+      "price_irr": 5654400
+    },
+    {
+      "timestamp": 1779481800,
+      "date": "2026-05-23",
+      "price": 558780,
+      "price_toman": 558780,
+      "price_irr": 5587800
+    },
+    {
+      "timestamp": 1779568200,
+      "date": "2026-05-24",
+      "price": 562480,
+      "price_toman": 562480,
+      "price_irr": 5624800
+    },
+    {
+      "timestamp": 1779654600,
+      "date": "2026-05-25",
+      "price": 555120,
+      "price_toman": 555120,
+      "price_irr": 5551200
+    },
+    {
+      "timestamp": 1779741000,
+      "date": "2026-05-26",
+      "price": 555120,
+      "price_toman": 555120,
+      "price_irr": 5551200
+    },
+    {
+      "timestamp": 1779827400,
+      "date": "2026-05-27",
+      "price": 555660,
+      "price_toman": 555660,
+      "price_irr": 5556600
+    },
+    {
+      "timestamp": 1779913800,
+      "date": "2026-05-28",
+      "price": 561560,
+      "price_toman": 561560,
+      "price_irr": 5615600
+    },
+    {
+      "timestamp": 1780000200,
+      "date": "2026-05-29",
+      "price": 550820,
+      "price_toman": 550820,
+      "price_irr": 5508200
+    },
+    {
+      "timestamp": 1780086600,
+      "date": "2026-05-30",
+      "price": 550100,
+      "price_toman": 550100,
+      "price_irr": 5501000
+    },
+    {
+      "timestamp": 1780173000,
+      "date": "2026-05-31",
+      "price": 553140,
+      "price_toman": 553140,
+      "price_irr": 5531400
+    },
+    {
+      "timestamp": 1780259400,
+      "date": "2026-06-01",
+      "price": 559520,
+      "price_toman": 559520,
+      "price_irr": 5595200
+    },
+    {
+      "timestamp": 1780345800,
+      "date": "2026-06-02",
+      "price": 561640,
+      "price_toman": 561640,
+      "price_irr": 5616400
+    },
+    {
+      "timestamp": 1780432200,
+      "date": "2026-06-03",
+      "price": 563820,
+      "price_toman": 563820,
+      "price_irr": 5638200
+    },
+    {
+      "timestamp": 1780518600,
+      "date": "2026-06-04",
+      "price": 563640,
+      "price_toman": 563640,
+      "price_irr": 5636400
+    },
+    {
+      "timestamp": 1780605000,
+      "date": "2026-06-05",
+      "price": 568320,
+      "price_toman": 568320,
+      "price_irr": 5683200
+    },
+    {
+      "timestamp": 1780691400,
+      "date": "2026-06-06",
+      "price": 570460,
+      "price_toman": 570460,
+      "price_irr": 5704600
+    },
+    {
+      "timestamp": 1780777800,
+      "date": "2026-06-07",
+      "price": 576620,
+      "price_toman": 576620,
+      "price_irr": 5766200
+    },
+    {
+      "timestamp": 1780864200,
+      "date": "2026-06-08",
+      "price": 575160,
+      "price_toman": 575160,
+      "price_irr": 5751600
+    },
+    {
+      "timestamp": 1780950600,
+      "date": "2026-06-09",
+      "price": 573180,
+      "price_toman": 573180,
+      "price_irr": 5731800
+    },
+    {
+      "timestamp": 1781037000,
+      "date": "2026-06-10",
+      "price": 578540,
+      "price_toman": 578540,
+      "price_irr": 5785400
+    },
+    {
+      "timestamp": 1781123400,
+      "date": "2026-06-11",
+      "price": 586900,
+      "price_toman": 586900,
+      "price_irr": 5869000
+    },
+    {
+      "timestamp": 1781209800,
+      "date": "2026-06-12",
+      "price": 586720,
+      "price_toman": 586720,
+      "price_irr": 5867200
+    },
+    {
+      "timestamp": 1781296200,
+      "date": "2026-06-13",
+      "price": 551720,
+      "price_toman": 551720,
+      "price_irr": 5517200
+    },
+    {
+      "timestamp": 1781382600,
+      "date": "2026-06-14",
+      "price": 554320,
+      "price_toman": 554320,
+      "price_irr": 5543200
+    },
+    {
+      "timestamp": 1781469000,
+      "date": "2026-06-15",
+      "price": 520940,
+      "price_toman": 520940,
+      "price_irr": 5209400
+    },
+    {
+      "timestamp": 1781555400,
+      "date": "2026-06-16",
+      "price": 498060,
+      "price_toman": 498060,
+      "price_irr": 4980600
+    },
+    {
+      "timestamp": 1781641800,
+      "date": "2026-06-17",
+      "price": 508580,
+      "price_toman": 508580,
+      "price_irr": 5085800
+    },
+    {
+      "timestamp": 1781728200,
+      "date": "2026-06-18",
+      "price": 509580,
+      "price_toman": 509580,
+      "price_irr": 5095800
+    },
+    {
+      "timestamp": 1781814600,
+      "date": "2026-06-19",
+      "price": 524360,
+      "price_toman": 524360,
+      "price_irr": 5243600
+    },
+    {
+      "timestamp": 1781901000,
+      "date": "2026-06-20",
+      "price": 524400,
+      "price_toman": 524400,
+      "price_irr": 5244000
+    },
+    {
+      "timestamp": 1781987400,
+      "date": "2026-06-21",
+      "price": 521320,
+      "price_toman": 521320,
+      "price_irr": 5213200
+    },
+    {
+      "timestamp": 1782073800,
+      "date": "2026-06-22",
+      "price": 514820,
+      "price_toman": 514820,
+      "price_irr": 5148200
+    },
+    {
+      "timestamp": 1782160200,
+      "date": "2026-06-23",
+      "price": 524040,
+      "price_toman": 524040,
+      "price_irr": 5240400
+    },
+    {
+      "timestamp": 1782246600,
+      "date": "2026-06-24",
+      "price": 535460,
+      "price_toman": 535460,
+      "price_irr": 5354600
+    },
+    {
+      "timestamp": 1782333000,
+      "date": "2026-06-25",
+      "price": 538200,
+      "price_toman": 538200,
+      "price_irr": 5382000
+    },
+    {
+      "timestamp": 1782419400,
+      "date": "2026-06-26",
+      "price": 535140,
+      "price_toman": 535140,
+      "price_irr": 5351400
+    },
+    {
+      "timestamp": 1782505800,
+      "date": "2026-06-27",
+      "price": 539460,
+      "price_toman": 539460,
+      "price_irr": 5394600
+    },
+    {
+      "timestamp": 1782592200,
+      "date": "2026-06-28",
+      "price": 562720,
+      "price_toman": 562720,
+      "price_irr": 5627200
+    },
+    {
+      "timestamp": 1782678600,
+      "date": "2026-06-29",
+      "price": 552880,
+      "price_toman": 552880,
+      "price_irr": 5528800
+    },
+    {
+      "timestamp": 1782765000,
+      "date": "2026-06-30",
+      "price": 557700,
+      "price_toman": 557700,
+      "price_irr": 5577000
+    },
+    {
+      "timestamp": 1782851400,
+      "date": "2026-07-01",
+      "price": 563940,
+      "price_toman": 563940,
+      "price_irr": 5639400
+    },
+    {
+      "timestamp": 1782937800,
+      "date": "2026-07-02",
+      "price": 567640,
+      "price_toman": 567640,
+      "price_irr": 5676400
+    },
+    {
+      "timestamp": 1783024200,
+      "date": "2026-07-03",
+      "price": 565980,
+      "price_toman": 565980,
+      "price_irr": 5659800
+    },
+    {
+      "timestamp": 1783110600,
+      "date": "2026-07-04",
+      "price": 562200,
+      "price_toman": 562200,
+      "price_irr": 5622000
+    },
+    {
+      "timestamp": 1783197000,
+      "date": "2026-07-05",
+      "price": 563700,
+      "price_toman": 563700,
+      "price_irr": 5637000
+    },
+    {
+      "timestamp": 1783283400,
+      "date": "2026-07-06",
+      "price": 565560,
+      "price_toman": 565560,
+      "price_irr": 5655600
+    },
+    {
+      "timestamp": 1783369800,
+      "date": "2026-07-07",
+      "price": 568080,
+      "price_toman": 568080,
+      "price_irr": 5680800
+    },
+    {
+      "timestamp": 1783456200,
+      "date": "2026-07-08",
+      "price": 581180,
+      "price_toman": 581180,
+      "price_irr": 5811800
+    },
+    {
+      "timestamp": 1783542600,
+      "date": "2026-07-09",
+      "price": 587960,
+      "price_toman": 587960,
+      "price_irr": 5879600
+    },
+    {
+      "timestamp": 1783629000,
+      "date": "2026-07-10",
+      "price": 584860,
+      "price_toman": 584860,
+      "price_irr": 5848600
+    },
+    {
+      "timestamp": 1783715400,
+      "date": "2026-07-11",
+      "price": 571720,
+      "price_toman": 571720,
+      "price_irr": 5717200
+    },
+    {
+      "timestamp": 1783801800,
+      "date": "2026-07-12",
+      "price": 580660,
+      "price_toman": 580660,
+      "price_irr": 5806600
+    },
+    {
+      "timestamp": 1783888200,
+      "date": "2026-07-13",
+      "price": 585260,
+      "price_toman": 585260,
+      "price_irr": 5852600
+    },
+    {
+      "timestamp": 1783974600,
+      "date": "2026-07-14",
+      "price": 592340,
+      "price_toman": 592340,
+      "price_irr": 5923400
+    },
+    {
+      "timestamp": 1784061000,
+      "date": "2026-07-15",
+      "price": 610720,
+      "price_toman": 610720,
+      "price_irr": 6107200
+    },
+    {
+      "timestamp": 1784147400,
+      "date": "2026-07-16",
+      "price": 609080,
+      "price_toman": 609080,
+      "price_irr": 6090800
+    },
+    {
+      "timestamp": 1784233800,
+      "date": "2026-07-17",
+      "price": 618620,
+      "price_toman": 618620,
+      "price_irr": 6186200
+    },
+    {
+      "timestamp": 1784320200,
+      "date": "2026-07-18",
+      "price": 631800,
+      "price_toman": 631800,
+      "price_irr": 6318000
+    },
+    {
+      "timestamp": 1784406600,
+      "date": "2026-07-19",
+      "price": 616920,
+      "price_toman": 616920,
+      "price_irr": 6169200
+    },
+    {
+      "timestamp": 1784493000,
+      "date": "2026-07-20",
+      "price": 608320,
+      "price_toman": 608320,
+      "price_irr": 6083200
+    },
+    {
+      "timestamp": 1784579400,
+      "date": "2026-07-21",
+      "price": 613700,
+      "price_toman": 613700,
+      "price_irr": 6137000
+    },
+    {
+      "timestamp": 1784665800,
+      "date": "2026-07-22",
+      "price": 619940,
+      "price_toman": 619940,
+      "price_irr": 6199400
+    },
+    {
+      "timestamp": 1784752200,
+      "date": "2026-07-23",
+      "price": 625300,
+      "price_toman": 625300,
+      "price_irr": 6253000
+    },
+    {
+      "timestamp": 1784838600,
+      "date": "2026-07-24",
+      "price": 621120,
+      "price_toman": 621120,
+      "price_irr": 6211200
+    },
+    {
+      "timestamp": 1784925000,
+      "date": "2026-07-25",
+      "price": 610920,
+      "price_toman": 610920,
+      "price_irr": 6109200
+    },
+    {
+      "timestamp": 1785011400,
+      "date": "2026-07-26",
+      "price": 602840,
+      "price_toman": 602840,
+      "price_irr": 6028400
+    },
+    {
+      "timestamp": 1785097800,
+      "date": "2026-07-27",
+      "price": 604360,
+      "price_toman": 604360,
+      "price_irr": 6043600
+    },
+    {
+      "timestamp": 1785184200,
+      "date": "2026-07-28",
+      "price": 614100,
+      "price_toman": 614100,
+      "price_irr": 6141000
+    },
+    {
+      "timestamp": 1785270600,
+      "date": "2026-07-29",
+      "price": 623260,
+      "price_toman": 623260,
+      "price_irr": 6232600
+    },
+    {
+      "timestamp": 1785357000,
+      "date": "2026-07-30",
+      "price": 621980,
+      "price_toman": 621980,
+      "price_irr": 6219800
+    },
+    {
+      "timestamp": 1785443400,
+      "date": "2026-07-31",
+      "price": 623180,
+      "price_toman": 623180,
+      "price_irr": 6231800
+    },
+    {
+      "timestamp": 1785529800,
+      "date": "2026-08-01",
+      "price": 627700,
+      "price_toman": 627700,
+      "price_irr": 6277000
+    },
+    {
+      "timestamp": 1785616200,
+      "date": "2026-08-02",
+      "price": 618640,
+      "price_toman": 618640,
+      "price_irr": 6186400
+    },
+    {
+      "timestamp": 1785702600,
+      "date": "2026-08-03",
+      "price": 621780,
+      "price_toman": 621780,
+      "price_irr": 6217800
+    },
+    {
+      "timestamp": 1785789000,
+      "date": "2026-08-04",
+      "price": 611260,
+      "price_toman": 611260,
+      "price_irr": 6112600
+    },
+    {
+      "timestamp": 1785875400,
+      "date": "2026-08-05",
+      "price": 606860,
+      "price_toman": 606860,
+      "price_irr": 6068600
+    },
+    {
+      "timestamp": 1785961800,
+      "date": "2026-08-06",
+      "price": 605500,
+      "price_toman": 605500,
+      "price_irr": 6055000
+    },
+    {
+      "timestamp": 1786048200,
+      "date": "2026-08-07",
+      "price": 607160,
+      "price_toman": 607160,
+      "price_irr": 6071600
+    },
+    {
+      "timestamp": 1786134600,
+      "date": "2026-08-08",
+      "price": 601940,
+      "price_toman": 601940,
+      "price_irr": 6019400
+    },
+    {
+      "timestamp": 1786221000,
+      "date": "2026-08-09",
+      "price": 601400,
+      "price_toman": 601400,
+      "price_irr": 6014000
+    },
+    {
+      "timestamp": 1786307400,
+      "date": "2026-08-10",
+      "price": 599240,
+      "price_toman": 599240,
+      "price_irr": 5992400
+    },
+    {
+      "timestamp": 1786393800,
+      "date": "2026-08-11",
+      "price": 608320,
+      "price_toman": 608320,
+      "price_irr": 6083200
+    },
+    {
+      "timestamp": 1786480200,
+      "date": "2026-08-12",
+      "price": 605860,
+      "price_toman": 605860,
+      "price_irr": 6058600
+    },
+    {
+      "timestamp": 1786566600,
+      "date": "2026-08-13",
+      "price": 605620,
+      "price_toman": 605620,
+      "price_irr": 6056200
+    },
+    {
+      "timestamp": 1786653000,
+      "date": "2026-08-14",
+      "price": 606880,
+      "price_toman": 606880,
+      "price_irr": 6068800
+    },
+    {
+      "timestamp": 1786739400,
+      "date": "2026-08-15",
+      "price": 605840,
+      "price_toman": 605840,
+      "price_irr": 6058400
+    },
+    {
+      "timestamp": 1786825800,
+      "date": "2026-08-16",
+      "price": 605140,
+      "price_toman": 605140,
+      "price_irr": 6051400
+    },
+    {
+      "timestamp": 1786912200,
+      "date": "2026-08-17",
+      "price": 603960,
+      "price_toman": 603960,
+      "price_irr": 6039600
+    },
+    {
+      "timestamp": 1786998600,
+      "date": "2026-08-18",
+      "price": 609500,
+      "price_toman": 609500,
+      "price_irr": 6095000
+    },
+    {
+      "timestamp": 1787085000,
+      "date": "2026-08-19",
+      "price": 614820,
+      "price_toman": 614820,
+      "price_irr": 6148200
+    },
+    {
+      "timestamp": 1787171400,
+      "date": "2026-08-20",
+      "price": 616660,
+      "price_toman": 616660,
+      "price_irr": 6166600
+    },
+    {
+      "timestamp": 1787257800,
+      "date": "2026-08-21",
+      "price": 616380,
+      "price_toman": 616380,
+      "price_irr": 6163800
+    },
+    {
+      "timestamp": 1787344200,
+      "date": "2026-08-22",
+      "price": 630760,
+      "price_toman": 630760,
+      "price_irr": 6307600
+    },
+    {
+      "timestamp": 1787430600,
+      "date": "2026-08-23",
+      "price": 650220,
+      "price_toman": 650220,
+      "price_irr": 6502200
+    },
+    {
+      "timestamp": 1787517000,
+      "date": "2026-08-24",
+      "price": 658460,
+      "price_toman": 658460,
+      "price_irr": 6584600
+    },
+    {
+      "timestamp": 1787603400,
+      "date": "2026-08-25",
+      "price": 653120,
+      "price_toman": 653120,
+      "price_irr": 6531200
+    },
+    {
+      "timestamp": 1787689800,
+      "date": "2026-08-26",
+      "price": 652580,
+      "price_toman": 652580,
+      "price_irr": 6525800
+    },
+    {
+      "timestamp": 1787776200,
+      "date": "2026-08-27",
+      "price": 656620,
+      "price_toman": 656620,
+      "price_irr": 6566200
+    },
+    {
+      "timestamp": 1787862600,
+      "date": "2026-08-28",
+      "price": 660080,
+      "price_toman": 660080,
+      "price_irr": 6600800
+    },
+    {
+      "timestamp": 1787949000,
+      "date": "2026-08-29",
+      "price": 669760,
+      "price_toman": 669760,
+      "price_irr": 6697600
+    },
+    {
+      "timestamp": 1788035400,
+      "date": "2026-08-30",
+      "price": 671720,
+      "price_toman": 671720,
+      "price_irr": 6717200
+    },
+    {
+      "timestamp": 1788121800,
+      "date": "2026-08-31",
+      "price": 684500,
+      "price_toman": 684500,
+      "price_irr": 6845000
+    },
+    {
+      "timestamp": 1788208200,
+      "date": "2026-09-01",
+      "price": 695660,
+      "price_toman": 695660,
+      "price_irr": 6956600
+    },
+    {
+      "timestamp": 1788294600,
+      "date": "2026-09-02",
+      "price": 714460,
+      "price_toman": 714460,
+      "price_irr": 7144600
+    },
+    {
+      "timestamp": 1788381000,
+      "date": "2026-09-03",
+      "price": 718320,
+      "price_toman": 718320,
+      "price_irr": 7183200
+    },
+    {
+      "timestamp": 1788467400,
+      "date": "2026-09-04",
+      "price": 717000,
+      "price_toman": 717000,
+      "price_irr": 7170000
+    },
+    {
+      "timestamp": 1788553800,
+      "date": "2026-09-05",
+      "price": 733080,
+      "price_toman": 733080,
+      "price_irr": 7330800
+    },
+    {
+      "timestamp": 1788640200,
+      "date": "2026-09-06",
+      "price": 725940,
+      "price_toman": 725940,
+      "price_irr": 7259400
+    },
+    {
+      "timestamp": 1788726600,
+      "date": "2026-09-07",
+      "price": 723200,
+      "price_toman": 723200,
+      "price_irr": 7232000
+    },
+    {
+      "timestamp": 1788813000,
+      "date": "2026-09-08",
+      "price": 740840,
+      "price_toman": 740840,
+      "price_irr": 7408400
+    },
+    {
+      "timestamp": 1788899400,
+      "date": "2026-09-09",
+      "price": 761580,
+      "price_toman": 761580,
+      "price_irr": 7615800
+    },
+    {
+      "timestamp": 1788985800,
+      "date": "2026-09-10",
+      "price": 766800,
+      "price_toman": 766800,
+      "price_irr": 7668000
+    },
+    {
+      "timestamp": 1789072200,
+      "date": "2026-09-11",
+      "price": 768180,
+      "price_toman": 768180,
+      "price_irr": 7681800
+    },
+    {
+      "timestamp": 1789158600,
+      "date": "2026-09-12",
+      "price": 762380,
+      "price_toman": 762380,
+      "price_irr": 7623800
+    },
+    {
+      "timestamp": 1789245000,
+      "date": "2026-09-13",
+      "price": 742280,
+      "price_toman": 742280,
+      "price_irr": 7422800
+    },
+    {
+      "timestamp": 1789331400,
+      "date": "2026-09-14",
+      "price": 746240,
+      "price_toman": 746240,
+      "price_irr": 7462400
+    },
+    {
+      "timestamp": 1789417800,
+      "date": "2026-09-15",
+      "price": 749720,
+      "price_toman": 749720,
+      "price_irr": 7497200
+    },
+    {
+      "timestamp": 1789504200,
+      "date": "2026-09-16",
+      "price": 749380,
+      "price_toman": 749380,
+      "price_irr": 7493800
+    },
+    {
+      "timestamp": 1789590600,
+      "date": "2026-09-17",
+      "price": 742020,
+      "price_toman": 742020,
+      "price_irr": 7420200
+    },
+    {
+      "timestamp": 1789677000,
+      "date": "2026-09-18",
+      "price": 738040,
+      "price_toman": 738040,
+      "price_irr": 7380400
+    },
+    {
+      "timestamp": 1789763400,
+      "date": "2026-09-19",
+      "price": 746520,
+      "price_toman": 746520,
+      "price_irr": 7465200
+    },
+    {
+      "timestamp": 1789849800,
+      "date": "2026-09-20",
+      "price": 749140,
+      "price_toman": 749140,
+      "price_irr": 7491400
+    },
+    {
+      "timestamp": 1789936200,
+      "date": "2026-09-21",
+      "price": 749720,
+      "price_toman": 749720,
+      "price_irr": 7497200
+    },
+    {
+      "timestamp": 1790022600,
+      "date": "2026-09-22",
+      "price": 753820,
+      "price_toman": 753820,
+      "price_irr": 7538200
+    },
+    {
+      "timestamp": 1790109000,
+      "date": "2026-09-23",
+      "price": 753140,
+      "price_toman": 753140,
+      "price_irr": 7531400
+    },
+    {
+      "timestamp": 1790195400,
+      "date": "2026-09-24",
+      "price": 759800,
+      "price_toman": 759800,
+      "price_irr": 7598000
+    },
+    {
+      "timestamp": 1790281800,
+      "date": "2026-09-25",
+      "price": 756680,
+      "price_toman": 756680,
+      "price_irr": 7566800
+    },
+    {
+      "timestamp": 1790368200,
+      "date": "2026-09-26",
+      "price": 759860,
+      "price_toman": 759860,
+      "price_irr": 7598600
+    },
+    {
+      "timestamp": 1790454600,
+      "date": "2026-09-27",
+      "price": 764800,
+      "price_toman": 764800,
+      "price_irr": 7648000
+    },
+    {
+      "timestamp": 1790541000,
+      "date": "2026-09-28",
+      "price": 792420,
+      "price_toman": 792420,
+      "price_irr": 7924200
+    },
+    {
+      "timestamp": 1790627400,
+      "date": "2026-09-29",
+      "price": 824880,
+      "price_toman": 824880,
+      "price_irr": 8248800
+    },
+    {
+      "timestamp": 1790713800,
+      "date": "2026-09-30",
+      "price": 829140,
+      "price_toman": 829140,
+      "price_irr": 8291400
+    },
+    {
+      "timestamp": 1790800200,
+      "date": "2026-10-01",
+      "price": 841220,
+      "price_toman": 841220,
+      "price_irr": 8412200
+    },
+    {
+      "timestamp": 1790886600,
+      "date": "2026-10-02",
+      "price": 854300,
+      "price_toman": 854300,
+      "price_irr": 8543000
+    },
+    {
+      "timestamp": 1790973000,
+      "date": "2026-10-03",
+      "price": 872600,
+      "price_toman": 872600,
+      "price_irr": 8726000
+    },
+    {
+      "timestamp": 1791059400,
+      "date": "2026-10-04",
+      "price": 873900,
+      "price_toman": 873900,
+      "price_irr": 8739000
+    },
+    {
+      "timestamp": 1791145800,
+      "date": "2026-10-05",
+      "price": 872160,
+      "price_toman": 872160,
+      "price_irr": 8721600
+    },
+    {
+      "timestamp": 1791312138,
+      "date": "2026-10-06",
+      "price": 872560,
+      "price_toman": 872560,
+      "price_irr": 8725600
+    }
+  ]
+}
