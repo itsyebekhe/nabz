@@ -2,14 +2,14 @@
 
 # 📊 نبض بازار | قیمت لحظه‌ای ارز، طلا، سکه و نفت
 
-[![Auto Update](https://img.shields.io/badge/بروزرسانی-خودکار_هر_۳۰_دقیقه-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
-[![API Status](https://img.shields.io/badge/API-فعال_و_رایگان-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
-[![Tehran Time](https://img.shields.io/badge/تایم_زون-تهران_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
+[![Auto Update](https://img.shields.io/badge/Auto--Update-Every_30_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+[![API Status](https://img.shields.io/badge/API-Live_&_Free-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
+[![Timezone](https://img.shields.io/badge/Timezone-Tehran_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
 
 <br/>
 
 > [!NOTE]
-> 📅 **تاریخ:** ۱۴ مهر ۱۴۰۵ (2026-10-06) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۱۳:۵۶** (به وقت تهران)
+> 📅 **تاریخ:** ۱۴ مهر ۱۴۰۵ (2026-10-06) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۱۴:۰۱** (به وقت تهران)
 
 <br/>
 
@@ -19,19 +19,93 @@
 
 ### 📋 جدول زنده نرخ‌ها
 
-| رده | نماد / عنوان شاخص | قیمت لحظه‌ای (بازار آزاد) |
-| :---: | :--- | :--- |
-| 💵 | **دلار آمریکا** | **۲۶۸،۹۹۶ تومان** |
-| 💶 | **یورو اروپا** | **۳۰۲،۵۰۰ تومان** |
-| 🥇 | **طلای ۱۸ عیار (هر گرم)** | **۲۶،۵۸۲،۴۸۰ تومان** |
-| ⚖️ | **مثقال طلا (آبشده)** | **۱۱۵،۱۵۰،۰۰۰ تومان** |
-| 🪙 | **سکه تمام امامی (طرح جدید)** | **۲۷۳،۵۰۰،۰۰۰ تومان** |
-| 🪙 | **سکه بهار آزادی (طرح قدیم)** | **۲۶۲،۰۰۰،۰۰۰ تومان** |
-| 🪙 | **نیم سکه بهار آزادی** | **۱۴۴،۰۰۰،۰۰۰ تومان** |
-| 🪙 | **ربع سکه بهار آزادی** | **۷۹،۰۰۰،۰۰۰ تومان** |
-| 🪙 | **سکه گرمی** | **۳۸،۰۰۰،۰۰۰ تومان** |
-| 🌐 | **انس جهانی طلا** | **۴۱۵۱.۸۸ دلار** |
-| 🛢️ | **نفت خام برنت / اوپک** | **۸۷.۶۶ دلار** |
+<table width="100%">
+<thead>
+<tr>
+<th width="8%" align="center">نماد</th>
+<th width="52%" align="right">عنوان شاخص بازار</th>
+<th width="40%" align="left">قیمت زنده (بازار آزاد)</th>
+</tr>
+</thead>
+<tbody>
+
+<!-- بخش ارزها -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">💵 ارزهای شاخص</th>
+</tr>
+<tr>
+<td align="center">🇺🇸</td>
+<td><b>دلار آمریکا</b></td>
+<td align="left"><b>۲۶۸،۹۹۶ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🇪🇺</td>
+<td><b>یورو اروپا</b></td>
+<td align="left"><b>۳۰۲،۵۰۰ تومان</b></td>
+</tr>
+
+<!-- بخش طلا -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🥇 طلا و مظنه</th>
+</tr>
+<tr>
+<td align="center">✨</td>
+<td><b>طلای ۱۸ عیار (هر گرم)</b></td>
+<td align="left"><b>۲۶،۵۸۲،۴۸۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">⚖️</td>
+<td><b>مثقال طلا (آبشده)</b></td>
+<td align="left"><b>۱۱۵،۱۵۰،۰۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td><b>انس جهانی طلا</b></td>
+<td align="left"><b>۴۱۵۰.۶۸ دلار</b></td>
+</tr>
+
+<!-- بخش سکه -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🪙 مسکوکات بهار آزادی</th>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه تمام امامی (طرح جدید)</b></td>
+<td align="left"><b>۲۷۳،۵۰۰،۰۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه بهار آزادی (طرح قدیم)</b></td>
+<td align="left"><b>۲۶۲،۰۰۰،۰۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>نیم سکه بهار آزادی</b></td>
+<td align="left"><b>۱۴۴،۰۰۰،۰۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>ربع سکه بهار آزادی</b></td>
+<td align="left"><b>۷۹،۰۰۰،۰۰۰ تومان</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه گرمی</b></td>
+<td align="left"><b>۳۸،۰۰۰،۰۰۰ تومان</b></td>
+</tr>
+
+<!-- بخش انرژی -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🛢️ کامودیتی و انرژی</th>
+</tr>
+<tr>
+<td align="center">⛽</td>
+<td><b>نفت خام برنت / اوپک</b></td>
+<td align="left"><b>۸۷.۸۰ دلار</b></td>
+</tr>
+
+</tbody>
+</table>
 
 ---
 
@@ -62,14 +136,14 @@
 
 ```json
 {
-  "updated_at": "2026-10-06 13:56:26",
+  "updated_at": "2026-10-06 14:01:56",
   "date_shamsi": "1405/07/14",
   "usd": 268996,
   "eur": 302500,
   "gold_18k": 26582480,
   "gold_mesghal": 115150000,
   "coin_emami": 273500000,
-  "oil": "87.66"
+  "oil": "87.80"
 }
 ```
 
