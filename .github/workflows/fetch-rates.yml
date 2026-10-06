@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add market.json README.md api/*.json *.png
+          git add market.json README.md api/*.json *.png share/*.html
           
           if git diff --staged --quiet; then
             echo "No changes to commit."
