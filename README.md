@@ -9,7 +9,7 @@
 <br/>
 
 > [!NOTE]
-> 📅 **تاریخ:** ۱۴ مهر ۱۴۰۵ (2026-10-06) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۲۱:۵۴** (به وقت تهران)
+> 📅 **تاریخ:** ۱۴ مهر ۱۴۰۵ (2026-10-06) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۲۱:۵۷** (به وقت تهران)
 
 <br/>
 
@@ -36,7 +36,7 @@
 <tr>
 <td align="center">🇺🇸</td>
 <td><b>دلار آمریکا</b></td>
-<td align="left"><b>۲۶۹،۶۸۶ تومان</b></td>
+<td align="left"><b>۲۶۹،۶۹۴ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇪🇺</td>
@@ -46,7 +46,7 @@
 <tr>
 <td align="center">🇬🇧</td>
 <td><b>پوند انگلیس</b></td>
-<td align="left"><b>۳۵۴،۵۰۰ تومان</b></td>
+<td align="left"><b>۳۵۴،۶۰۰ تومان</b></td>
 </tr>
 
 <!-- بخش طلا -->
@@ -56,12 +56,12 @@
 <tr>
 <td align="center">✨</td>
 <td><b>طلای ۱۸ عیار (هر گرم)</b></td>
-<td align="left"><b>۲۶،۶۹۷،۹۱۰ تومان</b></td>
+<td align="left"><b>۲۶،۶۷۴،۸۲۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">⚖️</td>
 <td><b>مثقال طلا (آبشده)</b></td>
-<td align="left"><b>۱۱۵،۶۵۰،۰۰۰ تومان</b></td>
+<td align="left"><b>۱۱۵،۵۵۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🌐</td>
@@ -106,7 +106,7 @@
 <tr>
 <td align="center">⛽</td>
 <td><b>نفت خام برنت / اوپک</b></td>
-<td align="left"><b>۸۹.۲۹ دلار</b></td>
+<td align="left"><b>۸۹.۲۵ دلار</b></td>
 </tr>
 
 </tbody>

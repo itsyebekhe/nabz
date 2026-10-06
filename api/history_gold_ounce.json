@@ -1,0 +1,8172 @@
+{
+  "symbol": "XAU_USD",
+  "title": "انس جهانی طلا",
+  "unit": "دلار",
+  "timezone": "Asia/Tehran",
+  "updated_at": "2026-10-06 21:57:50",
+  "total_records": 1165,
+  "latest": {
+    "timestamp": 1791311111,
+    "date": "2026-10-06",
+    "price": 4169.26,
+    "bubble": 0,
+    "bubble_percent": 0
+  },
+  "history": [
+    {
+      "timestamp": 1688243159,
+      "date": "2023-07-01",
+      "price": 1919.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688329559,
+      "date": "2023-07-02",
+      "price": 1919.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688415959,
+      "date": "2023-07-03",
+      "price": 1921.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688502358,
+      "date": "2023-07-04",
+      "price": 1925.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688588759,
+      "date": "2023-07-05",
+      "price": 1916.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688675159,
+      "date": "2023-07-06",
+      "price": 1910.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688761561,
+      "date": "2023-07-07",
+      "price": 1924.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688847962,
+      "date": "2023-07-08",
+      "price": 1925.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1688934359,
+      "date": "2023-07-09",
+      "price": 1925.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689020777,
+      "date": "2023-07-10",
+      "price": 1925.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689107166,
+      "date": "2023-07-11",
+      "price": 1932.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689193559,
+      "date": "2023-07-12",
+      "price": 1958.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689279960,
+      "date": "2023-07-13",
+      "price": 1960.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689366358,
+      "date": "2023-07-14",
+      "price": 1955.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689452759,
+      "date": "2023-07-15",
+      "price": 1955.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689539159,
+      "date": "2023-07-16",
+      "price": 1955.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689625560,
+      "date": "2023-07-17",
+      "price": 1954.88,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689711959,
+      "date": "2023-07-18",
+      "price": 1978.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689798361,
+      "date": "2023-07-19",
+      "price": 1977.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689884760,
+      "date": "2023-07-20",
+      "price": 1969.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1689971182,
+      "date": "2023-07-21",
+      "price": 1961.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690057561,
+      "date": "2023-07-22",
+      "price": 1961.85,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690143960,
+      "date": "2023-07-23",
+      "price": 1961.85,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690230359,
+      "date": "2023-07-24",
+      "price": 1954.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690316761,
+      "date": "2023-07-25",
+      "price": 1964.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690403160,
+      "date": "2023-07-26",
+      "price": 1973.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690489560,
+      "date": "2023-07-27",
+      "price": 1943.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690575960,
+      "date": "2023-07-28",
+      "price": 1959.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690662361,
+      "date": "2023-07-29",
+      "price": 1959.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690748759,
+      "date": "2023-07-30",
+      "price": 1959.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690835161,
+      "date": "2023-07-31",
+      "price": 1965.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1690921564,
+      "date": "2023-08-01",
+      "price": 1944.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691007968,
+      "date": "2023-08-02",
+      "price": 1935.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691094368,
+      "date": "2023-08-03",
+      "price": 1934.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691180760,
+      "date": "2023-08-04",
+      "price": 1941.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691267161,
+      "date": "2023-08-05",
+      "price": 1942.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691353561,
+      "date": "2023-08-06",
+      "price": 1942.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691439960,
+      "date": "2023-08-07",
+      "price": 1936.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691526360,
+      "date": "2023-08-08",
+      "price": 1925.31,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691612761,
+      "date": "2023-08-09",
+      "price": 1915.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691699166,
+      "date": "2023-08-10",
+      "price": 1913.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691785561,
+      "date": "2023-08-11",
+      "price": 1913.31,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691871963,
+      "date": "2023-08-12",
+      "price": 1913.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1691958360,
+      "date": "2023-08-13",
+      "price": 1913.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692044761,
+      "date": "2023-08-14",
+      "price": 1907.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692131161,
+      "date": "2023-08-15",
+      "price": 1902.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692217561,
+      "date": "2023-08-16",
+      "price": 1892.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692303991,
+      "date": "2023-08-17",
+      "price": 1889.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692390363,
+      "date": "2023-08-18",
+      "price": 1889.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692476760,
+      "date": "2023-08-19",
+      "price": 1889.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692563164,
+      "date": "2023-08-20",
+      "price": 1889.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692649562,
+      "date": "2023-08-21",
+      "price": 1889.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692735938,
+      "date": "2023-08-22",
+      "price": 1897.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692822382,
+      "date": "2023-08-23",
+      "price": 1916.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692908762,
+      "date": "2023-08-24",
+      "price": 1916.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1692995168,
+      "date": "2023-08-25",
+      "price": 1913.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693081562,
+      "date": "2023-08-26",
+      "price": 1914.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693167970,
+      "date": "2023-08-27",
+      "price": 1914.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693254367,
+      "date": "2023-08-28",
+      "price": 1920.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693340762,
+      "date": "2023-08-29",
+      "price": 1937.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693427163,
+      "date": "2023-08-30",
+      "price": 1943.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693513560,
+      "date": "2023-08-31",
+      "price": 1939.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693599960,
+      "date": "2023-09-01",
+      "price": 1940.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693686361,
+      "date": "2023-09-02",
+      "price": 1940.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693772759,
+      "date": "2023-09-03",
+      "price": 1940.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693859160,
+      "date": "2023-09-04",
+      "price": 1938.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1693945569,
+      "date": "2023-09-05",
+      "price": 1925.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694031960,
+      "date": "2023-09-06",
+      "price": 1916.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694118364,
+      "date": "2023-09-07",
+      "price": 1919.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694204761,
+      "date": "2023-09-08",
+      "price": 1919.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694291161,
+      "date": "2023-09-09",
+      "price": 1919.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694377551,
+      "date": "2023-09-10",
+      "price": 1919.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694463952,
+      "date": "2023-09-11",
+      "price": 1922.43,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694550352,
+      "date": "2023-09-12",
+      "price": 1912.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694636851,
+      "date": "2023-09-13",
+      "price": 1908.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694723128,
+      "date": "2023-09-14",
+      "price": 1909.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694809560,
+      "date": "2023-09-15",
+      "price": 1922.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694895961,
+      "date": "2023-09-16",
+      "price": 1923.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1694982360,
+      "date": "2023-09-17",
+      "price": 1923.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695068762,
+      "date": "2023-09-18",
+      "price": 1933.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695155160,
+      "date": "2023-09-19",
+      "price": 1931.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695241561,
+      "date": "2023-09-20",
+      "price": 1931.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695327960,
+      "date": "2023-09-21",
+      "price": 1919.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695414360,
+      "date": "2023-09-22",
+      "price": 1925.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695500759,
+      "date": "2023-09-23",
+      "price": 1925.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695587160,
+      "date": "2023-09-24",
+      "price": 1925.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695673559,
+      "date": "2023-09-25",
+      "price": 1915.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695759962,
+      "date": "2023-09-26",
+      "price": 1900.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695846363,
+      "date": "2023-09-27",
+      "price": 1875.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1695932762,
+      "date": "2023-09-28",
+      "price": 1866.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696019161,
+      "date": "2023-09-29",
+      "price": 1849.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696105561,
+      "date": "2023-09-30",
+      "price": 1848.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696191965,
+      "date": "2023-10-01",
+      "price": 1848.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696278364,
+      "date": "2023-10-02",
+      "price": 1828.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696364749,
+      "date": "2023-10-03",
+      "price": 1824.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696451162,
+      "date": "2023-10-04",
+      "price": 1821.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696537562,
+      "date": "2023-10-05",
+      "price": 1819.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696623965,
+      "date": "2023-10-06",
+      "price": 1829.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696710360,
+      "date": "2023-10-07",
+      "price": 1832.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696796766,
+      "date": "2023-10-08",
+      "price": 1832.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696883160,
+      "date": "2023-10-09",
+      "price": 1862.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1696969570,
+      "date": "2023-10-10",
+      "price": 1860.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697055952,
+      "date": "2023-10-11",
+      "price": 1874.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697142352,
+      "date": "2023-10-12",
+      "price": 1868.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697228752,
+      "date": "2023-10-13",
+      "price": 1928.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697315152,
+      "date": "2023-10-14",
+      "price": 1932.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697401587,
+      "date": "2023-10-15",
+      "price": 1932.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697487973,
+      "date": "2023-10-16",
+      "price": 1919.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697574359,
+      "date": "2023-10-17",
+      "price": 1922.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697660759,
+      "date": "2023-10-18",
+      "price": 1949.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697747159,
+      "date": "2023-10-19",
+      "price": 1973.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697833559,
+      "date": "2023-10-20",
+      "price": 1979.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1697919959,
+      "date": "2023-10-21",
+      "price": 1981.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698006359,
+      "date": "2023-10-22",
+      "price": 1981.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698092762,
+      "date": "2023-10-23",
+      "price": 1973.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698179161,
+      "date": "2023-10-24",
+      "price": 1972.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698265567,
+      "date": "2023-10-25",
+      "price": 1979.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698351973,
+      "date": "2023-10-26",
+      "price": 1984.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698438367,
+      "date": "2023-10-27",
+      "price": 2006.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698524766,
+      "date": "2023-10-28",
+      "price": 2006.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698611168,
+      "date": "2023-10-29",
+      "price": 2006.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698697567,
+      "date": "2023-10-30",
+      "price": 1995.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698783969,
+      "date": "2023-10-31",
+      "price": 1983.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698870366,
+      "date": "2023-11-01",
+      "price": 1978.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1698956746,
+      "date": "2023-11-02",
+      "price": 1985.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699043160,
+      "date": "2023-11-03",
+      "price": 1992.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699129575,
+      "date": "2023-11-04",
+      "price": 1992.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699215952,
+      "date": "2023-11-05",
+      "price": 1992.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699302368,
+      "date": "2023-11-06",
+      "price": 1979.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699388785,
+      "date": "2023-11-07",
+      "price": 1968.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699475168,
+      "date": "2023-11-08",
+      "price": 1949.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699561569,
+      "date": "2023-11-09",
+      "price": 1959.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699647957,
+      "date": "2023-11-10",
+      "price": 1936.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699734356,
+      "date": "2023-11-11",
+      "price": 1937.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699820756,
+      "date": "2023-11-12",
+      "price": 1937.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699907154,
+      "date": "2023-11-13",
+      "price": 1945.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1699993557,
+      "date": "2023-11-14",
+      "price": 1964.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700079972,
+      "date": "2023-11-15",
+      "price": 1962.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700166369,
+      "date": "2023-11-16",
+      "price": 1981.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700252767,
+      "date": "2023-11-17",
+      "price": 1980.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700339204,
+      "date": "2023-11-18",
+      "price": 1980.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700425570,
+      "date": "2023-11-19",
+      "price": 1980.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700511972,
+      "date": "2023-11-20",
+      "price": 1978.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700598371,
+      "date": "2023-11-21",
+      "price": 1999.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700684777,
+      "date": "2023-11-22",
+      "price": 1990.31,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700771174,
+      "date": "2023-11-23",
+      "price": 1992.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700857577,
+      "date": "2023-11-24",
+      "price": 2002.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1700943970,
+      "date": "2023-11-25",
+      "price": 2002.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701030374,
+      "date": "2023-11-26",
+      "price": 2002.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701116784,
+      "date": "2023-11-27",
+      "price": 2013.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701203131,
+      "date": "2023-11-28",
+      "price": 2039.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701289531,
+      "date": "2023-11-29",
+      "price": 2044.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701375950,
+      "date": "2023-11-30",
+      "price": 2035.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701462331,
+      "date": "2023-12-01",
+      "price": 2069.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701548750,
+      "date": "2023-12-02",
+      "price": 2072.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701635160,
+      "date": "2023-12-03",
+      "price": 2072.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701721550,
+      "date": "2023-12-04",
+      "price": 2031.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701807950,
+      "date": "2023-12-05",
+      "price": 2019.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701894350,
+      "date": "2023-12-06",
+      "price": 2027.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1701980756,
+      "date": "2023-12-07",
+      "price": 2031.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702067154,
+      "date": "2023-12-08",
+      "price": 2001.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702153554,
+      "date": "2023-12-09",
+      "price": 2004.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702239950,
+      "date": "2023-12-10",
+      "price": 2004.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702326349,
+      "date": "2023-12-11",
+      "price": 1981.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702412749,
+      "date": "2023-12-12",
+      "price": 1979.81,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702499151,
+      "date": "2023-12-13",
+      "price": 2016.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702585552,
+      "date": "2023-12-14",
+      "price": 2035.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702671952,
+      "date": "2023-12-15",
+      "price": 2018.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702758352,
+      "date": "2023-12-16",
+      "price": 2019.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702844751,
+      "date": "2023-12-17",
+      "price": 2019.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1702931151,
+      "date": "2023-12-18",
+      "price": 2026.5,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703017555,
+      "date": "2023-12-19",
+      "price": 2039.43,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703103953,
+      "date": "2023-12-20",
+      "price": 2033.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703190369,
+      "date": "2023-12-21",
+      "price": 2043.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703276770,
+      "date": "2023-12-22",
+      "price": 2052.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703363166,
+      "date": "2023-12-23",
+      "price": 2052.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703449566,
+      "date": "2023-12-24",
+      "price": 2055.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703535969,
+      "date": "2023-12-25",
+      "price": 2055.71,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703622368,
+      "date": "2023-12-26",
+      "price": 2063.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703708791,
+      "date": "2023-12-27",
+      "price": 2077.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703795168,
+      "date": "2023-12-28",
+      "price": 2067.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703881568,
+      "date": "2023-12-29",
+      "price": 2066.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1703967967,
+      "date": "2023-12-30",
+      "price": 2062.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704054370,
+      "date": "2023-12-31",
+      "price": 2062.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704140771,
+      "date": "2024-01-01",
+      "price": 2066.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704227164,
+      "date": "2024-01-02",
+      "price": 2061.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704313568,
+      "date": "2024-01-03",
+      "price": 2040.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704399965,
+      "date": "2024-01-04",
+      "price": 2044.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704486369,
+      "date": "2024-01-05",
+      "price": 2043.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704572764,
+      "date": "2024-01-06",
+      "price": 2045.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704659164,
+      "date": "2024-01-07",
+      "price": 2045.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704745572,
+      "date": "2024-01-08",
+      "price": 2026.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704832008,
+      "date": "2024-01-09",
+      "price": 2030.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1704918408,
+      "date": "2024-01-10",
+      "price": 2023.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705004811,
+      "date": "2024-01-11",
+      "price": 2024.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705091208,
+      "date": "2024-01-12",
+      "price": 2047.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705177613,
+      "date": "2024-01-13",
+      "price": 2048.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705264009,
+      "date": "2024-01-14",
+      "price": 2048.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705350408,
+      "date": "2024-01-15",
+      "price": 2054.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705436801,
+      "date": "2024-01-16",
+      "price": 2029.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705523190,
+      "date": "2024-01-17",
+      "price": 2005.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705609583,
+      "date": "2024-01-18",
+      "price": 2020.71,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705695984,
+      "date": "2024-01-19",
+      "price": 2028.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705782393,
+      "date": "2024-01-20",
+      "price": 2029.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705868801,
+      "date": "2024-01-21",
+      "price": 2029.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1705955186,
+      "date": "2024-01-22",
+      "price": 2020.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706041597,
+      "date": "2024-01-23",
+      "price": 2029.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706127987,
+      "date": "2024-01-24",
+      "price": 2013.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706214372,
+      "date": "2024-01-25",
+      "price": 2017.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706300773,
+      "date": "2024-01-26",
+      "price": 2018.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706387171,
+      "date": "2024-01-27",
+      "price": 2018.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706473571,
+      "date": "2024-01-28",
+      "price": 2018.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706559971,
+      "date": "2024-01-29",
+      "price": 2034.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706646382,
+      "date": "2024-01-30",
+      "price": 2035.96,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706732774,
+      "date": "2024-01-31",
+      "price": 2036.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706819170,
+      "date": "2024-02-01",
+      "price": 2054.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706905575,
+      "date": "2024-02-02",
+      "price": 2037.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1706991972,
+      "date": "2024-02-03",
+      "price": 2039.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707078365,
+      "date": "2024-02-04",
+      "price": 2039.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707164749,
+      "date": "2024-02-05",
+      "price": 2024.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707251148,
+      "date": "2024-02-06",
+      "price": 2036.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707337575,
+      "date": "2024-02-07",
+      "price": 2035.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707423981,
+      "date": "2024-02-08",
+      "price": 2033.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707510376,
+      "date": "2024-02-09",
+      "price": 2026.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707596776,
+      "date": "2024-02-10",
+      "price": 2024.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707683177,
+      "date": "2024-02-11",
+      "price": 2024.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707769588,
+      "date": "2024-02-12",
+      "price": 2019.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707855977,
+      "date": "2024-02-13",
+      "price": 1992.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1707942384,
+      "date": "2024-02-14",
+      "price": 1990.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708028778,
+      "date": "2024-02-15",
+      "price": 2004.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708035377,
+      "date": "2024-02-16",
+      "price": 2003.85,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708287973,
+      "date": "2024-02-18",
+      "price": 2012.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708374366,
+      "date": "2024-02-19",
+      "price": 2017.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708460770,
+      "date": "2024-02-20",
+      "price": 2024.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708547176,
+      "date": "2024-02-21",
+      "price": 2024.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708633571,
+      "date": "2024-02-22",
+      "price": 2022.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708719984,
+      "date": "2024-02-23",
+      "price": 2036.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708806371,
+      "date": "2024-02-24",
+      "price": 2035.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708892787,
+      "date": "2024-02-25",
+      "price": 2035.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1708979170,
+      "date": "2024-02-26",
+      "price": 2031.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709065579,
+      "date": "2024-02-27",
+      "price": 2029.46,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709151984,
+      "date": "2024-02-28",
+      "price": 2033.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709238379,
+      "date": "2024-02-29",
+      "price": 2045.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709324783,
+      "date": "2024-03-01",
+      "price": 2083.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709411177,
+      "date": "2024-03-02",
+      "price": 2082.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709497579,
+      "date": "2024-03-03",
+      "price": 2082.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709583977,
+      "date": "2024-03-04",
+      "price": 2116.46,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709670397,
+      "date": "2024-03-05",
+      "price": 2129.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709756776,
+      "date": "2024-03-06",
+      "price": 2144.5,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709843179,
+      "date": "2024-03-07",
+      "price": 2159.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1709929580,
+      "date": "2024-03-08",
+      "price": 2177.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710015978,
+      "date": "2024-03-09",
+      "price": 2178.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710102378,
+      "date": "2024-03-10",
+      "price": 2178.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710188779,
+      "date": "2024-03-11",
+      "price": 2180.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710275178,
+      "date": "2024-03-12",
+      "price": 2156.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710361578,
+      "date": "2024-03-13",
+      "price": 2159.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710447980,
+      "date": "2024-03-14",
+      "price": 2163.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710534378,
+      "date": "2024-03-15",
+      "price": 2157.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710620778,
+      "date": "2024-03-16",
+      "price": 2156.08,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710707179,
+      "date": "2024-03-17",
+      "price": 2156.08,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710793582,
+      "date": "2024-03-18",
+      "price": 2160.0,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710879977,
+      "date": "2024-03-19",
+      "price": 2158.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1710966377,
+      "date": "2024-03-20",
+      "price": 2184.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711052776,
+      "date": "2024-03-21",
+      "price": 2182.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711139179,
+      "date": "2024-03-22",
+      "price": 2166.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711225578,
+      "date": "2024-03-23",
+      "price": 2165.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711311976,
+      "date": "2024-03-24",
+      "price": 2165.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711398379,
+      "date": "2024-03-25",
+      "price": 2177.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711484778,
+      "date": "2024-03-26",
+      "price": 2182.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711571180,
+      "date": "2024-03-27",
+      "price": 2194.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711626981,
+      "date": "2024-03-28",
+      "price": 2195.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711657800,
+      "date": "2024-03-29",
+      "price": 2195.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711744200,
+      "date": "2024-03-30",
+      "price": 2195.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711830600,
+      "date": "2024-03-31",
+      "price": 2195.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1711917000,
+      "date": "2024-04-01",
+      "price": 2195.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712003400,
+      "date": "2024-04-02",
+      "price": 2195.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712175980,
+      "date": "2024-04-03",
+      "price": 2298.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712262381,
+      "date": "2024-04-04",
+      "price": 2286.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712348776,
+      "date": "2024-04-05",
+      "price": 2286.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712435176,
+      "date": "2024-04-06",
+      "price": 2286.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712521576,
+      "date": "2024-04-07",
+      "price": 2286.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712607973,
+      "date": "2024-04-08",
+      "price": 2338.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712694374,
+      "date": "2024-04-09",
+      "price": 2352.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712780775,
+      "date": "2024-04-10",
+      "price": 2332.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712867176,
+      "date": "2024-04-11",
+      "price": 2374.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1712953583,
+      "date": "2024-04-12",
+      "price": 2344.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713039992,
+      "date": "2024-04-13",
+      "price": 2344.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713126380,
+      "date": "2024-04-14",
+      "price": 2344.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713212778,
+      "date": "2024-04-15",
+      "price": 2385.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713299180,
+      "date": "2024-04-16",
+      "price": 2388.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713385581,
+      "date": "2024-04-17",
+      "price": 2372.71,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713471980,
+      "date": "2024-04-18",
+      "price": 2378.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713558378,
+      "date": "2024-04-19",
+      "price": 2388.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713644774,
+      "date": "2024-04-20",
+      "price": 2390.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713731174,
+      "date": "2024-04-21",
+      "price": 2390.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713817573,
+      "date": "2024-04-22",
+      "price": 2329.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713903974,
+      "date": "2024-04-23",
+      "price": 2322.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1713990375,
+      "date": "2024-04-24",
+      "price": 2317.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714076776,
+      "date": "2024-04-25",
+      "price": 2332.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714163179,
+      "date": "2024-04-26",
+      "price": 2338.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714249574,
+      "date": "2024-04-27",
+      "price": 2337.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714335978,
+      "date": "2024-04-28",
+      "price": 2337.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714422377,
+      "date": "2024-04-29",
+      "price": 2336.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714508778,
+      "date": "2024-04-30",
+      "price": 2292.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714595184,
+      "date": "2024-05-01",
+      "price": 2314.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714681579,
+      "date": "2024-05-02",
+      "price": 2302.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714767979,
+      "date": "2024-05-03",
+      "price": 2302.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714854380,
+      "date": "2024-05-04",
+      "price": 2302.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1714940782,
+      "date": "2024-05-05",
+      "price": 2302.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715027178,
+      "date": "2024-05-06",
+      "price": 2325.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715113581,
+      "date": "2024-05-07",
+      "price": 2314.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715199979,
+      "date": "2024-05-08",
+      "price": 2308.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715286378,
+      "date": "2024-05-09",
+      "price": 2346.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715372779,
+      "date": "2024-05-10",
+      "price": 2363.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715459180,
+      "date": "2024-05-11",
+      "price": 2360.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715545579,
+      "date": "2024-05-12",
+      "price": 2360.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715631983,
+      "date": "2024-05-13",
+      "price": 2336.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715718385,
+      "date": "2024-05-14",
+      "price": 2356.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715804780,
+      "date": "2024-05-15",
+      "price": 2388.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715891182,
+      "date": "2024-05-16",
+      "price": 2376.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1715977583,
+      "date": "2024-05-17",
+      "price": 2415.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716063981,
+      "date": "2024-05-18",
+      "price": 2413.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716150384,
+      "date": "2024-05-19",
+      "price": 2413.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716236784,
+      "date": "2024-05-20",
+      "price": 2424.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716323179,
+      "date": "2024-05-21",
+      "price": 2422.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716409581,
+      "date": "2024-05-22",
+      "price": 2379.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716495974,
+      "date": "2024-05-23",
+      "price": 2332.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716582376,
+      "date": "2024-05-24",
+      "price": 2334.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716668775,
+      "date": "2024-05-25",
+      "price": 2334.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716755175,
+      "date": "2024-05-26",
+      "price": 2334.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716841580,
+      "date": "2024-05-27",
+      "price": 2351.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1716927977,
+      "date": "2024-05-28",
+      "price": 2360.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717014374,
+      "date": "2024-05-29",
+      "price": 2336.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717100775,
+      "date": "2024-05-30",
+      "price": 2341.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717187173,
+      "date": "2024-05-31",
+      "price": 2329.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717273578,
+      "date": "2024-06-01",
+      "price": 2327.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717359976,
+      "date": "2024-06-02",
+      "price": 2327.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717446378,
+      "date": "2024-06-03",
+      "price": 2348.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717532776,
+      "date": "2024-06-04",
+      "price": 2326.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717619176,
+      "date": "2024-06-05",
+      "price": 2353.43,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717705583,
+      "date": "2024-06-06",
+      "price": 2372.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717791985,
+      "date": "2024-06-07",
+      "price": 2287.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717878386,
+      "date": "2024-06-08",
+      "price": 2293.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1717964797,
+      "date": "2024-06-09",
+      "price": 2293.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718051183,
+      "date": "2024-06-10",
+      "price": 2308.85,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718137576,
+      "date": "2024-06-11",
+      "price": 2316.31,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718223981,
+      "date": "2024-06-12",
+      "price": 2323.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718310378,
+      "date": "2024-06-13",
+      "price": 2303.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718396779,
+      "date": "2024-06-14",
+      "price": 2331.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718483179,
+      "date": "2024-06-15",
+      "price": 2333.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718569576,
+      "date": "2024-06-16",
+      "price": 2333.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718655974,
+      "date": "2024-06-17",
+      "price": 2320.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718742380,
+      "date": "2024-06-18",
+      "price": 2330.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718828786,
+      "date": "2024-06-19",
+      "price": 2328.31,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1718915177,
+      "date": "2024-06-20",
+      "price": 2358.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719001578,
+      "date": "2024-06-21",
+      "price": 2321.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719087979,
+      "date": "2024-06-22",
+      "price": 2320.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719174377,
+      "date": "2024-06-23",
+      "price": 2320.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719260781,
+      "date": "2024-06-24",
+      "price": 2333.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719347179,
+      "date": "2024-06-25",
+      "price": 2318.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719433580,
+      "date": "2024-06-26",
+      "price": 2298.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719519977,
+      "date": "2024-06-27",
+      "price": 2326.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719606377,
+      "date": "2024-06-28",
+      "price": 2325.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719692780,
+      "date": "2024-06-29",
+      "price": 2326.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719779177,
+      "date": "2024-06-30",
+      "price": 2326.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719865575,
+      "date": "2024-07-01",
+      "price": 2331.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1719951977,
+      "date": "2024-07-02",
+      "price": 2329.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720038375,
+      "date": "2024-07-03",
+      "price": 2354.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720124777,
+      "date": "2024-07-04",
+      "price": 2357.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720211173,
+      "date": "2024-07-05",
+      "price": 2389.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720297566,
+      "date": "2024-07-06",
+      "price": 2391.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720383972,
+      "date": "2024-07-07",
+      "price": 2391.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720470374,
+      "date": "2024-07-08",
+      "price": 2358.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720556775,
+      "date": "2024-07-09",
+      "price": 2364.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720643175,
+      "date": "2024-07-10",
+      "price": 2372.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720729580,
+      "date": "2024-07-11",
+      "price": 2414.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720815994,
+      "date": "2024-07-12",
+      "price": 2411.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720902381,
+      "date": "2024-07-13",
+      "price": 2411.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1720988792,
+      "date": "2024-07-14",
+      "price": 2411.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721075183,
+      "date": "2024-07-15",
+      "price": 2421.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721161580,
+      "date": "2024-07-16",
+      "price": 2467.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721247986,
+      "date": "2024-07-17",
+      "price": 2457.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721334373,
+      "date": "2024-07-18",
+      "price": 2444.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721420774,
+      "date": "2024-07-19",
+      "price": 2399.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721507175,
+      "date": "2024-07-20",
+      "price": 2400.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721593571,
+      "date": "2024-07-21",
+      "price": 2400.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721679967,
+      "date": "2024-07-22",
+      "price": 2398.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721766369,
+      "date": "2024-07-23",
+      "price": 2405.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721852771,
+      "date": "2024-07-24",
+      "price": 2398.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1721939169,
+      "date": "2024-07-25",
+      "price": 2360.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722025567,
+      "date": "2024-07-26",
+      "price": 2385.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722111998,
+      "date": "2024-07-27",
+      "price": 2387.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722198369,
+      "date": "2024-07-28",
+      "price": 2387.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722284772,
+      "date": "2024-07-29",
+      "price": 2383.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722371167,
+      "date": "2024-07-30",
+      "price": 2410.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722457571,
+      "date": "2024-07-31",
+      "price": 2449.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722543971,
+      "date": "2024-08-01",
+      "price": 2442.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722630369,
+      "date": "2024-08-02",
+      "price": 2437.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722716772,
+      "date": "2024-08-03",
+      "price": 2441.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722803171,
+      "date": "2024-08-04",
+      "price": 2441.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722889572,
+      "date": "2024-08-05",
+      "price": 2405.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1722975970,
+      "date": "2024-08-06",
+      "price": 2388.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723062366,
+      "date": "2024-08-07",
+      "price": 2385.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723148773,
+      "date": "2024-08-08",
+      "price": 2424.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723235168,
+      "date": "2024-08-09",
+      "price": 2430.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723321571,
+      "date": "2024-08-10",
+      "price": 2431.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723407967,
+      "date": "2024-08-11",
+      "price": 2431.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723494369,
+      "date": "2024-08-12",
+      "price": 2471.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723580773,
+      "date": "2024-08-13",
+      "price": 2466.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723667174,
+      "date": "2024-08-14",
+      "price": 2447.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723753578,
+      "date": "2024-08-15",
+      "price": 2456.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723839989,
+      "date": "2024-08-16",
+      "price": 2509.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1723926375,
+      "date": "2024-08-17",
+      "price": 2508.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724012784,
+      "date": "2024-08-18",
+      "price": 2508.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724099188,
+      "date": "2024-08-19",
+      "price": 2504.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724185583,
+      "date": "2024-08-20",
+      "price": 2516.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724271985,
+      "date": "2024-08-21",
+      "price": 2511.71,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724358387,
+      "date": "2024-08-22",
+      "price": 2484.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724444785,
+      "date": "2024-08-23",
+      "price": 2511.31,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724531187,
+      "date": "2024-08-24",
+      "price": 2512.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724617585,
+      "date": "2024-08-25",
+      "price": 2512.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724703985,
+      "date": "2024-08-26",
+      "price": 2518.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724790386,
+      "date": "2024-08-27",
+      "price": 2525.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724876776,
+      "date": "2024-08-28",
+      "price": 2507.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1724963173,
+      "date": "2024-08-29",
+      "price": 2521.21,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725049591,
+      "date": "2024-08-30",
+      "price": 2502.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725135987,
+      "date": "2024-08-31",
+      "price": 2503.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725222387,
+      "date": "2024-09-01",
+      "price": 2503.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725308788,
+      "date": "2024-09-02",
+      "price": 2499.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725395181,
+      "date": "2024-09-03",
+      "price": 2491.81,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725481586,
+      "date": "2024-09-04",
+      "price": 2494.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725567985,
+      "date": "2024-09-05",
+      "price": 2515.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725654411,
+      "date": "2024-09-06",
+      "price": 2495.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725740789,
+      "date": "2024-09-07",
+      "price": 2497.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725827189,
+      "date": "2024-09-08",
+      "price": 2497.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725913583,
+      "date": "2024-09-09",
+      "price": 2505.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1725999985,
+      "date": "2024-09-10",
+      "price": 2516.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726086383,
+      "date": "2024-09-11",
+      "price": 2513.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726172785,
+      "date": "2024-09-12",
+      "price": 2558.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726259186,
+      "date": "2024-09-13",
+      "price": 2581.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726345580,
+      "date": "2024-09-14",
+      "price": 2578.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726431984,
+      "date": "2024-09-15",
+      "price": 2578.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726518521,
+      "date": "2024-09-16",
+      "price": 2587.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726604782,
+      "date": "2024-09-17",
+      "price": 2569.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726691179,
+      "date": "2024-09-18",
+      "price": 2557.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726777576,
+      "date": "2024-09-19",
+      "price": 2588.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726863976,
+      "date": "2024-09-20",
+      "price": 2619.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1726950379,
+      "date": "2024-09-21",
+      "price": 2622.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727036781,
+      "date": "2024-09-22",
+      "price": 2622.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727123182,
+      "date": "2024-09-23",
+      "price": 2627.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727209582,
+      "date": "2024-09-24",
+      "price": 2663.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727295983,
+      "date": "2024-09-25",
+      "price": 2659.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727382398,
+      "date": "2024-09-26",
+      "price": 2671.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727468786,
+      "date": "2024-09-27",
+      "price": 2652.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727555183,
+      "date": "2024-09-28",
+      "price": 2658.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727641583,
+      "date": "2024-09-29",
+      "price": 2658.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727727977,
+      "date": "2024-09-30",
+      "price": 2632.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727814382,
+      "date": "2024-10-01",
+      "price": 2658.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727900782,
+      "date": "2024-10-02",
+      "price": 2659.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1727987181,
+      "date": "2024-10-03",
+      "price": 2656.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728073587,
+      "date": "2024-10-04",
+      "price": 2651.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728159981,
+      "date": "2024-10-05",
+      "price": 2653.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728246379,
+      "date": "2024-10-06",
+      "price": 2653.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728332780,
+      "date": "2024-10-07",
+      "price": 2642.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728419179,
+      "date": "2024-10-08",
+      "price": 2622.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728505581,
+      "date": "2024-10-09",
+      "price": 2607.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728591981,
+      "date": "2024-10-10",
+      "price": 2629.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728678380,
+      "date": "2024-10-11",
+      "price": 2655.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728764781,
+      "date": "2024-10-12",
+      "price": 2656.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728851176,
+      "date": "2024-10-13",
+      "price": 2656.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1728937577,
+      "date": "2024-10-14",
+      "price": 2652.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729023976,
+      "date": "2024-10-15",
+      "price": 2660.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729110379,
+      "date": "2024-10-16",
+      "price": 2673.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729196776,
+      "date": "2024-10-17",
+      "price": 2691.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729283170,
+      "date": "2024-10-18",
+      "price": 2721.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729369580,
+      "date": "2024-10-19",
+      "price": 2721.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729455977,
+      "date": "2024-10-20",
+      "price": 2721.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729542379,
+      "date": "2024-10-21",
+      "price": 2720.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729628777,
+      "date": "2024-10-22",
+      "price": 2747.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729715188,
+      "date": "2024-10-23",
+      "price": 2715.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729801581,
+      "date": "2024-10-24",
+      "price": 2735.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729887981,
+      "date": "2024-10-25",
+      "price": 2743.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1729974383,
+      "date": "2024-10-26",
+      "price": 2748.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730060782,
+      "date": "2024-10-27",
+      "price": 2748.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730147181,
+      "date": "2024-10-28",
+      "price": 2742.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730233585,
+      "date": "2024-10-29",
+      "price": 2772.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730319984,
+      "date": "2024-10-30",
+      "price": 2785.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730406386,
+      "date": "2024-10-31",
+      "price": 2747.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730492787,
+      "date": "2024-11-01",
+      "price": 2733.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730579186,
+      "date": "2024-11-02",
+      "price": 2736.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730665588,
+      "date": "2024-11-03",
+      "price": 2736.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730751984,
+      "date": "2024-11-04",
+      "price": 2737.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730838387,
+      "date": "2024-11-05",
+      "price": 2741.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1730924794,
+      "date": "2024-11-06",
+      "price": 2664.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731011184,
+      "date": "2024-11-07",
+      "price": 2707.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731097584,
+      "date": "2024-11-08",
+      "price": 2687.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731183984,
+      "date": "2024-11-09",
+      "price": 2684.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731270394,
+      "date": "2024-11-10",
+      "price": 2684.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731356806,
+      "date": "2024-11-11",
+      "price": 2622.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731443192,
+      "date": "2024-11-12",
+      "price": 2598.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731529589,
+      "date": "2024-11-13",
+      "price": 2576.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731615991,
+      "date": "2024-11-14",
+      "price": 2569.08,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731702392,
+      "date": "2024-11-15",
+      "price": 2562.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731788793,
+      "date": "2024-11-16",
+      "price": 2562.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731875193,
+      "date": "2024-11-17",
+      "price": 2562.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1731961587,
+      "date": "2024-11-18",
+      "price": 2611.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732047989,
+      "date": "2024-11-19",
+      "price": 2631.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732134391,
+      "date": "2024-11-20",
+      "price": 2649.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732220791,
+      "date": "2024-11-21",
+      "price": 2669.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732307189,
+      "date": "2024-11-22",
+      "price": 2706.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732393594,
+      "date": "2024-11-23",
+      "price": 2715.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732479990,
+      "date": "2024-11-24",
+      "price": 2715.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732566394,
+      "date": "2024-11-25",
+      "price": 2627.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732652794,
+      "date": "2024-11-26",
+      "price": 2629.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732739189,
+      "date": "2024-11-27",
+      "price": 2637.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732825589,
+      "date": "2024-11-28",
+      "price": 2637.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732911997,
+      "date": "2024-11-29",
+      "price": 2650.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1732998395,
+      "date": "2024-11-30",
+      "price": 2649.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733084802,
+      "date": "2024-12-01",
+      "price": 2649.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733171207,
+      "date": "2024-12-02",
+      "price": 2640.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733257612,
+      "date": "2024-12-03",
+      "price": 2642.5,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733343983,
+      "date": "2024-12-04",
+      "price": 2649.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733430382,
+      "date": "2024-12-05",
+      "price": 2629.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733516782,
+      "date": "2024-12-06",
+      "price": 2635.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733603182,
+      "date": "2024-12-07",
+      "price": 2633.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733689582,
+      "date": "2024-12-08",
+      "price": 2633.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733775982,
+      "date": "2024-12-09",
+      "price": 2658.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733862395,
+      "date": "2024-12-10",
+      "price": 2691.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1733948786,
+      "date": "2024-12-11",
+      "price": 2719.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734035182,
+      "date": "2024-12-12",
+      "price": 2682.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734121584,
+      "date": "2024-12-13",
+      "price": 2650.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734207992,
+      "date": "2024-12-14",
+      "price": 2648.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734294389,
+      "date": "2024-12-15",
+      "price": 2648.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734380785,
+      "date": "2024-12-16",
+      "price": 2652.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734467183,
+      "date": "2024-12-17",
+      "price": 2645.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734553586,
+      "date": "2024-12-18",
+      "price": 2604.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734639984,
+      "date": "2024-12-19",
+      "price": 2598.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734726379,
+      "date": "2024-12-20",
+      "price": 2626.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734812781,
+      "date": "2024-12-21",
+      "price": 2623.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734899182,
+      "date": "2024-12-22",
+      "price": 2623.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1734985582,
+      "date": "2024-12-23",
+      "price": 2611.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735071983,
+      "date": "2024-12-24",
+      "price": 2616.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735158381,
+      "date": "2024-12-25",
+      "price": 2616.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735244782,
+      "date": "2024-12-26",
+      "price": 2636.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735331183,
+      "date": "2024-12-27",
+      "price": 2615.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735417584,
+      "date": "2024-12-28",
+      "price": 2622.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735503983,
+      "date": "2024-12-29",
+      "price": 2622.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735590384,
+      "date": "2024-12-30",
+      "price": 2608.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735676788,
+      "date": "2024-12-31",
+      "price": 2624.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735763186,
+      "date": "2025-01-01",
+      "price": 2624.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735849582,
+      "date": "2025-01-02",
+      "price": 2657.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1735935981,
+      "date": "2025-01-03",
+      "price": 2639.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736022386,
+      "date": "2025-01-04",
+      "price": 2640.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736108782,
+      "date": "2025-01-05",
+      "price": 2640.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736195183,
+      "date": "2025-01-06",
+      "price": 2634.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736281582,
+      "date": "2025-01-07",
+      "price": 2648.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736367983,
+      "date": "2025-01-08",
+      "price": 2660.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736454383,
+      "date": "2025-01-09",
+      "price": 2670.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736540715,
+      "date": "2025-01-10",
+      "price": 2689.08,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736627114,
+      "date": "2025-01-11",
+      "price": 2689.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736713516,
+      "date": "2025-01-12",
+      "price": 2689.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736799913,
+      "date": "2025-01-13",
+      "price": 2660.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736886311,
+      "date": "2025-01-14",
+      "price": 2673.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1736972712,
+      "date": "2025-01-15",
+      "price": 2695.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737059125,
+      "date": "2025-01-16",
+      "price": 2715.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737145526,
+      "date": "2025-01-17",
+      "price": 2703.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737231917,
+      "date": "2025-01-18",
+      "price": 2703.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737318323,
+      "date": "2025-01-19",
+      "price": 2703.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737404724,
+      "date": "2025-01-20",
+      "price": 2707.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737491129,
+      "date": "2025-01-21",
+      "price": 2741.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737577524,
+      "date": "2025-01-22",
+      "price": 2755.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737663922,
+      "date": "2025-01-23",
+      "price": 2754.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737750327,
+      "date": "2025-01-24",
+      "price": 2773.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737836723,
+      "date": "2025-01-25",
+      "price": 2771.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1737923125,
+      "date": "2025-01-26",
+      "price": 2771.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738009523,
+      "date": "2025-01-27",
+      "price": 2739.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738095978,
+      "date": "2025-01-28",
+      "price": 2764.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738182323,
+      "date": "2025-01-29",
+      "price": 2754.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738268722,
+      "date": "2025-01-30",
+      "price": 2793.88,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738355123,
+      "date": "2025-01-31",
+      "price": 2796.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738441528,
+      "date": "2025-02-01",
+      "price": 2798.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738527923,
+      "date": "2025-02-02",
+      "price": 2798.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738614322,
+      "date": "2025-02-03",
+      "price": 2819.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738700724,
+      "date": "2025-02-04",
+      "price": 2842.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738787122,
+      "date": "2025-02-05",
+      "price": 2864.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738873521,
+      "date": "2025-02-06",
+      "price": 2856.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1738959924,
+      "date": "2025-02-07",
+      "price": 2861.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739046323,
+      "date": "2025-02-08",
+      "price": 2861.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739132723,
+      "date": "2025-02-09",
+      "price": 2861.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739219122,
+      "date": "2025-02-10",
+      "price": 2905.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739305523,
+      "date": "2025-02-11",
+      "price": 2898.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739391922,
+      "date": "2025-02-12",
+      "price": 2898.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739478322,
+      "date": "2025-02-13",
+      "price": 2927.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739564722,
+      "date": "2025-02-14",
+      "price": 2881.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739651123,
+      "date": "2025-02-15",
+      "price": 2882.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739737522,
+      "date": "2025-02-16",
+      "price": 2882.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739823922,
+      "date": "2025-02-17",
+      "price": 2898.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739910323,
+      "date": "2025-02-18",
+      "price": 2935.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1739996727,
+      "date": "2025-02-19",
+      "price": 2932.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740083125,
+      "date": "2025-02-20",
+      "price": 2936.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740169527,
+      "date": "2025-02-21",
+      "price": 2933.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740255920,
+      "date": "2025-02-22",
+      "price": 2935.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740342324,
+      "date": "2025-02-23",
+      "price": 2935.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740428723,
+      "date": "2025-02-24",
+      "price": 2949.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740515120,
+      "date": "2025-02-25",
+      "price": 2912.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740601530,
+      "date": "2025-02-26",
+      "price": 2913.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740687919,
+      "date": "2025-02-27",
+      "price": 2874.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740774318,
+      "date": "2025-02-28",
+      "price": 2851.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740860720,
+      "date": "2025-03-01",
+      "price": 2857.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1740947119,
+      "date": "2025-03-02",
+      "price": 2857.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741033519,
+      "date": "2025-03-03",
+      "price": 2885.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741119921,
+      "date": "2025-03-04",
+      "price": 2919.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741206319,
+      "date": "2025-03-05",
+      "price": 2920.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741292720,
+      "date": "2025-03-06",
+      "price": 2916.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741379119,
+      "date": "2025-03-07",
+      "price": 2908.46,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741465521,
+      "date": "2025-03-08",
+      "price": 2911.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741551926,
+      "date": "2025-03-09",
+      "price": 2911.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741638319,
+      "date": "2025-03-10",
+      "price": 2887.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741724719,
+      "date": "2025-03-11",
+      "price": 2916.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741811124,
+      "date": "2025-03-12",
+      "price": 2932.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741897521,
+      "date": "2025-03-13",
+      "price": 2981.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1741983919,
+      "date": "2025-03-14",
+      "price": 2983.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742070320,
+      "date": "2025-03-15",
+      "price": 2986.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742156720,
+      "date": "2025-03-16",
+      "price": 2986.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742243120,
+      "date": "2025-03-17",
+      "price": 3001.43,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742329519,
+      "date": "2025-03-18",
+      "price": 3034.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742415919,
+      "date": "2025-03-19",
+      "price": 3046.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742502320,
+      "date": "2025-03-20",
+      "price": 3044.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742588719,
+      "date": "2025-03-21",
+      "price": 3021.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742675121,
+      "date": "2025-03-22",
+      "price": 3022.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742761520,
+      "date": "2025-03-23",
+      "price": 3022.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742847920,
+      "date": "2025-03-24",
+      "price": 3009.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1742934321,
+      "date": "2025-03-25",
+      "price": 3020.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743020721,
+      "date": "2025-03-26",
+      "price": 3019.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743107119,
+      "date": "2025-03-27",
+      "price": 3055.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743193520,
+      "date": "2025-03-28",
+      "price": 3082.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743279920,
+      "date": "2025-03-29",
+      "price": 3085.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743366320,
+      "date": "2025-03-30",
+      "price": 3101.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743452719,
+      "date": "2025-03-31",
+      "price": 3123.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743539119,
+      "date": "2025-04-01",
+      "price": 3118.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743624328,
+      "date": "2025-04-02",
+      "price": 3124.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743625800,
+      "date": "2025-04-03",
+      "price": 3124.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743712200,
+      "date": "2025-04-04",
+      "price": 3124.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743798600,
+      "date": "2025-04-05",
+      "price": 3124.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1743971120,
+      "date": "2025-04-06",
+      "price": 3037.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744057520,
+      "date": "2025-04-07",
+      "price": 2982.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744143921,
+      "date": "2025-04-08",
+      "price": 2979.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744230319,
+      "date": "2025-04-09",
+      "price": 3090.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744316724,
+      "date": "2025-04-10",
+      "price": 3173.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744403121,
+      "date": "2025-04-11",
+      "price": 3235.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744489519,
+      "date": "2025-04-12",
+      "price": 3238.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744575919,
+      "date": "2025-04-13",
+      "price": 3238.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744662321,
+      "date": "2025-04-14",
+      "price": 3211.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744748719,
+      "date": "2025-04-15",
+      "price": 3230.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744835120,
+      "date": "2025-04-16",
+      "price": 3336.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1744921520,
+      "date": "2025-04-17",
+      "price": 3315.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745007921,
+      "date": "2025-04-18",
+      "price": 3315.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745094320,
+      "date": "2025-04-19",
+      "price": 3315.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745180719,
+      "date": "2025-04-20",
+      "price": 3315.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745267119,
+      "date": "2025-04-21",
+      "price": 3424.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745353521,
+      "date": "2025-04-22",
+      "price": 3381.5,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745439919,
+      "date": "2025-04-23",
+      "price": 3294.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745526319,
+      "date": "2025-04-24",
+      "price": 3339.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745612719,
+      "date": "2025-04-25",
+      "price": 3307.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745699120,
+      "date": "2025-04-26",
+      "price": 3318.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745785519,
+      "date": "2025-04-27",
+      "price": 3318.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745871920,
+      "date": "2025-04-28",
+      "price": 3349.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1745958320,
+      "date": "2025-04-29",
+      "price": 3322.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746044720,
+      "date": "2025-04-30",
+      "price": 3294.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746131120,
+      "date": "2025-05-01",
+      "price": 3234.96,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746217537,
+      "date": "2025-05-02",
+      "price": 3238.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746303920,
+      "date": "2025-05-03",
+      "price": 3241.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746390318,
+      "date": "2025-05-04",
+      "price": 3242.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746476720,
+      "date": "2025-05-05",
+      "price": 3330.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746563121,
+      "date": "2025-05-06",
+      "price": 3422.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746649520,
+      "date": "2025-05-07",
+      "price": 3368.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746735921,
+      "date": "2025-05-08",
+      "price": 3307.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746822320,
+      "date": "2025-05-09",
+      "price": 3328.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746908720,
+      "date": "2025-05-10",
+      "price": 3326.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1746995120,
+      "date": "2025-05-11",
+      "price": 3326.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747081522,
+      "date": "2025-05-12",
+      "price": 3237.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747167920,
+      "date": "2025-05-13",
+      "price": 3250.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747254302,
+      "date": "2025-05-14",
+      "price": 3179.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747329903,
+      "date": "2025-05-15",
+      "price": 3224.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747416302,
+      "date": "2025-05-16",
+      "price": 3186.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747502702,
+      "date": "2025-05-17",
+      "price": 3201.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747589102,
+      "date": "2025-05-18",
+      "price": 3201.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747675503,
+      "date": "2025-05-19",
+      "price": 3230.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747761903,
+      "date": "2025-05-20",
+      "price": 3283.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747848303,
+      "date": "2025-05-21",
+      "price": 3311.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1747934703,
+      "date": "2025-05-22",
+      "price": 3299.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748021102,
+      "date": "2025-05-23",
+      "price": 3358.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748107504,
+      "date": "2025-05-24",
+      "price": 3357.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748193904,
+      "date": "2025-05-25",
+      "price": 3357.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748280303,
+      "date": "2025-05-26",
+      "price": 3341.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748366703,
+      "date": "2025-05-27",
+      "price": 3300.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748453102,
+      "date": "2025-05-28",
+      "price": 3297.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748539503,
+      "date": "2025-05-29",
+      "price": 3320.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748625904,
+      "date": "2025-05-30",
+      "price": 3292.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748712304,
+      "date": "2025-05-31",
+      "price": 3289.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748798702,
+      "date": "2025-06-01",
+      "price": 3289.57,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748885102,
+      "date": "2025-06-02",
+      "price": 3374.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1748971503,
+      "date": "2025-06-03",
+      "price": 3351.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749057903,
+      "date": "2025-06-04",
+      "price": 3374.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749144303,
+      "date": "2025-06-05",
+      "price": 3352.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749230702,
+      "date": "2025-06-06",
+      "price": 3325.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749317103,
+      "date": "2025-06-07",
+      "price": 3311.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749403503,
+      "date": "2025-06-08",
+      "price": 3311.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749500703,
+      "date": "2025-06-09",
+      "price": 3327.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749587103,
+      "date": "2025-06-10",
+      "price": 3327.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749673503,
+      "date": "2025-06-11",
+      "price": 3347.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749759903,
+      "date": "2025-06-12",
+      "price": 3388.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1749846303,
+      "date": "2025-06-13",
+      "price": 3432.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1750364463,
+      "date": "2025-06-19",
+      "price": 3370.43,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1750537263,
+      "date": "2025-06-21",
+      "price": 3368.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1750710065,
+      "date": "2025-06-23",
+      "price": 3374.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1750796703,
+      "date": "2025-06-24",
+      "price": 3323.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1750883103,
+      "date": "2025-06-25",
+      "price": 3333.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1750969503,
+      "date": "2025-06-26",
+      "price": 3330.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751055904,
+      "date": "2025-06-27",
+      "price": 3275.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751142302,
+      "date": "2025-06-28",
+      "price": 3274.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751228703,
+      "date": "2025-06-29",
+      "price": 3274.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751315103,
+      "date": "2025-06-30",
+      "price": 3307.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751401503,
+      "date": "2025-07-01",
+      "price": 3337.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751574302,
+      "date": "2025-07-03",
+      "price": 3327.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751660703,
+      "date": "2025-07-04",
+      "price": 3336.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751747103,
+      "date": "2025-07-05",
+      "price": 3336.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751833502,
+      "date": "2025-07-06",
+      "price": 3336.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1751919903,
+      "date": "2025-07-07",
+      "price": 3336.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752006303,
+      "date": "2025-07-08",
+      "price": 3302.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752092702,
+      "date": "2025-07-09",
+      "price": 3312.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752179104,
+      "date": "2025-07-10",
+      "price": 3323.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752351906,
+      "date": "2025-07-12",
+      "price": 3355.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752438305,
+      "date": "2025-07-13",
+      "price": 3355.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752524704,
+      "date": "2025-07-14",
+      "price": 3345.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752611104,
+      "date": "2025-07-15",
+      "price": 3328.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752697504,
+      "date": "2025-07-16",
+      "price": 3349.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752783904,
+      "date": "2025-07-17",
+      "price": 3339.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752870303,
+      "date": "2025-07-18",
+      "price": 3349.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1752956704,
+      "date": "2025-07-19",
+      "price": 3350.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753043105,
+      "date": "2025-07-20",
+      "price": 3350.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753129504,
+      "date": "2025-07-21",
+      "price": 3398.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753215903,
+      "date": "2025-07-22",
+      "price": 3430.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753302304,
+      "date": "2025-07-23",
+      "price": 3389.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753388704,
+      "date": "2025-07-24",
+      "price": 3369.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753475105,
+      "date": "2025-07-25",
+      "price": 3337.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753561505,
+      "date": "2025-07-26",
+      "price": 3336.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753647904,
+      "date": "2025-07-27",
+      "price": 3336.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753734305,
+      "date": "2025-07-28",
+      "price": 3317.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753820706,
+      "date": "2025-07-29",
+      "price": 3325.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753907104,
+      "date": "2025-07-30",
+      "price": 3273.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1753993504,
+      "date": "2025-07-31",
+      "price": 3292.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754079904,
+      "date": "2025-08-01",
+      "price": 3360.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754166304,
+      "date": "2025-08-02",
+      "price": 3363.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754239807,
+      "date": "2025-08-03",
+      "price": 3363.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754326506,
+      "date": "2025-08-04",
+      "price": 3371.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754412907,
+      "date": "2025-08-05",
+      "price": 3379.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754499307,
+      "date": "2025-08-06",
+      "price": 3375.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754598309,
+      "date": "2025-08-07",
+      "price": 3400.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754684707,
+      "date": "2025-08-08",
+      "price": 3395.0,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754771106,
+      "date": "2025-08-09",
+      "price": 3398.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754853906,
+      "date": "2025-08-10",
+      "price": 3398.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1754940307,
+      "date": "2025-08-11",
+      "price": 3352.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755026708,
+      "date": "2025-08-12",
+      "price": 3346.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755113110,
+      "date": "2025-08-13",
+      "price": 3354.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755199507,
+      "date": "2025-08-14",
+      "price": 3340.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755285907,
+      "date": "2025-08-15",
+      "price": 3335.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755372307,
+      "date": "2025-08-16",
+      "price": 3335.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755458707,
+      "date": "2025-08-17",
+      "price": 3335.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755545106,
+      "date": "2025-08-18",
+      "price": 3332.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755631507,
+      "date": "2025-08-19",
+      "price": 3317.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755717907,
+      "date": "2025-08-20",
+      "price": 3348.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755804308,
+      "date": "2025-08-21",
+      "price": 3341.47,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755890706,
+      "date": "2025-08-22",
+      "price": 3370.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1755977106,
+      "date": "2025-08-23",
+      "price": 3372.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756063507,
+      "date": "2025-08-24",
+      "price": 3372.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756149907,
+      "date": "2025-08-25",
+      "price": 3368.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756236307,
+      "date": "2025-08-26",
+      "price": 3388.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756322707,
+      "date": "2025-08-27",
+      "price": 3395.0,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756409107,
+      "date": "2025-08-28",
+      "price": 3419.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756495506,
+      "date": "2025-08-29",
+      "price": 3444.88,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756581907,
+      "date": "2025-08-30",
+      "price": 3447.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756668307,
+      "date": "2025-08-31",
+      "price": 3447.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756754706,
+      "date": "2025-09-01",
+      "price": 3476.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756841106,
+      "date": "2025-09-02",
+      "price": 3537.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1756927506,
+      "date": "2025-09-03",
+      "price": 3564.17,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757013906,
+      "date": "2025-09-04",
+      "price": 3549.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757100306,
+      "date": "2025-09-05",
+      "price": 3593.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757186707,
+      "date": "2025-09-06",
+      "price": 3586.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757273107,
+      "date": "2025-09-07",
+      "price": 3586.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757359507,
+      "date": "2025-09-08",
+      "price": 3634.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757445907,
+      "date": "2025-09-09",
+      "price": 3635.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757532307,
+      "date": "2025-09-10",
+      "price": 3640.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757618707,
+      "date": "2025-09-11",
+      "price": 3636.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757705107,
+      "date": "2025-09-12",
+      "price": 3647.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757791507,
+      "date": "2025-09-13",
+      "price": 3643.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757877907,
+      "date": "2025-09-14",
+      "price": 3643.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1757964307,
+      "date": "2025-09-15",
+      "price": 3679.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758050705,
+      "date": "2025-09-16",
+      "price": 3690.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758137106,
+      "date": "2025-09-17",
+      "price": 3658.88,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758223505,
+      "date": "2025-09-18",
+      "price": 3643.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758309905,
+      "date": "2025-09-19",
+      "price": 3683.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758396306,
+      "date": "2025-09-20",
+      "price": 3685.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758482706,
+      "date": "2025-09-21",
+      "price": 3685.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758569107,
+      "date": "2025-09-22",
+      "price": 3747.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758655506,
+      "date": "2025-09-23",
+      "price": 3785.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758741908,
+      "date": "2025-09-24",
+      "price": 3719.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758828307,
+      "date": "2025-09-25",
+      "price": 3753.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1758914708,
+      "date": "2025-09-26",
+      "price": 3774.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759001106,
+      "date": "2025-09-27",
+      "price": 3759.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759087507,
+      "date": "2025-09-28",
+      "price": 3759.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759173906,
+      "date": "2025-09-29",
+      "price": 3826.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759260307,
+      "date": "2025-09-30",
+      "price": 3853.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759346706,
+      "date": "2025-10-01",
+      "price": 3864.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759433106,
+      "date": "2025-10-02",
+      "price": 3858.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759519506,
+      "date": "2025-10-03",
+      "price": 3886.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759605905,
+      "date": "2025-10-04",
+      "price": 3886.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759692306,
+      "date": "2025-10-05",
+      "price": 3886.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759778706,
+      "date": "2025-10-06",
+      "price": 3961.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759865106,
+      "date": "2025-10-07",
+      "price": 3980.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1759951507,
+      "date": "2025-10-08",
+      "price": 4042.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760037907,
+      "date": "2025-10-09",
+      "price": 3972.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760124307,
+      "date": "2025-10-10",
+      "price": 4007.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760210709,
+      "date": "2025-10-11",
+      "price": 4017.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760297107,
+      "date": "2025-10-12",
+      "price": 4017.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760383512,
+      "date": "2025-10-13",
+      "price": 4103.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760469906,
+      "date": "2025-10-14",
+      "price": 4148.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760556306,
+      "date": "2025-10-15",
+      "price": 4210.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760642709,
+      "date": "2025-10-16",
+      "price": 4293.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760729105,
+      "date": "2025-10-17",
+      "price": 4220.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760815505,
+      "date": "2025-10-18",
+      "price": 4249.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760901906,
+      "date": "2025-10-19",
+      "price": 4249.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1760988305,
+      "date": "2025-10-20",
+      "price": 4365.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761074706,
+      "date": "2025-10-21",
+      "price": 4104.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761161106,
+      "date": "2025-10-22",
+      "price": 4093.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761247506,
+      "date": "2025-10-23",
+      "price": 4127.08,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761333906,
+      "date": "2025-10-24",
+      "price": 4113.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761420306,
+      "date": "2025-10-25",
+      "price": 4113.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761506705,
+      "date": "2025-10-26",
+      "price": 4113.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761593105,
+      "date": "2025-10-27",
+      "price": 3997.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761679506,
+      "date": "2025-10-28",
+      "price": 3957.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761765906,
+      "date": "2025-10-29",
+      "price": 3972.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761852306,
+      "date": "2025-10-30",
+      "price": 4019.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1761938707,
+      "date": "2025-10-31",
+      "price": 3992.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762025106,
+      "date": "2025-11-01",
+      "price": 4002.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762111506,
+      "date": "2025-11-02",
+      "price": 4002.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762197906,
+      "date": "2025-11-03",
+      "price": 4005.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762284305,
+      "date": "2025-11-04",
+      "price": 3942.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762370706,
+      "date": "2025-11-05",
+      "price": 3982.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762457107,
+      "date": "2025-11-06",
+      "price": 3993.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762543506,
+      "date": "2025-11-07",
+      "price": 4007.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762629907,
+      "date": "2025-11-08",
+      "price": 4001.21,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762716306,
+      "date": "2025-11-09",
+      "price": 4001.21,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762802706,
+      "date": "2025-11-10",
+      "price": 4112.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762889107,
+      "date": "2025-11-11",
+      "price": 4117.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1762975507,
+      "date": "2025-11-12",
+      "price": 4195.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763061906,
+      "date": "2025-11-13",
+      "price": 4156.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763148306,
+      "date": "2025-11-14",
+      "price": 4073.76,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763238306,
+      "date": "2025-11-15",
+      "price": 4080.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763324705,
+      "date": "2025-11-16",
+      "price": 4080.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763411105,
+      "date": "2025-11-17",
+      "price": 4020.14,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763497506,
+      "date": "2025-11-18",
+      "price": 4075.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763583906,
+      "date": "2025-11-19",
+      "price": 4078.49,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763670306,
+      "date": "2025-11-20",
+      "price": 4079.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763756708,
+      "date": "2025-11-21",
+      "price": 4080.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763843108,
+      "date": "2025-11-22",
+      "price": 4065.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1763929507,
+      "date": "2025-11-23",
+      "price": 4065.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764015909,
+      "date": "2025-11-24",
+      "price": 4124.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764102307,
+      "date": "2025-11-25",
+      "price": 4135.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764188708,
+      "date": "2025-11-26",
+      "price": 4165.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764275106,
+      "date": "2025-11-27",
+      "price": 4157.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764361506,
+      "date": "2025-11-28",
+      "price": 4219.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764447906,
+      "date": "2025-11-29",
+      "price": 4219.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764534305,
+      "date": "2025-11-30",
+      "price": 4219.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764620706,
+      "date": "2025-12-01",
+      "price": 4237.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764707106,
+      "date": "2025-12-02",
+      "price": 4197.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764793506,
+      "date": "2025-12-03",
+      "price": 4211.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764879906,
+      "date": "2025-12-04",
+      "price": 4208.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1764966307,
+      "date": "2025-12-05",
+      "price": 4205.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765052707,
+      "date": "2025-12-06",
+      "price": 4197.81,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765139106,
+      "date": "2025-12-07",
+      "price": 4197.81,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765225510,
+      "date": "2025-12-08",
+      "price": 4191.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765311907,
+      "date": "2025-12-09",
+      "price": 4211.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765398307,
+      "date": "2025-12-10",
+      "price": 4236.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765484708,
+      "date": "2025-12-11",
+      "price": 4266.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765571108,
+      "date": "2025-12-12",
+      "price": 4299.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765657507,
+      "date": "2025-12-13",
+      "price": 4300.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765743908,
+      "date": "2025-12-14",
+      "price": 4300.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765830310,
+      "date": "2025-12-15",
+      "price": 4303.96,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1765916707,
+      "date": "2025-12-16",
+      "price": 4309.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766003106,
+      "date": "2025-12-17",
+      "price": 4341.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766089508,
+      "date": "2025-12-18",
+      "price": 4330.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766175906,
+      "date": "2025-12-19",
+      "price": 4344.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766262307,
+      "date": "2025-12-20",
+      "price": 4340.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766348706,
+      "date": "2025-12-21",
+      "price": 4340.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766435111,
+      "date": "2025-12-22",
+      "price": 4434.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766521508,
+      "date": "2025-12-23",
+      "price": 4494.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766607906,
+      "date": "2025-12-24",
+      "price": 4479.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766694306,
+      "date": "2025-12-25",
+      "price": 4479.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766780707,
+      "date": "2025-12-26",
+      "price": 4530.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766867107,
+      "date": "2025-12-27",
+      "price": 4534.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1766953507,
+      "date": "2025-12-28",
+      "price": 4534.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767039908,
+      "date": "2025-12-29",
+      "price": 4339.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767126306,
+      "date": "2025-12-30",
+      "price": 4348.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767212713,
+      "date": "2025-12-31",
+      "price": 4314.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767299106,
+      "date": "2026-01-01",
+      "price": 4325.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767385508,
+      "date": "2026-01-02",
+      "price": 4323.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767471907,
+      "date": "2026-01-03",
+      "price": 4332.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767558306,
+      "date": "2026-01-04",
+      "price": 4332.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767644706,
+      "date": "2026-01-05",
+      "price": 4445.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767731106,
+      "date": "2026-01-06",
+      "price": 4487.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767817513,
+      "date": "2026-01-07",
+      "price": 4459.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767904097,
+      "date": "2026-01-08",
+      "price": 4471.16,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1767990498,
+      "date": "2026-01-09",
+      "price": 4505.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768076899,
+      "date": "2026-01-10",
+      "price": 4509.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768163300,
+      "date": "2026-01-11",
+      "price": 4509.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768249702,
+      "date": "2026-01-12",
+      "price": 4602.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768336098,
+      "date": "2026-01-13",
+      "price": 4588.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768422499,
+      "date": "2026-01-14",
+      "price": 4633.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768508901,
+      "date": "2026-01-15",
+      "price": 4603.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768595297,
+      "date": "2026-01-16",
+      "price": 4589.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768681698,
+      "date": "2026-01-17",
+      "price": 4596.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768768099,
+      "date": "2026-01-18",
+      "price": 4596.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768854500,
+      "date": "2026-01-19",
+      "price": 4678.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1768940898,
+      "date": "2026-01-20",
+      "price": 4684.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769027298,
+      "date": "2026-01-21",
+      "price": 4851.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769113700,
+      "date": "2026-01-22",
+      "price": 4795.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769200101,
+      "date": "2026-01-23",
+      "price": 4951.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769286366,
+      "date": "2026-01-24",
+      "price": 4988.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769459105,
+      "date": "2026-01-26",
+      "price": 5047.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769545506,
+      "date": "2026-01-27",
+      "price": 5148.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769631907,
+      "date": "2026-01-28",
+      "price": 5335.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769718306,
+      "date": "2026-01-29",
+      "price": 5318.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769804716,
+      "date": "2026-01-30",
+      "price": 4900.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769891108,
+      "date": "2026-01-31",
+      "price": 4893.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1769977507,
+      "date": "2026-02-01",
+      "price": 4893.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770063906,
+      "date": "2026-02-02",
+      "price": 4661.09,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770150307,
+      "date": "2026-02-03",
+      "price": 4930.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770236708,
+      "date": "2026-02-04",
+      "price": 4931.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770323106,
+      "date": "2026-02-05",
+      "price": 4830.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770409508,
+      "date": "2026-02-06",
+      "price": 4942.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770495905,
+      "date": "2026-02-07",
+      "price": 4954.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770582305,
+      "date": "2026-02-08",
+      "price": 4953.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770668705,
+      "date": "2026-02-09",
+      "price": 5078.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770755106,
+      "date": "2026-02-10",
+      "price": 5025.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1770841504,
+      "date": "2026-02-11",
+      "price": 5087.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771100705,
+      "date": "2026-02-14",
+      "price": 5042.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771187106,
+      "date": "2026-02-15",
+      "price": 5042.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771273507,
+      "date": "2026-02-16",
+      "price": 4993.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771359907,
+      "date": "2026-02-17",
+      "price": 4881.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771446306,
+      "date": "2026-02-18",
+      "price": 4977.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771532705,
+      "date": "2026-02-19",
+      "price": 4990.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771619106,
+      "date": "2026-02-20",
+      "price": 5079.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771705505,
+      "date": "2026-02-21",
+      "price": 5107.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771791905,
+      "date": "2026-02-22",
+      "price": 5105.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771878306,
+      "date": "2026-02-23",
+      "price": 5222.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1771964705,
+      "date": "2026-02-24",
+      "price": 5148.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772051114,
+      "date": "2026-02-25",
+      "price": 5197.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772137505,
+      "date": "2026-02-26",
+      "price": 5197.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772223906,
+      "date": "2026-02-27",
+      "price": 5251.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772310305,
+      "date": "2026-02-28",
+      "price": 5278.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772396839,
+      "date": "2026-03-01",
+      "price": 5277.8,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772483236,
+      "date": "2026-03-02",
+      "price": 5340.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772569637,
+      "date": "2026-03-03",
+      "price": 5119.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772656038,
+      "date": "2026-03-04",
+      "price": 5129.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772742439,
+      "date": "2026-03-05",
+      "price": 5078.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772828836,
+      "date": "2026-03-06",
+      "price": 5156.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1772915237,
+      "date": "2026-03-07",
+      "price": 5171.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1773001638,
+      "date": "2026-03-08",
+      "price": 5171.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1773088039,
+      "date": "2026-03-09",
+      "price": 5171.87,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1774538407,
+      "date": "2026-03-26",
+      "price": 4454.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1774625109,
+      "date": "2026-03-27",
+      "price": 4527.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1774713308,
+      "date": "2026-03-28",
+      "price": 4493.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1774800306,
+      "date": "2026-03-29",
+      "price": 4493.75,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1774887606,
+      "date": "2026-03-30",
+      "price": 4540.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1774988704,
+      "date": "2026-03-31",
+      "price": 4679.11,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775075105,
+      "date": "2026-04-01",
+      "price": 4768.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775161507,
+      "date": "2026-04-02",
+      "price": 4674.0,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775247906,
+      "date": "2026-04-03",
+      "price": 4676.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775334305,
+      "date": "2026-04-04",
+      "price": 4676.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775420706,
+      "date": "2026-04-05",
+      "price": 4676.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775507107,
+      "date": "2026-04-06",
+      "price": 4656.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775593507,
+      "date": "2026-04-07",
+      "price": 4707.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775679907,
+      "date": "2026-04-08",
+      "price": 4727.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775766310,
+      "date": "2026-04-09",
+      "price": 4770.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775852706,
+      "date": "2026-04-10",
+      "price": 4754.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1775939104,
+      "date": "2026-04-11",
+      "price": 4749.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776025505,
+      "date": "2026-04-12",
+      "price": 4748.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776111906,
+      "date": "2026-04-13",
+      "price": 4742.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776198305,
+      "date": "2026-04-14",
+      "price": 4842.74,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776284721,
+      "date": "2026-04-15",
+      "price": 4793.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776371121,
+      "date": "2026-04-16",
+      "price": 4790.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776457520,
+      "date": "2026-04-17",
+      "price": 4846.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776543921,
+      "date": "2026-04-18",
+      "price": 4830.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776630306,
+      "date": "2026-04-19",
+      "price": 4830.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776716707,
+      "date": "2026-04-20",
+      "price": 4813.46,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776803107,
+      "date": "2026-04-21",
+      "price": 4696.84,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776889534,
+      "date": "2026-04-22",
+      "price": 4736.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1776975906,
+      "date": "2026-04-23",
+      "price": 4691.06,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777062308,
+      "date": "2026-04-24",
+      "price": 4706.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777148707,
+      "date": "2026-04-25",
+      "price": 4709.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777235108,
+      "date": "2026-04-26",
+      "price": 4709.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777321506,
+      "date": "2026-04-27",
+      "price": 4679.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777407907,
+      "date": "2026-04-28",
+      "price": 4597.81,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777494305,
+      "date": "2026-04-29",
+      "price": 4546.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777580431,
+      "date": "2026-04-30",
+      "price": 4616.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777667108,
+      "date": "2026-05-01",
+      "price": 4610.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777753508,
+      "date": "2026-05-02",
+      "price": 4614.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777839907,
+      "date": "2026-05-03",
+      "price": 4614.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1777926306,
+      "date": "2026-05-04",
+      "price": 4514.83,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778012709,
+      "date": "2026-05-05",
+      "price": 4557.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778099106,
+      "date": "2026-05-06",
+      "price": 4698.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778185509,
+      "date": "2026-05-07",
+      "price": 4711.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778271907,
+      "date": "2026-05-08",
+      "price": 4718.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778358307,
+      "date": "2026-05-09",
+      "price": 4715.46,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778444708,
+      "date": "2026-05-10",
+      "price": 4715.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778531106,
+      "date": "2026-05-11",
+      "price": 4735.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778617526,
+      "date": "2026-05-12",
+      "price": 4713.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778703907,
+      "date": "2026-05-13",
+      "price": 4690.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778790309,
+      "date": "2026-05-14",
+      "price": 4650.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778876407,
+      "date": "2026-05-15",
+      "price": 4537.77,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1778963110,
+      "date": "2026-05-16",
+      "price": 4540.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779049509,
+      "date": "2026-05-17",
+      "price": 4540.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779135921,
+      "date": "2026-05-18",
+      "price": 4561.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779222312,
+      "date": "2026-05-19",
+      "price": 4485.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779308708,
+      "date": "2026-05-20",
+      "price": 4546.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779395108,
+      "date": "2026-05-21",
+      "price": 4542.44,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779481520,
+      "date": "2026-05-22",
+      "price": 4508.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779567913,
+      "date": "2026-05-23",
+      "price": 4509.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779654308,
+      "date": "2026-05-24",
+      "price": 4509.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779740764,
+      "date": "2026-05-25",
+      "price": 4570.27,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779827108,
+      "date": "2026-05-26",
+      "price": 4507.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779913505,
+      "date": "2026-05-27",
+      "price": 4454.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1779999922,
+      "date": "2026-05-28",
+      "price": 4497.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780086308,
+      "date": "2026-05-29",
+      "price": 4548.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780172706,
+      "date": "2026-05-30",
+      "price": 4539.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780259106,
+      "date": "2026-05-31",
+      "price": 4539.78,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780345505,
+      "date": "2026-06-01",
+      "price": 4483.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780431905,
+      "date": "2026-06-02",
+      "price": 4489.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780518306,
+      "date": "2026-06-03",
+      "price": 4440.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780604777,
+      "date": "2026-06-04",
+      "price": 4478.2,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780691106,
+      "date": "2026-06-05",
+      "price": 4315.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780777546,
+      "date": "2026-06-06",
+      "price": 4328.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780863908,
+      "date": "2026-06-07",
+      "price": 4328.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1780950306,
+      "date": "2026-06-08",
+      "price": 4327.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781036708,
+      "date": "2026-06-09",
+      "price": 4258.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781123108,
+      "date": "2026-06-10",
+      "price": 4072.0,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781209513,
+      "date": "2026-06-11",
+      "price": 4214.5,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781295907,
+      "date": "2026-06-12",
+      "price": 4212.85,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781382306,
+      "date": "2026-06-13",
+      "price": 4216.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781468708,
+      "date": "2026-06-14",
+      "price": 4219.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781555105,
+      "date": "2026-06-15",
+      "price": 4332.54,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781641507,
+      "date": "2026-06-16",
+      "price": 4331.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781727906,
+      "date": "2026-06-17",
+      "price": 4258.24,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781814306,
+      "date": "2026-06-18",
+      "price": 4217.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781900706,
+      "date": "2026-06-19",
+      "price": 4155.62,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781967781,
+      "date": "2026-06-20",
+      "price": 4155.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1781993428,
+      "date": "2026-06-21",
+      "price": 4155.6,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782159901,
+      "date": "2026-06-22",
+      "price": 4185.39,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782246302,
+      "date": "2026-06-23",
+      "price": 4112.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782332701,
+      "date": "2026-06-24",
+      "price": 3999.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782419101,
+      "date": "2026-06-25",
+      "price": 4028.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782505501,
+      "date": "2026-06-26",
+      "price": 4067.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782591902,
+      "date": "2026-06-27",
+      "price": 4089.0,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782678301,
+      "date": "2026-06-28",
+      "price": 4089.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782764701,
+      "date": "2026-06-29",
+      "price": 4014.02,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782851101,
+      "date": "2026-06-30",
+      "price": 4019.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1782937502,
+      "date": "2026-07-01",
+      "price": 4034.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783023902,
+      "date": "2026-07-02",
+      "price": 4121.56,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783110301,
+      "date": "2026-07-03",
+      "price": 4175.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783196701,
+      "date": "2026-07-04",
+      "price": 4175.3,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783283101,
+      "date": "2026-07-05",
+      "price": 4175.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783369502,
+      "date": "2026-07-06",
+      "price": 4161.72,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783455901,
+      "date": "2026-07-07",
+      "price": 4114.03,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783542302,
+      "date": "2026-07-08",
+      "price": 4081.28,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783628701,
+      "date": "2026-07-09",
+      "price": 4122.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783715101,
+      "date": "2026-07-10",
+      "price": 4111.67,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783801501,
+      "date": "2026-07-11",
+      "price": 4119.97,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783887901,
+      "date": "2026-07-12",
+      "price": 4119.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1783974301,
+      "date": "2026-07-13",
+      "price": 4003.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784060702,
+      "date": "2026-07-14",
+      "price": 4054.94,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784147101,
+      "date": "2026-07-15",
+      "price": 4057.52,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784233502,
+      "date": "2026-07-16",
+      "price": 3976.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784319902,
+      "date": "2026-07-17",
+      "price": 4013.46,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784406301,
+      "date": "2026-07-18",
+      "price": 4017.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784492701,
+      "date": "2026-07-19",
+      "price": 4016.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784579102,
+      "date": "2026-07-20",
+      "price": 4006.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784665501,
+      "date": "2026-07-21",
+      "price": 4085.45,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784751901,
+      "date": "2026-07-22",
+      "price": 4133.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784838301,
+      "date": "2026-07-23",
+      "price": 4048.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1784924701,
+      "date": "2026-07-24",
+      "price": 4053.01,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785011102,
+      "date": "2026-07-25",
+      "price": 4052.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785097501,
+      "date": "2026-07-26",
+      "price": 4052.71,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785183902,
+      "date": "2026-07-27",
+      "price": 4082.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785270302,
+      "date": "2026-07-28",
+      "price": 4023.21,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785356701,
+      "date": "2026-07-29",
+      "price": 4053.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785443101,
+      "date": "2026-07-30",
+      "price": 4114.68,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785529502,
+      "date": "2026-07-31",
+      "price": 4046.89,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785615901,
+      "date": "2026-08-01",
+      "price": 4043.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785702301,
+      "date": "2026-08-02",
+      "price": 4043.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785788702,
+      "date": "2026-08-03",
+      "price": 4051.7,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785875101,
+      "date": "2026-08-04",
+      "price": 4079.73,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1785961502,
+      "date": "2026-08-05",
+      "price": 4247.81,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786047901,
+      "date": "2026-08-06",
+      "price": 4245.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786134302,
+      "date": "2026-08-07",
+      "price": 4342.59,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786220701,
+      "date": "2026-08-08",
+      "price": 4341.91,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786307101,
+      "date": "2026-08-09",
+      "price": 4341.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786393501,
+      "date": "2026-08-10",
+      "price": 4386.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786479902,
+      "date": "2026-08-11",
+      "price": 4370.29,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786566301,
+      "date": "2026-08-12",
+      "price": 4410.99,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786652701,
+      "date": "2026-08-13",
+      "price": 4349.82,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786739101,
+      "date": "2026-08-14",
+      "price": 4373.18,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786825501,
+      "date": "2026-08-15",
+      "price": 4376.34,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786911902,
+      "date": "2026-08-16",
+      "price": 4376.48,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1786998301,
+      "date": "2026-08-17",
+      "price": 4417.37,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787084702,
+      "date": "2026-08-18",
+      "price": 4343.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787171101,
+      "date": "2026-08-19",
+      "price": 4510.4,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787257502,
+      "date": "2026-08-20",
+      "price": 4523.15,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787343902,
+      "date": "2026-08-21",
+      "price": 4616.64,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787430302,
+      "date": "2026-08-22",
+      "price": 4603.43,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787516701,
+      "date": "2026-08-23",
+      "price": 4603.53,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787603101,
+      "date": "2026-08-24",
+      "price": 4653.79,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787689502,
+      "date": "2026-08-25",
+      "price": 4667.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787775901,
+      "date": "2026-08-26",
+      "price": 4594.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787862301,
+      "date": "2026-08-27",
+      "price": 4604.23,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1787948701,
+      "date": "2026-08-28",
+      "price": 4460.69,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788035101,
+      "date": "2026-08-29",
+      "price": 4454.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788121501,
+      "date": "2026-08-30",
+      "price": 4454.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788207901,
+      "date": "2026-08-31",
+      "price": 4452.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788294302,
+      "date": "2026-09-01",
+      "price": 4330.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788380701,
+      "date": "2026-09-02",
+      "price": 4388.1,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788467102,
+      "date": "2026-09-03",
+      "price": 4473.42,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788553501,
+      "date": "2026-09-04",
+      "price": 4431.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788639901,
+      "date": "2026-09-05",
+      "price": 4429.95,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788726301,
+      "date": "2026-09-06",
+      "price": 4430.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788812701,
+      "date": "2026-09-07",
+      "price": 4405.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788899101,
+      "date": "2026-09-08",
+      "price": 4357.63,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1788985501,
+      "date": "2026-09-09",
+      "price": 4397.07,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789071902,
+      "date": "2026-09-10",
+      "price": 4322.86,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789158302,
+      "date": "2026-09-11",
+      "price": 4350.04,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789244701,
+      "date": "2026-09-12",
+      "price": 4348.36,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789331102,
+      "date": "2026-09-13",
+      "price": 4348.9,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789417501,
+      "date": "2026-09-14",
+      "price": 4285.51,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789503901,
+      "date": "2026-09-15",
+      "price": 4297.66,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789590301,
+      "date": "2026-09-16",
+      "price": 4267.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789676701,
+      "date": "2026-09-17",
+      "price": 4344.98,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789763101,
+      "date": "2026-09-18",
+      "price": 4378.41,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789849502,
+      "date": "2026-09-19",
+      "price": 4378.25,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1789935902,
+      "date": "2026-09-20",
+      "price": 4378.33,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790022301,
+      "date": "2026-09-21",
+      "price": 4343.61,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790108701,
+      "date": "2026-09-22",
+      "price": 4362.38,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790195101,
+      "date": "2026-09-23",
+      "price": 4287.22,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790281502,
+      "date": "2026-09-24",
+      "price": 4270.93,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790367902,
+      "date": "2026-09-25",
+      "price": 4291.32,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790454301,
+      "date": "2026-09-26",
+      "price": 4285.19,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790540701,
+      "date": "2026-09-27",
+      "price": 4285.12,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790627102,
+      "date": "2026-09-28",
+      "price": 4118.08,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790713502,
+      "date": "2026-09-29",
+      "price": 4175.55,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790799902,
+      "date": "2026-09-30",
+      "price": 4155.35,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790886301,
+      "date": "2026-10-01",
+      "price": 4177.05,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1790972702,
+      "date": "2026-10-02",
+      "price": 4143.13,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1791059102,
+      "date": "2026-10-03",
+      "price": 4141.58,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1791145501,
+      "date": "2026-10-04",
+      "price": 4141.65,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1791231901,
+      "date": "2026-10-05",
+      "price": 4138.92,
+      "bubble": 0,
+      "bubble_percent": 0
+    },
+    {
+      "timestamp": 1791311111,
+      "date": "2026-10-06",
+      "price": 4169.26,
+      "bubble": 0,
+      "bubble_percent": 0
+    }
+  ]
+}
