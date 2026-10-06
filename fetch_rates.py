@@ -91,7 +91,20 @@ def gregorian_to_jalali(gy, gm, gd):
     return jy, jm, jd
 
 
-# Complete Assets Registry with Colors
+def format_price_display(val, unit="تومان"):
+    if not val or val == "نامشخص":
+        return "نامشخص"
+    try:
+        val_clean = str(val).replace(",", "").strip()
+        if "." in val_clean:
+            formatted = f"{float(val_clean):,.2f}"
+        else:
+            formatted = f"{int(val_clean):,}"
+        return to_persian_digits(formatted) + f" {unit}"
+    except Exception:
+        return to_persian_digits(str(val))
+
+
 ALL_ASSETS = {
     # Gold & Coins
     "gold_mesghal": {"title": "مثقال طلا (آبشده)", "symbol": "MESGHAL", "type": "gold", "url": "https://alanchand.com/en/gold-price/abshodeh", "category": "gold", "unit": "تومان", "color": "#d97706"},
@@ -328,10 +341,6 @@ def generate_chart(history_records, title, output_file, line_color="#2563eb", fi
 
 
 def generate_share_pages(market_data):
-    """
-    Generates static HTML files in share/<key>.html with Open Graph and Twitter Card tags
-    pointing to each coin's unique chart in charts/<key>.png.
-    """
     os.makedirs("share", exist_ok=True)
     repo_slug = os.environ.get("GITHUB_REPOSITORY", "username/repo")
 
@@ -339,8 +348,6 @@ def generate_share_pages(market_data):
         price = market_data.get(key)
         unit = cfg.get("unit", "تومان")
         price_str = f"{to_persian_digits(f'{price:,.2f}' if isinstance(price, float) else f'{int(price):,}')} {unit}" if price else "نرخ لحظه‌ای"
-
-        # Direct link to this asset's specific chart
         chart_image_url = f"https://raw.githubusercontent.com/{repo_slug}/main/charts/{key}.png"
 
         html_content = f"""<!DOCTYPE html>
@@ -365,7 +372,6 @@ def generate_share_pages(market_data):
     <meta name="twitter:description" content="قیمت لحظه‌ای {cfg['title']}: {price_str} | نمودار تحلیلی و وب‌سرویس">
     <meta name="twitter:image" content="{chart_image_url}">
 
-    <!-- Instant redirect to web app -->
     <meta http-equiv="refresh" content="0; url=../#{key}">
 </head>
 <body style="background:#0b0f19;color:#fff;font-family:sans-serif;text-align:center;padding:50px;">
@@ -377,6 +383,197 @@ def generate_share_pages(market_data):
 """
         with open(os.path.join("share", f"{key}.html"), "w", encoding="utf-8") as f:
             f.write(html_content)
+
+
+def update_readme(market_data):
+    """Generates a complete, beautiful, GitHub-native README.md."""
+    shamsi_date_str = market_data.get("date_shamsi_full", market_data.get("date", "--"))
+    gregorian_date_str = market_data.get("date", "--")
+    time_str = to_persian_digits(market_data.get("time", "--:--"))
+
+    repo_slug = os.environ.get("GITHUB_REPOSITORY", "username/repo")
+    BT = chr(96) * 3
+
+    readme_content = f"""<div dir="rtl" align="center">
+
+# 📊 نبض بازار | قیمت لحظه‌ای و تاریخچه ارز، طلا و سکه
+
+[![Auto Update](https://img.shields.io/badge/Auto--Update-Every_30_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+[![API Status](https://img.shields.io/badge/API-Live_&_Free-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
+[![Timezone](https://img.shields.io/badge/Timezone-Tehran_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
+[![Telegram](https://img.shields.io/badge/Telegram-@yebekhe-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yebekhe)
+
+<br/>
+
+> [!NOTE]
+> 📅 **تاریخ:** {shamsi_date_str} ({gregorian_date_str}) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **{time_str}** (به وقت تهران)
+
+<br/>
+
+</div>
+
+<div dir="rtl">
+
+### 📋 جدول زنده نرخ‌ها
+
+<table width="100%">
+<thead>
+<tr>
+<th width="8%" align="center">نماد</th>
+<th width="52%" align="right">عنوان شاخص بازار</th>
+<th width="40%" align="left">قیمت زنده (بازار آزاد)</th>
+</tr>
+</thead>
+<tbody>
+
+<!-- بخش ارزهای شاخص -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">💵 ارزهای شاخص</th>
+</tr>
+<tr>
+<td align="center">🇺🇸</td>
+<td><b>دلار آمریکا</b></td>
+<td align="left"><b>{format_price_display(market_data.get('usd'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇪🇺</td>
+<td><b>یورو اروپا</b></td>
+<td align="left"><b>{format_price_display(market_data.get('eur'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇦🇪</td>
+<td><b>درهم امارات</b></td>
+<td align="left"><b>{format_price_display(market_data.get('aed'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇹🇷</td>
+<td><b>لیر ترکیه</b></td>
+<td align="left"><b>{format_price_display(market_data.get('try'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇬🇧</td>
+<td><b>پوند انگلیس</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gbp'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇨🇦</td>
+<td><b>دلار کانادا</b></td>
+<td align="left"><b>{format_price_display(market_data.get('cad'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇦🇺</td>
+<td><b>دلار استرالیا</b></td>
+<td align="left"><b>{format_price_display(market_data.get('aud'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇨🇳</td>
+<td><b>یوان چین</b></td>
+<td align="left"><b>{format_price_display(market_data.get('cny'))}</b></td>
+</tr>
+
+<!-- بخش مسکوکات و طلا -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🪙 مسکوکات بهار آزادی و طلا</th>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه تمام امامی (طرح جدید)</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_emami'))}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه بهار آزادی (طرح قدیم)</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_bahar'))}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>نیم سکه بهار آزادی</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_half'))}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>ربع سکه بهار آزادی</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_quarter'))}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه گرمی</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_gram'))}</b></td>
+</tr>
+<tr>
+<td align="center">✨</td>
+<td><b>طلای ۱۸ عیار (هر گرم)</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gold_18k'))}</b></td>
+</tr>
+<tr>
+<td align="center">⚖️</td>
+<td><b>مثقال طلا (آبشده)</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gold_mesghal'))}</b></td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td><b>انس جهانی طلا</b></td>
+<td align="left"><b>{format_price_display(market_data.get('usd_xau') or market_data.get('gold_ounce'), 'دلار')}</b></td>
+</tr>
+
+<!-- کامودیتی -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🛢️ کامودیتی و انرژی</th>
+</tr>
+<tr>
+<td align="center">⛽</td>
+<td><b>نفت خام برنت / اوپک</b></td>
+<td align="left"><b>{to_persian_digits(market_data.get('oil', 'نامشخص'))} دلار</b></td>
+</tr>
+
+</tbody>
+</table>
+
+---
+
+### 📈 نمودار روند ۶ ماهه شاخص‌ها
+
+#### دلار آمریکا
+<div align="center">
+  <img src="charts/usd.png?raw=true" alt="نمودار دلار آمریکا" width="100%" style="border-radius: 12px;" />
+</div>
+
+#### سکه تمام امامی
+<div align="center">
+  <img src="charts/coin_emami.png?raw=true" alt="نمودار سکه امامی" width="100%" style="border-radius: 12px;" />
+</div>
+
+#### طلای ۱۸ عیار
+<div align="center">
+  <img src="charts/gold_18k.png?raw=true" alt="نمودار طلای ۱۸ عیار" width="100%" style="border-radius: 12px;" />
+</div>
+
+---
+
+### 🚀 وب‌سرویس و دسترسی API
+
+* **قیمت‌های زنده تمامی ۳۷ ارز و مسکوکات:**
+  {BT}text
+  https://raw.githubusercontent.com/{repo_slug}/main/market.json
+  {BT}
+
+* **آرشیو تاریخی هر دارایی:**
+  {BT}text
+  https://raw.githubusercontent.com/{repo_slug}/main/api/history_<symbol>.json
+  {BT}
+  *(نمونه: `history_usd.json`, `history_eur.json`, `history_coin_emami.json`, `history_usd_xau.json`)*
+
+---
+
+<div align="center">
+<sub>ساخته‌شده با ❤️ توسط <a href="https://t.me/yebekhe">@yebekhe</a> | داده‌ها به صورت خودکار هر ۳۰ دقیقه بروزرسانی می‌شوند</sub>
+</div>
+
+</div>
+"""
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print("README.md updated successfully.")
 
 
 def main():
@@ -450,10 +647,9 @@ def main():
         if records:
             color = cfg.get("color", "#2563eb")
             unit = cfg.get("unit", "تومان")
-            # Save into charts/<key>.png
             generate_chart(records, cfg["title"], f"charts/{key}.png", line_color=color, fill_color=color, unit=unit)
 
-    # Backward compatibility: copy usd chart to root
+    # Legacy copy for usd
     if all_history_map.get("usd"):
         generate_chart(all_history_map["usd"], "دلار آمریکا", "usd_chart.png", line_color="#2563eb", fill_color="#3b82f6")
 
@@ -470,9 +666,12 @@ def main():
     with open("market.json", "w", encoding="utf-8") as f:
         json.dump(market_data, f, ensure_ascii=False, indent=2)
 
-    # 6. Generate individual social preview pages pointing to each coin's unique chart
+    # 6. Generate social preview pages
     generate_share_pages(market_data)
-    print("Done! All charts, share cards, and APIs successfully generated.")
+
+    # 7. Update README.md
+    update_readme(market_data)
+    print("All tasks finished successfully!")
 
 
 if __name__ == "__main__":
