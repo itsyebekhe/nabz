@@ -375,8 +375,6 @@ def generate_share_pages(market_data):
     <meta name="twitter:title" content="{cfg['title']}: {price_str}">
     <meta name="twitter:description" content="قیمت زنده {cfg['title']}: {price_str} | مشاهده نمودار تحلیلی ۶ ماهه">
     <meta name="twitter:image" content="{chart_image_url}">
-
-    <!-- NO meta refresh here! That prevented Telegram crawler from reading this page -->
 </head>
 <body style="background:#0b0f19;color:#fff;font-family:sans-serif;padding:30px 15px;text-align:center;">
     <article>
@@ -391,12 +389,7 @@ def generate_share_pages(market_data):
             </a>
         </p>
     </article>
-    <script>
-        // Real users get redirected immediately to the interactive dashboard
-        setTimeout(function() {
-            window.location.replace('../#' + '{key}');
-        }, 100);
-    </script>
+    <script>window.location.replace('../#{key}');</script>
 </body>
 </html>
 """
