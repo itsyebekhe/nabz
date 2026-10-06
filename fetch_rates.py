@@ -19,11 +19,10 @@ except Exception:
 
 
 def get_tehran_now() -> datetime:
-    """Returns the current datetime in Asia/Tehran timezone."""
     return datetime.now(TEHRAN_TZ)
 
 
-# Bypass protection if available
+# Cloudscraper / requests session setup
 try:
     import cloudscraper
     session = cloudscraper.create_scraper()
@@ -40,7 +39,6 @@ except ImportError:
 
 
 def to_persian_digits(num_str: str) -> str:
-    """Converts English digits in a string to Persian digits."""
     persian_digits = {
         "0": "۰", "1": "۱", "2": "۲", "3": "۳", "4": "۴",
         "5": "۵", "6": "۶", "7": "۷", "8": "۸", "9": "۹", ",": "،"
@@ -49,7 +47,6 @@ def to_persian_digits(num_str: str) -> str:
 
 
 def ensure_vazirmatn_font():
-    """Downloads Vazirmatn font if not present and returns the font property."""
     font_path = "Vazirmatn-Bold.ttf"
     if not os.path.exists(font_path):
         url = "https://raw.githubusercontent.com/rastikerdar/vazirmatn/master/fonts/ttf/Vazirmatn-Bold.ttf"
@@ -57,7 +54,7 @@ def ensure_vazirmatn_font():
             print("Downloading Vazirmatn font...")
             urllib.request.urlretrieve(url, font_path)
         except Exception as e:
-            print(f"Failed to download Vazirmatn: {e}")
+            print(f"Failed to download font: {e}")
             return None
 
     if os.path.exists(font_path):
@@ -67,7 +64,6 @@ def ensure_vazirmatn_font():
 
 
 def extract_js_array(html_text: str, var_name: str):
-    """Extracts JSON array embedded in JavaScript script tags."""
     pattern = r"(?:const|let|var)\s+" + re.escape(var_name) + r"\s*=\s*(\[\s*\{.*?\}\]\s*);"
     match = re.search(pattern, html_text, re.DOTALL)
     if match:
@@ -79,14 +75,9 @@ def extract_js_array(html_text: str, var_name: str):
 
 
 def gregorian_to_jalali(gy, gm, gd):
-    """Converts Gregorian date to Solar Hijri (Shamsi/Jalali) date."""
     g_d_m = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
-    if gy > 1600:
-        jy = 979
-        gy -= 1600
-    else:
-        jy = 0
-        gy -= 621
+    jy = 979 if gy > 1600 else 0
+    gy -= 1600 if gy > 1600 else 621
     gy2 = gy if (gm > 2) else (gy - 1)
     days = (365 * gy) + ((gy2 + 3) // 4) - ((gy2 + 99) // 100) + ((gy2 + 399) // 400) - 80 + gd + g_d_m[gm - 1]
     jy += 33 * (days // 12053)
@@ -105,75 +96,252 @@ def gregorian_to_jalali(gy, gm, gd):
     return jy, jm, jd
 
 
-def format_toman_val(val):
-    """Formats an integer or numeric string into Persian-formatted Toman string."""
+def format_price_display(val, unit="تومان"):
     if not val or val == "نامشخص":
         return "نامشخص"
     try:
-        val_int = int(str(val).replace(",", "").strip())
-        return to_persian_digits(f"{val_int:,}") + " تومان"
+        val_clean = str(val).replace(",", "").strip()
+        if "." in val_clean:
+            formatted = f"{float(val_clean):,.2f}"
+        else:
+            formatted = f"{int(val_clean):,}"
+        return to_persian_digits(formatted) + f" {unit}"
     except Exception:
         return to_persian_digits(str(val))
 
 
-def update_history_api(aed_irr_history, aed_usd_history, live_usd_toman, api_dir="api"):
-    """Maintains a persistent api/history.json file in Tehran timezone."""
+# Assets Registry
+ASSETS = {
+    "usd": {
+        "title": "دلار آمریکا",
+        "symbol": "USD",
+        "type": "pegged_usd",
+        "unit": "تومان",
+        "chart": True,
+        "color": "#2563eb",
+        "fill": "#3b82f6"
+    },
+    "eur": {
+        "title": "یورو اروپا",
+        "symbol": "EUR",
+        "type": "currency",
+        "url": "https://alanchand.com/en/currencies-price/eur",
+        "unit": "تومان",
+        "chart": False
+    },
+    "gbp": {
+        "title": "پوند انگلیس",
+        "symbol": "GBP",
+        "type": "currency",
+        "url": "https://alanchand.com/en/currencies-price/gbp",
+        "unit": "تومان",
+        "chart": False
+    },
+    "gold_mesghal": {
+        "title": "مثقال طلا (آبشده)",
+        "symbol": "GOLD_MESGHAL",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/abshodeh",
+        "unit": "تومان",
+        "chart": False
+    },
+    "gold_18k": {
+        "title": "طلای ۱۸ عیار (هر گرم)",
+        "symbol": "GOLD_18K",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/18ayar",
+        "unit": "تومان",
+        "chart": True,
+        "color": "#eab308",
+        "fill": "#fde047"
+    },
+    "coin_emami": {
+        "title": "سکه تمام امامی",
+        "symbol": "COIN_EMAMI",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/sekkeh",
+        "unit": "تومان",
+        "chart": True,
+        "color": "#f59e0b",
+        "fill": "#fcd34d"
+    },
+    "coin_bahar": {
+        "title": "سکه بهار آزادی",
+        "symbol": "COIN_BAHAR",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/bahar",
+        "unit": "تومان",
+        "chart": False
+    },
+    "coin_half": {
+        "title": "نیم سکه بهار آزادی",
+        "symbol": "COIN_HALF",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/nim",
+        "unit": "تومان",
+        "chart": False
+    },
+    "coin_quarter": {
+        "title": "ربع سکه بهار آزادی",
+        "symbol": "COIN_QUARTER",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/rob",
+        "unit": "تومان",
+        "chart": False
+    },
+    "coin_gram": {
+        "title": "سکه گرمی",
+        "symbol": "COIN_GRAM",
+        "type": "gold",
+        "url": "https://alanchand.com/en/gold-price/sek",
+        "unit": "تومان",
+        "chart": False
+    },
+    "gold_ounce": {
+        "title": "انس جهانی طلا",
+        "symbol": "XAU_USD",
+        "type": "ounce",
+        "url": "https://alanchand.com/en/gold-price/usd_xau",
+        "unit": "دلار",
+        "chart": False
+    }
+}
+
+
+def fetch_alanchand_asset(url, asset_type):
+    """
+    Fetches the HTML, extracts live price and historical array (fullPriceData).
+    Auto-normalizes gold/currency units to Toman (or USD for ounce).
+    """
+    try:
+        resp = session.get(url, timeout=15)
+        if resp.status_code != 200:
+            return None, []
+
+        html = resp.text
+        soup = BeautifulSoup(html, "lxml")
+        raw_history = extract_js_array(html, "fullPriceData")
+
+        live_price = None
+
+        # 1. Product Schema offers
+        for s in soup.find_all("script", type="application/ld+json"):
+            try:
+                c = json.loads(s.get_text(strip=True) or "{}")
+                if c.get("@type") == "Product":
+                    raw_val = float(c.get("offers", {}).get("price", 0))
+                    curr = c.get("offers", {}).get("priceCurrency", "")
+                    if curr == "IRR":
+                        live_price = int(round(raw_val / 10.0))
+                    elif curr == "USD":
+                        live_price = round(raw_val, 2)
+                    break
+            except Exception:
+                continue
+
+        # 2. Input fallback
+        if live_price is None:
+            input_el = soup.find("input", attrs={"data-curr": "tmn"}) or soup.find("input", id="inputCalcValue")
+            if input_el:
+                val = input_el.get("data-price") or input_el.get("value")
+                if val:
+                    live_price = int(round(float(str(val).replace(",", "").strip()) / 10.0))
+
+        # 3. Clean history items
+        normalized_history = []
+        if raw_history:
+            # Check if prices in fullPriceData are in IRR (10x Toman) or already Toman
+            sample_price = raw_history[-1].get("price", 0)
+            is_irr = False
+            if asset_type in ["currency", "gold"] and live_price:
+                # If sample history price is ~10x greater than live Toman, it's in IRR
+                if sample_price > live_price * 4:
+                    is_irr = True
+
+            for item in raw_history:
+                ts = item.get("timestamp")
+                p = item.get("price", 0)
+                if not ts or not p:
+                    continue
+
+                dt = datetime.fromtimestamp(ts, tz=TEHRAN_TZ)
+                d_str = dt.strftime("%Y-%m-%d")
+
+                if asset_type == "ounce":
+                    final_price = round(float(p), 2)
+                elif is_irr:
+                    final_price = int(round(p / 10.0))
+                else:
+                    final_price = int(round(p))
+
+                record = {
+                    "timestamp": ts,
+                    "date": d_str,
+                    "price": final_price,
+                }
+                if asset_type != "ounce":
+                    record["price_toman"] = final_price
+                    record["price_irr"] = final_price * 10
+
+                if "hobab" in item:
+                    record["bubble"] = item["hobab"]
+                if "hobab_percent" in item:
+                    record["bubble_percent"] = item["hobab_percent"]
+
+                normalized_history.append(record)
+
+        return live_price, normalized_history
+    except Exception as e:
+        print(f"Error fetching asset at {url}: {e}")
+        return None, []
+
+
+def update_asset_history(symbol_key, live_price, history_items=None, api_dir="api"):
+    """Saves and appends asset history to api/history_<key>.json."""
     os.makedirs(api_dir, exist_ok=True)
-    api_file = os.path.join(api_dir, "history.json")
+    cfg = ASSETS[symbol_key]
+    filename = f"history_{symbol_key}.json"
+    api_file = os.path.join(api_dir, filename)
 
     history_map = {}
 
     if os.path.exists(api_file):
         try:
             with open(api_file, "r", encoding="utf-8") as f:
-                existing_data = json.load(f)
-                for item in existing_data.get("history", []):
+                existing = json.load(f)
+                for item in existing.get("history", []):
                     history_map[item["date"]] = item
         except Exception as e:
-            print(f"Warning: could not read existing api/history.json: {e}")
+            print(f"Warning reading {api_file}: {e}")
 
-    # Bootstrap if empty
-    if not history_map and aed_irr_history:
-        print("Bootstrapping historical database from website chart data...")
-        usd_rate_by_date = {}
-        for item in aed_usd_history:
-            d = datetime.fromtimestamp(item["timestamp"], tz=TEHRAN_TZ).strftime("%Y-%m-%d")
-            rate = item.get("price") or item.get("dolar_rate") or item.get("rate", 0.272257)
-            usd_rate_by_date[d] = rate
+    # Bootstrap from website full history if local file is empty
+    if not history_map and history_items:
+        print(f"Bootstrapping {len(history_items)} historical records for {symbol_key}...")
+        for item in history_items:
+            history_map[item["date"]] = item
 
-        for item in aed_irr_history:
-            dt = datetime.fromtimestamp(item["timestamp"], tz=TEHRAN_TZ)
-            d_str = dt.strftime("%Y-%m-%d")
-            aed_toman = item.get("price", 0) / 10.0
-            aed_usd = usd_rate_by_date.get(d_str, 0.272257)
-
-            if aed_usd > 0:
-                calc_usd_toman = int(round(aed_toman / aed_usd))
-                history_map[d_str] = {
-                    "timestamp": item["timestamp"],
-                    "date": d_str,
-                    "price_toman": calc_usd_toman,
-                    "price_irr": calc_usd_toman * 10
-                }
-
+    # Update today's live rate
     now_tehran = get_tehran_now()
     today_str = now_tehran.strftime("%Y-%m-%d")
     current_ts = int(now_tehran.timestamp())
 
-    if live_usd_toman is not None:
-        history_map[today_str] = {
+    if live_price is not None:
+        today_record = {
             "timestamp": current_ts,
             "date": today_str,
-            "price_toman": live_usd_toman,
-            "price_irr": live_usd_toman * 10
+            "price": live_price
         }
+        if cfg["unit"] == "تومان":
+            today_record["price_toman"] = live_price
+            today_record["price_irr"] = live_price * 10
+        history_map[today_str] = today_record
 
     sorted_history = [history_map[k] for k in sorted(history_map.keys())]
 
-    api_payload = {
-        "symbol": "USD/TOMAN",
-        "base_currency": "USD",
-        "target_currency": "TOMAN",
+    payload = {
+        "symbol": cfg["symbol"],
+        "title": cfg["title"],
+        "unit": cfg["unit"],
         "timezone": "Asia/Tehran",
         "updated_at": now_tehran.strftime("%Y-%m-%d %H:%M:%S"),
         "total_records": len(sorted_history),
@@ -182,45 +350,46 @@ def update_history_api(aed_irr_history, aed_usd_history, live_usd_toman, api_dir
     }
 
     with open(api_file, "w", encoding="utf-8") as f:
-        json.dump(api_payload, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"API data saved to {api_file} ({len(sorted_history)} records).")
+    # Mirror USD to history.json for backwards compatibility
+    if symbol_key == "usd":
+        with open(os.path.join(api_dir, "history.json"), "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+
     return sorted_history
 
 
-def generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=180):
+def generate_chart(history_records, title, output_file, line_color="#2563eb", fill_color="#3b82f6", days_limit=180, unit="تومان"):
     if not history_records:
-        print("No historical points available for chart.")
         return
 
     vazir_prop = ensure_vazirmatn_font()
-
     records = history_records[-days_limit:] if days_limit else history_records
 
     chart_dates = [datetime.strptime(item["date"], "%Y-%m-%d") for item in records]
-    usd_toman_prices = [item["price_toman"] for item in records]
+    prices = [item["price"] for item in records]
 
     plt.style.use("seaborn-v0_8-whitegrid" if "seaborn-v0_8-whitegrid" in plt.style.available else "default")
     fig, ax = plt.subplots(figsize=(11, 5), dpi=150)
 
-    ax.plot(chart_dates, usd_toman_prices, color="#2563eb", linewidth=2.3)
-    ax.fill_between(chart_dates, usd_toman_prices, color="#3b82f6", alpha=0.15)
+    ax.plot(chart_dates, prices, color=line_color, linewidth=2.3)
+    ax.fill_between(chart_dates, prices, color=fill_color, alpha=0.15)
 
     latest_date = chart_dates[-1]
-    latest_price = usd_toman_prices[-1]
-    formatted_price = to_persian_digits(f"{latest_price:,}")
+    latest_price = prices[-1]
+    formatted_price = to_persian_digits(f"{latest_price:,.0f}" if isinstance(latest_price, (int, float)) else str(latest_price))
 
-    ax.plot(latest_date, latest_price, marker="o", markersize=6, color="#1d4ed8")
+    ax.plot(latest_date, latest_price, marker="o", markersize=6, color=line_color)
     ax.annotate(
-        f"{formatted_price} تومان",
+        f"{formatted_price} {unit}",
         xy=(latest_date, latest_price),
         xytext=(-95, 15),
         textcoords="offset points",
         fontproperties=vazir_prop,
         fontsize=10,
-        color="#1e3a8a",
-        bbox=dict(boxstyle="round,pad=0.4", fc="#dbeafe", ec="#3b82f6", lw=1),
-        arrowprops=dict(arrowstyle="->", color="#3b82f6", lw=1)
+        bbox=dict(boxstyle="round,pad=0.4", fc="#ffffff", ec=line_color, lw=1.2),
+        arrowprops=dict(arrowstyle="->", color=line_color, lw=1.2)
     )
 
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y/%m"))
@@ -231,9 +400,9 @@ def generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=
         for label in ax.get_xticklabels() + ax.get_yticklabels():
             label.set_fontproperties(vazir_prop)
 
-    ax.set_title("نمودار قیمت دلار به تومان (محاسبه از نرخ درهم امارات)", fontproperties=vazir_prop, fontsize=13, pad=15)
+    ax.set_title(f"نمودار روند ۶ ماهه {title}", fontproperties=vazir_prop, fontsize=13, pad=15)
     ax.set_xlabel("تاریخ", fontproperties=vazir_prop, fontsize=10, labelpad=10)
-    ax.set_ylabel("قیمت (تومان)", fontproperties=vazir_prop, fontsize=10, labelpad=10)
+    ax.set_ylabel(f"قیمت ({unit})", fontproperties=vazir_prop, fontsize=10, labelpad=10)
     ax.grid(True, linestyle="--", alpha=0.5)
 
     plt.tight_layout()
@@ -242,119 +411,7 @@ def generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=
     print(f"Chart saved to {output_file}")
 
 
-def fetch_gold_and_coins():
-    """Scrapes gold and coin prices from AlanChand's gold-price page."""
-    data = {}
-    try:
-        resp = session.get("https://alanchand.com/en/gold-price", timeout=15)
-        if resp.status_code != 200:
-            return data
-
-        soup = BeautifulSoup(resp.text, "lxml")
-
-        # 1. First attempt: Parse structured JSON-LD (ItemList)
-        for s in soup.find_all("script", type="application/ld+json"):
-            try:
-                content = json.loads(s.get_text(strip=True) or "{}")
-                if content.get("@type") == "ItemList":
-                    for elem in content.get("itemListElement", []):
-                        item = elem.get("item", {})
-                        name = item.get("name", "")
-                        offers = item.get("offers", {})
-                        price_raw = offers.get("price")
-                        currency = offers.get("priceCurrency")
-
-                        if not price_raw:
-                            continue
-
-                        val_toman = int(round(float(price_raw) / 10.0)) if currency == "IRR" else price_raw
-
-                        if "Mesghal" in name:
-                            data["gold_mesghal"] = val_toman
-                        elif "18K Gold" in name:
-                            data["gold_18k"] = val_toman
-                        elif "Full Coin" in name or "Imami" in name:
-                            data["coin_emami"] = val_toman
-                        elif "Bahar Azadi" in name:
-                            data["coin_bahar"] = val_toman
-                        elif "Half Coin" in name:
-                            data["coin_half"] = val_toman
-                        elif "Quarter Coin" in name:
-                            data["coin_quarter"] = val_toman
-                        elif "gram sekke" in name.lower():
-                            data["coin_gram"] = val_toman
-                        elif "Gold Ounce" in name:
-                            data["gold_ounce"] = str(price_raw)
-            except Exception:
-                continue
-
-        # 2. Fallback: Parse table rows if needed
-        if not data.get("gold_18k") or not data.get("coin_emami"):
-            for tr in soup.select("table.goldTbl tr"):
-                tds = tr.find_all("td")
-                if len(tds) >= 2:
-                    name_td = tds[0].get_text(strip=True).lower()
-                    price_td = tds[1].get_text(strip=True).replace(",", "")
-                    match = re.search(r"(\d+(?:\.\d+)?)", price_td)
-                    if not match:
-                        continue
-                    num_val = float(match.group(1))
-
-                    if "18k gold" in name_td and "gold_18k" not in data:
-                        data["gold_18k"] = int(round(num_val / 10.0))
-                    elif "mesghal" in name_td and "gold_mesghal" not in data:
-                        data["gold_mesghal"] = int(round(num_val / 10.0))
-                    elif "full coin" in name_td and "coin_emami" not in data:
-                        data["coin_emami"] = int(round(num_val / 10.0))
-                    elif "bahar" in name_td and "coin_bahar" not in data:
-                        data["coin_bahar"] = int(round(num_val / 10.0))
-                    elif "half coin" in name_td and "coin_half" not in data:
-                        data["coin_half"] = int(round(num_val / 10.0))
-                    elif "quarter coin" in name_td and "coin_quarter" not in data:
-                        data["coin_quarter"] = int(round(num_val / 10.0))
-                    elif "gram sekke" in name_td and "coin_gram" not in data:
-                        data["coin_gram"] = int(round(num_val / 10.0))
-                    elif "gold ounce" in name_td and "gold_ounce" not in data:
-                        data["gold_ounce"] = match.group(1)
-    except Exception as e:
-        print(f"Error fetching gold and coin data: {e}")
-
-    return data
-
-
-def fetch_eur_price():
-    """Fetches Euro price in Toman from AlanChand's EUR page."""
-    try:
-        resp = session.get("https://alanchand.com/en/currencies-price/eur", timeout=15)
-        if resp.status_code != 200:
-            return None
-
-        soup = BeautifulSoup(resp.text, "lxml")
-
-        # 1. Product Schema offers
-        for s in soup.find_all("script", type="application/ld+json"):
-            try:
-                c = json.loads(s.get_text(strip=True) or "{}")
-                if c.get("@type") == "Product" and c.get("sku") == "EUR":
-                    price_irr = float(c.get("offers", {}).get("price", 0))
-                    if price_irr > 0:
-                        return int(round(price_irr / 10.0))
-            except Exception:
-                continue
-
-        # 2. Input element
-        input_tmn = soup.find("input", attrs={"data-curr": "tmn"})
-        if input_tmn:
-            raw_p = input_tmn.get("data-price") or input_tmn.get("value")
-            if raw_p:
-                return int(round(float(str(raw_p).replace(",", "").strip()) / 10.0))
-    except Exception as e:
-        print(f"Error fetching EUR price: {e}")
-    return None
-
-
 def update_readme(market_data):
-    """Generates a full-width, sectionized, GitHub-native README.md."""
     shamsi_date_str = market_data.get("date_shamsi_full", market_data.get("date", "--"))
     gregorian_date_str = market_data.get("date", "--")
     time_str = to_persian_digits(market_data.get("time", "--:--"))
@@ -362,37 +419,12 @@ def update_readme(market_data):
     repo_slug = os.environ.get("GITHUB_REPOSITORY", "username/repo")
     BT = chr(96) * 3
 
-    # Format values
-    usd = format_toman_val(market_data.get("usd"))
-    eur = format_toman_val(market_data.get("eur"))
-    gold_18k = format_toman_val(market_data.get("gold_18k"))
-    gold_mesghal = format_toman_val(market_data.get("gold_mesghal"))
-    coin_emami = format_toman_val(market_data.get("coin_emami"))
-    coin_bahar = format_toman_val(market_data.get("coin_bahar"))
-    coin_half = format_toman_val(market_data.get("coin_half"))
-    coin_quarter = format_toman_val(market_data.get("coin_quarter"))
-    coin_gram = format_toman_val(market_data.get("coin_gram"))
-
-    gold_ounce = to_persian_digits(market_data.get("gold_ounce", "نامشخص")) + " دلار"
-    oil = to_persian_digits(market_data.get("oil", "نامشخص")) + " دلار"
-
-    json_preview = json.dumps({
-        "updated_at": market_data.get("updated_at"),
-        "date_shamsi": market_data.get("date_shamsi"),
-        "usd": market_data.get("usd"),
-        "eur": market_data.get("eur"),
-        "gold_18k": market_data.get("gold_18k"),
-        "gold_mesghal": market_data.get("gold_mesghal"),
-        "coin_emami": market_data.get("coin_emami"),
-        "oil": market_data.get("oil")
-    }, indent=2, ensure_ascii=False)
-
     readme_content = f"""<div dir="rtl" align="center">
 
-# 📊 نبض بازار | قیمت لحظه‌ای ارز، طلا، سکه و نفت
+# 📊 نبض بازار | قیمت لحظه‌ای ارز، مسکوکات، طلا و نفت
 
 [![Auto Update](https://img.shields.io/badge/Auto--Update-Every_30_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
-[![API Status](https://img.shields.io/badge/API-Live_&_Free-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
+[![API Status](https://img.shields.io/badge/API-Live_&_Historical-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
 [![Timezone](https://img.shields.io/badge/Timezone-Tehran_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
 
 <br/>
@@ -425,12 +457,17 @@ def update_readme(market_data):
 <tr>
 <td align="center">🇺🇸</td>
 <td><b>دلار آمریکا</b></td>
-<td align="left"><b>{usd}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('usd'))}</b></td>
 </tr>
 <tr>
 <td align="center">🇪🇺</td>
 <td><b>یورو اروپا</b></td>
-<td align="left"><b>{eur}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('eur'))}</b></td>
+</tr>
+<tr>
+<td align="center">🇬🇧</td>
+<td><b>پوند انگلیس</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gbp'))}</b></td>
 </tr>
 
 <!-- بخش طلا -->
@@ -440,17 +477,17 @@ def update_readme(market_data):
 <tr>
 <td align="center">✨</td>
 <td><b>طلای ۱۸ عیار (هر گرم)</b></td>
-<td align="left"><b>{gold_18k}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gold_18k'))}</b></td>
 </tr>
 <tr>
 <td align="center">⚖️</td>
 <td><b>مثقال طلا (آبشده)</b></td>
-<td align="left"><b>{gold_mesghal}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gold_mesghal'))}</b></td>
 </tr>
 <tr>
 <td align="center">🌐</td>
 <td><b>انس جهانی طلا</b></td>
-<td align="left"><b>{gold_ounce}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('gold_ounce'), 'دلار')}</b></td>
 </tr>
 
 <!-- بخش سکه -->
@@ -460,27 +497,27 @@ def update_readme(market_data):
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه تمام امامی (طرح جدید)</b></td>
-<td align="left"><b>{coin_emami}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_emami'))}</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه بهار آزادی (طرح قدیم)</b></td>
-<td align="left"><b>{coin_bahar}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_bahar'))}</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>نیم سکه بهار آزادی</b></td>
-<td align="left"><b>{coin_half}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_half'))}</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>ربع سکه بهار آزادی</b></td>
-<td align="left"><b>{coin_quarter}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_quarter'))}</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه گرمی</b></td>
-<td align="left"><b>{coin_gram}</b></td>
+<td align="left"><b>{format_price_display(market_data.get('coin_gram'))}</b></td>
 </tr>
 
 <!-- بخش انرژی -->
@@ -490,7 +527,7 @@ def update_readme(market_data):
 <tr>
 <td align="center">⛽</td>
 <td><b>نفت خام برنت / اوپک</b></td>
-<td align="left"><b>{oil}</b></td>
+<td align="left"><b>{to_persian_digits(market_data.get('oil', 'نامشخص'))} دلار</b></td>
 </tr>
 
 </tbody>
@@ -498,110 +535,123 @@ def update_readme(market_data):
 
 ---
 
-### 📈 نمودار روند ۶ ماهه دلار آمریکا
+### 📈 نمودارهای روند بازار
 
+#### دلار آمریکا
 <div align="center">
   <img src="usd_chart.png?raw=true" alt="نمودار روند قیمت دلار" width="100%" style="border-radius: 12px;" />
+</div>
+
+#### سکه تمام امامی
+<div align="center">
+  <img src="coin_emami_chart.png?raw=true" alt="نمودار روند قیمت سکه امامی" width="100%" style="border-radius: 12px;" />
+</div>
+
+#### طلای ۱۸ عیار
+<div align="center">
+  <img src="gold_18k_chart.png?raw=true" alt="نمودار روند قیمت طلای ۱۸ عیار" width="100%" style="border-radius: 12px;" />
 </div>
 
 ---
 
 ### 🚀 وب‌سرویس و دسترسی API
 
-داده‌ها به صورت فایل‌های JSON تمیز در مخزن ذخیره شده و به عنوان API قابل فراخوانی هستند:
+داده‌های تاریخی به همراه قیمت روز برای هر دارایی در قالب فایل‌های تمیز JSON نگهداری می‌شوند:
 
-* **قیمت‌های زنده بازار:**
+* **قیمت‌های زنده تمامی نمادها:**
   {BT}text
   https://raw.githubusercontent.com/{repo_slug}/main/market.json
   {BT}
 
-* **آرشیو و تاریخچه روزانه دلار:**
-  {BT}text
-  https://raw.githubusercontent.com/{repo_slug}/main/api/history.json
-  {BT}
-
-<details dir="ltr">
-<summary><b>نمونه ساختار فایل market.json (کلیک کنید)</b></summary>
-
-{BT}json
-{json_preview}
-{BT}
-
-</details>
-
-<br/>
-
-<div align="center">
-<sub>ساخته‌شده برای دسترسی آزاد و شفاف به داده‌های اقتصادی</sub>
-</div>
+* **آرشیو تاریخی هر دارایی:**
+  | دارایی | آدرس فایل JSON |
+  | :--- | :--- |
+  | **دلار آمریکا** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_usd.json` |
+  | **یورو اروپا** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_eur.json` |
+  | **پوند انگلیس** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_gbp.json` |
+  | **سکه امامی** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_coin_emami.json` |
+  | **سکه بهار آزادی** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_coin_bahar.json` |
+  | **نیم سکه** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_coin_half.json` |
+  | **ربع سکه** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_coin_quarter.json` |
+  | **سکه گرمی** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_coin_gram.json` |
+  | **طلای ۱۸ عیار** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_gold_18k.json` |
+  | **مثقال طلا** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_gold_mesghal.json` |
+  | **انس جهانی طلا** | `https://raw.githubusercontent.com/{repo_slug}/main/api/history_gold_ounce.json` |
 
 </div>
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
-    print("README.md updated successfully.")
+    print("README.md updated.")
 
 
 def main():
-    market_data = {
-        "usd": "نامشخص",
-        "eur": "نامشخص",
-        "gold_18k": "نامشخص",
-        "gold_mesghal": "نامشخص",
-        "gold_ounce": "نامشخص",
-        "coin_emami": "نامشخص",
-        "coin_bahar": "نامشخص",
-        "coin_half": "نامشخص",
-        "coin_quarter": "نامشخص",
-        "coin_gram": "نامشخص",
-        "oil": "نامشخص",
-        "updated": "--:--"
-    }
+    market_data = {}
+    print("Starting market extraction...")
 
-    print("Fetching page data from AlanChand...")
-
-    # 1. USD Calculation via AED Peg
+    # 1. Fetch USD (via AED Peg calculation)
     resp_aed = session.get("https://alanchand.com/en/currencies-price/aed", timeout=15)
     resp_usd = session.get("https://alanchand.com/en/exchange-rates/aed-usd", timeout=15)
-
-    aed_irr_history = []
-    aed_usd_history = []
-
-    if resp_aed.status_code == 200:
-        aed_irr_history = extract_js_array(resp_aed.text, "fullPriceData")
-
-    if resp_usd.status_code == 200:
-        aed_usd_history = extract_js_array(resp_usd.text, "fullPriceData")
+    aed_irr_hist = extract_js_array(resp_aed.text, "fullPriceData") if resp_aed.status_code == 200 else []
+    aed_usd_hist = extract_js_array(resp_usd.text, "fullPriceData") if resp_usd.status_code == 200 else []
 
     live_usd_toman = None
     try:
         soup_usd = BeautifulSoup(resp_usd.text, "lxml")
         soup_aed = BeautifulSoup(resp_aed.text, "lxml")
-
         usd_input = soup_usd.find("input", id="inputCalcValue") or soup_usd.find("input", id="outputCalcValue")
         usd_rate = float(usd_input.get("data-rate")) if usd_input and usd_input.get("data-rate") else 0.2723
-
         aed_input = soup_aed.find("input", attrs={"data-curr": "tmn"})
-        aed_price_raw = aed_input.get("data-price") or aed_input.get("value") if aed_input else None
-
-        if aed_price_raw:
-            aed_toman = float(str(aed_price_raw).replace(",", "").strip()) / 10.0
-            live_usd_toman = int(round(aed_toman / usd_rate))
-            market_data["usd"] = live_usd_toman
+        aed_raw = aed_input.get("data-price") or aed_input.get("value") if aed_input else None
+        if aed_raw:
+            live_usd_toman = int(round((float(str(aed_raw).replace(",", "").strip()) / 10.0) / usd_rate))
     except Exception as e:
-        print(f"Error computing live USD rate: {e}")
+        print(f"USD calc error: {e}")
 
-    # 2. Fetch EUR Price
-    live_eur_toman = fetch_eur_price()
-    if live_eur_toman:
-        market_data["eur"] = live_eur_toman
+    usd_bootstrap_history = []
+    if aed_irr_hist and aed_usd_hist:
+        usd_rates = {
+            datetime.fromtimestamp(x["timestamp"], tz=TEHRAN_TZ).strftime("%Y-%m-%d"): x.get("price") or x.get("dolar_rate", 0.272257)
+            for x in aed_usd_hist
+        }
+        for item in aed_irr_hist:
+            d = datetime.fromtimestamp(item["timestamp"], tz=TEHRAN_TZ).strftime("%Y-%m-%d")
+            r = usd_rates.get(d, 0.272257)
+            if r > 0:
+                p_toman = int(round((item.get("price", 0) / 10.0) / r))
+                usd_bootstrap_history.append({
+                    "timestamp": item["timestamp"],
+                    "date": d,
+                    "price": p_toman,
+                    "price_toman": p_toman,
+                    "price_irr": p_toman * 10
+                })
 
-    # 3. Fetch Gold & Coins
-    gold_coin_data = fetch_gold_and_coins()
-    for k, v in gold_coin_data.items():
-        market_data[k] = v
+    market_data["usd"] = live_usd_toman
+    usd_records = update_asset_history("usd", live_usd_toman, history_items=usd_bootstrap_history)
+    generate_chart(usd_records, "دلار آمریکا", "usd_chart.png", line_color="#2563eb", fill_color="#3b82f6")
 
-    # 4. Live Oil Price
+    # 2. Fetch all other assets
+    for key, cfg in ASSETS.items():
+        if key == "usd":
+            continue
+        print(f"Processing {cfg['title']} ({key})...")
+        live_p, hist = fetch_alanchand_asset(cfg["url"], cfg["type"])
+        market_data[key] = live_p
+        records = update_asset_history(key, live_p, history_items=hist)
+
+        if cfg.get("chart", False):
+            chart_file = f"{key}_chart.png"
+            generate_chart(
+                records,
+                cfg["title"],
+                chart_file,
+                line_color=cfg.get("color", "#2563eb"),
+                fill_color=cfg.get("fill", "#3b82f6"),
+                unit=cfg.get("unit", "تومان")
+            )
+
+    # 3. Fetch Oil Price
     try:
         resp_oil = session.get("https://oilprice.com/oil-price-charts/46", timeout=15)
         if resp_oil.status_code == 200:
@@ -610,9 +660,9 @@ def main():
             if oil_el:
                 market_data["oil"] = oil_el.get_text(strip=True)
     except Exception as e:
-        print(f"Error fetching Oil price: {e}")
+        print(f"Error fetching Oil: {e}")
 
-    # 5. Full Tehran Datetime + Shamsi Date
+    # 4. Dates & market.json
     now_tehran = get_tehran_now()
     jy, jm, jd = gregorian_to_jalali(now_tehran.year, now_tehran.month, now_tehran.day)
     persian_months = [
@@ -620,26 +670,18 @@ def main():
         "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"
     ]
     market_data["updated_at"] = now_tehran.strftime("%Y-%m-%d %H:%M:%S")
-    market_data["updated_iso"] = now_tehran.isoformat()
     market_data["date"] = now_tehran.strftime("%Y-%m-%d")
     market_data["date_shamsi"] = f"{jy}/{jm:02d}/{jd:02d}"
     market_data["date_shamsi_full"] = f"{to_persian_digits(jd)} {persian_months[jm - 1]} {to_persian_digits(jy)}"
     market_data["time"] = now_tehran.strftime("%H:%M")
-    market_data["updated"] = now_tehran.strftime("%Y-%m-%d %H:%M")
 
-    # 6. Save market.json
     with open("market.json", "w", encoding="utf-8") as f:
         json.dump(market_data, f, ensure_ascii=False, indent=2)
     print("market.json saved.")
 
-    # 7. Update History API
-    history_records = update_history_api(aed_irr_history, aed_usd_history, live_usd_toman)
-
-    # 8. Generate USD Chart
-    generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=180)
-
-    # 9. Update README.md
+    # 5. Update README
     update_readme(market_data)
+    print("All tasks finished successfully.")
 
 
 if __name__ == "__main__":
