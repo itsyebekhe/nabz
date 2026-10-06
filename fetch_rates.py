@@ -78,6 +78,44 @@ def extract_js_array(html_text: str, var_name: str):
     return []
 
 
+def gregorian_to_jalali(gy, gm, gd):
+    """Converts Gregorian date to Solar Hijri (Shamsi/Jalali) date."""
+    g_d_m = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
+    if gy > 1600:
+        jy = 979
+        gy -= 1600
+    else:
+        jy = 0
+        gy -= 621
+    gy2 = gy if (gm > 2) else (gy - 1)
+    days = (365 * gy) + ((gy2 + 3) // 4) - ((gy2 + 99) // 100) + ((gy2 + 399) // 400) - 80 + gd + g_d_m[gm - 1]
+    jy += 33 * (days // 12053)
+    days %= 12053
+    jy += 4 * (days // 1461)
+    days %= 1461
+    if days > 365:
+        jy += (days - 1) // 365
+        days = (days - 1) % 365
+    if days < 186:
+        jm = 1 + (days // 31)
+        jd = 1 + (days % 31)
+    else:
+        jm = 7 + ((days - 186) // 30)
+        jd = 1 + ((days - 186) % 30)
+    return jy, jm, jd
+
+
+def format_toman_val(val):
+    """Formats an integer or numeric string into Persian-formatted Toman string."""
+    if not val or val == "نامشخص":
+        return "نامشخص"
+    try:
+        val_int = int(str(val).replace(",", "").strip())
+        return to_persian_digits(f"{val_int:,}") + " تومان"
+    except Exception:
+        return to_persian_digits(str(val))
+
+
 def update_history_api(aed_irr_history, aed_usd_history, live_usd_toman, api_dir="api"):
     """Maintains a persistent api/history.json file in Tehran timezone."""
     os.makedirs(api_dir, exist_ok=True)
@@ -100,12 +138,13 @@ def update_history_api(aed_irr_history, aed_usd_history, live_usd_toman, api_dir
         usd_rate_by_date = {}
         for item in aed_usd_history:
             d = datetime.fromtimestamp(item["timestamp"], tz=TEHRAN_TZ).strftime("%Y-%m-%d")
-            usd_rate_by_date[d] = item["rate"]
+            rate = item.get("price") or item.get("dolar_rate") or item.get("rate", 0.272257)
+            usd_rate_by_date[d] = rate
 
         for item in aed_irr_history:
             dt = datetime.fromtimestamp(item["timestamp"], tz=TEHRAN_TZ)
             d_str = dt.strftime("%Y-%m-%d")
-            aed_toman = item["price"] / 10.0
+            aed_toman = item.get("price", 0) / 10.0
             aed_usd = usd_rate_by_date.get(d_str, 0.272257)
 
             if aed_usd > 0:
@@ -203,81 +242,6 @@ def generate_usd_chart(history_records, output_file="usd_chart.png", days_limit=
     print(f"Chart saved to {output_file}")
 
 
-def format_toman_val(val):
-    """Formats an integer or numeric string into Persian-formatted Toman string."""
-    if not val or val == "نامشخص":
-        return "نامشخص"
-    try:
-        val_int = int(str(val).replace(",", "").strip())
-        return to_persian_digits(f"{val_int:,}") + " تومان"
-    except Exception:
-        return to_persian_digits(str(val))
-
-
-def update_readme(market_data):
-    """Generates a clean Persian README.md using GitHub-compatible Markdown."""
-    updated_persian = to_persian_digits(market_data.get("updated", "--:--"))
-
-    usd = format_toman_val(market_data.get("usd"))
-    eur = format_toman_val(market_data.get("eur"))
-    gold_18k = format_toman_val(market_data.get("gold_18k"))
-    gold_mesghal = format_toman_val(market_data.get("gold_mesghal"))
-    coin_emami = format_toman_val(market_data.get("coin_emami"))
-    coin_bahar = format_toman_val(market_data.get("coin_bahar"))
-    coin_half = format_toman_val(market_data.get("coin_half"))
-    coin_quarter = format_toman_val(market_data.get("coin_quarter"))
-    coin_gram = format_toman_val(market_data.get("coin_gram"))
-
-    gold_ounce = to_persian_digits(market_data.get("gold_ounce", "نامشخص")) + " دلار"
-    oil = to_persian_digits(market_data.get("oil", "نامشخص")) + " دلار"
-
-    readme_content = f"""<div dir="rtl">
-
-# 📈 قیمت لحظه‌ای ارز، طلا، سکه و نفت
-
-> ⏱ بروزرسانی خودکار هر ۳۰ دقیقه | آخرین بروزرسانی: **{updated_persian} (به وقت تهران)**
-
-| شاخص بازار | قیمت زنده |
-| :--- | :--- |
-| **💵 ارزهای شاخص** | |
-| دلار آمریکا (آزاد) | **{usd}** |
-| یورو اروپا | **{eur}** |
-| **🥇 طلا و مظنه** | |
-| طلای ۱۸ عیار (هر گرم) | **{gold_18k}** |
-| مثقال طلا (آبشده) | **{gold_mesghal}** |
-| انس جهانی طلا | **{gold_ounce}** |
-| **🪙 انواع سکه بهار آزادی** | |
-| سکه تمام امامی (طرح جدید) | **{coin_emami}** |
-| سکه بهار آزادی (طرح قدیم) | **{coin_bahar}** |
-| نیم سکه | **{coin_half}** |
-| ربع سکه | **{coin_quarter}** |
-| سکه گرمی | **{coin_gram}** |
-| **🛢️ کامودیتی و انرژی** | |
-| نفت خام برنت / اوپک | **{oil}** |
-
----
-
-## 📊 روند ۶ ماهه قیمت دلار
-
-<div align="center">
-  <img src="usd_chart.png?raw=true" alt="نمودار قیمت دلار" width="95%" />
-</div>
-
----
-
-### 🌐 وب‌سرویس و API تاریخچه
-
-فایل‌های خروجی JSON برای برنامه‌نویسان:
-* نرخ‌های زنده: `market.json`
-* تاریخچه روزانه: `api/history.json`
-
-</div>
-"""
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(readme_content)
-    print("README.md updated.")
-
-
 def fetch_gold_and_coins():
     """Scrapes gold and coin prices from AlanChand's gold-price page."""
     data = {}
@@ -291,7 +255,7 @@ def fetch_gold_and_coins():
         # 1. First attempt: Parse structured JSON-LD (ItemList)
         for s in soup.find_all("script", type="application/ld+json"):
             try:
-                content = json.loads(s.string or "")
+                content = json.loads(s.get_text(strip=True) or "{}")
                 if content.get("@type") == "ItemList":
                     for elem in content.get("itemListElement", []):
                         item = elem.get("item", {})
@@ -303,7 +267,6 @@ def fetch_gold_and_coins():
                         if not price_raw:
                             continue
 
-                        # Convert IRR to Toman (÷ 10)
                         val_toman = int(round(float(price_raw) / 10.0)) if currency == "IRR" else price_raw
 
                         if "Mesghal" in name:
@@ -321,11 +284,11 @@ def fetch_gold_and_coins():
                         elif "gram sekke" in name.lower():
                             data["coin_gram"] = val_toman
                         elif "Gold Ounce" in name:
-                            data["gold_ounce"] = price_raw
+                            data["gold_ounce"] = str(price_raw)
             except Exception:
                 continue
 
-        # 2. Fallback: Parse table rows if any item wasn't extracted via JSON-LD
+        # 2. Fallback: Parse table rows if needed
         if not data.get("gold_18k") or not data.get("coin_emami"):
             for tr in soup.select("table.goldTbl tr"):
                 tds = tr.find_all("td")
@@ -371,7 +334,7 @@ def fetch_eur_price():
         # 1. Product Schema offers
         for s in soup.find_all("script", type="application/ld+json"):
             try:
-                c = json.loads(s.string or "")
+                c = json.loads(s.get_text(strip=True) or "{}")
                 if c.get("@type") == "Product" and c.get("sku") == "EUR":
                     price_irr = float(c.get("offers", {}).get("price", 0))
                     if price_irr > 0:
@@ -388,6 +351,123 @@ def fetch_eur_price():
     except Exception as e:
         print(f"Error fetching EUR price: {e}")
     return None
+
+
+def update_readme(market_data):
+    """Generates an elegant, modern, GitHub-native README.md without copy-paste issues."""
+    shamsi_date_str = market_data.get("date_shamsi_full", market_data.get("date", "--"))
+    gregorian_date_str = market_data.get("date", "--")
+    time_str = to_persian_digits(market_data.get("time", "--:--"))
+
+    repo_slug = os.environ.get("GITHUB_REPOSITORY", "username/repo")
+
+    # Triple backtick variable to prevent Markdown copy-paste conflicts
+    BT = chr(96) * 3
+
+    # Format values
+    usd = format_toman_val(market_data.get("usd"))
+    eur = format_toman_val(market_data.get("eur"))
+    gold_18k = format_toman_val(market_data.get("gold_18k"))
+    gold_mesghal = format_toman_val(market_data.get("gold_mesghal"))
+    coin_emami = format_toman_val(market_data.get("coin_emami"))
+    coin_bahar = format_toman_val(market_data.get("coin_bahar"))
+    coin_half = format_toman_val(market_data.get("coin_half"))
+    coin_quarter = format_toman_val(market_data.get("coin_quarter"))
+    coin_gram = format_toman_val(market_data.get("coin_gram"))
+
+    gold_ounce = to_persian_digits(market_data.get("gold_ounce", "نامشخص")) + " دلار"
+    oil = to_persian_digits(market_data.get("oil", "نامشخص")) + " دلار"
+
+    json_preview = json.dumps({
+        "updated_at": market_data.get("updated_at"),
+        "date_shamsi": market_data.get("date_shamsi"),
+        "usd": market_data.get("usd"),
+        "eur": market_data.get("eur"),
+        "gold_18k": market_data.get("gold_18k"),
+        "gold_mesghal": market_data.get("gold_mesghal"),
+        "coin_emami": market_data.get("coin_emami"),
+        "oil": market_data.get("oil")
+    }, indent=2, ensure_ascii=False)
+
+    readme_content = f"""<div dir="rtl" align="center">
+
+# 📊 نبض بازار | قیمت لحظه‌ای ارز، طلا، سکه و نفت
+
+[![Auto Update](https://img.shields.io/badge/بروزرسانی-خودکار_هر_۳۰_دقیقه-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+[![API Status](https://img.shields.io/badge/API-فعال_و_رایگان-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
+[![Tehran Time](https://img.shields.io/badge/تایم_زون-تهران_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
+
+<br/>
+
+> [!NOTE]
+> 📅 **تاریخ:** {shamsi_date_str} ({gregorian_date_str}) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **{time_str}** (به وقت تهران)
+
+<br/>
+
+</div>
+
+<div dir="rtl">
+
+### 📋 جدول زنده نرخ‌ها
+
+| رده | نماد / عنوان شاخص | قیمت لحظه‌ای (بازار آزاد) |
+| :---: | :--- | :--- |
+| 💵 | **دلار آمریکا** | **{usd}** |
+| 💶 | **یورو اروپا** | **{eur}** |
+| 🥇 | **طلای ۱۸ عیار (هر گرم)** | **{gold_18k}** |
+| ⚖️ | **مثقال طلا (آبشده)** | **{gold_mesghal}** |
+| 🪙 | **سکه تمام امامی (طرح جدید)** | **{coin_emami}** |
+| 🪙 | **سکه بهار آزادی (طرح قدیم)** | **{coin_bahar}** |
+| 🪙 | **نیم سکه بهار آزادی** | **{coin_half}** |
+| 🪙 | **ربع سکه بهار آزادی** | **{coin_quarter}** |
+| 🪙 | **سکه گرمی** | **{coin_gram}** |
+| 🌐 | **انس جهانی طلا** | **{gold_ounce}** |
+| 🛢️ | **نفت خام برنت / اوپک** | **{oil}** |
+
+---
+
+### 📈 نمودار روند ۶ ماهه دلار آمریکا
+
+<div align="center">
+  <img src="usd_chart.png?raw=true" alt="نمودار روند قیمت دلار" width="100%" style="border-radius: 12px;" />
+</div>
+
+---
+
+### 🚀 وب‌سرویس و دسترسی API
+
+داده‌ها به صورت فایل‌های JSON تمیز در مخزن ذخیره شده و به عنوان API قابل فراخوانی هستند:
+
+* **قیمت‌های زنده بازار:**
+  {BT}text
+  https://raw.githubusercontent.com/{repo_slug}/main/market.json
+  {BT}
+
+* **آرشیو و تاریخچه روزانه دلار:**
+  {BT}text
+  https://raw.githubusercontent.com/{repo_slug}/main/api/history.json
+  {BT}
+
+<details dir="ltr">
+<summary><b>نمونه ساختار فایل market.json (کلیک کنید)</b></summary>
+
+{BT}json
+{json_preview}
+{BT}
+
+</details>
+
+<br/>
+
+<div align="center">
+<sub>ساخته‌شده برای دسترسی آزاد و شفاف به داده‌های اقتصادی</sub>
+</div>
+
+</div>
+"""
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print("README.md updated successfully.")
 
 
 def main():
@@ -460,10 +540,20 @@ def main():
     except Exception as e:
         print(f"Error fetching Oil price: {e}")
 
-    # 5. Tehran Timezone
+    # 5. Full Tehran Datetime + Shamsi Date
     now_tehran = get_tehran_now()
-    market_data["updated"] = now_tehran.strftime("%H:%M")
-    market_data["updated_date"] = now_tehran.strftime("%Y-%m-%d")
+    jy, jm, jd = gregorian_to_jalali(now_tehran.year, now_tehran.month, now_tehran.day)
+    persian_months = [
+        "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور",
+        "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"
+    ]
+    market_data["updated_at"] = now_tehran.strftime("%Y-%m-%d %H:%M:%S")
+    market_data["updated_iso"] = now_tehran.isoformat()
+    market_data["date"] = now_tehran.strftime("%Y-%m-%d")
+    market_data["date_shamsi"] = f"{jy}/{jm:02d}/{jd:02d}"
+    market_data["date_shamsi_full"] = f"{to_persian_digits(jd)} {persian_months[jm - 1]} {to_persian_digits(jy)}"
+    market_data["time"] = now_tehran.strftime("%H:%M")
+    market_data["updated"] = now_tehran.strftime("%Y-%m-%d %H:%M")
 
     # 6. Save market.json
     with open("market.json", "w", encoding="utf-8") as f:
