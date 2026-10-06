@@ -355,28 +355,29 @@ def generate_share_pages(market_data):
 <head>
     <meta charset="UTF-8">
     <title>{cfg['title']} ({price_str}) | نبض بازار</title>
-    <meta name="description" content="قیمت لحظه‌ای {cfg['title']} در بازار آزاد: {price_str}. مشاهده نمودار تحلیلی ۶ ماهه و وب‌سرویس رایگان.">
+    <meta name="description" content="قیمت لحظه‌ای {cfg['title']}: {price_str}">
 
-    <!-- Open Graph (Telegram, WhatsApp, Meta) -->
-    <meta property="og:type" content="website">
+    <!-- Open Graph for Telegram -->
+    <meta property="og:type" content="article">
     <meta property="og:title" content="{cfg['title']}: {price_str}">
-    <meta property="og:description" content="قیمت لحظه‌ای {cfg['title']}: {price_str} | نمودار تحلیل ۶ ماهه، بررسی حباب و تاریخچه کامل در نبض بازار">
+    <meta property="og:description" content="قیمت زنده {cfg['title']}: {price_str} | مشاهده نمودار ۶ ماهه و وب‌سرویس">
     <meta property="og:image" content="{chart_image_url}">
-    <meta property="og:image:width" content="1650">
-    <meta property="og:image:height" content="750">
     <meta property="og:site_name" content="نبض بازار">
 
-    <!-- Twitter Card -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{cfg['title']}: {price_str}">
-    <meta name="twitter:description" content="قیمت لحظه‌ای {cfg['title']}: {price_str} | نمودار تحلیلی و وب‌سرویس">
     <meta name="twitter:image" content="{chart_image_url}">
 
     <meta http-equiv="refresh" content="0; url=../#{key}">
 </head>
-<body style="background:#0b0f19;color:#fff;font-family:sans-serif;text-align:center;padding:50px;">
-    <h2>در حال انتقال به صفحه {cfg['title']}...</h2>
-    <p><a href="../#{key}" style="color:#3b82f6;">اگر منتقل نشدید، اینجا کلیک کنید</a></p>
+<body style="background:#0b0f19;color:#fff;font-family:sans-serif;padding:20px;text-align:center;">
+    <article>
+        <h1>{cfg['title']} ({price_str})</h1>
+        <img src="{chart_image_url}" alt="{cfg['title']}" style="max-width:100%;border-radius:12px;margin:15px 0;">
+        <p>قیمت لحظه‌ای {cfg['title']} در بازار آزاد: <strong>{price_str}</strong></p>
+        <p><a href="../#{key}" style="color:#3b82f6;text-decoration:none;font-weight:bold;">📊 ورود به داشبورد تعاملی نبض بازار</a></p>
+    </article>
     <script>window.location.replace('../#' + '{key}');</script>
 </body>
 </html>
