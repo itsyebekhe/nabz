@@ -354,14 +354,12 @@ def fetch_eur_price():
 
 
 def update_readme(market_data):
-    """Generates an elegant, modern, GitHub-native README.md without copy-paste issues."""
+    """Generates a full-width, sectionized, GitHub-native README.md."""
     shamsi_date_str = market_data.get("date_shamsi_full", market_data.get("date", "--"))
     gregorian_date_str = market_data.get("date", "--")
     time_str = to_persian_digits(market_data.get("time", "--:--"))
 
     repo_slug = os.environ.get("GITHUB_REPOSITORY", "username/repo")
-
-    # Triple backtick variable to prevent Markdown copy-paste conflicts
     BT = chr(96) * 3
 
     # Format values
@@ -393,9 +391,9 @@ def update_readme(market_data):
 
 # 📊 نبض بازار | قیمت لحظه‌ای ارز، طلا، سکه و نفت
 
-[![Auto Update](https://img.shields.io/badge/بروزرسانی-خودکار_هر_۳۰_دقیقه-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
-[![API Status](https://img.shields.io/badge/API-فعال_و_رایگان-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
-[![Tehran Time](https://img.shields.io/badge/تایم_زون-تهران_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
+[![Auto Update](https://img.shields.io/badge/Auto--Update-Every_30_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+[![API Status](https://img.shields.io/badge/API-Live_&_Free-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
+[![Timezone](https://img.shields.io/badge/Timezone-Tehran_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
 
 <br/>
 
@@ -410,19 +408,93 @@ def update_readme(market_data):
 
 ### 📋 جدول زنده نرخ‌ها
 
-| رده | نماد / عنوان شاخص | قیمت لحظه‌ای (بازار آزاد) |
-| :---: | :--- | :--- |
-| 💵 | **دلار آمریکا** | **{usd}** |
-| 💶 | **یورو اروپا** | **{eur}** |
-| 🥇 | **طلای ۱۸ عیار (هر گرم)** | **{gold_18k}** |
-| ⚖️ | **مثقال طلا (آبشده)** | **{gold_mesghal}** |
-| 🪙 | **سکه تمام امامی (طرح جدید)** | **{coin_emami}** |
-| 🪙 | **سکه بهار آزادی (طرح قدیم)** | **{coin_bahar}** |
-| 🪙 | **نیم سکه بهار آزادی** | **{coin_half}** |
-| 🪙 | **ربع سکه بهار آزادی** | **{coin_quarter}** |
-| 🪙 | **سکه گرمی** | **{coin_gram}** |
-| 🌐 | **انس جهانی طلا** | **{gold_ounce}** |
-| 🛢️ | **نفت خام برنت / اوپک** | **{oil}** |
+<table width="100%">
+<thead>
+<tr>
+<th width="8%" align="center">نماد</th>
+<th width="52%" align="right">عنوان شاخص بازار</th>
+<th width="40%" align="left">قیمت زنده (بازار آزاد)</th>
+</tr>
+</thead>
+<tbody>
+
+<!-- بخش ارزها -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">💵 ارزهای شاخص</th>
+</tr>
+<tr>
+<td align="center">🇺🇸</td>
+<td><b>دلار آمریکا</b></td>
+<td align="left"><b>{usd}</b></td>
+</tr>
+<tr>
+<td align="center">🇪🇺</td>
+<td><b>یورو اروپا</b></td>
+<td align="left"><b>{eur}</b></td>
+</tr>
+
+<!-- بخش طلا -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🥇 طلا و مظنه</th>
+</tr>
+<tr>
+<td align="center">✨</td>
+<td><b>طلای ۱۸ عیار (هر گرم)</b></td>
+<td align="left"><b>{gold_18k}</b></td>
+</tr>
+<tr>
+<td align="center">⚖️</td>
+<td><b>مثقال طلا (آبشده)</b></td>
+<td align="left"><b>{gold_mesghal}</b></td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td><b>انس جهانی طلا</b></td>
+<td align="left"><b>{gold_ounce}</b></td>
+</tr>
+
+<!-- بخش سکه -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🪙 مسکوکات بهار آزادی</th>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه تمام امامی (طرح جدید)</b></td>
+<td align="left"><b>{coin_emami}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه بهار آزادی (طرح قدیم)</b></td>
+<td align="left"><b>{coin_bahar}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>نیم سکه بهار آزادی</b></td>
+<td align="left"><b>{coin_half}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>ربع سکه بهار آزادی</b></td>
+<td align="left"><b>{coin_quarter}</b></td>
+</tr>
+<tr>
+<td align="center">🟡</td>
+<td><b>سکه گرمی</b></td>
+<td align="left"><b>{coin_gram}</b></td>
+</tr>
+
+<!-- بخش انرژی -->
+<tr>
+<th colspan="3" align="right" bgcolor="#f1f5f9">🛢️ کامودیتی و انرژی</th>
+</tr>
+<tr>
+<td align="center">⛽</td>
+<td><b>نفت خام برنت / اوپک</b></td>
+<td align="left"><b>{oil}</b></td>
+</tr>
+
+</tbody>
+</table>
 
 ---
 
