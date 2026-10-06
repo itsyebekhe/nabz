@@ -3,132 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>نبض بازار | قیمت لحظه‌ای و نمودار تاریخچه ارز، طلا و سکه</title>
+    <title>نبض بازار | قیمت لحظه‌ای و نمودار تحلیلی ارز، طلا و سکه</title>
     
-    <!-- Meta tags for social sharing -->
-    <meta name="description" content="داشبورد زنده و آرشیو تاریخی نرخ ارز، طلا و مسکوکات با قابلیت بررسی حباب و نمودار تحلیلی">
-    <meta property="og:title" content="نبض بازار | نرخ لحظه‌ای و تاریخچه">
-    <meta property="og:description" content="نمودار تعاملی قیمت دلار، سکه و طلا با دسترسی آزاد به وب‌سرویس">
-
-    <!-- Vazirmatn Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             darkMode: 'class',
             theme: {
                 extend: {
-                    fontFamily: {
-                        sans: ['Vazirmatn', 'sans-serif'],
-                    },
-                    colors: {
-                        brand: {
-                            50: '#eff6ff',
-                            500: '#3b82f6',
-                            600: '#2563eb',
-                            700: '#1d4ed8',
-                        }
-                    }
+                    fontFamily: { sans: ['Vazirmatn', 'sans-serif'] },
                 }
             }
         }
     </script>
-
-    <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
-        body {
-            font-family: 'Vazirmatn', sans-serif;
-            background-color: #0b0f19;
-            color: #f1f5f9;
-        }
-        .glass-card {
-            background: rgba(17, 24, 39, 0.75);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-        .glass-card-hover:hover {
-            border-color: rgba(59, 130, 246, 0.4);
-            transform: translateY(-2px);
-            transition: all 0.2s ease-in-out;
-        }
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #0f172a;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #334155;
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #475569;
-        }
+        body { font-family: 'Vazirmatn', sans-serif; background-color: #0b0f19; color: #f1f5f9; }
+        .glass-card { background: rgba(17, 24, 39, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .glass-card-hover:hover { border-color: rgba(59, 130, 246, 0.5); transform: translateY(-2px); transition: all 0.2s ease-in-out; }
     </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-blue-600 selection:text-white">
 
-    <!-- Top Navigation Header -->
+    <!-- Header -->
     <header class="border-b border-slate-800 glass-card sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-xl shadow-lg shadow-blue-500/10">
-                    📈
+                <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-xl">
+                    📊
                 </div>
                 <div>
-                    <h1 class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+                    <h1 class="text-base sm:text-lg font-black tracking-tight text-white flex items-center gap-2">
                         نبض بازار
-                        <span class="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center gap-1">
+                        <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center gap-1">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
                             زنده
                         </span>
                     </h1>
-                    <p class="text-xs text-slate-400 hidden sm:block">پلتفرم شفاف نرخ ارز، طلا، سکه و شاخص‌های مالی</p>
+                    <p class="text-[11px] text-slate-400 hidden sm:block">آرشیو جامع و تحلیل ۳۷ ارز فیات، طلا و مسکوکات</p>
                 </div>
             </div>
 
-            <!-- Last Updated Info -->
             <div class="text-left text-xs">
-                <div class="text-slate-400">آخرین بروزرسانی:</div>
-                <div id="lastUpdated" class="text-slate-200 font-semibold tracking-wide">در حال دریافت...</div>
+                <div class="text-slate-400 text-[10px]">آخرین بروزرسانی:</div>
+                <div id="lastUpdated" class="text-slate-200 font-semibold tracking-wide text-xs">در حال دریافت...</div>
             </div>
         </div>
     </header>
 
-    <!-- Main Container -->
-    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Main Content -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
 
-        <!-- Active Asset Spotlight & Interactive Chart (Target of Deep-Linking) -->
+        <!-- Active Chart Spotlight -->
         <section id="spotlightSection" class="glass-card rounded-2xl p-5 sm:p-7 shadow-2xl relative overflow-hidden">
-            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 border-b border-slate-800/80 pb-6">
-                <div>
-                    <div class="flex items-center gap-3 mb-2">
-                        <span id="activeIcon" class="text-3xl">🇺🇸</span>
-                        <div>
-                            <h2 id="activeTitle" class="text-2xl font-black text-white">دلار آمریکا</h2>
-                            <span id="activeSymbol" class="text-xs font-mono text-blue-400 tracking-wider">USD / TOMAN</span>
-                        </div>
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-5 border-b border-slate-800/80 pb-5">
+                <div class="flex items-center gap-3">
+                    <span id="activeIcon" class="text-3xl sm:text-4xl">🇺🇸</span>
+                    <div>
+                        <h2 id="activeTitle" class="text-xl sm:text-2xl font-black text-white">دلار آمریکا</h2>
+                        <span id="activeSymbol" class="text-xs font-mono text-blue-400 tracking-wider">USD / TOMAN</span>
                     </div>
                 </div>
 
                 <div class="flex flex-wrap items-baseline gap-4">
                     <div>
-                        <span class="text-xs text-slate-400 block mb-0.5">قیمت زنده بازار:</span>
+                        <span class="text-[11px] text-slate-400 block">قیمت زنده بازار:</span>
                         <div class="flex items-baseline gap-1.5">
-                            <span id="activePrice" class="text-3xl sm:text-4xl font-black text-white">---</span>
+                            <span id="activePrice" class="text-3xl sm:text-4xl font-black text-white font-mono">---</span>
                             <span id="activeUnit" class="text-sm font-medium text-slate-400">تومان</span>
                         </div>
                     </div>
 
-                    <!-- Share / Deep-link Button -->
                     <button onclick="copyShareLink()" class="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
                         کپی لینک مستقیم
@@ -136,233 +86,213 @@
                 </div>
             </div>
 
-            <!-- Timeframe Filter Buttons -->
-            <div class="flex flex-wrap items-center justify-between gap-4 mt-6">
-                <div class="text-sm font-bold text-slate-300 flex items-center gap-2">
-                    <span>روند تغییرات قیمت</span>
-                    <span id="recordCountBadge" class="text-xs font-normal text-slate-400 bg-slate-800 px-2 py-0.5 rounded-full"></span>
+            <!-- Timeframe Selector -->
+            <div class="flex flex-wrap items-center justify-between gap-3 mt-5">
+                <div class="text-xs font-bold text-slate-300 flex items-center gap-2">
+                    <span>نمودار تعاملی قیمت</span>
+                    <span id="recordCountBadge" class="text-[11px] font-normal text-slate-400 bg-slate-800 px-2 py-0.5 rounded-full"></span>
                 </div>
 
                 <div class="inline-flex p-1 rounded-xl bg-slate-900 border border-slate-800 text-xs font-medium">
-                    <button onclick="changeTimeframe(7)"  data-days="7"   class="tf-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition">۷ روز</button>
-                    <button onclick="changeTimeframe(30)" data-days="30"  class="tf-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition">۱ ماه</button>
-                    <button onclick="changeTimeframe(180)" data-days="180" class="tf-btn px-3 py-1.5 rounded-lg bg-blue-600 text-white shadow transition">۶ ماه</button>
-                    <button onclick="changeTimeframe(365)" data-days="365" class="tf-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition">۱ سال</button>
-                    <button onclick="changeTimeframe('all')" data-days="all" class="tf-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition">همه</button>
+                    <button onclick="changeTimeframe(7)" data-days="7" class="tf-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-white transition">۷ روز</button>
+                    <button onclick="changeTimeframe(30)" data-days="30" class="tf-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-white transition">۱ ماه</button>
+                    <button onclick="changeTimeframe(180)" data-days="180" class="tf-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white shadow transition">۶ ماه</button>
+                    <button onclick="changeTimeframe(365)" data-days="365" class="tf-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-white transition">۱ سال</button>
+                    <button onclick="changeTimeframe('all')" data-days="all" class="tf-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-white transition">همه</button>
                 </div>
             </div>
 
-            <!-- Chart Canvas Container -->
-            <div class="mt-4 relative h-[320px] sm:h-[380px] w-full">
+            <!-- Chart Canvas -->
+            <div class="mt-3 relative h-[300px] sm:h-[360px] w-full">
                 <canvas id="mainChart"></canvas>
-                <div id="chartLoader" class="absolute inset-0 bg-slate-950/60 backdrop-blur-sm rounded-xl flex items-center justify-center text-sm text-slate-300 font-medium">
+                <div id="chartLoader" class="absolute inset-0 bg-slate-950/60 backdrop-blur-sm rounded-xl flex items-center justify-center text-xs text-slate-300 font-medium">
                     در حال بارگذاری داده‌های تاریخی...
                 </div>
             </div>
-
-            <!-- Bubble / Market Insight (Displays if asset contains hobab data) -->
-            <div id="bubbleBox" class="mt-4 hidden grid-cols-1 sm:grid-cols-2 gap-3 pt-4 border-t border-slate-800">
-                <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 flex items-center justify-between text-xs">
-                    <span class="text-slate-400">ارزش ذاتی برآورد شده:</span>
-                    <span id="realPriceVal" class="font-bold text-slate-200">---</span>
-                </div>
-                <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 flex items-center justify-between text-xs">
-                    <span class="text-slate-400">میزان حباب درصدی:</span>
-                    <span id="bubblePercentVal" class="font-bold font-mono">---</span>
-                </div>
-            </div>
         </section>
 
-        <!-- Market Cards Grid -->
-        <section>
-            <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-extrabold text-white flex items-center gap-2">
-                    <span>⚡ نرخ‌های زنده بازار</span>
-                    <span class="text-xs font-normal text-slate-400">(برای مشاهده تاریخچه و نمودار، روی هر آیتم کلیک کنید)</span>
-                </h3>
-            </div>
-
-            <div id="marketGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                <!-- Cards dynamically injected here -->
-            </div>
-        </section>
-
-        <!-- Quick Budget Calculator -->
-        <section class="glass-card rounded-2xl p-6 border border-slate-800">
-            <h3 class="text-base font-extrabold text-white mb-2 flex items-center gap-2">
-                🧮 ماشین‌حساب سرمایه
-            </h3>
-            <p class="text-xs text-slate-400 mb-5">مبلغ مد نظر خود را به تومان وارد کنید تا مقدار معادل آن در دارایی انتخابی فعلی محاسبه شود:</p>
-
-            <div class="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center max-w-xl">
-                <div class="relative flex-1">
-                    <input type="text" id="calcInput" value="100,000,000" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono text-base focus:outline-none focus:border-blue-500 text-left" dir="ltr">
-                    <span class="absolute right-3 top-3.5 text-xs text-slate-400 pointer-events-none">تومان</span>
+        <!-- Category Filter & Search -->
+        <section class="space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <!-- Categories -->
+                <div class="flex flex-wrap gap-1.5 text-xs font-semibold">
+                    <button onclick="setCategory('all')" id="cat-all" class="cat-btn px-3.5 py-2 rounded-xl bg-blue-600 text-white shadow">همه شاخص‌ها</button>
+                    <button onclick="setCategory('major')" id="cat-major" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-800 text-slate-400 hover:text-white">ارزهای شاخص</button>
+                    <button onclick="setCategory('gold')" id="cat-gold" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-800 text-slate-400 hover:text-white">طلا و سکه</button>
+                    <button onclick="setCategory('fiat')" id="cat-fiat" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-800 text-slate-400 hover:text-white">سایر ارزها (فیات)</button>
                 </div>
-                <div class="bg-blue-600/10 border border-blue-500/20 rounded-xl px-5 py-3 flex items-center justify-between sm:justify-start gap-3 min-w-[200px]">
-                    <span class="text-xs text-slate-400">معادل دریافتی:</span>
-                    <span id="calcResult" class="text-base font-black text-blue-400 font-mono">---</span>
+
+                <!-- Search -->
+                <div class="relative min-w-[240px]">
+                    <input type="text" id="searchInput" oninput="filterCards()" placeholder="جستجوی نام یا نماد..." class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-blue-500">
+                    <span class="absolute left-3 top-2.5 text-slate-500 text-xs">🔍</span>
                 </div>
             </div>
-        </section>
 
-        <!-- API Links Section -->
-        <section class="glass-card rounded-2xl p-6 border border-slate-800">
-            <h3 class="text-base font-extrabold text-white mb-2 flex items-center gap-2">
-                🚀 دسترسی مستقیم وب‌سرویس (API)
-            </h3>
-            <p class="text-xs text-slate-400 mb-4">تمامی داده‌ها به فرمت JSON استاندارد و به صورت متن‌باز بروزرسانی می‌شوند:</p>
-            
-            <div id="apiList" class="flex flex-wrap gap-2 text-xs">
-                <!-- Injected via JS -->
-            </div>
+            <!-- Market Grid -->
+            <div id="marketGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3"></div>
         </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
-        <p>نبض بازار &bull; داده‌ها به وقت رسمی تهران (UTC+3:30) &bull; اتصال زنده به GitHub Repository</p>
-    </footer>
-
-    <!-- Toast Notification for Deep-Link Copy -->
+    <!-- Toast for copying link -->
     <div id="toast" class="fixed bottom-6 right-6 z-50 bg-blue-600 text-white text-xs font-semibold px-4 py-2.5 rounded-xl shadow-xl transition-all duration-300 opacity-0 pointer-events-none transform translate-y-2">
         لینک مستقیم کپی شد! 📋
     </div>
 
-    <!-- Application Script -->
     <script>
-        // Assets Configuration Registry
-        const ASSETS_CONFIG = {
-            "usd": { title: "دلار آمریکا", symbol: "USD", icon: "🇺🇸", unit: "تومان", color: "#3b82f6" },
-            "eur": { title: "یورو اروپا", symbol: "EUR", icon: "🇪🇺", unit: "تومان", color: "#10b981" },
-            "gbp": { title: "پوند انگلیس", symbol: "GBP", icon: "🇬🇧", unit: "تومان", color: "#6366f1" },
-            "coin_emami": { title: "سکه امامی", symbol: "COIN_EMAMI", icon: "🟡", unit: "تومان", color: "#f59e0b" },
-            "coin_bahar": { title: "سکه بهار آزادی", symbol: "COIN_BAHAR", icon: "🟡", unit: "تومان", color: "#d97706" },
-            "coin_half": { title: "نیم سکه", symbol: "COIN_HALF", icon: "🟡", unit: "تومان", color: "#eab308" },
-            "coin_quarter": { title: "ربع سکه", symbol: "COIN_QUARTER", icon: "🟡", unit: "تومان", color: "#ca8a04" },
-            "coin_gram": { title: "سکه گرمی", symbol: "COIN_GRAM", icon: "🟡", unit: "تومان", color: "#a16207" },
-            "gold_18k": { title: "طلای ۱۸ عیار", symbol: "GOLD_18K", icon: "✨", unit: "تومان", color: "#facc15" },
-            "gold_mesghal": { title: "مثقال طلا", symbol: "MESGHAL", icon: "⚖️", unit: "تومان", color: "#fbbf24" },
-            "gold_ounce": { title: "انس جهانی طلا", symbol: "XAU", icon: "🌐", unit: "دلار", color: "#34d399" }
+        const ALL_ASSETS = {
+            "usd": { title: "دلار آمریکا", symbol: "USD", icon: "🇺🇸", category: "major", color: "#3b82f6" },
+            "eur": { title: "یورو اروپا", symbol: "EUR", icon: "🇪🇺", category: "major", color: "#10b981" },
+            "aed": { title: "درهم امارات", symbol: "AED", icon: "🇦🇪", category: "major", color: "#6366f1" },
+            "try": { title: "لیر ترکیه", symbol: "TRY", icon: "🇹🇷", category: "major", color: "#ef4444" },
+            "gbp": { title: "پوند انگلیس", symbol: "GBP", icon: "🇬🇧", category: "major", color: "#8b5cf6" },
+            "cad": { title: "دلار کانادا", symbol: "CAD", icon: "🇨🇦", category: "major", color: "#ec4899" },
+            "aud": { title: "دلار استرالیا", symbol: "AUD", icon: "🇦🇺", category: "major", color: "#06b6d4" },
+            "cny": { title: "یوان چین", symbol: "CNY", icon: "🇨🇳", category: "major", color: "#f97316" },
+
+            "gold_18k": { title: "طلای ۱۸ عیار", symbol: "GOLD_18K", icon: "✨", category: "gold", color: "#facc15" },
+            "gold_mesghal": { title: "مثقال طلا", symbol: "MESGHAL", icon: "⚖️", category: "gold", color: "#fbbf24" },
+            "coin_emami": { title: "سکه امامی", symbol: "COIN_EMAMI", icon: "🟡", category: "gold", color: "#f59e0b" },
+            "coin_bahar": { title: "سکه بهار آزادی", symbol: "COIN_BAHAR", icon: "🟡", category: "gold", color: "#d97706" },
+            "coin_half": { title: "نیم سکه", symbol: "COIN_HALF", icon: "🟡", category: "gold", color: "#eab308" },
+            "coin_quarter": { title: "ربع سکه", symbol: "COIN_QUARTER", icon: "🟡", category: "gold", color: "#ca8a04" },
+            "coin_gram": { title: "سکه گرمی", symbol: "COIN_GRAM", icon: "🟡", category: "gold", color: "#a16207" },
+            "gold_ounce": { title: "انس جهانی طلا", symbol: "XAU", icon: "🌐", category: "gold", color: "#34d399", unit: "دلار" },
+
+            "rub": { title: "روبل روسیه", symbol: "RUB", icon: "🇷🇺", category: "fiat", color: "#64748b" },
+            "iqd": { title: "۱۰۰ دینار عراق", symbol: "IQD", icon: "🇮🇶", category: "fiat", color: "#64748b" },
+            "myr": { title: "رینگیت مالزی", symbol: "MYR", icon: "🇲🇾", category: "fiat", color: "#64748b" },
+            "gel": { title: "لاری گرجستان", symbol: "GEL", icon: "🇬🇪", category: "fiat", color: "#64748b" },
+            "azn": { title: "منات آذربایجان", symbol: "AZN", icon: "🇦🇿", category: "fiat", color: "#64748b" },
+            "amd": { title: "۱۰۰ درام ارمنستان", symbol: "AMD", icon: "🇦🇲", category: "fiat", color: "#64748b" },
+            "thb": { title: "بات تایلند", symbol: "THB", icon: "🇹🇭", category: "fiat", color: "#64748b" },
+            "omr": { title: "ریال عمان", symbol: "OMR", icon: "🇴🇲", category: "fiat", color: "#64748b" },
+            "inr": { title: "روپیه هند", symbol: "INR", icon: "🇮🇳", category: "fiat", color: "#64748b" },
+            "pkr": { title: "روپیه پاکستان", symbol: "PKR", icon: "🇵🇰", category: "fiat", color: "#64748b" },
+            "jpy": { title: "۱۰۰ ین ژاپن", symbol: "JPY", icon: "🇯🇵", category: "fiat", color: "#64748b" },
+            "sar": { title: "ریال عربستان", symbol: "SAR", icon: "🇸🇦", category: "fiat", color: "#64748b" },
+            "afn": { title: "افغانی افغانستان", symbol: "AFN", icon: "🇦🇫", category: "fiat", color: "#64748b" },
+            "sek": { title: "کرون سوئد", symbol: "SEK", icon: "🇸🇪", category: "fiat", color: "#64748b" },
+            "chf": { title: "فرانک سوئیس", symbol: "CHF", icon: "🇨🇭", category: "fiat", color: "#64748b" },
+            "qar": { title: "ریال قطر", symbol: "QAR", icon: "🇶🇦", category: "fiat", color: "#64748b" },
+            "krw": { title: "۱۰۰ وون کره", symbol: "KRW", icon: "🇰🇷", category: "fiat", color: "#64748b" },
+            "nok": { title: "کرون نروژ", symbol: "NOK", icon: "🇳🇴", category: "fiat", color: "#64748b" },
+            "nzd": { title: "دلار نیوزیلند", symbol: "NZD", icon: "🇳🇿", category: "fiat", color: "#64748b" },
+            "sgd": { title: "دلار سنگاپور", symbol: "SGD", icon: "🇸🇬", category: "fiat", color: "#64748b" },
+            "hkd": { title: "دلار هنگ کنگ", symbol: "HKD", icon: "🇭🇰", category: "fiat", color: "#64748b" },
+            "kwd": { title: "دینار کویت", symbol: "KWD", icon: "🇰🇼", category: "fiat", color: "#64748b" },
+            "dkk": { title: "کرون دانمارک", symbol: "DKK", icon: "🇩🇰", category: "fiat", color: "#64748b" },
+            "bhd": { title: "دینار بحرین", symbol: "BHD", icon: "🇧🇭", category: "fiat", color: "#64748b" },
+            "tjs": { title: "سامانی تاجیکستان", symbol: "TJS", icon: "🇹🇯", category: "fiat", color: "#64748b" },
+            "tmt": { title: "منات ترکمنستان", symbol: "TMT", icon: "🇹🇲", category: "fiat", color: "#64748b" },
+            "kgs": {"title": "سام قرقیزستان", symbol: "KGS", icon: "🇰🇬", category: "fiat", color: "#64748b" },
+            "syp": { title: "۱۰۰ لیر سوریه", symbol: "SYP", icon: "🇸🇾", category: "fiat", color: "#64748b" },
+            "brl": { title: "رئال برزیل", symbol: "BRL", icon: "🇧🇷", category: "fiat", color: "#64748b" },
+            "ars": { title: "پزو آرژانتین", symbol: "ARS", icon: "🇦🇷", category: "fiat", color: "#64748b" },
         };
 
         let marketData = {};
         let activeAssetKey = "usd";
         let activeHistory = [];
         let currentTimeframe = 180;
+        let currentCategory = "all";
         let chartInstance = null;
 
-        const toPersianDigits = (n) => {
-            const p = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
-            return String(n).replace(/[0-9]/g, d => p[+d]);
-        };
+        const toPersianDigits = (n) => String(n).replace(/[0-9]/g, d => ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'][+d]);
+        const formatNumber = (num) => (num === null || num === undefined || isNaN(num)) ? "---" : toPersianDigits(Number(num).toLocaleString('en-US'));
 
-        const formatNumber = (num) => {
-            if (num === null || num === undefined || isNaN(num)) return "---";
-            return toPersianDigits(Number(num).toLocaleString('en-US'));
-        };
-
-        // Initialize Application
         async function initApp() {
-            // Read deep link hash if present
             const hash = window.location.hash.replace('#', '').trim();
-            if (hash && ASSETS_CONFIG[hash]) {
-                activeAssetKey = hash;
-            }
+            if (hash && ALL_ASSETS[hash]) activeAssetKey = hash;
 
             window.addEventListener('hashchange', () => {
                 const newHash = window.location.hash.replace('#', '').trim();
-                if (newHash && ASSETS_CONFIG[newHash] && newHash !== activeAssetKey) {
-                    selectAsset(newHash, false);
-                }
+                if (newHash && ALL_ASSETS[newHash] && newHash !== activeAssetKey) selectAsset(newHash, false);
             });
 
             await fetchMarketSummary();
             renderMarketGrid();
-            renderApiLinks();
             await loadActiveAssetHistory();
-            initCalculator();
         }
 
-        // Fetch Live Market Data
         async function fetchMarketSummary() {
             try {
                 const res = await fetch('./market.json?t=' + Date.now());
-                if (!res.ok) throw new Error("market.json fetch failed");
+                if (!res.ok) throw new Error("fetch error");
                 marketData = await res.json();
-
-                document.getElementById('lastUpdated').textContent = 
-                    `${marketData.date_shamsi || ''} - ساعت ${toPersianDigits(marketData.time || '--:--')}`;
+                document.getElementById('lastUpdated').textContent = `${marketData.date_shamsi || ''} - ${toPersianDigits(marketData.time || '--:--')}`;
             } catch (err) {
-                console.error("Could not fetch market.json:", err);
-                document.getElementById('lastUpdated').textContent = "عدم دسترسی به داده زنده";
+                document.getElementById('lastUpdated').textContent = "درحال بارگذاری داده‌ها...";
             }
         }
 
-        // Render the Market Grid Cards
         function renderMarketGrid() {
             const grid = document.getElementById('marketGrid');
             grid.innerHTML = '';
+            const searchVal = document.getElementById('searchInput').value.trim().toLowerCase();
 
-            for (const [key, cfg] of Object.entries(ASSETS_CONFIG)) {
+            for (const [key, cfg] of Object.entries(ALL_ASSETS)) {
+                if (currentCategory !== 'all' && cfg.category !== currentCategory) continue;
+                if (searchVal && !cfg.title.toLowerCase().includes(searchVal) && !cfg.symbol.toLowerCase().includes(searchVal)) continue;
+
                 const price = marketData[key];
+                const unit = cfg.unit || "تومان";
                 const isSelected = (key === activeAssetKey);
 
                 const card = document.createElement('div');
                 card.id = `card-${key}`;
-                card.className = `glass-card glass-card-hover rounded-2xl p-4 cursor-pointer relative overflow-hidden transition ${isSelected ? 'ring-2 ring-blue-500 bg-blue-900/10' : ''}`;
+                card.className = `glass-card glass-card-hover rounded-xl p-3 cursor-pointer relative overflow-hidden transition ${isSelected ? 'ring-2 ring-blue-500 bg-blue-900/10' : ''}`;
                 card.onclick = () => selectAsset(key, true);
 
                 card.innerHTML = `
-                    <div class="flex items-center justify-between mb-3">
-                        <span class="text-2xl">${cfg.icon}</span>
-                        <span class="text-[11px] font-mono text-slate-400 bg-slate-800/80 px-2 py-0.5 rounded-md">${cfg.symbol}</span>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xl">${cfg.icon}</span>
+                        <span class="text-[10px] font-mono text-slate-400 bg-slate-800/80 px-1.5 py-0.5 rounded">${cfg.symbol}</span>
                     </div>
-                    <div class="text-sm font-semibold text-slate-300 mb-1">${cfg.title}</div>
-                    <div class="flex items-baseline gap-1.5">
-                        <span class="text-xl font-black text-white font-mono">${formatNumber(price)}</span>
-                        <span class="text-xs text-slate-400">${cfg.unit}</span>
+                    <div class="text-xs font-semibold text-slate-300 truncate mb-1">${cfg.title}</div>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-sm sm:text-base font-black text-white font-mono">${formatNumber(price)}</span>
+                        <span class="text-[10px] text-slate-400">${unit}</span>
                     </div>
                 `;
                 grid.appendChild(card);
             }
         }
 
-        // Select an Asset (Deep-linking handler)
-        async function selectAsset(key, updateHash = true) {
-            if (!ASSETS_CONFIG[key]) return;
-            activeAssetKey = key;
-
-            if (updateHash) {
-                window.location.hash = key;
-            }
-
-            // Update Cards Highlight
-            document.querySelectorAll('#marketGrid > div').forEach(el => {
-                el.classList.remove('ring-2', 'ring-blue-500', 'bg-blue-900/10');
+        function setCategory(cat) {
+            currentCategory = cat;
+            document.querySelectorAll('.cat-btn').forEach(btn => {
+                btn.className = "cat-btn px-3.5 py-2 rounded-xl bg-slate-800 text-slate-400 hover:text-white transition";
             });
-            const activeCard = document.getElementById(`card-${key}`);
-            if (activeCard) {
-                activeCard.classList.add('ring-2', 'ring-blue-500', 'bg-blue-900/10');
-            }
-
-            // Scroll smoothly to chart spotlight on mobile
-            if (window.innerWidth < 1024) {
-                document.getElementById('spotlightSection').scrollIntoView({ behavior: 'smooth' });
-            }
-
-            await loadActiveAssetHistory();
-            updateCalculator();
+            document.getElementById(`cat-${cat}`).className = "cat-btn px-3.5 py-2 rounded-xl bg-blue-600 text-white shadow transition";
+            renderMarketGrid();
         }
 
-        // Fetch History for the Selected Asset
+        function filterCards() {
+            renderMarketGrid();
+        }
+
+        async function selectAsset(key, updateHash = true) {
+            if (!ALL_ASSETS[key]) return;
+            activeAssetKey = key;
+            if (updateHash) window.location.hash = key;
+
+            document.querySelectorAll('#marketGrid > div').forEach(el => el.classList.remove('ring-2', 'ring-blue-500', 'bg-blue-900/10'));
+            const activeCard = document.getElementById(`card-${key}`);
+            if (activeCard) activeCard.classList.add('ring-2', 'ring-blue-500', 'bg-blue-900/10');
+
+            if (window.innerWidth < 1024) document.getElementById('spotlightSection').scrollIntoView({ behavior: 'smooth' });
+            await loadActiveAssetHistory();
+        }
+
         async function loadActiveAssetHistory() {
-            const cfg = ASSETS_CONFIG[activeAssetKey];
+            const cfg = ALL_ASSETS[activeAssetKey];
+            const unit = cfg.unit || "تومان";
             document.getElementById('activeTitle').textContent = cfg.title;
             document.getElementById('activeIcon').textContent = cfg.icon;
-            document.getElementById('activeSymbol').textContent = `${cfg.symbol} / ${cfg.unit.toUpperCase()}`;
-            document.getElementById('activeUnit').textContent = cfg.unit;
+            document.getElementById('activeSymbol').textContent = `${cfg.symbol} / ${unit.toUpperCase()}`;
+            document.getElementById('activeUnit').textContent = unit;
             document.getElementById('activePrice').textContent = formatNumber(marketData[activeAssetKey]);
 
             const loader = document.getElementById('chartLoader');
@@ -373,29 +303,9 @@
                 if (!res.ok) throw new Error("History fetch error");
                 const json = await res.json();
                 activeHistory = json.history || [];
-
-                document.getElementById('recordCountBadge').textContent = 
-                    `${toPersianDigits(activeHistory.length)} روز ثبت‌شده`;
-
-                // Handle Bubble section
-                const latest = activeHistory[activeHistory.length - 1];
-                const bubbleBox = document.getElementById('bubbleBox');
-                if (latest && (latest.bubble || latest.bubble_percent)) {
-                    bubbleBox.classList.remove('hidden');
-                    bubbleBox.classList.add('grid');
-                    document.getElementById('realPriceVal').textContent = formatNumber(latest.real_price || (latest.price - (latest.bubble || 0))) + ' تومان';
-                    const bp = latest.bubble_percent;
-                    const bpEl = document.getElementById('bubblePercentVal');
-                    bpEl.textContent = (bp > 0 ? '+' : '') + toPersianDigits(Number(bp).toFixed(2)) + '%';
-                    bpEl.className = `font-bold font-mono ${bp >= 0 ? 'text-amber-400' : 'text-emerald-400'}`;
-                } else {
-                    bubbleBox.classList.add('hidden');
-                    bubbleBox.classList.remove('grid');
-                }
-
+                document.getElementById('recordCountBadge').textContent = `${toPersianDigits(activeHistory.length)} روز سابقه`;
                 renderChart();
             } catch (err) {
-                console.warn(`Could not load api/history_${activeAssetKey}.json`, err);
                 activeHistory = [];
                 if (chartInstance) chartInstance.destroy();
             } finally {
@@ -403,25 +313,19 @@
             }
         }
 
-        // Render Chart.js
         function renderChart() {
             if (!activeHistory.length) return;
-
-            const cfg = ASSETS_CONFIG[activeAssetKey];
+            const cfg = ALL_ASSETS[activeAssetKey];
+            const unit = cfg.unit || "تومان";
             const ctx = document.getElementById('mainChart').getContext('2d');
 
-            // Timeframe filtering
-            let filtered = [...activeHistory];
-            if (currentTimeframe !== 'all') {
-                filtered = filtered.slice(-currentTimeframe);
-            }
-
+            let filtered = (currentTimeframe !== 'all') ? activeHistory.slice(-currentTimeframe) : [...activeHistory];
             const labels = filtered.map(item => item.date);
             const dataPoints = filtered.map(item => item.price);
 
-            const gradient = ctx.createLinearGradient(0, 0, 0, 320);
-            gradient.addColorStop(0, `${cfg.color}40`);
-            gradient.addColorStop(1, `${cfg.color}00`);
+            const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+            gradient.addColorStop(0, `${cfg.color || '#3b82f6'}40`);
+            gradient.addColorStop(1, `${cfg.color || '#3b82f6'}00`);
 
             if (chartInstance) chartInstance.destroy();
 
@@ -432,131 +336,55 @@
                     datasets: [{
                         label: cfg.title,
                         data: dataPoints,
-                        borderColor: cfg.color,
-                        borderWidth: 2.5,
-                        pointRadius: filtered.length > 60 ? 0 : 3,
-                        pointHoverRadius: 6,
-                        pointBackgroundColor: cfg.color,
+                        borderColor: cfg.color || '#3b82f6',
+                        borderWidth: 2,
+                        pointRadius: filtered.length > 50 ? 0 : 3,
+                        pointHoverRadius: 5,
                         backgroundColor: gradient,
                         fill: true,
-                        tension: 0.3
+                        tension: 0.25
                     }]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    interaction: {
-                        mode: 'index',
-                        intersect: false
-                    },
+                    interaction: { mode: 'index', intersect: false },
                     plugins: {
                         legend: { display: false },
                         tooltip: {
                             rtl: true,
                             backgroundColor: '#0f172a',
-                            titleColor: '#94a3b8',
-                            bodyColor: '#ffffff',
                             titleFont: { family: 'Vazirmatn' },
                             bodyFont: { family: 'Vazirmatn', weight: 'bold' },
-                            borderColor: '#334155',
-                            borderWidth: 1,
-                            padding: 12,
+                            padding: 10,
                             displayColors: false,
-                            callbacks: {
-                                label: (ctx) => `${cfg.title}: ${formatNumber(ctx.parsed.y)} ${cfg.unit}`
-                            }
+                            callbacks: { label: (ctx) => `${cfg.title}: ${formatNumber(ctx.parsed.y)} ${unit}` }
                         }
                     },
                     scales: {
-                        x: {
-                            grid: { display: false },
-                            ticks: {
-                                color: '#64748b',
-                                font: { family: 'Vazirmatn', size: 10 },
-                                maxTicksLimit: 7
-                            }
-                        },
-                        y: {
-                            position: 'right',
-                            grid: { color: 'rgba(255,255,255,0.05)' },
-                            ticks: {
-                                color: '#64748b',
-                                font: { family: 'Vazirmatn', size: 10 },
-                                callback: (val) => toPersianDigits(Number(val).toLocaleString())
-                            }
-                        }
+                        x: { grid: { display: false }, ticks: { color: '#64748b', font: { family: 'Vazirmatn', size: 10 }, maxTicksLimit: 7 } },
+                        y: { position: 'right', grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { family: 'Vazirmatn', size: 10 }, callback: (val) => toPersianDigits(Number(val).toLocaleString()) } }
                     }
                 }
             });
         }
 
-        // Change Timeframe (7, 30, 180, 365, all)
         function changeTimeframe(days) {
             currentTimeframe = days;
             document.querySelectorAll('.tf-btn').forEach(btn => {
-                const bDays = btn.getAttribute('data-days');
-                if (String(bDays) === String(days)) {
-                    btn.className = "tf-btn px-3 py-1.5 rounded-lg bg-blue-600 text-white shadow transition";
-                } else {
-                    btn.className = "tf-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition";
-                }
+                btn.className = (btn.getAttribute('data-days') === String(days)) ? "tf-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white shadow transition" : "tf-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-white transition";
             });
             renderChart();
         }
 
-        // Calculator Logic
-        function initCalculator() {
-            const input = document.getElementById('calcInput');
-            input.addEventListener('input', () => {
-                const raw = input.value.replace(/[^0-9]/g, '');
-                input.value = raw ? Number(raw).toLocaleString('en-US') : '';
-                updateCalculator();
-            });
-            updateCalculator();
-        }
-
-        function updateCalculator() {
-            const inputVal = parseFloat(document.getElementById('calcInput').value.replace(/,/g, '')) || 0;
-            const currentPrice = marketData[activeAssetKey] || 0;
-            const resultEl = document.getElementById('calcResult');
-            const cfg = ASSETS_CONFIG[activeAssetKey];
-
-            if (inputVal <= 0 || !currentPrice) {
-                resultEl.textContent = '---';
-                return;
-            }
-
-            const amount = inputVal / currentPrice;
-            resultEl.textContent = `${toPersianDigits(amount.toLocaleString('en-US', { maximumFractionDigits: 3 }))} ${cfg.symbol}`;
-        }
-
-        // Copy Direct Link to Clipboard
         function copyShareLink() {
-            const url = `${window.location.origin}${window.location.pathname}#${activeAssetKey}`;
-            navigator.clipboard.writeText(url).then(() => {
+            navigator.clipboard.writeText(`${window.location.origin}${window.location.pathname}#${activeAssetKey}`).then(() => {
                 const toast = document.getElementById('toast');
                 toast.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-2');
-                setTimeout(() => {
-                    toast.classList.add('opacity-0', 'pointer-events-none', 'translate-y-2');
-                }, 2500);
+                setTimeout(() => toast.classList.add('opacity-0', 'pointer-events-none', 'translate-y-2'), 2500);
             });
         }
 
-        // Render API links
-        function renderApiLinks() {
-            const list = document.getElementById('apiList');
-            list.innerHTML = '';
-            for (const [key, cfg] of Object.entries(ASSETS_CONFIG)) {
-                const a = document.createElement('a');
-                a.href = `./api/history_${key}.json`;
-                a.target = '_blank';
-                a.className = "px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition flex items-center gap-1";
-                a.innerHTML = `<span>${cfg.icon}</span> <span>${cfg.title}</span>`;
-                list.appendChild(a);
-            }
-        }
-
-        // Kickoff on window load
         window.addEventListener('DOMContentLoaded', initApp);
     </script>
 </body>
