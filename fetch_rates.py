@@ -410,7 +410,7 @@ def update_readme(market_data):
 
 # 📊 نبض بازار | قیمت لحظه‌ای و تاریخچه ارز، طلا و سکه
 
-[![Auto Update](https://img.shields.io/badge/Auto--Update-Every_30_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+[![Auto Update](https://img.shields.io/badge/Auto--Update-Every_5_Minutes-10b981?style=for-the-badge&logo=githubactions&logoColor=white)](#)
 [![API Status](https://img.shields.io/badge/API-Live_&_Free-3b82f6?style=for-the-badge&logo=json&logoColor=white)](#-وب‌سرویس-و-دسترسی-api)
 [![Timezone](https://img.shields.io/badge/Timezone-Tehran_(UTC%2B3:30)-f59e0b?style=for-the-badge)](#)
 [![Telegram](https://img.shields.io/badge/Telegram-@yebekhe-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yebekhe)
