@@ -2,7 +2,7 @@ name: Fetch Market Rates & Update API
 
 on:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '*/37 * * * *'
   workflow_dispatch:      # Manual trigger
 
 permissions:
