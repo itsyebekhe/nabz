@@ -3,14 +3,14 @@
   "title": "یورو اروپا",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-10-09 15:10:07",
+  "updated_at": "2026-10-09 21:03:24",
   "total_records": 1175,
   "latest": {
-    "timestamp": 1791546007,
+    "timestamp": 1791567204,
     "date": "2026-10-09",
-    "price": 299700,
-    "price_toman": 299700,
-    "price_irr": 2997000
+    "price": 301400,
+    "price_toman": 301400,
+    "price_irr": 3014000
   },
   "history": [
     {
@@ -8232,11 +8232,11 @@
       "price_irr": 2998000
     },
     {
-      "timestamp": 1791546007,
+      "timestamp": 1791567204,
       "date": "2026-10-09",
-      "price": 299700,
-      "price_toman": 299700,
-      "price_irr": 2997000
+      "price": 301400,
+      "price_toman": 301400,
+      "price_irr": 3014000
     }
   ]
 }
