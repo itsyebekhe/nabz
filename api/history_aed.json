@@ -3,10 +3,10 @@
   "title": "درهم امارات",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-10-24 04:06:30",
+  "updated_at": "2026-10-24 08:30:20",
   "total_records": 1190,
   "latest": {
-    "timestamp": 1792802190,
+    "timestamp": 1792818020,
     "date": "2026-10-24",
     "price": 74250,
     "price_toman": 74250,
@@ -8337,7 +8337,7 @@
       "price_irr": 742500
     },
     {
-      "timestamp": 1792802190,
+      "timestamp": 1792818020,
       "date": "2026-10-24",
       "price": 74250,
       "price_toman": 74250,
