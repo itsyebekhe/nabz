@@ -10,7 +10,7 @@
 <br/>
 
 > [!NOTE]
-> 📅 **تاریخ:** ۱۰ آبان ۱۴۰۵ (2026-11-01) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۰۴:۳۸** (به وقت تهران)
+> 📅 **تاریخ:** ۱۰ آبان ۱۴۰۵ (2026-11-01) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۱۰:۵۹** (به وقت تهران)
 
 <br/>
 
@@ -37,42 +37,42 @@
 <tr>
 <td align="center">🇺🇸</td>
 <td><b>دلار آمریکا</b></td>
-<td align="left"><b>۲۷۱،۵۹۶ تومان</b></td>
+<td align="left"><b>۲۷۲،۱۵۴ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇪🇺</td>
 <td><b>یورو اروپا</b></td>
-<td align="left"><b>۳۰۳،۵۰۰ تومان</b></td>
+<td align="left"><b>۳۰۴،۱۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇦🇪</td>
 <td><b>درهم امارات</b></td>
-<td align="left"><b>۷۳،۹۵۰ تومان</b></td>
+<td align="left"><b>۷۴،۱۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇹🇷</td>
 <td><b>لیر ترکیه</b></td>
-<td align="left"><b>۵،۵۲۰ تومان</b></td>
+<td align="left"><b>۵،۵۳۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇬🇧</td>
 <td><b>پوند انگلیس</b></td>
-<td align="left"><b>۳۶۰،۱۰۰ تومان</b></td>
+<td align="left"><b>۳۶۰،۸۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇨🇦</td>
 <td><b>دلار کانادا</b></td>
-<td align="left"><b>۱۹۴،۴۰۰ تومان</b></td>
+<td align="left"><b>۱۹۴،۸۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇦🇺</td>
 <td><b>دلار استرالیا</b></td>
-<td align="left"><b>۱۹۱،۰۰۰ تومان</b></td>
+<td align="left"><b>۱۹۱،۴۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🇨🇳</td>
 <td><b>یوان چین</b></td>
-<td align="left"><b>۴۰،۹۲۰ تومان</b></td>
+<td align="left"><b>۴۱،۰۰۰ تومان</b></td>
 </tr>
 
 <!-- بخش مسکوکات و طلا -->
@@ -82,17 +82,17 @@
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه تمام امامی (طرح جدید)</b></td>
-<td align="left"><b>۲۶۰،۰۰۰،۰۰۰ تومان</b></td>
+<td align="left"><b>۲۶۳،۰۰۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه بهار آزادی (طرح قدیم)</b></td>
-<td align="left"><b>۲۵۰،۰۰۰،۰۰۰ تومان</b></td>
+<td align="left"><b>۲۵۲،۰۰۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>نیم سکه بهار آزادی</b></td>
-<td align="left"><b>۱۳۹،۰۰۰،۰۰۰ تومان</b></td>
+<td align="left"><b>۱۳۹،۵۰۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
@@ -107,17 +107,17 @@
 <tr>
 <td align="center">✨</td>
 <td><b>طلای ۱۸ عیار (هر گرم)</b></td>
-<td align="left"><b>۲۵،۳۵۸،۹۷۰ تومان</b></td>
+<td align="left"><b>۲۵،۶۱۷،۵۳۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">⚖️</td>
 <td><b>مثقال طلا (آبشده)</b></td>
-<td align="left"><b>۱۰۹،۸۵۰،۰۰۰ تومان</b></td>
+<td align="left"><b>۱۱۰،۹۷۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🌐</td>
 <td><b>انس جهانی طلا</b></td>
-<td align="left"><b>۳،۸۷۵.۳۹ دلار</b></td>
+<td align="left"><b>۳،۸۷۵.۳۶ دلار</b></td>
 </tr>
 
 <!-- کامودیتی -->
