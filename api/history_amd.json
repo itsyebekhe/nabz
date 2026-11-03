@@ -3,14 +3,14 @@
   "title": "۱۰۰ درام ارمنستان",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-11-03 04:53:48",
+  "updated_at": "2026-11-03 11:43:11",
   "total_records": 1200,
   "latest": {
-    "timestamp": 1793669028,
+    "timestamp": 1793693591,
     "date": "2026-11-03",
-    "price": 75640,
-    "price_toman": 75640,
-    "price_irr": 756400
+    "price": 76120,
+    "price_toman": 76120,
+    "price_irr": 761200
   },
   "history": [
     {
@@ -8407,11 +8407,11 @@
       "price_irr": 756400
     },
     {
-      "timestamp": 1793669028,
+      "timestamp": 1793693591,
       "date": "2026-11-03",
-      "price": 75640,
-      "price_toman": 75640,
-      "price_irr": 756400
+      "price": 76120,
+      "price_toman": 76120,
+      "price_irr": 761200
     }
   ]
 }
