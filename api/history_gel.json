@@ -3,14 +3,14 @@
   "title": "لاری گرجستان",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-11-06 13:42:21",
+  "updated_at": "2026-11-06 21:00:45",
   "total_records": 1203,
   "latest": {
-    "timestamp": 1793959941,
+    "timestamp": 1793986245,
     "date": "2026-11-06",
-    "price": 103700,
-    "price_toman": 103700,
-    "price_irr": 1037000
+    "price": 103500,
+    "price_toman": 103500,
+    "price_irr": 1035000
   },
   "history": [
     {
@@ -8428,11 +8428,11 @@
       "price_irr": 1035000
     },
     {
-      "timestamp": 1793959941,
+      "timestamp": 1793986245,
       "date": "2026-11-06",
-      "price": 103700,
-      "price_toman": 103700,
-      "price_irr": 1037000
+      "price": 103500,
+      "price_toman": 103500,
+      "price_irr": 1035000
     }
   ]
 }
