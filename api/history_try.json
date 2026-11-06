@@ -3,11 +3,11 @@
   "title": "لیر ترکیه",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-11-06 21:00:44",
-  "total_records": 1203,
+  "updated_at": "2026-11-07 01:49:39",
+  "total_records": 1204,
   "latest": {
-    "timestamp": 1793986244,
-    "date": "2026-11-06",
+    "timestamp": 1794003579,
+    "date": "2026-11-07",
     "price": 5430,
     "price_toman": 5430,
     "price_irr": 54300
@@ -8430,6 +8430,13 @@
     {
       "timestamp": 1793986244,
       "date": "2026-11-06",
+      "price": 5430,
+      "price_toman": 5430,
+      "price_irr": 54300
+    },
+    {
+      "timestamp": 1794003579,
+      "date": "2026-11-07",
       "price": 5430,
       "price_toman": 5430,
       "price_irr": 54300
