@@ -10,7 +10,7 @@
 <br/>
 
 > [!NOTE]
-> 📅 **تاریخ:** ۱۷ آبان ۱۴۰۵ (2026-11-08) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۰۲:۲۴** (به وقت تهران)
+> 📅 **تاریخ:** ۱۷ آبان ۱۴۰۵ (2026-11-08) &nbsp;|&nbsp; ⏱ **ساعت آخرین بروزرسانی:** **۰۵:۲۹** (به وقت تهران)
 
 <br/>
 
@@ -87,12 +87,12 @@
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه بهار آزادی (طرح قدیم)</b></td>
-<td align="left"><b>۲۵۱،۰۰۰،۰۰۰ تومان</b></td>
+<td align="left"><b>نامشخص</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
 <td><b>نیم سکه بهار آزادی</b></td>
-<td align="left"><b>نامشخص</b></td>
+<td align="left"><b>۱۳۷،۵۰۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🟡</td>
@@ -102,7 +102,7 @@
 <tr>
 <td align="center">🟡</td>
 <td><b>سکه گرمی</b></td>
-<td align="left"><b>۳۷،۰۰۰،۰۰۰ تومان</b></td>
+<td align="left"><b>نامشخص</b></td>
 </tr>
 <tr>
 <td align="center">✨</td>
@@ -112,12 +112,12 @@
 <tr>
 <td align="center">⚖️</td>
 <td><b>مثقال طلا (آبشده)</b></td>
-<td align="left"><b>نامشخص</b></td>
+<td align="left"><b>۱۱۰،۴۲۰،۰۰۰ تومان</b></td>
 </tr>
 <tr>
 <td align="center">🌐</td>
 <td><b>انس جهانی طلا</b></td>
-<td align="left"><b>۴،۰۶۷.۸۶ دلار</b></td>
+<td align="left"><b>۴،۰۶۸.۶۰ دلار</b></td>
 </tr>
 
 <!-- کامودیتی -->
