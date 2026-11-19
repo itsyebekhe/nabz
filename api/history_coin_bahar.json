@@ -3,14 +3,14 @@
   "title": "سکه بهار آزادی",
   "unit": "تومان",
   "timezone": "Asia/Tehran",
-  "updated_at": "2026-11-19 04:52:41",
+  "updated_at": "2026-11-19 12:28:33",
   "total_records": 1209,
   "latest": {
-    "timestamp": 1795051361,
+    "timestamp": 1795078713,
     "date": "2026-11-19",
-    "price": 241000000,
-    "price_toman": 241000000,
-    "price_irr": 2410000000
+    "price": 240000000,
+    "price_toman": 240000000,
+    "price_irr": 2400000000
   },
   "history": [
     {
@@ -10798,11 +10798,11 @@
       "price_irr": 2410000000
     },
     {
-      "timestamp": 1795051361,
+      "timestamp": 1795078713,
       "date": "2026-11-19",
-      "price": 241000000,
-      "price_toman": 241000000,
-      "price_irr": 2410000000
+      "price": 240000000,
+      "price_toman": 240000000,
+      "price_irr": 2400000000
     }
   ]
 }
